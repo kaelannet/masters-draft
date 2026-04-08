@@ -1,0 +1,48 @@
+name: Update Masters Scores
+
+on:
+  schedule:
+    # Every 5 minutes during tournament days (Apr 9-12), 7am-9pm ET (11:00-01:00 UTC)
+    # Apr 9-12 covers Thu-Sun of Masters week
+    - cron: '*/5 11-23 * 4 *'  # 11:00-23:59 UTC (7am-7:59pm ET)
+    - cron: '*/5 0-1 * 4 *'    # 00:00-01:59 UTC (8pm-9:59pm ET, next day UTC)
+  workflow_dispatch:
+
+jobs:
+  update-scores:
+    runs-on: ubuntu-latest
+    # Date filtering is handled by the check step below
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check if tournament day
+        id: date
+        run: |
+          DAY=$(TZ=America/New_York date +%d)
+          MONTH=$(TZ=America/New_York date +%m)
+          if [[ "$MONTH" == "04" && "$DAY" -ge 9 && "$DAY" -le 13 ]]; then
+            echo "is_tournament=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_tournament=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Python
+        if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch and update scores
+        if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
+        run: python3 2026/scores.py
+
+      - name: Commit and push if changed
+        if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 2026/results.json
+          git diff --staged --quiet || git commit -m "Update Masters scores $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
+          git push
