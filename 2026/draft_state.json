@@ -1,0 +1,334 @@
+{
+  "status": "complete",
+  "created_at": "2026-04-07T20:13:43.398990",
+  "draft_order": [
+    "Reidar",
+    "Jackson",
+    "Kaelan",
+    "Kaelan",
+    "Jackson",
+    "Reidar",
+    "Reidar",
+    "Jackson",
+    "Kaelan",
+    "Kaelan",
+    "Jackson",
+    "Reidar",
+    "Reidar",
+    "Jackson",
+    "Kaelan",
+    "Kaelan",
+    "Jackson",
+    "Reidar",
+    "Reidar",
+    "Jackson",
+    "Kaelan",
+    "Kaelan",
+    "Jackson",
+    "Reidar"
+  ],
+  "drafters": [
+    "Reidar",
+    "Jackson",
+    "Kaelan"
+  ],
+  "teams": {
+    "Reidar": [
+      "Scottie Scheffler",
+      "Rory McIlroy",
+      "Ludvig Aberg",
+      "Collin Morikawa",
+      "Brooks Koepka",
+      "Patrick Cantlay",
+      "Jordan Spieth",
+      "Min Woo Lee"
+    ],
+    "Jackson": [
+      "Jon Rahm",
+      "Xander Schauffele",
+      "Tommy Fleetwood",
+      "Hideki Matsuyama",
+      "Adam Scott",
+      "Robert MacIntyre",
+      "Patrick Reed",
+      "S.W. Kim"
+    ],
+    "Kaelan": [
+      "Bryson DeChambeau",
+      "Justin Rose",
+      "Cameron Young",
+      "Matt Fitzpatrick",
+      "Chris Gotterup",
+      "Viktor Hovland",
+      "J.J. Spaun",
+      "Shane Lowry"
+    ]
+  },
+  "picks": [
+    {
+      "pick_number": 1,
+      "round": 1,
+      "drafter": "Reidar",
+      "player": "Scottie Scheffler",
+      "world_ranking": 1,
+      "timestamp": "2026-04-07T20:15:02.665316"
+    },
+    {
+      "pick_number": 2,
+      "round": 1,
+      "drafter": "Jackson",
+      "player": "Jon Rahm",
+      "world_ranking": 30,
+      "timestamp": "2026-04-07T20:15:14.534124"
+    },
+    {
+      "pick_number": 3,
+      "round": 1,
+      "drafter": "Kaelan",
+      "player": "Bryson DeChambeau",
+      "world_ranking": 24,
+      "timestamp": "2026-04-07T20:15:57.744747"
+    },
+    {
+      "pick_number": 4,
+      "round": 2,
+      "drafter": "Kaelan",
+      "player": "Justin Rose",
+      "world_ranking": 9,
+      "timestamp": "2026-04-07T20:16:49.544692"
+    },
+    {
+      "pick_number": 5,
+      "round": 2,
+      "drafter": "Jackson",
+      "player": "Xander Schauffele",
+      "world_ranking": 10,
+      "timestamp": "2026-04-07T20:17:48.967318"
+    },
+    {
+      "pick_number": 6,
+      "round": 2,
+      "drafter": "Reidar",
+      "player": "Rory McIlroy",
+      "world_ranking": 2,
+      "timestamp": "2026-04-07T20:18:43.187831"
+    },
+    {
+      "pick_number": 7,
+      "round": 3,
+      "drafter": "Reidar",
+      "player": "Ludvig Aberg",
+      "world_ranking": 17,
+      "timestamp": "2026-04-07T20:18:47.147929"
+    },
+    {
+      "pick_number": 8,
+      "round": 3,
+      "drafter": "Jackson",
+      "player": "Tommy Fleetwood",
+      "world_ranking": 4,
+      "timestamp": "2026-04-07T20:19:03.149621"
+    },
+    {
+      "pick_number": 9,
+      "round": 3,
+      "drafter": "Kaelan",
+      "player": "Cameron Young",
+      "world_ranking": 3,
+      "timestamp": "2026-04-07T20:19:14.701337"
+    },
+    {
+      "pick_number": 10,
+      "round": 4,
+      "drafter": "Kaelan",
+      "player": "Matt Fitzpatrick",
+      "world_ranking": 6,
+      "timestamp": "2026-04-07T20:20:22.734795"
+    },
+    {
+      "pick_number": 11,
+      "round": 4,
+      "drafter": "Jackson",
+      "player": "Hideki Matsuyama",
+      "world_ranking": 14,
+      "timestamp": "2026-04-07T20:21:24.398900"
+    },
+    {
+      "pick_number": 12,
+      "round": 4,
+      "drafter": "Reidar",
+      "player": "Collin Morikawa",
+      "world_ranking": 7,
+      "timestamp": "2026-04-07T20:21:36.018664"
+    },
+    {
+      "pick_number": 13,
+      "round": 5,
+      "drafter": "Reidar",
+      "player": "Brooks Koepka",
+      "world_ranking": 169,
+      "timestamp": "2026-04-07T20:22:01.727358"
+    },
+    {
+      "pick_number": 14,
+      "round": 5,
+      "drafter": "Jackson",
+      "player": "Adam Scott",
+      "world_ranking": 53,
+      "timestamp": "2026-04-07T20:22:10.240155"
+    },
+    {
+      "pick_number": 15,
+      "round": 5,
+      "drafter": "Kaelan",
+      "player": "Chris Gotterup",
+      "world_ranking": 11,
+      "timestamp": "2026-04-07T20:23:29.538020"
+    },
+    {
+      "pick_number": 16,
+      "round": 6,
+      "drafter": "Kaelan",
+      "player": "Viktor Hovland",
+      "world_ranking": 22,
+      "timestamp": "2026-04-07T20:25:23.127633"
+    },
+    {
+      "pick_number": 17,
+      "round": 6,
+      "drafter": "Jackson",
+      "player": "Robert MacIntyre",
+      "world_ranking": 8,
+      "timestamp": "2026-04-07T20:26:54.804309"
+    },
+    {
+      "pick_number": 18,
+      "round": 6,
+      "drafter": "Reidar",
+      "player": "Patrick Cantlay",
+      "world_ranking": 35,
+      "timestamp": "2026-04-07T20:27:41.860074"
+    },
+    {
+      "pick_number": 19,
+      "round": 7,
+      "drafter": "Reidar",
+      "player": "Jordan Spieth",
+      "world_ranking": 61,
+      "timestamp": "2026-04-07T20:32:54.411179"
+    },
+    {
+      "pick_number": 20,
+      "round": 7,
+      "drafter": "Jackson",
+      "player": "Patrick Reed",
+      "world_ranking": 23,
+      "timestamp": "2026-04-07T20:33:02.228572"
+    },
+    {
+      "pick_number": 21,
+      "round": 7,
+      "drafter": "Kaelan",
+      "player": "J.J. Spaun",
+      "world_ranking": 5,
+      "timestamp": "2026-04-07T20:37:10.288011"
+    },
+    {
+      "pick_number": 22,
+      "round": 8,
+      "drafter": "Kaelan",
+      "player": "Shane Lowry",
+      "world_ranking": 32,
+      "timestamp": "2026-04-07T20:39:45.672011"
+    },
+    {
+      "pick_number": 23,
+      "round": 8,
+      "drafter": "Jackson",
+      "player": "S.W. Kim",
+      "world_ranking": 28,
+      "timestamp": "2026-04-07T20:40:29.779071"
+    },
+    {
+      "pick_number": 24,
+      "round": 8,
+      "drafter": "Reidar",
+      "player": "Min Woo Lee",
+      "world_ranking": 25,
+      "timestamp": "2026-04-07T20:40:53.910513"
+    }
+  ],
+  "current_pick": 24,
+  "available_players": [
+    "Aaron Rai",
+    "Akshay Bhatia",
+    "Aldrich Potgieter",
+    "Alex Noren",
+    "Andrew Novak",
+    "Angel Cabrera",
+    "Ben Campbell",
+    "Ben Griffin",
+    "Brady Holtz",
+    "Brian Harman",
+    "Bubba Watson",
+    "Cameron Smith",
+    "Carlos Ortiz",
+    "Carson Jarvis",
+    "Charl Schwartzel",
+    "Corey Conners",
+    "Daniel Berger",
+    "Danny Willett",
+    "Davis Riley",
+    "Dustin Johnson",
+    "Evan Fang",
+    "Frankie Laopakdee",
+    "Fred Couples",
+    "Gary Woodland",
+    "Haotong Li",
+    "Harris English",
+    "Harry Hall",
+    "Hiroshi Tai",
+    "Jackson Knapp",
+    "Jacob Bridgeman",
+    "Jason Day",
+    "Jose Maria Olazabal",
+    "Justin Keefer",
+    "Justin Thomas",
+    "Keegan Bradley",
+    "Kristoffer Reitan",
+    "Kurt Kitayama",
+    "Mark Hubbard",
+    "Matt Greyserman",
+    "Matthew McCarty",
+    "Maverick McNealy",
+    "Max Homa",
+    "Maxwell Pulcini",
+    "Michael Brennan",
+    "Michael Howell",
+    "Michael Kim",
+    "Michael Penge",
+    "Mike Weir",
+    "Nick Taylor",
+    "Nico Echavarria",
+    "Nicolai Hojgaard",
+    "Noah Kataoka",
+    "Rasmus Hojgaard",
+    "Rasmus Neergaard-Petersen",
+    "Robert Gerard",
+    "Russell Henley",
+    "Ryan Fox",
+    "Sahith Theegala",
+    "Sam Burns",
+    "Sam Stevens",
+    "Sami Valimaki",
+    "Sepp Straka",
+    "Sergio Garcia",
+    "Sungjae Im",
+    "Tom McKibbin",
+    "Tyrrell Hatton",
+    "Vijay Singh",
+    "Wyndham Clark",
+    "Zach Johnson"
+  ],
+  "completed_at": "2026-04-07T20:40:53.912368"
+}

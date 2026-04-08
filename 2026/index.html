@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Masters 2026 — Knettleship Family Draft</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #006747;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    padding: 0 0 40px;
+  }
+  h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 32px 16px 20px;
+    border-bottom: 3px solid #D4AF37;
+  }
+  .header h1 {
+    color: #D4AF37;
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .header .subtitle {
+    color: #D4AF37;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    letter-spacing: 4px;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+  .header .meta {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  .header .meta span { margin: 0 8px; }
+
+  /* Standings Bar */
+  .standings-bar {
+    display: flex;
+    gap: 16px;
+    padding: 24px 16px;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .standing-card {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    padding: 20px 28px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    transition: border-color 0.3s;
+  }
+  .standing-card.leader {
+    border-color: #D4AF37;
+    background: rgba(212,175,55,0.15);
+  }
+  .standing-card .rank {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.6);
+  }
+  .standing-card.leader .rank { color: #D4AF37; }
+  .standing-card .name {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    margin: 4px 0;
+  }
+  .standing-card .total {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .standing-card .bonus {
+    font-size: 0.8rem;
+    color: #D4AF37;
+    margin-top: 4px;
+  }
+
+  /* Team Detail Cards */
+  .teams-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .team-card {
+    background: #fff;
+    color: #333;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .team-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    cursor: pointer;
+    user-select: none;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+  }
+  .team-card-header:hover { background: #f0f0f0; }
+  .team-card-header .team-name {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    color: #006747;
+  }
+  .team-card-header .team-total {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #006747;
+  }
+  .team-card-header .toggle { color: #999; font-size: 1.2rem; margin-left: 12px; }
+  .team-card-body { padding: 0; }
+  .team-card-body.collapsed { display: none; }
+
+  /* Player Table */
+  .player-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  .player-table th {
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #888;
+    border-bottom: 1px solid #eee;
+    white-space: nowrap;
+  }
+  .player-table th.score-col { text-align: center; }
+  .player-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    white-space: nowrap;
+  }
+  .player-table td.score-col { text-align: center; font-variant-numeric: tabular-nums; }
+  .player-table tr:last-child td { border-bottom: none; }
+  .player-table tr.dropped td {
+    color: #aaa;
+    text-decoration: line-through;
+    text-decoration-color: #ccc;
+  }
+  .player-table tr.missed-cut td { color: #b44; }
+  .player-table tr.missed-cut td.player-name { font-weight: 500; }
+  .penalty-marker { color: #CE1141; font-weight: 700; font-size: 0.7rem; vertical-align: super; }
+  .status-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-weight: 600;
+  }
+  .status-badge.mc { background: #fdd; color: #b44; }
+  .status-badge.wd { background: #fec; color: #a80; }
+  .status-badge.live { background: #e6f7ee; color: #006747; }
+
+  /* Collapsible Sections */
+  .collapsible {
+    max-width: 960px;
+    margin: 16px auto;
+    padding: 0 16px;
+  }
+  .collapsible-header {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    padding: 14px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+  .collapsible-header:hover { background: rgba(255,255,255,0.15); }
+  .collapsible-header h3 { font-size: 1rem; color: #D4AF37; }
+  .collapsible-header .toggle { color: rgba(255,255,255,0.5); }
+  .collapsible-body {
+    background: rgba(0,0,0,0.2);
+    border-radius: 0 0 8px 8px;
+    padding: 16px 20px;
+    margin-top: -4px;
+    display: none;
+  }
+  .collapsible-body.open { display: block; }
+
+  /* Draft Recap Table */
+  .draft-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  .draft-table th {
+    text-align: left;
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+  .draft-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .draft-table tr:last-child td { border-bottom: none; }
+
+  /* Rules */
+  .rules-list { list-style: none; }
+  .rules-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .rules-list li:last-child { border-bottom: none; }
+  .rules-list .label { color: #D4AF37; font-weight: 600; }
+
+  /* Pre-tournament banner */
+  .pre-tournament-banner {
+    max-width: 960px;
+    margin: 0 auto 16px;
+    padding: 12px 20px;
+    background: rgba(212,175,55,0.15);
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+    text-align: center;
+    color: #D4AF37;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 32px 16px 0;
+    color: rgba(255,255,255,0.4);
+    font-size: 0.8rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .standings-bar { flex-direction: column; align-items: center; }
+    .standing-card { max-width: 100%; }
+    .player-table { font-size: 0.78rem; }
+    .player-table th, .player-table td { padding: 6px 6px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The Masters 2026</h1>
+  <div class="subtitle">Knettleship Family Draft</div>
+  <div class="meta">
+    <span>April 9–12, 2026</span>
+    <span>|</span>
+    <span>Augusta National Golf Club</span>
+    <span>|</span>
+    <span id="last-updated">Loading...</span>
+  </div>
+</div>
+
+<div id="pre-banner"></div>
+<div id="standings-bar" class="standings-bar"></div>
+<div id="teams-container" class="teams-container"></div>
+
+<div class="collapsible">
+  <div class="collapsible-header" onclick="toggleSection('draft-recap')">
+    <h3>Draft Recap</h3>
+    <span class="toggle" id="draft-recap-toggle">&#9660;</span>
+  </div>
+  <div class="collapsible-body open" id="draft-recap"></div>
+</div>
+
+<div class="collapsible">
+  <div class="collapsible-header" onclick="toggleSection('scoring-rules')">
+    <h3>Scoring Rules</h3>
+    <span class="toggle" id="scoring-rules-toggle">&#9650;</span>
+  </div>
+  <div class="collapsible-body open" id="scoring-rules"></div>
+</div>
+
+<div class="footer">Auto-updates every 5 minutes during tournament play</div>
+
+<script>
+const REFRESH_MS = 5 * 60 * 1000;
+let resultsData = null;
+let draftData = null;
+let configData = null;
+
+async function fetchJSON(url) {
+  const resp = await fetch(url + '?t=' + Date.now());
+  if (!resp.ok) throw new Error('Failed to load ' + url);
+  return resp.json();
+}
+
+async function loadAll() {
+  try {
+    [resultsData, draftData, configData] = await Promise.all([
+      fetchJSON('results.json'),
+      fetchJSON('draft_state.json'),
+      fetchJSON('scoring_config.json')
+    ]);
+    render();
+  } catch (e) {
+    console.error('Error loading data:', e);
+    if (location.protocol === 'file:') {
+      document.getElementById('pre-banner').innerHTML =
+        '<div class="pre-tournament-banner">Cannot load data from local files. ' +
+        'Run a local server: <strong>python3 -m http.server 8000</strong> from the masters_draft/ directory, ' +
+        'then open <strong>http://localhost:8000</strong></div>';
+    }
+  }
+}
+
+async function refreshResults() {
+  try {
+    resultsData = await fetchJSON('results.json');
+    render();
+  } catch (e) {
+    console.error('Error refreshing:', e);
+  }
+}
+
+function render() {
+  renderTimestamp();
+  renderPreBanner();
+  renderStandings();
+  renderTeams();
+  renderDraftRecap();
+  renderRules();
+}
+
+function renderTimestamp() {
+  const ts = resultsData.updated_at;
+  const d = new Date(ts);
+  const str = d.toLocaleString('en-US', {
+    month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true
+  });
+  document.getElementById('last-updated').textContent = 'Updated: ' + str;
+}
+
+function isPreTournament() {
+  const s = resultsData.standings;
+  for (const drafter in s) {
+    for (const p of s[drafter].players) {
+      if (p.total !== null) return false;
+    }
+  }
+  return true;
+}
+
+function renderPreBanner() {
+  const el = document.getElementById('pre-banner');
+  if (isPreTournament()) {
+    el.innerHTML = '<div class="pre-tournament-banner">Tournament has not started — Scores will appear here once play begins</div>';
+  } else {
+    el.innerHTML = '';
+  }
+}
+
+function renderStandings() {
+  const bar = document.getElementById('standings-bar');
+  const entries = Object.entries(resultsData.standings);
+  const ordinals = ['1st', '2nd', '3rd'];
+  bar.innerHTML = entries.map(([name, data], i) => {
+    const isLeader = i === 0 && !isPreTournament();
+    const totalDisplay = isPreTournament() ? '—' : data.final_total;
+    const bonusHtml = data.winner_bonus
+      ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
+    return '<div class="standing-card' + (isLeader ? ' leader' : '') + '">' +
+      '<div class="rank">' + ordinals[i] + ' Place</div>' +
+      '<div class="name">' + esc(name) + '</div>' +
+      '<div class="total">' + totalDisplay + '</div>' +
+      bonusHtml +
+      '</div>';
+  }).join('');
+}
+
+function renderTeams() {
+  const container = document.getElementById('teams-container');
+  const entries = Object.entries(resultsData.standings);
+  container.innerHTML = entries.map(([name, data], idx) => {
+    const totalDisplay = isPreTournament() ? '—' : data.final_total + ' strokes';
+    const bonusBadge = data.winner_bonus
+      ? ' <span style="color:#D4AF37;font-size:0.8rem;">(incl. ' + data.winner_bonus + ' winner bonus)</span>' : '';
+    return '<div class="team-card">' +
+      '<div class="team-card-header" onclick="toggleTeam(this)">' +
+        '<span class="team-name">' + esc(name) + bonusBadge + '</span>' +
+        '<span><span class="team-total">' + totalDisplay + '</span><span class="toggle">&#9660;</span></span>' +
+      '</div>' +
+      '<div class="team-card-body' + (idx > 0 ? ' collapsed' : '') + '">' +
+        buildPlayerTable(data) +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function buildPlayerTable(data) {
+  const rows = data.players.map(p => {
+    const isCounting = data.counting_players.includes(p.name);
+    const isDropped = data.dropped_players.includes(p.name) && !isPreTournament();
+    const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
+
+    let rowClass = '';
+    if (isDropped && isMC) rowClass = 'missed-cut dropped';
+    else if (isDropped) rowClass = 'dropped';
+    else if (isMC) rowClass = 'missed-cut';
+
+    const r = (rnd) => {
+      const info = p.rounds[rnd];
+      if (!info || info.score === null) return '—';
+      const penalty = info.penalty ? '<span class="penalty-marker">*</span>' : '';
+      return info.score + penalty;
+    };
+
+    let statusBadge = '';
+    if (p.status === 'missed_cut') statusBadge = '<span class="status-badge mc">MC</span>';
+    else if (p.status === 'withdrawn') statusBadge = '<span class="status-badge wd">WD</span>';
+    else if (p.thru && p.thru !== 'F' && p.thru !== '' && p.status === 'active')
+      statusBadge = '<span class="status-badge live">Thru ' + esc(String(p.thru)) + '</span>';
+
+    const totalStr = p.total !== null ? p.total : '—';
+    const toparStr = p.topar || '';
+    const posStr = p.position || '';
+
+    return '<tr class="' + rowClass + '">' +
+      '<td class="player-name">' + esc(p.name) + statusBadge + '</td>' +
+      '<td class="score-col">' + posStr + '</td>' +
+      '<td class="score-col">' + r('round1') + '</td>' +
+      '<td class="score-col">' + r('round2') + '</td>' +
+      '<td class="score-col">' + r('round3') + '</td>' +
+      '<td class="score-col">' + r('round4') + '</td>' +
+      '<td class="score-col"><strong>' + totalStr + '</strong></td>' +
+      '<td class="score-col">' + toparStr + '</td>' +
+    '</tr>';
+  }).join('');
+
+  return '<table class="player-table">' +
+    '<thead><tr>' +
+      '<th>Player</th>' +
+      '<th class="score-col">Pos</th>' +
+      '<th class="score-col">R1</th>' +
+      '<th class="score-col">R2</th>' +
+      '<th class="score-col">R3</th>' +
+      '<th class="score-col">R4</th>' +
+      '<th class="score-col">Tot</th>' +
+      '<th class="score-col">Par</th>' +
+    '</tr></thead>' +
+    '<tbody>' + rows + '</tbody>' +
+  '</table>';
+}
+
+function renderDraftRecap() {
+  if (!draftData || !draftData.picks) return;
+  const el = document.getElementById('draft-recap');
+  const rows = draftData.picks.map(p =>
+    '<tr>' +
+      '<td>' + p.round + '</td>' +
+      '<td>' + p.pick_number + '</td>' +
+      '<td>' + esc(p.drafter) + '</td>' +
+      '<td>' + esc(p.player) + '</td>' +
+      '<td>' + p.world_ranking + '</td>' +
+    '</tr>'
+  ).join('');
+  el.innerHTML = '<table class="draft-table">' +
+    '<thead><tr><th>Round</th><th>Pick</th><th>Drafter</th><th>Player</th><th>OWGR</th></tr></thead>' +
+    '<tbody>' + rows + '</tbody></table>';
+}
+
+function renderRules() {
+  if (!configData) return;
+  const el = document.getElementById('scoring-rules');
+  const c = configData;
+  const items = [
+    ['Format', 'Snake draft, ' + c.draft_rounds + ' rounds, ' + c.drafters.length + ' drafters'],
+    ['Roster', c.players_per_team + ' players per team, best ' + c.players_counted + ' count (drop worst ' + c.drop_worst + ')'],
+    ['Scoring', 'Total strokes over 4 rounds (lowest wins)'],
+    ['Cut Rule', c.missed_cut_rule.description + ' (max ' + c.missed_cut_rule.max_score_per_round + ' per round)'],
+    ['Winner Bonus', c.bonuses.tournament_winner.description],
+  ];
+  el.innerHTML = '<ul class="rules-list">' +
+    items.map(([label, text]) =>
+      '<li><span class="label">' + label + ':</span> ' + text + '</li>'
+    ).join('') + '</ul>';
+}
+
+function toggleTeam(header) {
+  const body = header.nextElementSibling;
+  body.classList.toggle('collapsed');
+}
+
+function toggleSection(id) {
+  const body = document.getElementById(id);
+  body.classList.toggle('open');
+  const toggle = document.getElementById(id + '-toggle');
+  toggle.textContent = body.classList.contains('open') ? '\u25B2' : '\u25BC';
+}
+
+function esc(str) {
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+loadAll();
+setInterval(refreshResults, REFRESH_MS);
+</script>
+</body>
+</html>

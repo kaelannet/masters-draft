@@ -1,0 +1,726 @@
+{
+  "updated_at": "2026-04-07T20:43:10.227733",
+  "tournament_status": {
+    "current_round": "1000",
+    "status_round": "NNNN",
+    "winner": null,
+    "worst_cut_scores": {
+      "round3": null,
+      "round4": null
+    }
+  },
+  "standings": {
+    "Reidar": {
+      "players": [
+        {
+          "name": "Scottie Scheffler",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Rory McIlroy",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Ludvig Aberg",
+          "rounds": {},
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Collin Morikawa",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Brooks Koepka",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Patrick Cantlay",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Jordan Spieth",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Min Woo Lee",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        }
+      ],
+      "counting_players": [],
+      "dropped_players": [
+        "Scottie Scheffler",
+        "Rory McIlroy",
+        "Ludvig Aberg",
+        "Collin Morikawa",
+        "Brooks Koepka",
+        "Patrick Cantlay",
+        "Jordan Spieth",
+        "Min Woo Lee"
+      ],
+      "raw_total": 0,
+      "winner_bonus": 0,
+      "drafted_winner": null,
+      "final_total": 0
+    },
+    "Jackson": {
+      "players": [
+        {
+          "name": "Jon Rahm",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Xander Schauffele",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Tommy Fleetwood",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Hideki Matsuyama",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Adam Scott",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Robert MacIntyre",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Patrick Reed",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "S.W. Kim",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        }
+      ],
+      "counting_players": [],
+      "dropped_players": [
+        "Jon Rahm",
+        "Xander Schauffele",
+        "Tommy Fleetwood",
+        "Hideki Matsuyama",
+        "Adam Scott",
+        "Robert MacIntyre",
+        "Patrick Reed",
+        "S.W. Kim"
+      ],
+      "raw_total": 0,
+      "winner_bonus": 0,
+      "drafted_winner": null,
+      "final_total": 0
+    },
+    "Kaelan": {
+      "players": [
+        {
+          "name": "Bryson DeChambeau",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Justin Rose",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Cameron Young",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Matt Fitzpatrick",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Chris Gotterup",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Viktor Hovland",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "J.J. Spaun",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        },
+        {
+          "name": "Shane Lowry",
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
+          "total": null,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": ""
+        }
+      ],
+      "counting_players": [],
+      "dropped_players": [
+        "Bryson DeChambeau",
+        "Justin Rose",
+        "Cameron Young",
+        "Matt Fitzpatrick",
+        "Chris Gotterup",
+        "Viktor Hovland",
+        "J.J. Spaun",
+        "Shane Lowry"
+      ],
+      "raw_total": 0,
+      "winner_bonus": 0,
+      "drafted_winner": null,
+      "final_total": 0
+    }
+  }
+}
