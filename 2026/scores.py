@@ -240,7 +240,7 @@ def calculate_standings(scores_data, draft_state, config):
     standings = sorted(team_results.items(), key=lambda x: x[1]["final_total"])
 
     results = {
-        "updated_at": datetime.now().isoformat(),
+        "updated_at": datetime.utcnow().isoformat() + "Z",
         "tournament_status": {
             "current_round": current_round,
             "status_round": status_round,
