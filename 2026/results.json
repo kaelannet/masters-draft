@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07T20:43:10.227733",
+  "updated_at": "2026-04-08T06:28:13.041009",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "NNNN",
@@ -70,7 +70,24 @@
         },
         {
           "name": "Ludvig Aberg",
-          "rounds": {},
+          "rounds": {
+            "round1": {
+              "score": null,
+              "penalty": false
+            },
+            "round2": {
+              "score": null,
+              "penalty": false
+            },
+            "round3": {
+              "score": null,
+              "penalty": false
+            },
+            "round4": {
+              "score": null,
+              "penalty": false
+            }
+          },
           "total": null,
           "made_cut": true,
           "status": "pre-tournament",
