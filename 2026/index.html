@@ -445,8 +445,11 @@ function buildPlayerTable(data) {
   const rows = data.players.map(p => {
     const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
 
-    // A player is "never counted" if they don't appear in any round's counting list
-    const neverCounted = !isPreTournament() && ['round1','round2','round3','round4'].every(
+    // A player is "never counted" only if they have a score in at least one
+    // round but still didn't make any counting list.  Players who simply
+    // haven't teed off yet (total is null) should look normal.
+    const hasAnyScore = p.total !== null;
+    const neverCounted = !isPreTournament() && hasAnyScore && ['round1','round2','round3','round4'].every(
       rnd => !(cpr[rnd] || []).includes(p.name)
     );
 
