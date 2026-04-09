@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T16:31:48.172528Z",
+  "updated_at": "2026-04-09T16:36:18.215533Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 98,
+    "cut_line": 104,
     "cut_official": false
   },
   "standings": {
@@ -65,7 +65,7 @@
           "total": 27,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "7",
           "today": "E",
           "topar": "E"
@@ -264,7 +264,7 @@
         "projected_total": 1732,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 98,
+        "cut_line_estimate": 104,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -522,7 +522,7 @@
         "projected_total": 1683,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 98,
+        "cut_line_estimate": 104,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -552,7 +552,7 @@
           "total": 32,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "8",
           "today": "E",
           "topar": "E"
@@ -608,7 +608,7 @@
           "total": 31,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T52",
+          "position": "T51",
           "thru": "7",
           "today": "+4",
           "topar": "+4"
@@ -780,7 +780,7 @@
         "projected_total": 1728,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 98,
+        "cut_line_estimate": 104,
         "trend": "steady",
         "trend_delta": 0
       }
