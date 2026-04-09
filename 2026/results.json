@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:35:01.346588Z",
+  "updated_at": "2026-04-09T22:39:45.540245Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -19,19 +19,23 @@
           "rounds": {
             "round1": {
               "score": 59,
-              "penalty": false
+              "penalty": false,
+              "topar": -2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 59,
@@ -47,19 +51,23 @@
           "rounds": {
             "round1": {
               "score": 67,
-              "penalty": false
+              "penalty": false,
+              "topar": -5
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 67,
@@ -74,27 +82,31 @@
           "name": "Ludvig Aberg",
           "rounds": {
             "round1": {
-              "score": 70,
-              "penalty": false
+              "score": 74,
+              "penalty": false,
+              "topar": 2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
-          "total": 70,
+          "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "17",
+          "thru": "F",
           "today": "+2",
           "topar": "+2"
         },
@@ -103,19 +115,23 @@
           "rounds": {
             "round1": {
               "score": 74,
-              "penalty": false
+              "penalty": false,
+              "topar": 2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 74,
@@ -131,19 +147,23 @@
           "rounds": {
             "round1": {
               "score": 67,
-              "penalty": false
+              "penalty": false,
+              "topar": -1
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 67,
@@ -159,19 +179,23 @@
           "rounds": {
             "round1": {
               "score": 77,
-              "penalty": false
+              "penalty": false,
+              "topar": 5
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 77,
@@ -187,19 +211,23 @@
           "rounds": {
             "round1": {
               "score": 68,
-              "penalty": false
+              "penalty": false,
+              "topar": 0
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 68,
@@ -215,19 +243,23 @@
           "rounds": {
             "round1": {
               "score": 78,
-              "penalty": false
+              "penalty": false,
+              "topar": 6
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 78,
@@ -253,15 +285,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 405,
+        "round1": 409,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 405,
+      "raw_total": 409,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 405,
+      "final_total": 409,
       "forecast": {
         "projected_total": 1712,
         "rounds_remaining": 3,
@@ -271,7 +303,7 @@
         ],
         "cut_line_estimate": 148,
         "trend": "steady",
-        "trend_delta": 2
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -280,27 +312,31 @@
           "name": "Jon Rahm",
           "rounds": {
             "round1": {
-              "score": 74,
-              "penalty": false
+              "score": 78,
+              "penalty": false,
+              "topar": 6
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
-          "total": 74,
+          "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T73",
-          "thru": "17",
+          "thru": "F",
           "today": "+6",
           "topar": "+6"
         },
@@ -309,19 +345,23 @@
           "rounds": {
             "round1": {
               "score": 70,
-              "penalty": false
+              "penalty": false,
+              "topar": -2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 70,
@@ -337,19 +377,23 @@
           "rounds": {
             "round1": {
               "score": 71,
-              "penalty": false
+              "penalty": false,
+              "topar": -1
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 71,
@@ -365,19 +409,23 @@
           "rounds": {
             "round1": {
               "score": 72,
-              "penalty": false
+              "penalty": false,
+              "topar": 0
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 72,
@@ -393,19 +441,23 @@
           "rounds": {
             "round1": {
               "score": 72,
-              "penalty": false
+              "penalty": false,
+              "topar": 0
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 72,
@@ -421,19 +473,23 @@
           "rounds": {
             "round1": {
               "score": 68,
-              "penalty": false
+              "penalty": false,
+              "topar": 7
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 68,
@@ -449,19 +505,23 @@
           "rounds": {
             "round1": {
               "score": 69,
-              "penalty": false
+              "penalty": false,
+              "topar": -3
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 69,
@@ -477,19 +537,23 @@
           "rounds": {
             "round1": {
               "score": 59,
-              "penalty": false
+              "penalty": false,
+              "topar": 3
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 59,
@@ -527,10 +591,12 @@
       "forecast": {
         "projected_total": 1716,
         "rounds_remaining": 3,
-        "projected_cuts": [],
+        "projected_cuts": [
+          "Jon Rahm"
+        ],
         "cut_line_estimate": 148,
-        "trend": "worsening",
-        "trend_delta": 12
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Kaelan": {
@@ -540,19 +606,23 @@
           "rounds": {
             "round1": {
               "score": 76,
-              "penalty": false
+              "penalty": false,
+              "topar": 4
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 76,
@@ -568,19 +638,23 @@
           "rounds": {
             "round1": {
               "score": 65,
-              "penalty": false
+              "penalty": false,
+              "topar": -3
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 65,
@@ -596,19 +670,23 @@
           "rounds": {
             "round1": {
               "score": 73,
-              "penalty": false
+              "penalty": false,
+              "topar": 1
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 73,
@@ -624,19 +702,23 @@
           "rounds": {
             "round1": {
               "score": 74,
-              "penalty": false
+              "penalty": false,
+              "topar": 2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 74,
@@ -652,19 +734,23 @@
           "rounds": {
             "round1": {
               "score": 72,
-              "penalty": false
+              "penalty": false,
+              "topar": 0
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 72,
@@ -680,19 +766,23 @@
           "rounds": {
             "round1": {
               "score": 75,
-              "penalty": false
+              "penalty": false,
+              "topar": 3
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 75,
@@ -708,19 +798,23 @@
           "rounds": {
             "round1": {
               "score": 74,
-              "penalty": false
+              "penalty": false,
+              "topar": 2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 74,
@@ -736,19 +830,23 @@
           "rounds": {
             "round1": {
               "score": 70,
-              "penalty": false
+              "penalty": false,
+              "topar": -2
             },
             "round2": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round3": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             },
             "round4": {
               "score": null,
-              "penalty": false
+              "penalty": false,
+              "topar": null
             }
           },
           "total": 70,
@@ -791,8 +889,8 @@
           "Viktor Hovland"
         ],
         "cut_line_estimate": 148,
-        "trend": "improving",
-        "trend_delta": -34
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }

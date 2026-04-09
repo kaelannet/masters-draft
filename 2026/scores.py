@@ -68,6 +68,34 @@ def get_round_total(player_data, round_key, pars):
     return total
 
 
+def get_round_topar(player_data, round_key, round_pars):
+    """Calculate a player's score relative to par for a round.
+
+    For completed rounds: score - 72 (or sum of pars).
+    For partial rounds: strokes on played holes minus par on those holes.
+    Returns None if round not started.
+    """
+    round_info = player_data.get(round_key, {})
+    if not round_pars:
+        round_pars = [4] * 18
+
+    # Completed round
+    if round_info.get("total") is not None:
+        return round_info["total"] - sum(round_pars)
+
+    scores = round_info.get("scores", [])
+    if all(s is None for s in scores):
+        return None
+
+    # Partial round — compare only played holes to their par
+    topar = 0
+    for i, s in enumerate(scores):
+        if s is not None:
+            par_i = round_pars[i] if i < len(round_pars) else 4
+            topar += s - par_i
+    return topar
+
+
 def player_made_cut(player_data):
     """Determine if a player made the cut."""
     status = player_data.get("status", "")
@@ -203,23 +231,27 @@ def calculate_standings(scores_data, draft_state, config):
                     status = "pre-tournament"
 
                 for rnd in round_keys:
-                    score = get_round_total(api_player, rnd, pars.get(rnd, []))
+                    round_pars = pars.get(rnd, [])
+                    score = get_round_total(api_player, rnd, round_pars)
+                    rnd_topar = get_round_topar(api_player, rnd, round_pars)
 
                     # Apply missed cut penalty for rounds 3-4
                     if score is None and rnd in ["round3", "round4"] and not made_cut:
                         penalty = worst_cut_scores.get(rnd)
                         if penalty is not None:
                             score = penalty
-                            rounds[rnd] = {"score": score, "penalty": True}
+                            rnd_topar = penalty - sum(round_pars) if round_pars else penalty - 72
+                            rounds[rnd] = {"score": score, "penalty": True, "topar": rnd_topar}
                         else:
                             # Cut scores not available yet — use cap
                             score = cut_max
-                            rounds[rnd] = {"score": score, "penalty": True, "estimated": True}
+                            rnd_topar = cut_max - sum(round_pars) if round_pars else cut_max - 72
+                            rounds[rnd] = {"score": score, "penalty": True, "estimated": True, "topar": rnd_topar}
                     elif score is not None:
-                        rounds[rnd] = {"score": score, "penalty": False}
+                        rounds[rnd] = {"score": score, "penalty": False, "topar": rnd_topar}
                         has_any_score = True
                     else:
-                        rounds[rnd] = {"score": None, "penalty": False}
+                        rounds[rnd] = {"score": None, "penalty": False, "topar": None}
 
                     if score is not None:
                         total += score

@@ -461,11 +461,20 @@ function buildPlayerTable(data) {
     if (isMC) rowClass = 'missed-cut';
     else if (neverCounted) rowClass = 'dropped';
 
+    const formatTopar = (val) => {
+      if (val === null || val === undefined) return '—';
+      if (val === 0) return 'E';
+      return val > 0 ? '+' + val : String(val);
+    };
+
     const r = (rnd) => {
       const info = p.rounds[rnd];
       if (!info || info.score === null) return '—';
+      const tp = info.topar;
+      const display = formatTopar(tp);
       const penalty = info.penalty ? '<span class="penalty-marker">*</span>' : '';
-      return info.score + penalty;
+      const cls = (tp !== null && tp < 0) ? ' style="color:#CE1141;font-weight:600"' : '';
+      return '<span' + cls + '>' + display + '</span>' + penalty;
     };
 
     const countedClass = (rnd) => {
