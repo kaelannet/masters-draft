@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:50:10.381591Z",
+  "updated_at": "2026-04-09T22:55:14.217212Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -242,7 +242,7 @@
           "name": "S.W. Kim",
           "rounds": {
             "round1": {
-              "score": 63,
+              "score": 66,
               "penalty": false,
               "topar": 2
             },
@@ -262,11 +262,11 @@
               "topar": null
             }
           },
-          "total": 63,
+          "total": 66,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "15",
+          "thru": "16",
           "today": "+2",
           "topar": "+2"
         }
@@ -285,7 +285,7 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 417,
+        "round1": 420,
         "round2": null,
         "round3": null,
         "round4": null
@@ -296,11 +296,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 417,
+      "raw_total": 420,
       "raw_topar": -4,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 417,
+      "final_total": 420,
       "forecast": {
         "projected_total": 1712,
         "rounds_remaining": 3,
@@ -501,7 +501,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T64",
+          "position": "T65",
           "thru": "F",
           "today": "+5",
           "topar": "+5"
@@ -609,8 +609,8 @@
           "Min Woo Lee"
         ],
         "cut_line_estimate": 148,
-        "trend": "worsening",
-        "trend_delta": 4
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Kaelan": {
@@ -910,8 +910,8 @@
           "Viktor Hovland"
         ],
         "cut_line_estimate": 148,
-        "trend": "worsening",
-        "trend_delta": 4
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }
