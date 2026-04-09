@@ -371,6 +371,12 @@ function renderTimestamp() {
   document.getElementById('last-updated').textContent = 'Updated: ' + str;
 }
 
+function formatTopar(val) {
+  if (val === null || val === undefined) return '—';
+  if (val === 0) return 'E';
+  return val > 0 ? '+' + val : String(val);
+}
+
 function isPreTournament() {
   const s = resultsData.standings;
   for (const drafter in s) {
@@ -396,7 +402,8 @@ function renderStandings() {
   const ordinals = ['1st', '2nd', '3rd'];
   bar.innerHTML = entries.map(([name, data], i) => {
     const isLeader = i === 0 && !isPreTournament();
-    const totalDisplay = isPreTournament() ? '—' : data.final_total;
+    const topar = (data.raw_topar || 0) + (data.winner_bonus || 0);
+    const totalDisplay = isPreTournament() ? '—' : formatTopar(topar);
     const bonusHtml = data.winner_bonus
       ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
     let forecastHtml = '';
@@ -425,7 +432,8 @@ function renderTeams() {
   const container = document.getElementById('teams-container');
   const entries = Object.entries(resultsData.standings);
   container.innerHTML = entries.map(([name, data], idx) => {
-    const totalDisplay = isPreTournament() ? '—' : data.final_total + ' strokes';
+    const teamTopar = (data.raw_topar || 0) + (data.winner_bonus || 0);
+    const totalDisplay = isPreTournament() ? '—' : formatTopar(teamTopar);
     const bonusBadge = data.winner_bonus
       ? ' <span style="color:#D4AF37;font-size:0.8rem;">(incl. ' + data.winner_bonus + ' winner bonus)</span>' : '';
     return '<div class="team-card">' +
@@ -460,12 +468,6 @@ function buildPlayerTable(data) {
     let rowClass = '';
     if (isMC) rowClass = 'missed-cut';
     else if (neverCounted) rowClass = 'dropped';
-
-    const formatTopar = (val) => {
-      if (val === null || val === undefined) return '—';
-      if (val === 0) return 'E';
-      return val > 0 ? '+' + val : String(val);
-    };
 
     const r = (rnd) => {
       const info = p.rounds[rnd];

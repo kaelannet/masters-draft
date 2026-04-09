@@ -271,28 +271,33 @@ def calculate_standings(scores_data, draft_state, config):
         # --- Per-round counting: best 6 of 8 per round ---
         counting_per_round = {}
         round_totals = {}
+        round_topars = {}
         raw_total = 0
 
         for rnd in round_keys:
-            # Collect (player_name, score) for this round
+            # Collect (player_name, score, topar) for this round
             round_scores = []
             for p in player_scores:
                 rnd_info = p["rounds"].get(rnd, {})
                 score = rnd_info.get("score")
+                topar = rnd_info.get("topar")
                 if score is not None:
-                    round_scores.append((p["name"], score))
+                    round_scores.append((p["name"], score, topar if topar is not None else 0))
 
             if round_scores:
                 # Sort ascending (best/lowest first), take best 6
                 round_scores.sort(key=lambda x: x[1])
                 best = round_scores[:players_counted]
-                counting_per_round[rnd] = [name for name, _ in best]
-                round_total = sum(score for _, score in best)
+                counting_per_round[rnd] = [name for name, _ in [(n, s) for n, s, _ in best]]
+                round_total = sum(s for _, s, _ in best)
+                round_topar = sum(tp for _, _, tp in best)
                 round_totals[rnd] = round_total
+                round_topars[rnd] = round_topar
                 raw_total += round_total
             else:
                 counting_per_round[rnd] = []
                 round_totals[rnd] = None
+                round_topars[rnd] = None
 
         # Winner bonus
         winner_bonus = 0
@@ -305,11 +310,15 @@ def calculate_standings(scores_data, draft_state, config):
                     drafted_winner = p["name"]
                     break
 
+        raw_topar = sum(v for v in round_topars.values() if v is not None)
+
         team_results[drafter] = {
             "players": player_scores,
             "counting_per_round": counting_per_round,
             "round_totals": round_totals,
+            "round_topars": round_topars,
             "raw_total": raw_total,
+            "raw_topar": raw_topar,
             "winner_bonus": winner_bonus,
             "drafted_winner": drafted_winner,
             "final_total": raw_total + winner_bonus,
