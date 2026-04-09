@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:55:14.217212Z",
+  "updated_at": "2026-04-09T23:00:16.535497Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 148,
+    "cut_line": 150,
     "cut_official": false
   },
   "standings": {
@@ -178,9 +178,9 @@
           "name": "Robert MacIntyre",
           "rounds": {
             "round1": {
-              "score": 71,
+              "score": 76,
               "penalty": false,
-              "topar": 7
+              "topar": 8
             },
             "round2": {
               "score": null,
@@ -198,13 +198,13 @@
               "topar": null
             }
           },
-          "total": 71,
+          "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T77",
-          "thru": "16",
-          "today": "+7",
-          "topar": "+7"
+          "position": "T82",
+          "thru": "17",
+          "today": "+8",
+          "topar": "+8"
         },
         {
           "name": "Patrick Reed",
@@ -307,7 +307,7 @@
         "projected_cuts": [
           "Jon Rahm"
         ],
-        "cut_line_estimate": 148,
+        "cut_line_estimate": 150,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -608,7 +608,7 @@
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 148,
+        "cut_line_estimate": 150,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -906,10 +906,9 @@
         "projected_total": 1732,
         "rounds_remaining": 3,
         "projected_cuts": [
-          "Bryson DeChambeau",
-          "Viktor Hovland"
+          "Bryson DeChambeau"
         ],
-        "cut_line_estimate": 148,
+        "cut_line_estimate": 150,
         "trend": "steady",
         "trend_delta": 0
       }
