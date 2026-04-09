@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:14:19.102532Z",
+  "updated_at": "2026-04-09T20:19:20.328022Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -121,7 +121,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T46",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -270,8 +270,8 @@
           "Patrick Cantlay"
         ],
         "cut_line_estimate": 142,
-        "trend": "worsening",
-        "trend_delta": 8
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -644,7 +644,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T46",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -700,7 +700,7 @@
           "total": 75,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T53",
           "thru": "F",
           "today": "+3",
           "topar": "+3"
@@ -728,7 +728,7 @@
           "total": 46,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T46",
           "thru": "11",
           "today": "+2",
           "topar": "+2"
@@ -795,8 +795,8 @@
           "Viktor Hovland"
         ],
         "cut_line_estimate": 142,
-        "trend": "worsening",
-        "trend_delta": 4
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }
