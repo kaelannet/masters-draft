@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:40:03.775912Z",
+  "updated_at": "2026-04-09T22:45:05.871857Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -18,7 +18,7 @@
           "name": "Scottie Scheffler",
           "rounds": {
             "round1": {
-              "score": 59,
+              "score": 62,
               "penalty": false,
               "topar": -2
             },
@@ -38,11 +38,11 @@
               "topar": null
             }
           },
-          "total": 59,
+          "total": 62,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T7",
-          "thru": "15",
+          "thru": "16",
           "today": "-2",
           "topar": "-2"
         },
@@ -285,15 +285,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 409,
+        "round1": 412,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 409,
+      "raw_total": 412,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 409,
+      "final_total": 412,
       "forecast": {
         "projected_total": 1712,
         "rounds_remaining": 3,
@@ -472,7 +472,7 @@
           "name": "Robert MacIntyre",
           "rounds": {
             "round1": {
-              "score": 68,
+              "score": 71,
               "penalty": false,
               "topar": 7
             },
@@ -492,11 +492,11 @@
               "topar": null
             }
           },
-          "total": 68,
+          "total": 71,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T77",
-          "thru": "15",
+          "thru": "16",
           "today": "+7",
           "topar": "+7"
         },
@@ -536,9 +536,9 @@
           "name": "S.W. Kim",
           "rounds": {
             "round1": {
-              "score": 59,
+              "score": 63,
               "penalty": false,
-              "topar": 3
+              "topar": 2
             },
             "round2": {
               "score": null,
@@ -556,22 +556,22 @@
               "topar": null
             }
           },
-          "total": 59,
+          "total": 63,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
-          "thru": "14",
-          "today": "+3",
-          "topar": "+3"
+          "position": "T40",
+          "thru": "15",
+          "today": "+2",
+          "topar": "+2"
         }
       ],
       "counting_per_round": {
         "round1": [
           "S.W. Kim",
-          "Robert MacIntyre",
           "Patrick Reed",
           "Xander Schauffele",
           "Tommy Fleetwood",
+          "Robert MacIntyre",
           "Hideki Matsuyama"
         ],
         "round2": [],
@@ -579,24 +579,24 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 409,
+        "round1": 416,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 409,
+      "raw_total": 416,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 409,
+      "final_total": 416,
       "forecast": {
-        "projected_total": 1716,
+        "projected_total": 1712,
         "rounds_remaining": 3,
         "projected_cuts": [
           "Jon Rahm"
         ],
         "cut_line_estimate": 148,
-        "trend": "steady",
-        "trend_delta": 0
+        "trend": "improving",
+        "trend_delta": -4
       }
     },
     "Kaelan": {
@@ -788,7 +788,7 @@
           "total": 75,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T49",
           "thru": "F",
           "today": "+3",
           "topar": "+3"
