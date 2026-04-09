@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:29:23.702188Z",
+  "updated_at": "2026-04-09T20:34:23.830015Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -121,7 +121,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T43",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -130,7 +130,7 @@
           "name": "Brooks Koepka",
           "rounds": {
             "round1": {
-              "score": 41,
+              "score": 45,
               "penalty": false
             },
             "round2": {
@@ -146,11 +146,11 @@
               "penalty": false
             }
           },
-          "total": 41,
+          "total": 45,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "10",
+          "thru": "11",
           "today": "+1",
           "topar": "+1"
         },
@@ -186,7 +186,7 @@
           "name": "Jordan Spieth",
           "rounds": {
             "round1": {
-              "score": 38,
+              "score": 42,
               "penalty": false
             },
             "round2": {
@@ -202,11 +202,11 @@
               "penalty": false
             }
           },
-          "total": 38,
+          "total": 42,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T9",
-          "thru": "10",
+          "thru": "11",
           "today": "-2",
           "topar": "-2"
         },
@@ -243,8 +243,8 @@
         "round1": [
           "Scottie Scheffler",
           "Jordan Spieth",
-          "Brooks Koepka",
           "Ludvig Aberg",
+          "Brooks Koepka",
           "Min Woo Lee",
           "Rory McIlroy"
         ],
@@ -253,15 +253,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 285,
+        "round1": 293,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 285,
+      "raw_total": 293,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 285,
+      "final_total": 293,
       "forecast": {
         "projected_total": 1710,
         "rounds_remaining": 3,
@@ -476,7 +476,7 @@
           "name": "S.W. Kim",
           "rounds": {
             "round1": {
-              "score": 33,
+              "score": 37,
               "penalty": false
             },
             "round2": {
@@ -492,11 +492,11 @@
               "penalty": false
             }
           },
-          "total": 33,
+          "total": 37,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "8",
+          "thru": "9",
           "today": "+1",
           "topar": "+1"
         }
@@ -515,15 +515,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 314,
+        "round1": 318,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 314,
+      "raw_total": 318,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 314,
+      "final_total": 318,
       "forecast": {
         "projected_total": 1704,
         "rounds_remaining": 3,
@@ -642,7 +642,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T43",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -726,7 +726,7 @@
           "total": 49,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T43",
           "thru": "12",
           "today": "+2",
           "topar": "+2"
