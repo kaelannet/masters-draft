@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:04:13.592797Z",
+  "updated_at": "2026-04-09T20:09:15.041186Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -177,7 +177,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T71",
+          "position": "T70",
           "thru": "F",
           "today": "+5",
           "topar": "+5"
@@ -233,10 +233,10 @@
           "total": 50,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
-          "thru": "12",
-          "today": "+3",
-          "topar": "+3"
+          "position": "T70",
+          "thru": "13",
+          "today": "+5",
+          "topar": "+5"
         }
       ],
       "counting_per_round": {
@@ -270,8 +270,8 @@
           "Patrick Cantlay"
         ],
         "cut_line_estimate": 142,
-        "trend": "worsening",
-        "trend_delta": 4
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -299,7 +299,7 @@
           "total": 44,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
+          "position": "T62",
           "thru": "10",
           "today": "+4",
           "topar": "+4"
@@ -355,7 +355,7 @@
           "total": 71,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "F",
           "today": "-1",
           "topar": "-1"
@@ -411,7 +411,7 @@
           "total": 51,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "13",
           "today": "-1",
           "topar": "-1"
@@ -560,7 +560,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
+          "position": "T62",
           "thru": "F",
           "today": "+4",
           "topar": "+4"
@@ -795,8 +795,8 @@
           "Viktor Hovland"
         ],
         "cut_line_estimate": 142,
-        "trend": "worsening",
-        "trend_delta": 18
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }
