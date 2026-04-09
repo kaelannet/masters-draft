@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:34:23.830015Z",
+  "updated_at": "2026-04-09T20:39:27.512458Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -74,7 +74,7 @@
           "name": "Ludvig Aberg",
           "rounds": {
             "round1": {
-              "score": 45,
+              "score": 48,
               "penalty": false
             },
             "round2": {
@@ -90,11 +90,11 @@
               "penalty": false
             }
           },
-          "total": 45,
+          "total": 48,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
-          "thru": "11",
+          "position": "T31",
+          "thru": "12",
           "today": "+1",
           "topar": "+1"
         },
@@ -149,7 +149,7 @@
           "total": 45,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
+          "position": "T31",
           "thru": "11",
           "today": "+1",
           "topar": "+1"
@@ -243,8 +243,8 @@
         "round1": [
           "Scottie Scheffler",
           "Jordan Spieth",
-          "Ludvig Aberg",
           "Brooks Koepka",
+          "Ludvig Aberg",
           "Min Woo Lee",
           "Rory McIlroy"
         ],
@@ -253,15 +253,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 293,
+        "round1": 296,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 293,
+      "raw_total": 296,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 293,
+      "final_total": 296,
       "forecast": {
         "projected_total": 1710,
         "rounds_remaining": 3,
@@ -280,7 +280,7 @@
           "name": "Jon Rahm",
           "rounds": {
             "round1": {
-              "score": 48,
+              "score": 51,
               "penalty": false
             },
             "round2": {
@@ -296,11 +296,11 @@
               "penalty": false
             }
           },
-          "total": 48,
+          "total": 51,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T62",
-          "thru": "11",
+          "thru": "12",
           "today": "+4",
           "topar": "+4"
         },
@@ -383,7 +383,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T23",
+          "position": "T21",
           "thru": "F",
           "today": "E",
           "topar": "E"
@@ -392,7 +392,7 @@
           "name": "Adam Scott",
           "rounds": {
             "round1": {
-              "score": 55,
+              "score": 61,
               "penalty": false
             },
             "round2": {
@@ -408,13 +408,13 @@
               "penalty": false
             }
           },
-          "total": 55,
+          "total": 61,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
-          "thru": "14",
-          "today": "-1",
-          "topar": "-1"
+          "position": "T21",
+          "thru": "15",
+          "today": "E",
+          "topar": "E"
         },
         {
           "name": "Robert MacIntyre",
@@ -495,7 +495,7 @@
           "total": 37,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
+          "position": "T31",
           "thru": "9",
           "today": "+1",
           "topar": "+1"
@@ -515,22 +515,22 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 318,
+        "round1": 327,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 318,
+      "raw_total": 327,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 318,
+      "final_total": 327,
       "forecast": {
-        "projected_total": 1704,
+        "projected_total": 1708,
         "rounds_remaining": 3,
         "projected_cuts": [],
         "cut_line_estimate": 144,
-        "trend": "steady",
-        "trend_delta": 0
+        "trend": "worsening",
+        "trend_delta": 4
       }
     },
     "Kaelan": {
@@ -567,7 +567,7 @@
           "name": "Justin Rose",
           "rounds": {
             "round1": {
-              "score": 37,
+              "score": 41,
               "penalty": false
             },
             "round2": {
@@ -583,11 +583,11 @@
               "penalty": false
             }
           },
-          "total": 37,
+          "total": 41,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "10",
+          "thru": "11",
           "today": "-3",
           "topar": "-3"
         },
@@ -614,7 +614,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
+          "position": "T31",
           "thru": "F",
           "today": "+1",
           "topar": "+1"
@@ -651,7 +651,7 @@
           "name": "Chris Gotterup",
           "rounds": {
             "round1": {
-              "score": 44,
+              "score": 48,
               "penalty": false
             },
             "round2": {
@@ -667,13 +667,13 @@
               "penalty": false
             }
           },
-          "total": 44,
+          "total": 48,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T23",
-          "thru": "11",
-          "today": "E",
-          "topar": "E"
+          "position": "T31",
+          "thru": "12",
+          "today": "+1",
+          "topar": "+1"
         },
         {
           "name": "Viktor Hovland",
@@ -774,17 +774,17 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 347,
+        "round1": 355,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 347,
+      "raw_total": 355,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 347,
+      "final_total": 355,
       "forecast": {
-        "projected_total": 1762,
+        "projected_total": 1766,
         "rounds_remaining": 3,
         "projected_cuts": [
           "Bryson DeChambeau",
@@ -793,8 +793,8 @@
           "Viktor Hovland"
         ],
         "cut_line_estimate": 144,
-        "trend": "steady",
-        "trend_delta": 0
+        "trend": "worsening",
+        "trend_delta": 4
       }
     }
   }
