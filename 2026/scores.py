@@ -285,10 +285,11 @@ def calculate_standings(scores_data, draft_state, config):
                     round_scores.append((p["name"], score, topar if topar is not None else 0))
 
             if round_scores:
-                # Sort ascending (best/lowest first), take best 6
-                round_scores.sort(key=lambda x: x[1])
+                # Sort by to-par (not raw score) so partial rounds are
+                # comparable — a player at -1 thru 8 ranks above +3 thru 18
+                round_scores.sort(key=lambda x: x[2])
                 best = round_scores[:players_counted]
-                counting_per_round[rnd] = [name for name, _ in [(n, s) for n, s, _ in best]]
+                counting_per_round[rnd] = [n for n, _, _ in best]
                 round_total = sum(s for _, s, _ in best)
                 round_topar = sum(tp for _, _, tp in best)
                 round_totals[rnd] = round_total
