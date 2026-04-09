@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T16:42:39.728350Z",
+  "updated_at": "2026-04-09T16:46:23.938301Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 104,
+    "cut_line": 98,
     "cut_official": false
   },
   "standings": {
@@ -65,7 +65,7 @@
           "total": 27,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T20",
           "thru": "7",
           "today": "E",
           "topar": "E"
@@ -121,7 +121,7 @@
           "total": 33,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "8",
           "today": "+1",
           "topar": "+1"
@@ -177,7 +177,7 @@
           "total": 29,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T43",
+          "position": "T46",
           "thru": "7",
           "today": "+2",
           "topar": "+2"
@@ -233,7 +233,7 @@
           "total": 5,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "1",
           "today": "+1",
           "topar": "+1"
@@ -264,7 +264,7 @@
         "projected_total": 1732,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 104,
+        "cut_line_estimate": 98,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -322,7 +322,7 @@
           "total": 35,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T8",
+          "position": "T9",
           "thru": "9",
           "today": "-1",
           "topar": "-1"
@@ -378,7 +378,7 @@
           "total": 33,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "8",
           "today": "+1",
           "topar": "+1"
@@ -406,7 +406,7 @@
           "total": 10,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "2",
           "today": "+1",
           "topar": "+1"
@@ -522,7 +522,7 @@
         "projected_total": 1683,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 104,
+        "cut_line_estimate": 98,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -552,7 +552,7 @@
           "total": 32,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T20",
           "thru": "8",
           "today": "E",
           "topar": "E"
@@ -608,7 +608,7 @@
           "total": 31,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T51",
+          "position": "T54",
           "thru": "7",
           "today": "+4",
           "topar": "+4"
@@ -636,7 +636,7 @@
           "total": 33,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "8",
           "today": "+1",
           "topar": "+1"
@@ -692,7 +692,7 @@
           "total": 30,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T51",
           "thru": "7",
           "today": "+3",
           "topar": "+3"
@@ -748,7 +748,7 @@
           "total": 39,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T8",
+          "position": "T9",
           "thru": "10",
           "today": "-1",
           "topar": "-1"
@@ -780,7 +780,7 @@
         "projected_total": 1728,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 104,
+        "cut_line_estimate": 98,
         "trend": "steady",
         "trend_delta": 0
       }
