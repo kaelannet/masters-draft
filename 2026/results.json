@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T06:39:44.764718Z",
+  "updated_at": "2026-04-09T07:42:53.517412Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "NNNN",
@@ -7,7 +7,9 @@
     "worst_cut_scores": {
       "round3": null,
       "round4": null
-    }
+    },
+    "cut_line": null,
+    "cut_official": false
   },
   "standings": {
     "Reidar": {
@@ -237,21 +239,28 @@
           "topar": ""
         }
       ],
-      "counting_players": [],
-      "dropped_players": [
-        "Scottie Scheffler",
-        "Rory McIlroy",
-        "Ludvig Aberg",
-        "Collin Morikawa",
-        "Brooks Koepka",
-        "Patrick Cantlay",
-        "Jordan Spieth",
-        "Min Woo Lee"
-      ],
+      "counting_per_round": {
+        "round1": [],
+        "round2": [],
+        "round3": [],
+        "round4": []
+      },
+      "round_totals": {
+        "round1": null,
+        "round2": null,
+        "round3": null,
+        "round4": null
+      },
       "raw_total": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 0
+      "final_total": 0,
+      "forecast": {
+        "projected_total": null,
+        "rounds_remaining": 4,
+        "projected_cuts": [],
+        "cut_line_estimate": null
+      }
     },
     "Jackson": {
       "players": [
@@ -480,21 +489,28 @@
           "topar": ""
         }
       ],
-      "counting_players": [],
-      "dropped_players": [
-        "Jon Rahm",
-        "Xander Schauffele",
-        "Tommy Fleetwood",
-        "Hideki Matsuyama",
-        "Adam Scott",
-        "Robert MacIntyre",
-        "Patrick Reed",
-        "S.W. Kim"
-      ],
+      "counting_per_round": {
+        "round1": [],
+        "round2": [],
+        "round3": [],
+        "round4": []
+      },
+      "round_totals": {
+        "round1": null,
+        "round2": null,
+        "round3": null,
+        "round4": null
+      },
       "raw_total": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 0
+      "final_total": 0,
+      "forecast": {
+        "projected_total": null,
+        "rounds_remaining": 4,
+        "projected_cuts": [],
+        "cut_line_estimate": null
+      }
     },
     "Kaelan": {
       "players": [
@@ -723,21 +739,28 @@
           "topar": ""
         }
       ],
-      "counting_players": [],
-      "dropped_players": [
-        "Bryson DeChambeau",
-        "Justin Rose",
-        "Cameron Young",
-        "Matt Fitzpatrick",
-        "Chris Gotterup",
-        "Viktor Hovland",
-        "J.J. Spaun",
-        "Shane Lowry"
-      ],
+      "counting_per_round": {
+        "round1": [],
+        "round2": [],
+        "round3": [],
+        "round4": []
+      },
+      "round_totals": {
+        "round1": null,
+        "round2": null,
+        "round3": null,
+        "round4": null
+      },
       "raw_total": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 0
+      "final_total": 0,
+      "forecast": {
+        "projected_total": null,
+        "rounds_remaining": 4,
+        "projected_cuts": [],
+        "cut_line_estimate": null
+      }
     }
   }
 }

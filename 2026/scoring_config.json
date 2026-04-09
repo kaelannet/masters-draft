@@ -7,7 +7,7 @@
   "rounds": 4,
   "cut_after_round": 2,
   "missed_cut_rule": {
-    "description": "For rounds after the cut, use the worst score among players who made the cut for that specific round, capped at max_score",
+    "description": "Best 6 of 8 players count per round (worst 2 dropped each round independently). For rounds after the cut, missed-cut players use the worst score among cut-makers for that round, capped at max_score",
     "max_score_per_round": 82,
     "applies_to": ["missed_cut", "withdrawn", "disqualified"]
   },

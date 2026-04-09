@@ -85,7 +85,12 @@ def player_made_cut(player_data):
 
 
 def calculate_standings(scores_data, draft_state, config):
-    """Calculate team standings from live scores and draft picks."""
+    """Calculate team standings from live scores and draft picks.
+
+    Scoring is per-round: for each of the 4 rounds independently, take the
+    best 6 of 8 player scores and sum them. The team raw_total is the sum
+    of all completed round totals.
+    """
     tournament = scores_data["data"]
     players_api = {p["full_name"]: p for p in tournament.get("player", [])}
     pars = tournament.get("pars", {})
@@ -143,9 +148,34 @@ def calculate_standings(scores_data, draft_state, config):
             winner = p["full_name"]
             break
 
+    # Estimate cut line from all players in the field
+    cut_line_estimate = None
+    cut_official = False
+
+    # Check if cut has happened (status_round chars 2+ are 'C' means cut applied)
+    if len(status_round) >= 3 and status_round[2] == "C":
+        cut_official = True
+
+    # Estimate cut line from R1+R2 totals of all players
+    field_r1r2 = []
+    for p in tournament.get("player", []):
+        r1 = get_round_total(p, "round1", pars.get("round1", []))
+        r2 = get_round_total(p, "round2", pars.get("round2", []))
+        if r1 is not None and r2 is not None:
+            field_r1r2.append(r1 + r2)
+        elif r1 is not None:
+            field_r1r2.append(r1 * 2)  # extrapolate from R1
+
+    if field_r1r2:
+        field_r1r2.sort()
+        # The player at approximately position 50 gives projected cut line
+        cut_pos = min(49, len(field_r1r2) - 1)
+        cut_line_estimate = field_r1r2[cut_pos]
+
     # Calculate per-player and per-team scores
     team_results = {}
     players_counted = config["players_counted"]
+    round_keys = ["round1", "round2", "round3", "round4"]
 
     for drafter, roster in draft_state["teams"].items():
         player_scores = []
@@ -172,7 +202,7 @@ def calculate_standings(scores_data, draft_state, config):
                 else:
                     status = "pre-tournament"
 
-                for rnd in ["round1", "round2", "round3", "round4"]:
+                for rnd in round_keys:
                     score = get_round_total(api_player, rnd, pars.get(rnd, []))
 
                     # Apply missed cut penalty for rounds 3-4
@@ -206,14 +236,31 @@ def calculate_standings(scores_data, draft_state, config):
                 "topar": api_player.get("topar", "") if api_player else "",
             })
 
-        # Sort by total (lowest first), None values at end
-        player_scores.sort(key=lambda x: (x["total"] is None, x["total"] or 9999))
+        # --- Per-round counting: best 6 of 8 per round ---
+        counting_per_round = {}
+        round_totals = {}
+        raw_total = 0
 
-        # Best N players count
-        counting = [p for p in player_scores if p["total"] is not None][:players_counted]
-        dropped = [p for p in player_scores if p not in counting]
+        for rnd in round_keys:
+            # Collect (player_name, score) for this round
+            round_scores = []
+            for p in player_scores:
+                rnd_info = p["rounds"].get(rnd, {})
+                score = rnd_info.get("score")
+                if score is not None:
+                    round_scores.append((p["name"], score))
 
-        team_total = sum(p["total"] for p in counting)
+            if round_scores:
+                # Sort ascending (best/lowest first), take best 6
+                round_scores.sort(key=lambda x: x[1])
+                best = round_scores[:players_counted]
+                counting_per_round[rnd] = [name for name, _ in best]
+                round_total = sum(score for _, score in best)
+                round_totals[rnd] = round_total
+                raw_total += round_total
+            else:
+                counting_per_round[rnd] = []
+                round_totals[rnd] = None
 
         # Winner bonus
         winner_bonus = 0
@@ -228,13 +275,21 @@ def calculate_standings(scores_data, draft_state, config):
 
         team_results[drafter] = {
             "players": player_scores,
-            "counting_players": [p["name"] for p in counting],
-            "dropped_players": [p["name"] for p in dropped],
-            "raw_total": team_total,
+            "counting_per_round": counting_per_round,
+            "round_totals": round_totals,
+            "raw_total": raw_total,
             "winner_bonus": winner_bonus,
             "drafted_winner": drafted_winner,
-            "final_total": team_total + winner_bonus,
+            "final_total": raw_total + winner_bonus,
         }
+
+    # --- Calculate forecast for each team ---
+    for drafter, data in team_results.items():
+        forecast = calculate_forecast(
+            data, tournament, pars, find_api_player, config,
+            cut_line_estimate, cut_official, worst_cut_scores, round_totals=data["round_totals"]
+        )
+        data["forecast"] = forecast
 
     # Sort teams by final total
     standings = sorted(team_results.items(), key=lambda x: x[1]["final_total"])
@@ -246,11 +301,111 @@ def calculate_standings(scores_data, draft_state, config):
             "status_round": status_round,
             "winner": winner,
             "worst_cut_scores": worst_cut_scores,
+            "cut_line": cut_line_estimate,
+            "cut_official": cut_official,
         },
         "standings": {drafter: data for drafter, data in standings},
     }
 
     return results, standings
+
+
+def calculate_forecast(team_data, tournament, pars, find_api_player, config,
+                       cut_line_estimate, cut_official, worst_cut_scores, round_totals):
+    """Project a team's final total accounting for the cut.
+
+    For each unplayed round, project all 8 players' scores, take best 6, sum.
+    projected_total = actual round totals + projected round totals + winner_bonus.
+    """
+    round_keys = ["round1", "round2", "round3", "round4"]
+    players_counted = config["players_counted"]
+    cut_max = config["missed_cut_rule"]["max_score_per_round"]
+
+    # Count completed rounds (those with a round total)
+    completed_rounds = [rnd for rnd in round_keys if round_totals.get(rnd) is not None]
+    remaining_rounds = [rnd for rnd in round_keys if round_totals.get(rnd) is None]
+    rounds_remaining = len(remaining_rounds)
+
+    if rounds_remaining == 0 or not completed_rounds:
+        return {
+            "projected_total": team_data["final_total"] if completed_rounds else None,
+            "rounds_remaining": rounds_remaining,
+            "projected_cuts": [],
+            "cut_line_estimate": cut_line_estimate,
+        }
+
+    # Calculate average round score per player from completed rounds
+    player_avgs = {}
+    for p in team_data["players"]:
+        scores = []
+        for rnd in completed_rounds:
+            rnd_info = p["rounds"].get(rnd, {})
+            if rnd_info.get("score") is not None:
+                scores.append(rnd_info["score"])
+        player_avgs[p["name"]] = sum(scores) / len(scores) if scores else 72  # par default
+
+    # Determine which players are projected to miss the cut
+    projected_cuts = []
+    for p in team_data["players"]:
+        # Already officially missed cut
+        if p["status"] in ("missed_cut", "withdrawn", "disqualified"):
+            projected_cuts.append(p["name"])
+            continue
+
+        # If cut hasn't happened, estimate from R1+R2 projection
+        if not cut_official and cut_line_estimate is not None:
+            r1_info = p["rounds"].get("round1", {})
+            r2_info = p["rounds"].get("round2", {})
+            r1 = r1_info.get("score")
+            r2 = r2_info.get("score")
+
+            if r1 is not None and r2 is not None:
+                proj_36 = r1 + r2
+            elif r1 is not None:
+                proj_36 = r1 * 2
+            else:
+                proj_36 = 144  # par, assume safe
+
+            if proj_36 > cut_line_estimate:
+                projected_cuts.append(p["name"])
+
+    # Project remaining rounds
+    projected_round_totals = 0
+    for rnd in remaining_rounds:
+        round_projections = []
+        for p in team_data["players"]:
+            rnd_info = p["rounds"].get(rnd, {})
+            actual_score = rnd_info.get("score")
+
+            if actual_score is not None:
+                # Already have actual score (shouldn't happen for remaining rounds, but safe)
+                round_projections.append(actual_score)
+            elif p["name"] in projected_cuts and rnd in ("round3", "round4"):
+                # Use penalty score
+                penalty = worst_cut_scores.get(rnd)
+                if penalty is not None:
+                    round_projections.append(penalty)
+                else:
+                    round_projections.append(cut_max)
+            else:
+                # Use average from completed rounds
+                round_projections.append(player_avgs[p["name"]])
+
+        # Take best 6
+        round_projections.sort()
+        best = round_projections[:players_counted]
+        projected_round_totals += sum(best)
+
+    # projected_total = actual completed round totals + projected remaining + winner bonus
+    actual_total = sum(round_totals[rnd] for rnd in completed_rounds)
+    projected_total = round(actual_total + projected_round_totals + team_data["winner_bonus"])
+
+    return {
+        "projected_total": projected_total,
+        "rounds_remaining": rounds_remaining,
+        "projected_cuts": projected_cuts,
+        "cut_line_estimate": cut_line_estimate,
+    }
 
 
 def display_standings(results, standings):
@@ -265,6 +420,9 @@ def display_standings(results, standings):
         print(f"  Tournament winner: {ts['winner']}")
     if ts["worst_cut_scores"]["round3"]:
         print(f"  Missed cut penalty R3: {ts['worst_cut_scores']['round3']}  R4: {ts['worst_cut_scores']['round4']}")
+    if ts.get("cut_line") is not None:
+        official = " (official)" if ts.get("cut_official") else " (projected)"
+        print(f"  Cut line: {ts['cut_line']}{official}")
     print()
 
     for rank, (drafter, data) in enumerate(standings, 1):
@@ -272,11 +430,20 @@ def display_standings(results, standings):
         print(f"  {rank}. {drafter} — {data['final_total']} strokes{bonus_str}")
         if data["drafted_winner"]:
             print(f"     ** Drafted the champion: {data['drafted_winner']}! **")
+        forecast = data.get("forecast", {})
+        if forecast.get("rounds_remaining", 0) > 0 and forecast.get("projected_total") is not None:
+            cut_note = ""
+            if forecast.get("projected_cuts"):
+                cut_note = f" ({len(forecast['projected_cuts'])} projected to miss cut)"
+            print(f"     Projected: {forecast['projected_total']}{cut_note}")
         print()
 
+        cpr = data.get("counting_per_round", {})
         for p in data["players"]:
-            counting = p["name"] in data["counting_players"]
-            marker = " " if counting else "x"
+            # Show per-round counting markers
+            def rnd_marker(rnd):
+                return " " if p["name"] in cpr.get(rnd, []) else "."
+
             r1 = p["rounds"].get("round1", {}).get("score", "-") or "-"
             r2 = p["rounds"].get("round2", {}).get("score", "-") or "-"
             r3_info = p["rounds"].get("round3", {})
@@ -296,16 +463,20 @@ def display_standings(results, standings):
             elif p["thru"] and p["thru"] != "F" and p["thru"] != "":
                 status_str = f" thru {p['thru']}"
 
-            print(f"    [{marker}] {p['name']:<26} {str(r1):>3} {str(r2):>3} {str(r3)+r3_mark:>4} {str(r4)+r4_mark:>4}  = {total_str:>4}  {pos_str} {status_str}")
+            print(f"    {p['name']:<26} {rnd_marker('round1')}{str(r1):>3} {rnd_marker('round2')}{str(r2):>3} {rnd_marker('round3')}{str(r3)+r3_mark:>4} {rnd_marker('round4')}{str(r4)+r4_mark:>4}  = {total_str:>4}  {pos_str} {status_str}")
 
         print(f"    {'':>30} {'R1':>3} {'R2':>3} {'R3':>4} {'R4':>4}  {'TOT':>5}")
-        print(f"    Counting: {', '.join(data['counting_players'])}")
-        if data["dropped_players"]:
-            print(f"    Dropped:  {', '.join(data['dropped_players'])}")
+        rt = data.get("round_totals", {})
+        rt_strs = [str(rt.get(r)) if rt.get(r) is not None else "-" for r in ["round1", "round2", "round3", "round4"]]
+        print(f"    Round totals (best 6):    {rt_strs[0]:>3} {rt_strs[1]:>3} {rt_strs[2]:>4} {rt_strs[3]:>4}  = {data['raw_total']:>4}")
+        for rnd in ["round1", "round2", "round3", "round4"]:
+            names = cpr.get(rnd, [])
+            if names:
+                print(f"    {rnd} counting: {', '.join(names)}")
         print()
 
     print("  * = missed cut / WD penalty score")
-    print("  x = dropped player (not counting toward total)")
+    print("  . = not counted this round (worst 2 dropped per round)")
     print("=" * 60)
 
 

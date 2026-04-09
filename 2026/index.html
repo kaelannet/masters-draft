@@ -87,6 +87,17 @@
     color: #D4AF37;
     margin-top: 4px;
   }
+  .standing-card .forecast {
+    font-size: 0.85rem;
+    color: #D4AF37;
+    font-style: italic;
+    margin-top: 4px;
+  }
+  .standing-card .forecast-cuts {
+    font-size: 0.7rem;
+    color: rgba(212,175,55,0.7);
+    margin-top: 2px;
+  }
 
   /* Team Detail Cards */
   .teams-container {
@@ -156,6 +167,7 @@
   }
   .player-table tr.missed-cut td { color: #b44; }
   .player-table tr.missed-cut td.player-name { font-weight: 500; }
+  .player-table td.counted { background: rgba(212,175,55,0.15); }
   .penalty-marker { color: #CE1141; font-weight: 700; font-size: 0.7rem; vertical-align: super; }
   .status-badge {
     display: inline-block;
@@ -383,11 +395,20 @@ function renderStandings() {
     const totalDisplay = isPreTournament() ? '—' : data.final_total;
     const bonusHtml = data.winner_bonus
       ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
+    let forecastHtml = '';
+    const fc = data.forecast;
+    if (fc && fc.rounds_remaining > 0 && fc.projected_total !== null && !isPreTournament()) {
+      forecastHtml = '<div class="forecast">Proj: ' + fc.projected_total + '</div>';
+      if (fc.projected_cuts && fc.projected_cuts.length > 0) {
+        forecastHtml += '<div class="forecast-cuts">(' + fc.projected_cuts.length + ' projected to miss cut)</div>';
+      }
+    }
     return '<div class="standing-card' + (isLeader ? ' leader' : '') + '">' +
       '<div class="rank">' + ordinals[i] + ' Place</div>' +
       '<div class="name">' + esc(name) + '</div>' +
       '<div class="total">' + totalDisplay + '</div>' +
       bonusHtml +
+      forecastHtml +
       '</div>';
   }).join('');
 }
@@ -412,14 +433,18 @@ function renderTeams() {
 }
 
 function buildPlayerTable(data) {
+  const cpr = data.counting_per_round || {};
   const rows = data.players.map(p => {
-    const isCounting = data.counting_players.includes(p.name);
-    const isDropped = data.dropped_players.includes(p.name) && !isPreTournament();
     const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
 
+    // A player is "never counted" if they don't appear in any round's counting list
+    const neverCounted = !isPreTournament() && ['round1','round2','round3','round4'].every(
+      rnd => !(cpr[rnd] || []).includes(p.name)
+    );
+
     let rowClass = '';
-    if (isDropped && isMC) rowClass = 'missed-cut dropped';
-    else if (isDropped) rowClass = 'dropped';
+    if (neverCounted && isMC) rowClass = 'missed-cut dropped';
+    else if (neverCounted) rowClass = 'dropped';
     else if (isMC) rowClass = 'missed-cut';
 
     const r = (rnd) => {
@@ -427,6 +452,11 @@ function buildPlayerTable(data) {
       if (!info || info.score === null) return '—';
       const penalty = info.penalty ? '<span class="penalty-marker">*</span>' : '';
       return info.score + penalty;
+    };
+
+    const countedClass = (rnd) => {
+      const isCounted = (cpr[rnd] || []).includes(p.name);
+      return 'score-col' + (isCounted ? ' counted' : '');
     };
 
     let statusBadge = '';
@@ -442,10 +472,10 @@ function buildPlayerTable(data) {
     return '<tr class="' + rowClass + '">' +
       '<td class="player-name">' + esc(p.name) + statusBadge + '</td>' +
       '<td class="score-col">' + posStr + '</td>' +
-      '<td class="score-col">' + r('round1') + '</td>' +
-      '<td class="score-col">' + r('round2') + '</td>' +
-      '<td class="score-col">' + r('round3') + '</td>' +
-      '<td class="score-col">' + r('round4') + '</td>' +
+      '<td class="' + countedClass('round1') + '">' + r('round1') + '</td>' +
+      '<td class="' + countedClass('round2') + '">' + r('round2') + '</td>' +
+      '<td class="' + countedClass('round3') + '">' + r('round3') + '</td>' +
+      '<td class="' + countedClass('round4') + '">' + r('round4') + '</td>' +
       '<td class="score-col"><strong>' + totalStr + '</strong></td>' +
       '<td class="score-col">' + toparStr + '</td>' +
     '</tr>';
@@ -489,8 +519,8 @@ function renderRules() {
   const c = configData;
   const items = [
     ['Format', 'Snake draft, ' + c.draft_rounds + ' rounds, ' + c.drafters.length + ' drafters'],
-    ['Roster', c.players_per_team + ' players per team, best ' + c.players_counted + ' count (drop worst ' + c.drop_worst + ')'],
-    ['Scoring', 'Total strokes over 4 rounds (lowest wins)'],
+    ['Roster', c.players_per_team + ' players per team, best ' + c.players_counted + ' of ' + c.players_per_team + ' count per round (drop worst ' + c.drop_worst + ' each round)'],
+    ['Scoring', 'Sum of best ' + c.players_counted + ' scores each round over 4 rounds (lowest wins)'],
     ['Cut Rule', c.missed_cut_rule.description + ' (max ' + c.missed_cut_rule.max_score_per_round + ' per round)'],
     ['Winner Bonus', c.bonuses.tournament_winner.description],
   ];
