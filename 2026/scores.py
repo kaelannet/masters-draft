@@ -364,7 +364,8 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
             elif r1 is not None:
                 proj_36 = r1 * 2
             else:
-                proj_36 = 144  # par, assume safe
+                # No scores yet — assume they'll make the cut
+                continue
 
             if proj_36 > cut_line_estimate:
                 projected_cuts.append(p["name"])
