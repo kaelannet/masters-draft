@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:24:21.037483Z",
+  "updated_at": "2026-04-09T20:29:23.702188Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -121,7 +121,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -177,7 +177,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T69",
+          "position": "T70",
           "thru": "F",
           "today": "+5",
           "topar": "+5"
@@ -214,7 +214,7 @@
           "name": "Min Woo Lee",
           "rounds": {
             "round1": {
-              "score": 57,
+              "score": 61,
               "penalty": false
             },
             "round2": {
@@ -230,11 +230,11 @@
               "penalty": false
             }
           },
-          "total": 57,
+          "total": 61,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T69",
-          "thru": "13",
+          "position": "T70",
+          "thru": "14",
           "today": "+5",
           "topar": "+5"
         }
@@ -253,15 +253,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 281,
+        "round1": 285,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 281,
+      "raw_total": 285,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 281,
+      "final_total": 285,
       "forecast": {
         "projected_total": 1710,
         "rounds_remaining": 3,
@@ -270,8 +270,8 @@
           "Patrick Cantlay"
         ],
         "cut_line_estimate": 144,
-        "trend": "worsening",
-        "trend_delta": 4
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -530,7 +530,7 @@
         "projected_cuts": [],
         "cut_line_estimate": 144,
         "trend": "steady",
-        "trend_delta": -2
+        "trend_delta": 0
       }
     },
     "Kaelan": {
@@ -642,7 +642,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -651,7 +651,7 @@
           "name": "Chris Gotterup",
           "rounds": {
             "round1": {
-              "score": 40,
+              "score": 44,
               "penalty": false
             },
             "round2": {
@@ -667,11 +667,11 @@
               "penalty": false
             }
           },
-          "total": 40,
+          "total": 44,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T23",
-          "thru": "10",
+          "thru": "11",
           "today": "E",
           "topar": "E"
         },
@@ -726,7 +726,7 @@
           "total": 49,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "12",
           "today": "+2",
           "topar": "+2"
@@ -774,15 +774,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 343,
+        "round1": 347,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 343,
+      "raw_total": 347,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 343,
+      "final_total": 347,
       "forecast": {
         "projected_total": 1762,
         "rounds_remaining": 3,
