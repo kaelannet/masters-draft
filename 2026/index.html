@@ -98,6 +98,10 @@
     color: rgba(212,175,55,0.7);
     margin-top: 2px;
   }
+  .trend { font-size: 0.75rem; margin-left: 4px; }
+  .trend.improving { color: #4caf50; }
+  .trend.worsening { color: #e57373; }
+  .trend.steady { color: rgba(255,255,255,0.4); }
 
   /* Team Detail Cards */
   .teams-container {
@@ -398,7 +402,11 @@ function renderStandings() {
     let forecastHtml = '';
     const fc = data.forecast;
     if (fc && fc.rounds_remaining > 0 && fc.projected_total !== null && !isPreTournament()) {
-      forecastHtml = '<div class="forecast">Proj: ' + fc.projected_total + '</div>';
+      let trendHtml = '';
+      if (fc.trend === 'improving') trendHtml = '<span class="trend improving">\u25BC</span>';
+      else if (fc.trend === 'worsening') trendHtml = '<span class="trend worsening">\u25B2</span>';
+      else if (fc.trend === 'steady') trendHtml = '<span class="trend steady">\u2022</span>';
+      forecastHtml = '<div class="forecast">Proj: ' + fc.projected_total + trendHtml + '</div>';
       if (fc.projected_cuts && fc.projected_cuts.length > 0) {
         forecastHtml += '<div class="forecast-cuts">(' + fc.projected_cuts.length + ' projected to miss cut)</div>';
       }

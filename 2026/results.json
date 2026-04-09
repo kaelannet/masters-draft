@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T15:59:09.694177Z",
+  "updated_at": "2026-04-09T16:07:05.981484Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 108,
+    "cut_line": 106,
     "cut_official": false
   },
   "standings": {
@@ -46,7 +46,7 @@
           "name": "Rory McIlroy",
           "rounds": {
             "round1": {
-              "score": 20,
+              "score": 23,
               "penalty": false
             },
             "round2": {
@@ -62,11 +62,11 @@
               "penalty": false
             }
           },
-          "total": 20,
+          "total": 23,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
-          "thru": "5",
+          "position": "T15",
+          "thru": "6",
           "today": "E",
           "topar": "E"
         },
@@ -121,7 +121,7 @@
           "total": 23,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T15",
           "thru": "6",
           "today": "E",
           "topar": "E"
@@ -177,7 +177,7 @@
           "total": 17,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T31",
+          "position": "T33",
           "thru": "4",
           "today": "+1",
           "topar": "+1"
@@ -250,20 +250,22 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 60,
+        "round1": 63,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 60,
+      "raw_total": 63,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 60,
+      "final_total": 63,
       "forecast": {
-        "projected_total": 888,
+        "projected_total": 900,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 108
+        "cut_line_estimate": 106,
+        "trend": "worsening",
+        "trend_delta": 12
       }
     },
     "Jackson": {
@@ -300,7 +302,7 @@
           "name": "Xander Schauffele",
           "rounds": {
             "round1": {
-              "score": 22,
+              "score": 26,
               "penalty": false
             },
             "round2": {
@@ -316,11 +318,11 @@
               "penalty": false
             }
           },
-          "total": 22,
+          "total": 26,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
-          "thru": "6",
+          "position": "T6",
+          "thru": "7",
           "today": "-1",
           "topar": "-1"
         },
@@ -375,7 +377,7 @@
           "total": 24,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T31",
+          "position": "T33",
           "thru": "6",
           "today": "+1",
           "topar": "+1"
@@ -495,30 +497,32 @@
       ],
       "counting_per_round": {
         "round1": [
-          "Xander Schauffele",
           "Tommy Fleetwood",
           "Hideki Matsuyama",
-          "Patrick Reed"
+          "Patrick Reed",
+          "Xander Schauffele"
         ],
         "round2": [],
         "round3": [],
         "round4": []
       },
       "round_totals": {
-        "round1": 94,
+        "round1": 98,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 94,
+      "raw_total": 98,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 94,
+      "final_total": 98,
       "forecast": {
-        "projected_total": 808,
+        "projected_total": 824,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 108
+        "cut_line_estimate": 106,
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Kaelan": {
@@ -527,7 +531,7 @@
           "name": "Bryson DeChambeau",
           "rounds": {
             "round1": {
-              "score": 23,
+              "score": 27,
               "penalty": false
             },
             "round2": {
@@ -543,11 +547,11 @@
               "penalty": false
             }
           },
-          "total": 23,
+          "total": 27,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
-          "thru": "6",
+          "position": "T15",
+          "thru": "7",
           "today": "E",
           "topar": "E"
         },
@@ -602,7 +606,7 @@
           "total": 22,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T41",
+          "position": "T43",
           "thru": "5",
           "today": "+2",
           "topar": "+2"
@@ -611,7 +615,7 @@
           "name": "Matt Fitzpatrick",
           "rounds": {
             "round1": {
-              "score": 24,
+              "score": 28,
               "penalty": false
             },
             "round2": {
@@ -627,11 +631,11 @@
               "penalty": false
             }
           },
-          "total": 24,
+          "total": 28,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T31",
-          "thru": "6",
+          "position": "T33",
+          "thru": "7",
           "today": "+1",
           "topar": "+1"
         },
@@ -742,7 +746,7 @@
           "total": 32,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T15",
           "thru": "8",
           "today": "E",
           "topar": "E"
@@ -761,20 +765,22 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 120,
+        "round1": 128,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 120,
+      "raw_total": 128,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 120,
+      "final_total": 128,
       "forecast": {
-        "projected_total": 696,
+        "projected_total": 728,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 108
+        "cut_line_estimate": 106,
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }
