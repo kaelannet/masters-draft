@@ -373,9 +373,9 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
         }
 
     # Build extrapolated 18-hole projections for each player per round.
-    # For completed rounds: use actual score.
-    # For in-progress rounds: extrapolate partial holes to 18 using par.
-    # For not-started rounds: None.
+    # Always extrapolate from API hole-by-hole data when available — this
+    # correctly projects partial rounds to 18 holes using par for unplayed
+    # holes.  Falls back to the results.json score only if no API data.
     player_projected_rounds = {}
     any_player_has_score = False
 
@@ -383,13 +383,7 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
         api_player = find_api_player(p["name"])
         projected = {}
         for rnd in round_keys:
-            rnd_info = p["rounds"].get(rnd, {})
-            score = rnd_info.get("score")
-
-            if score is not None and rnd in completed_rounds:
-                projected[rnd] = score
-                any_player_has_score = True
-            elif api_player:
+            if api_player:
                 round_pars = pars.get(rnd, [])
                 ext, holes = extrapolate_round(api_player, rnd, round_pars)
                 if ext is not None:
@@ -398,7 +392,14 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
                 else:
                     projected[rnd] = None
             else:
-                projected[rnd] = None
+                # No API data — use score from results if available
+                rnd_info = p["rounds"].get(rnd, {})
+                score = rnd_info.get("score")
+                if score is not None:
+                    projected[rnd] = score
+                    any_player_has_score = True
+                else:
+                    projected[rnd] = None
 
         player_projected_rounds[p["name"]] = projected
 
@@ -417,7 +418,9 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
         scores = [v for v in proj.values() if v is not None]
         player_avgs[p["name"]] = sum(scores) / len(scores) if scores else 72
 
-    # Determine which players are projected to miss the cut
+    # Determine which players are projected to miss the cut.
+    # Only project a cut miss when the player has at least one full
+    # completed round — partial-round extrapolations are too unreliable.
     projected_cuts = []
     for p in team_data["players"]:
         if p["status"] in ("missed_cut", "withdrawn", "disqualified"):
@@ -425,30 +428,35 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
             continue
 
         if not cut_official and cut_line_estimate is not None:
-            proj = player_projected_rounds[p["name"]]
-            r1 = proj.get("round1")
-            r2 = proj.get("round2")
+            api_player = find_api_player(p["name"])
+            if not api_player:
+                continue
 
-            if r1 is not None and r2 is not None:
-                proj_36 = r1 + r2
-            elif r1 is not None:
-                proj_36 = r1 * 2
+            # Check if player has at least one finished round
+            r1_total = api_player.get("round1", {}).get("total")
+            r2_total = api_player.get("round2", {}).get("total")
+
+            if r1_total is not None and r2_total is not None:
+                proj_36 = r1_total + r2_total
+            elif r1_total is not None:
+                proj_36 = r1_total * 2
             else:
-                continue  # no scores yet — assume make cut
+                continue  # no completed round — assume make cut
 
             if proj_36 > cut_line_estimate:
                 projected_cuts.append(p["name"])
 
-    # Project remaining rounds
-    projected_round_totals = 0
-    for rnd in remaining_rounds:
+    # Project ALL rounds uniformly — for each round, fill in missing players
+    # with their average (or par), then take best 6.  This handles partially-
+    # started rounds where only some players have teed off.
+    projected_total_all_rounds = 0
+    for rnd in round_keys:
         round_projections = []
         for p in team_data["players"]:
             proj = player_projected_rounds[p["name"]]
             extrapolated = proj.get(rnd)
 
             if extrapolated is not None:
-                # Have an extrapolated score for this round (in-progress)
                 round_projections.append(extrapolated)
             elif p["name"] in projected_cuts and rnd in ("round3", "round4"):
                 penalty = worst_cut_scores.get(rnd)
@@ -458,10 +466,9 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
 
         round_projections.sort()
         best = round_projections[:players_counted]
-        projected_round_totals += sum(best)
+        projected_total_all_rounds += sum(best)
 
-    actual_total = sum(round_totals[rnd] for rnd in completed_rounds)
-    projected_total = round(actual_total + projected_round_totals + team_data["winner_bonus"])
+    projected_total = round(projected_total_all_rounds + team_data["winner_bonus"])
 
     return {
         "projected_total": projected_total,
