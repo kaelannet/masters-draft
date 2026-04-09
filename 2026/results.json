@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T16:56:26.413796Z",
+  "updated_at": "2026-04-09T17:01:27.591355Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 112,
+    "cut_line": 102,
     "cut_official": false
   },
   "standings": {
@@ -65,7 +65,7 @@
           "total": 31,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "8",
           "today": "-1",
           "topar": "-1"
@@ -102,7 +102,7 @@
           "name": "Collin Morikawa",
           "rounds": {
             "round1": {
-              "score": 33,
+              "score": 38,
               "penalty": false
             },
             "round2": {
@@ -118,13 +118,13 @@
               "penalty": false
             }
           },
-          "total": 33,
+          "total": 38,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
-          "thru": "8",
-          "today": "+1",
-          "topar": "+1"
+          "position": "T46",
+          "thru": "9",
+          "today": "+2",
+          "topar": "+2"
         },
         {
           "name": "Brooks Koepka",
@@ -177,7 +177,7 @@
           "total": 29,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T46",
           "thru": "7",
           "today": "+2",
           "topar": "+2"
@@ -233,7 +233,7 @@
           "total": 10,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T36",
           "thru": "2",
           "today": "+1",
           "topar": "+1"
@@ -251,22 +251,22 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 103,
+        "round1": 108,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 103,
+      "raw_total": 108,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 103,
+      "final_total": 108,
       "forecast": {
         "projected_total": 1728,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 112,
-        "trend": "improving",
-        "trend_delta": -4
+        "cut_line_estimate": 102,
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -322,7 +322,7 @@
           "total": 35,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "9",
           "today": "-1",
           "topar": "-1"
@@ -359,7 +359,7 @@
           "name": "Hideki Matsuyama",
           "rounds": {
             "round1": {
-              "score": 33,
+              "score": 37,
               "penalty": false
             },
             "round2": {
@@ -375,11 +375,11 @@
               "penalty": false
             }
           },
-          "total": 33,
+          "total": 37,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
-          "thru": "8",
+          "position": "T36",
+          "thru": "9",
           "today": "+1",
           "topar": "+1"
         },
@@ -406,7 +406,7 @@
           "total": 10,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T36",
           "thru": "2",
           "today": "+1",
           "topar": "+1"
@@ -499,30 +499,30 @@
       "counting_per_round": {
         "round1": [
           "Adam Scott",
-          "Hideki Matsuyama",
           "Xander Schauffele",
           "Patrick Reed",
-          "Tommy Fleetwood"
+          "Tommy Fleetwood",
+          "Hideki Matsuyama"
         ],
         "round2": [],
         "round3": [],
         "round4": []
       },
       "round_totals": {
-        "round1": 151,
+        "round1": 155,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 151,
+      "raw_total": 155,
       "winner_bonus": -5,
       "drafted_winner": "Patrick Reed",
-      "final_total": 146,
+      "final_total": 150,
       "forecast": {
         "projected_total": 1691,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 112,
+        "cut_line_estimate": 102,
         "trend": "steady",
         "trend_delta": 0
       }
@@ -552,7 +552,7 @@
           "total": 36,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T20",
           "thru": "9",
           "today": "E",
           "topar": "E"
@@ -608,7 +608,7 @@
           "total": 36,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
+          "position": "T57",
           "thru": "8",
           "today": "+4",
           "topar": "+4"
@@ -636,7 +636,7 @@
           "total": 38,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T46",
           "thru": "9",
           "today": "+2",
           "topar": "+2"
@@ -692,7 +692,7 @@
           "total": 30,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T50",
+          "position": "T53",
           "thru": "7",
           "today": "+3",
           "topar": "+3"
@@ -748,7 +748,7 @@
           "total": 43,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "11",
           "today": "-1",
           "topar": "-1"
@@ -780,7 +780,7 @@
         "projected_total": 1732,
         "rounds_remaining": 3,
         "projected_cuts": [],
-        "cut_line_estimate": 112,
+        "cut_line_estimate": 102,
         "trend": "steady",
         "trend_delta": 0
       }
