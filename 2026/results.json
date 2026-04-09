@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T19:59:11.180867Z",
+  "updated_at": "2026-04-09T20:04:13.592797Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -18,7 +18,7 @@
           "name": "Scottie Scheffler",
           "rounds": {
             "round1": {
-              "score": 24,
+              "score": 29,
               "penalty": false
             },
             "round2": {
@@ -34,11 +34,11 @@
               "penalty": false
             }
           },
-          "total": 24,
+          "total": 29,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "7",
+          "thru": "8",
           "today": "-3",
           "topar": "-3"
         },
@@ -74,7 +74,7 @@
           "name": "Ludvig Aberg",
           "rounds": {
             "round1": {
-              "score": 35,
+              "score": 40,
               "penalty": false
             },
             "round2": {
@@ -90,13 +90,13 @@
               "penalty": false
             }
           },
-          "total": 35,
+          "total": 40,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
-          "thru": "9",
-          "today": "-1",
-          "topar": "-1"
+          "position": "T23",
+          "thru": "10",
+          "today": "E",
+          "topar": "E"
         },
         {
           "name": "Collin Morikawa",
@@ -121,7 +121,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T51",
+          "position": "T50",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -149,7 +149,7 @@
           "total": 36,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T23",
           "thru": "9",
           "today": "E",
           "topar": "E"
@@ -158,7 +158,7 @@
           "name": "Patrick Cantlay",
           "rounds": {
             "round1": {
-              "score": 72,
+              "score": 77,
               "penalty": false
             },
             "round2": {
@@ -174,13 +174,13 @@
               "penalty": false
             }
           },
-          "total": 72,
+          "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
-          "thru": "17",
-          "today": "+4",
-          "topar": "+4"
+          "position": "T71",
+          "thru": "F",
+          "today": "+5",
+          "topar": "+5"
         },
         {
           "name": "Jordan Spieth",
@@ -233,7 +233,7 @@
           "total": 50,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T57",
+          "position": "T55",
           "thru": "12",
           "today": "+3",
           "topar": "+3"
@@ -243,8 +243,8 @@
         "round1": [
           "Scottie Scheffler",
           "Jordan Spieth",
-          "Ludvig Aberg",
           "Brooks Koepka",
+          "Ludvig Aberg",
           "Min Woo Lee",
           "Rory McIlroy"
         ],
@@ -253,24 +253,25 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 246,
+        "round1": 256,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 246,
+      "raw_total": 256,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 246,
+      "final_total": 256,
       "forecast": {
-        "projected_total": 1694,
+        "projected_total": 1698,
         "rounds_remaining": 3,
         "projected_cuts": [
-          "Collin Morikawa"
+          "Collin Morikawa",
+          "Patrick Cantlay"
         ],
         "cut_line_estimate": 142,
-        "trend": "steady",
-        "trend_delta": 0
+        "trend": "worsening",
+        "trend_delta": 4
       }
     },
     "Jackson": {
@@ -279,7 +280,7 @@
           "name": "Jon Rahm",
           "rounds": {
             "round1": {
-              "score": 40,
+              "score": 44,
               "penalty": false
             },
             "round2": {
@@ -295,11 +296,11 @@
               "penalty": false
             }
           },
-          "total": 40,
+          "total": 44,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T63",
-          "thru": "9",
+          "thru": "10",
           "today": "+4",
           "topar": "+4"
         },
@@ -354,7 +355,7 @@
           "total": 71,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "F",
           "today": "-1",
           "topar": "-1"
@@ -382,7 +383,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T23",
           "thru": "F",
           "today": "E",
           "topar": "E"
@@ -410,7 +411,7 @@
           "total": 51,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "13",
           "today": "-1",
           "topar": "-1"
@@ -419,7 +420,7 @@
           "name": "Robert MacIntyre",
           "rounds": {
             "round1": {
-              "score": 28,
+              "score": 33,
               "penalty": false
             },
             "round2": {
@@ -435,11 +436,11 @@
               "penalty": false
             }
           },
-          "total": 28,
+          "total": 33,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
-          "thru": "7",
+          "position": "T34",
+          "thru": "8",
           "today": "+1",
           "topar": "+1"
         },
@@ -494,7 +495,7 @@
           "total": 28,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T34",
           "thru": "7",
           "today": "+1",
           "topar": "+1"
@@ -502,8 +503,8 @@
       ],
       "counting_per_round": {
         "round1": [
-          "Robert MacIntyre",
           "S.W. Kim",
+          "Robert MacIntyre",
           "Jon Rahm",
           "Adam Scott",
           "Patrick Reed",
@@ -514,15 +515,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 286,
+        "round1": 295,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 286,
+      "raw_total": 295,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 286,
+      "final_total": 295,
       "forecast": {
         "projected_total": 1706,
         "rounds_remaining": 3,
@@ -530,8 +531,8 @@
           "Hideki Matsuyama"
         ],
         "cut_line_estimate": 142,
-        "trend": "improving",
-        "trend_delta": -18
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Kaelan": {
@@ -615,7 +616,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T34",
           "thru": "F",
           "today": "+1",
           "topar": "+1"
@@ -643,7 +644,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T51",
+          "position": "T50",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -652,7 +653,7 @@
           "name": "Chris Gotterup",
           "rounds": {
             "round1": {
-              "score": 35,
+              "score": 40,
               "penalty": false
             },
             "round2": {
@@ -668,19 +669,19 @@
               "penalty": false
             }
           },
-          "total": 35,
+          "total": 40,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
-          "thru": "9",
-          "today": "-1",
-          "topar": "-1"
+          "position": "T23",
+          "thru": "10",
+          "today": "E",
+          "topar": "E"
         },
         {
           "name": "Viktor Hovland",
           "rounds": {
             "round1": {
-              "score": 71,
+              "score": 75,
               "penalty": false
             },
             "round2": {
@@ -696,11 +697,11 @@
               "penalty": false
             }
           },
-          "total": 71,
+          "total": 75,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T57",
-          "thru": "17",
+          "position": "T55",
+          "thru": "F",
           "today": "+3",
           "topar": "+3"
         },
@@ -727,7 +728,7 @@
           "total": 41,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T34",
           "thru": "10",
           "today": "+1",
           "topar": "+1"
@@ -767,34 +768,35 @@
           "Chris Gotterup",
           "J.J. Spaun",
           "Shane Lowry",
-          "Viktor Hovland",
-          "Cameron Young"
+          "Cameron Young",
+          "Matt Fitzpatrick"
         ],
         "round2": [],
         "round3": [],
         "round4": []
       },
       "round_totals": {
-        "round1": 323,
+        "round1": 331,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 323,
+      "raw_total": 331,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 323,
+      "final_total": 331,
       "forecast": {
-        "projected_total": 1740,
+        "projected_total": 1758,
         "rounds_remaining": 3,
         "projected_cuts": [
           "Bryson DeChambeau",
           "Cameron Young",
-          "Matt Fitzpatrick"
+          "Matt Fitzpatrick",
+          "Viktor Hovland"
         ],
         "cut_line_estimate": 142,
-        "trend": "steady",
-        "trend_delta": 0
+        "trend": "worsening",
+        "trend_delta": 18
       }
     }
   }
