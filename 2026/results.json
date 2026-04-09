@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T19:44:06.065375Z",
+  "updated_at": "2026-04-09T19:49:10.708248Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "PNNN",
@@ -177,7 +177,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
+          "position": "T62",
           "thru": "17",
           "today": "+4",
           "topar": "+4"
@@ -233,7 +233,7 @@
           "total": 48,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
+          "position": "T62",
           "thru": "11",
           "today": "+4",
           "topar": "+4"
@@ -269,8 +269,8 @@
           "Collin Morikawa"
         ],
         "cut_line_estimate": 138,
-        "trend": "worsening",
-        "trend_delta": 12
+        "trend": "steady",
+        "trend_delta": 0
       }
     },
     "Jackson": {
@@ -279,7 +279,7 @@
           "name": "Jon Rahm",
           "rounds": {
             "round1": {
-              "score": 35,
+              "score": 40,
               "penalty": false
             },
             "round2": {
@@ -295,13 +295,13 @@
               "penalty": false
             }
           },
-          "total": 35,
+          "total": 40,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T58",
-          "thru": "8",
-          "today": "+3",
-          "topar": "+3"
+          "position": "T62",
+          "thru": "9",
+          "today": "+4",
+          "topar": "+4"
         },
         {
           "name": "Xander Schauffele",
@@ -410,7 +410,7 @@
           "total": 48,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T35",
           "thru": "12",
           "today": "+1",
           "topar": "+1"
@@ -438,7 +438,7 @@
           "total": 28,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T35",
           "thru": "7",
           "today": "+1",
           "topar": "+1"
@@ -494,7 +494,7 @@
           "total": 24,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T35",
           "thru": "6",
           "today": "+1",
           "topar": "+1"
@@ -514,17 +514,17 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 274,
+        "round1": 279,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 274,
+      "raw_total": 279,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 274,
+      "final_total": 279,
       "forecast": {
-        "projected_total": 1746,
+        "projected_total": 1748,
         "rounds_remaining": 3,
         "projected_cuts": [
           "Xander Schauffele",
@@ -532,8 +532,8 @@
           "Hideki Matsuyama"
         ],
         "cut_line_estimate": 138,
-        "trend": "improving",
-        "trend_delta": -6
+        "trend": "steady",
+        "trend_delta": 2
       }
     },
     "Kaelan": {
@@ -561,7 +561,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T63",
+          "position": "T62",
           "thru": "F",
           "today": "+4",
           "topar": "+4"
@@ -617,7 +617,7 @@
           "total": 69,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T35",
           "thru": "17",
           "today": "+1",
           "topar": "+1"
@@ -710,7 +710,7 @@
           "name": "J.J. Spaun",
           "rounds": {
             "round1": {
-              "score": 37,
+              "score": 41,
               "penalty": false
             },
             "round2": {
@@ -726,11 +726,11 @@
               "penalty": false
             }
           },
-          "total": 37,
+          "total": 41,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
-          "thru": "9",
+          "position": "T35",
+          "thru": "10",
           "today": "+1",
           "topar": "+1"
         },
@@ -777,15 +777,15 @@
         "round4": []
       },
       "round_totals": {
-        "round1": 311,
+        "round1": 315,
         "round2": null,
         "round3": null,
         "round4": null
       },
-      "raw_total": 311,
+      "raw_total": 315,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 311,
+      "final_total": 315,
       "forecast": {
         "projected_total": 1746,
         "rounds_remaining": 3,
@@ -795,8 +795,8 @@
           "Shane Lowry"
         ],
         "cut_line_estimate": 138,
-        "trend": "improving",
-        "trend_delta": -4
+        "trend": "steady",
+        "trend_delta": 0
       }
     }
   }
