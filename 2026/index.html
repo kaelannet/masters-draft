@@ -442,21 +442,24 @@ function renderTeams() {
 
 function buildPlayerTable(data) {
   const cpr = data.counting_per_round || {};
+  // Only show dropped styling when no round is in progress — partial rounds
+  // have uneven hole counts that make counting comparisons meaningless.
+  const statusRound = (resultsData.tournament_status || {}).status_round || '';
+  const anyRoundInProgress = statusRound.includes('P');
   const rows = data.players.map(p => {
     const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
 
-    // A player is "never counted" only if they have a score in at least one
-    // round but still didn't make any counting list.  Players who simply
-    // haven't teed off yet (total is null) should look normal.
+    // A player is "never counted" only when no round is in progress and they
+    // have scores but didn't make any counting list.
     const hasAnyScore = p.total !== null;
-    const neverCounted = !isPreTournament() && hasAnyScore && ['round1','round2','round3','round4'].every(
-      rnd => !(cpr[rnd] || []).includes(p.name)
-    );
+    const neverCounted = !isPreTournament() && !anyRoundInProgress && hasAnyScore &&
+      ['round1','round2','round3','round4'].every(
+        rnd => !(cpr[rnd] || []).includes(p.name)
+      );
 
     let rowClass = '';
-    if (neverCounted && isMC) rowClass = 'missed-cut dropped';
+    if (isMC) rowClass = 'missed-cut';
     else if (neverCounted) rowClass = 'dropped';
-    else if (isMC) rowClass = 'missed-cut';
 
     const r = (rnd) => {
       const info = p.rounds[rnd];
