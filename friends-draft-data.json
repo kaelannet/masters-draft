@@ -1,0 +1,17 @@
+{
+  "drafters": ["Peyton", "Gil", "Jaden", "Trey", "Charlie", "Kaelan", "Daniel", "Mikey", "Kyle", "Jackson"],
+  "teams": {
+    "Peyton": ["Scottie Scheffler", "Si Woo Kim", "Patrick Cantlay", "Sungjae Im", "Sepp Straka", "Ryan Fox"],
+    "Gil": ["Xander Schauffele", "Brooks Koepka", "Justin Thomas", "Max Homa", "Ben Griffin", "Ethan Fang"],
+    "Jaden": ["Viktor Hovland", "Adam Scott", "Chris Gotterup", "Cam Smith", "Rasmus Hojgaard", "Charl Schwartzel"],
+    "Trey": ["Rory McIlroy", "Jordan Spieth", "Jacob Bridgeman", "Gary Woodland", "Sam Burns", "Brian Harman"],
+    "Charlie": ["Ludvig Aberg", "Robert MacIntyre", "Russell Henley", "Tyrrell Hatton", "Daniel Berger", "Marco Penge"],
+    "Kaelan": ["Jon Rahm", "Patrick Reed", "JJ Spaun", "Nicolai Hojgaard", "Dustin Johnson", "Michael Kim"],
+    "Daniel": ["Bryson DeChambeau", "Collin Morikawa", "Maverick McNealy", "Kurt Kitayama", "Matt McCarty", "Wyndham Clark"],
+    "Mikey": ["Matt Fitzpatrick", "Min Woo Lee", "Jason Day", "Shane Lowry", "Ryan Gerard", "Aaron Rai"],
+    "Kyle": ["Cameron Young", "Hideki Matsuyama", "Corey Conners", "Harris English", "Bubba Watson", "Keegan Bradley"],
+    "Jackson": ["Justin Rose", "Tommy Fleetwood", "Jake Knapp", "Akshay Bhatia", "Sergio Garcia", "Haotong Li"]
+  },
+  "players_per_team": 6,
+  "note": "Name aliases needed: B. DeChambeau -> Bryson DeChambeau, Rory Mclroy -> Rory McIlroy, H. Matsuyama -> Hideki Matsuyama, Cam Young -> Cameron Young, Cam Smith -> Cameron Smith, Robert Macintyre -> Robert MacIntyre, JJ Spaun -> J.J. Spaun"
+}

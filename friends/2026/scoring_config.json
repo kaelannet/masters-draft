@@ -1,0 +1,18 @@
+{
+  "scoring_type": "strokes",
+  "objective": "minimize",
+  "players_per_team": 6,
+  "players_counted": 4,
+  "drop_worst": 2,
+  "rounds": 4,
+  "cut_after_round": 2,
+  "missed_cut_rule": {
+    "description": "Best 4 of 6 players count per round (worst 2 dropped each round independently). For rounds after the cut, missed-cut players use the worst score among cut-makers for that round, capped at max_score",
+    "max_score_per_round": 82,
+    "applies_to": ["missed_cut", "withdrawn", "disqualified"]
+  },
+  "bonuses": {},
+  "drafters": ["Peyton", "Gil", "Jaden", "Trey", "Charlie", "Kaelan", "Daniel", "Mikey", "Kyle", "Jackson"],
+  "draft_format": "snake",
+  "draft_rounds": 6
+}

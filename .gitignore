@@ -1,2 +1,4 @@
 .masters-dispatch-token
 dispatch-scores.sh
+__pycache__/
+.mypy_cache/

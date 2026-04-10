@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Masters 2026 — Knettleship Family Draft</title>
+<link rel="icon" href="../../masters.svg" type="image/svg+xml">
+<title>The Masters 2026 — Friends Draft</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -41,7 +42,7 @@
   }
   .header .meta span { margin: 0 8px; }
 
-  /* Standings Bar */
+  /* Standings Bar — top 3 cards */
   .standings-bar {
     display: flex;
     gap: 16px;
@@ -82,15 +83,50 @@
     font-size: 2rem;
     font-weight: 700;
   }
-  .standing-card .bonus {
-    font-size: 0.8rem;
-    color: #D4AF37;
-    margin-top: 4px;
-  }
   .standing-card .forecast-cuts {
     font-size: 0.7rem;
     color: rgba(212,175,55,0.7);
     margin-top: 4px;
+  }
+
+  /* Full standings list (4th–10th) */
+  .full-standings {
+    max-width: 960px;
+    margin: 0 auto 16px;
+    padding: 0 16px;
+  }
+  .full-standings-list {
+    list-style: none;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 12px 20px;
+  }
+  .full-standings-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 0.95rem;
+  }
+  .full-standings-list li:last-child { border-bottom: none; }
+  .full-standings-list .fs-rank {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8rem;
+    width: 32px;
+    text-align: right;
+    margin-right: 12px;
+  }
+  .full-standings-list .fs-name {
+    flex: 1;
+    font-family: Georgia, serif;
+  }
+  .full-standings-list .fs-score {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    min-width: 48px;
+    text-align: right;
   }
 
   /* Team Detail Cards */
@@ -270,7 +306,7 @@
 
 <div class="header">
   <h1>The Masters 2026</h1>
-  <div class="subtitle">Knettleship Family Draft</div>
+  <div class="subtitle">Friends Draft</div>
   <div class="meta">
     <span>April 9–12, 2026</span>
     <span>|</span>
@@ -282,6 +318,7 @@
 
 <div id="pre-banner"></div>
 <div id="standings-bar" class="standings-bar"></div>
+<div id="full-standings" class="full-standings"></div>
 <div id="teams-container" class="teams-container"></div>
 
 <div class="collapsible">
@@ -324,12 +361,8 @@ async function loadAll() {
     render();
   } catch (e) {
     console.error('Error loading data:', e);
-    if (location.protocol === 'file:') {
-      document.getElementById('pre-banner').innerHTML =
-        '<div class="pre-tournament-banner">Cannot load data from local files. ' +
-        'Run a local server: <strong>python3 -m http.server 8000</strong> from the masters_draft/ directory, ' +
-        'then open <strong>http://localhost:8000</strong></div>';
-    }
+    document.getElementById('pre-banner').innerHTML =
+      '<div class="pre-tournament-banner">Unable to load scoring data. Please check back later.</div>';
   }
 }
 
@@ -362,7 +395,7 @@ function renderTimestamp() {
 }
 
 function formatTopar(val) {
-  if (val === null || val === undefined) return '—';
+  if (val === null || val === undefined) return '\u2014';
   if (val === 0) return 'E';
   return val > 0 ? '+' + val : String(val);
 }
@@ -380,7 +413,7 @@ function isPreTournament() {
 function renderPreBanner() {
   const el = document.getElementById('pre-banner');
   if (isPreTournament()) {
-    el.innerHTML = '<div class="pre-tournament-banner">Tournament has not started — Scores will appear here once play begins</div>';
+    el.innerHTML = '<div class="pre-tournament-banner">Tournament has not started \u2014 Scores will appear here once play begins</div>';
   } else {
     el.innerHTML = '';
   }
@@ -388,14 +421,15 @@ function renderPreBanner() {
 
 function renderStandings() {
   const bar = document.getElementById('standings-bar');
+  const fullEl = document.getElementById('full-standings');
   const entries = Object.entries(resultsData.standings);
   const ordinals = ['1st', '2nd', '3rd'];
-  bar.innerHTML = entries.map(([name, data], i) => {
+
+  // Top 3 cards
+  bar.innerHTML = entries.slice(0, 3).map(([name, data], i) => {
     const isLeader = i === 0 && !isPreTournament();
-    const topar = (data.raw_topar || 0) + (data.winner_bonus || 0);
-    const totalDisplay = isPreTournament() ? '—' : formatTopar(topar);
-    const bonusHtml = data.winner_bonus
-      ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
+    const topar = data.raw_topar || 0;
+    const totalDisplay = isPreTournament() ? '\u2014' : formatTopar(topar);
     let forecastHtml = '';
     const fc = data.forecast;
     if (fc && !isPreTournament() && fc.projected_cuts && fc.projected_cuts.length > 0) {
@@ -405,23 +439,34 @@ function renderStandings() {
       '<div class="rank">' + ordinals[i] + ' Place</div>' +
       '<div class="name">' + esc(name) + '</div>' +
       '<div class="total">' + totalDisplay + '</div>' +
-      bonusHtml +
       forecastHtml +
       '</div>';
   }).join('');
+
+  // Full standings list (all 10)
+  if (entries.length > 3) {
+    const listItems = entries.map(([name, data], i) => {
+      const topar = data.raw_topar || 0;
+      const scoreDisplay = isPreTournament() ? '\u2014' : formatTopar(topar);
+      return '<li>' +
+        '<span class="fs-rank">' + (i + 1) + '.</span>' +
+        '<span class="fs-name">' + esc(name) + '</span>' +
+        '<span class="fs-score">' + scoreDisplay + '</span>' +
+        '</li>';
+    }).join('');
+    fullEl.innerHTML = '<ul class="full-standings-list">' + listItems + '</ul>';
+  }
 }
 
 function renderTeams() {
   const container = document.getElementById('teams-container');
   const entries = Object.entries(resultsData.standings);
   container.innerHTML = entries.map(([name, data], idx) => {
-    const teamTopar = (data.raw_topar || 0) + (data.winner_bonus || 0);
-    const totalDisplay = isPreTournament() ? '—' : formatTopar(teamTopar);
-    const bonusBadge = data.winner_bonus
-      ? ' <span style="color:#D4AF37;font-size:0.8rem;">(incl. ' + data.winner_bonus + ' winner bonus)</span>' : '';
+    const teamTopar = data.raw_topar || 0;
+    const totalDisplay = isPreTournament() ? '\u2014' : formatTopar(teamTopar);
     return '<div class="team-card">' +
       '<div class="team-card-header" onclick="toggleTeam(this)">' +
-        '<span class="team-name">' + esc(name) + bonusBadge + '</span>' +
+        '<span class="team-name">' + esc(name) + '</span>' +
         '<span><span class="team-total">' + totalDisplay + '</span><span class="toggle">&#9660;</span></span>' +
       '</div>' +
       '<div class="team-card-body' + (idx > 0 ? ' collapsed' : '') + '">' +
@@ -433,15 +478,11 @@ function renderTeams() {
 
 function buildPlayerTable(data) {
   const cpr = data.counting_per_round || {};
-  // Only show dropped styling when no round is in progress — partial rounds
-  // have uneven hole counts that make counting comparisons meaningless.
   const statusRound = (resultsData.tournament_status || {}).status_round || '';
   const anyRoundInProgress = statusRound.includes('P');
   const rows = data.players.map(p => {
     const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
 
-    // A player is "never counted" only when no round is in progress and they
-    // have scores but didn't make any counting list.
     const hasAnyScore = p.total !== null;
     const neverCounted = !isPreTournament() && !anyRoundInProgress && hasAnyScore &&
       ['round1','round2','round3','round4'].every(
@@ -454,7 +495,7 @@ function buildPlayerTable(data) {
 
     const r = (rnd) => {
       const info = p.rounds[rnd];
-      if (!info || info.score === null) return '—';
+      if (!info || info.score === null) return '\u2014';
       const tp = info.topar;
       const display = formatTopar(tp);
       const penalty = info.penalty ? '<span class="penalty-marker">*</span>' : '';
@@ -473,7 +514,7 @@ function buildPlayerTable(data) {
     else if (p.thru && p.thru !== 'F' && p.thru !== '' && p.status === 'active')
       statusBadge = '<span class="status-badge live">Thru ' + esc(String(p.thru)) + '</span>';
 
-    const totalStr = p.total !== null ? p.total : '—';
+    const totalStr = p.total !== null ? p.total : '\u2014';
     const toparStr = p.topar || '';
     const posStr = p.position || '';
 
@@ -513,11 +554,10 @@ function renderDraftRecap() {
       '<td>' + p.pick_number + '</td>' +
       '<td>' + esc(p.drafter) + '</td>' +
       '<td>' + esc(p.player) + '</td>' +
-      '<td>' + p.world_ranking + '</td>' +
     '</tr>'
   ).join('');
   el.innerHTML = '<table class="draft-table">' +
-    '<thead><tr><th>Round</th><th>Pick</th><th>Drafter</th><th>Player</th><th>OWGR</th></tr></thead>' +
+    '<thead><tr><th>Round</th><th>Pick</th><th>Drafter</th><th>Player</th></tr></thead>' +
     '<tbody>' + rows + '</tbody></table>';
 }
 
@@ -530,7 +570,6 @@ function renderRules() {
     ['Roster', c.players_per_team + ' players per team, best ' + c.players_counted + ' of ' + c.players_per_team + ' count per round (drop worst ' + c.drop_worst + ' each round)'],
     ['Scoring', 'Sum of best ' + c.players_counted + ' scores each round over 4 rounds (lowest wins)'],
     ['Cut Rule', c.missed_cut_rule.description + ' (max ' + c.missed_cut_rule.max_score_per_round + ' per round)'],
-    ['Winner Bonus', c.bonuses.tournament_winner.description],
   ];
   el.innerHTML = '<ul class="rules-list">' +
     items.map(([label, text]) =>

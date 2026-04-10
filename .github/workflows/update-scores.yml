@@ -34,15 +34,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch and update scores
+      - name: Fetch and update scores (family)
         if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
-        run: python3 2026/scores.py
+        run: python3 scores.py family/2026/
+
+      - name: Fetch and update scores (friends)
+        if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
+        run: python3 scores.py friends/2026/
 
       - name: Commit and push if changed
         if: steps.date.outputs.is_tournament == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add 2026/results.json
+          git add family/2026/results.json friends/2026/results.json
           git diff --staged --quiet || git commit -m "Update Masters scores $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
           git push

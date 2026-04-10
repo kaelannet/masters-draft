@@ -12,10 +12,17 @@ import sys
 import urllib.request
 from datetime import datetime
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-CONFIG_FILE = os.path.join(SCRIPT_DIR, "scoring_config.json")
-DRAFT_STATE_FILE = os.path.join(SCRIPT_DIR, "draft_state.json")
-RESULTS_FILE = os.path.join(SCRIPT_DIR, "results.json")
+if len(sys.argv) < 2:
+    print("Usage: python3 scores.py <config_dir>")
+    print("  e.g. python3 scores.py family/2026/")
+    print("       python3 scores.py friends/2026/")
+    sys.exit(1)
+
+config_dir = sys.argv[1]
+
+CONFIG_FILE = os.path.join(config_dir, "scoring_config.json")
+DRAFT_STATE_FILE = os.path.join(config_dir, "draft_state.json")
+RESULTS_FILE = os.path.join(config_dir, "results.json")
 
 SCORES_URL = "https://www.masters.com/en_US/scores/feeds/2026/scores.json"
 
@@ -23,6 +30,14 @@ SCORES_URL = "https://www.masters.com/en_US/scores/feeds/2026/scores.json"
 NAME_ALIASES = {
     "Ludvig Aberg": "Ludvig Åberg",
     "S.W. Kim": "Si Woo Kim",
+    "JJ Spaun": "J.J. Spaun",
+    "Cam Smith": "Cameron Smith",
+    "Cam Young": "Cameron Young",
+    "Marco Penge": "Michael Penge",
+    "Jake Knapp": "Jackson Knapp",
+    "Matt McCarty": "Matthew McCarty",
+    "Ryan Gerard": "Robert Gerard",
+    "Ethan Fang": "Evan Fang",
 }
 
 
@@ -303,11 +318,12 @@ def calculate_standings(scores_data, draft_state, config):
         # Winner bonus
         winner_bonus = 0
         drafted_winner = None
-        if winner:
+        bonus_cfg = config.get("bonuses", {}).get("tournament_winner")
+        if winner and bonus_cfg:
             for p in player_scores:
                 api_p = find_api_player(p["name"])
                 if api_p and api_p["full_name"] == winner:
-                    winner_bonus = config["bonuses"]["tournament_winner"]["value"]
+                    winner_bonus = bonus_cfg["value"]
                     drafted_winner = p["name"]
                     break
 
