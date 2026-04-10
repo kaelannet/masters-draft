@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T21:00:12.511107Z",
+  "updated_at": "2026-04-10T21:05:10.228784Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -137,7 +137,7 @@
           "total": 118,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T18",
           "thru": "12",
           "today": "-1",
           "topar": "-1"
@@ -215,7 +215,7 @@
               "topar": -3
             },
             "round2": {
-              "score": 49,
+              "score": 53,
               "penalty": false,
               "topar": -3
             },
@@ -230,11 +230,11 @@
               "topar": null
             }
           },
-          "total": 118,
+          "total": 122,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T1",
-          "thru": "13",
+          "thru": "14",
           "today": "-3",
           "topar": "-6"
         },
@@ -293,7 +293,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 332,
+        "round2": 336,
         "round3": null,
         "round4": null
       },
@@ -303,11 +303,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 761,
+      "raw_total": 765,
       "raw_topar": -13,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 761,
+      "final_total": 765,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre"
@@ -344,7 +344,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T23",
           "thru": "F",
           "today": "+2",
           "topar": "E"
@@ -408,7 +408,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T23",
           "thru": "F",
           "today": "-2",
           "topar": "E"
@@ -440,7 +440,7 @@
           "total": 119,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T23",
           "thru": "12",
           "today": "-2",
           "topar": "E"
@@ -693,9 +693,9 @@
               "topar": 1
             },
             "round2": {
-              "score": 43,
+              "score": 45,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round3": {
               "score": null,
@@ -708,13 +708,13 @@
               "topar": null
             }
           },
-          "total": 116,
+          "total": 118,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
-          "thru": "11",
-          "today": "-1",
-          "topar": "E"
+          "position": "T18",
+          "thru": "12",
+          "today": "-2",
+          "topar": "-1"
         },
         {
           "name": "Matt Fitzpatrick",
@@ -743,7 +743,7 @@
           "total": 119,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T23",
           "thru": "12",
           "today": "-2",
           "topar": "E"
@@ -889,9 +889,9 @@
         "round2": [
           "Justin Rose",
           "Chris Gotterup",
+          "Cameron Young",
           "Matt Fitzpatrick",
           "Bryson DeChambeau",
-          "Cameron Young",
           "Shane Lowry"
         ],
         "round3": [],
@@ -899,21 +899,21 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 327,
+        "round2": 329,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
-        "round2": -11,
+        "round2": -12,
         "round3": null,
         "round4": null
       },
-      "raw_total": 760,
-      "raw_topar": -10,
+      "raw_total": 762,
+      "raw_topar": -11,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 760,
+      "final_total": 762,
       "forecast": {
         "projected_cuts": [
           "J.J. Spaun"
