@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T01:42:07.508470Z",
+  "updated_at": "2026-04-10T03:08:36.199677Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "FNNN",
@@ -1730,14 +1730,35 @@
         },
         {
           "name": "Rasmus Hojgaard",
-          "rounds": {},
-          "total": null,
+          "rounds": {
+            "round1": {
+              "score": 78,
+              "penalty": false,
+              "topar": 6
+            },
+            "round2": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            },
+            "round3": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            },
+            "round4": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            }
+          },
+          "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "",
-          "thru": "",
-          "today": "",
-          "topar": ""
+          "position": "T73",
+          "thru": "F",
+          "today": "+6",
+          "topar": "+6"
         },
         {
           "name": "Charl Schwartzel",
@@ -1801,7 +1822,9 @@
       "drafted_winner": null,
       "final_total": 293,
       "forecast": {
-        "projected_cuts": [],
+        "projected_cuts": [
+          "Rasmus Hojgaard"
+        ],
         "cut_line_estimate": 150
       }
     },
@@ -2269,5 +2292,6 @@
         "cut_line_estimate": 150
       }
     }
-  }
+  },
+  "easter_egg": null
 }

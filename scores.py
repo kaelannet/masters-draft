@@ -38,6 +38,7 @@ NAME_ALIASES = {
     "Matt McCarty": "Matthew McCarty",
     "Ryan Gerard": "Robert Gerard",
     "Ethan Fang": "Evan Fang",
+    "Rasmus Hojgaard": "Rasmus Højgaard",
 }
 
 
@@ -351,6 +352,37 @@ def calculate_standings(scores_data, draft_state, config):
     # Sort teams by final total
     standings = sorted(team_results.items(), key=lambda x: x[1]["final_total"])
 
+    # Build easter egg player data if configured
+    egg_cfg = config.get("easter_egg")
+    egg_player_data = None
+    if egg_cfg:
+        egg_api = find_api_player(egg_cfg["replacement_player"])
+        if egg_api:
+            egg_rounds = {}
+            egg_total = 0
+            egg_has_score = False
+            for rnd in round_keys:
+                round_pars_r = pars.get(rnd, [])
+                score = get_round_total(egg_api, rnd, round_pars_r)
+                rnd_topar = get_round_topar(egg_api, rnd, round_pars_r)
+                if score is not None:
+                    egg_rounds[rnd] = {"score": score, "penalty": False, "topar": rnd_topar}
+                    egg_total += score
+                    egg_has_score = True
+                else:
+                    egg_rounds[rnd] = {"score": None, "penalty": False, "topar": None}
+            egg_player_data = {
+                "name": egg_api["full_name"],
+                "rounds": egg_rounds,
+                "total": egg_total if egg_has_score else None,
+                "made_cut": player_made_cut(egg_api),
+                "status": "active" if egg_api.get("status") == "C" else "pre-tournament",
+                "position": egg_api.get("pos", ""),
+                "thru": egg_api.get("thru", ""),
+                "today": egg_api.get("today", ""),
+                "topar": egg_api.get("topar", ""),
+            }
+
     results = {
         "updated_at": datetime.utcnow().isoformat() + "Z",
         "tournament_status": {
@@ -362,6 +394,12 @@ def calculate_standings(scores_data, draft_state, config):
             "cut_official": cut_official,
         },
         "standings": {drafter: data for drafter, data in standings},
+        "easter_egg": {
+            "drafter": egg_cfg["drafter"],
+            "replacement_player": egg_player_data,
+            "start_hour": egg_cfg.get("start_hour", 20),
+            "end_hour": egg_cfg.get("end_hour", 24),
+        } if egg_cfg and egg_player_data else None,
     }
 
     return results, standings

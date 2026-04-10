@@ -19,5 +19,11 @@
   },
   "drafters": ["Kaelan", "Reidar", "Jackson"],
   "draft_format": "snake",
-  "draft_rounds": 8
+  "draft_rounds": 8,
+  "easter_egg": {
+    "drafter": "Reidar",
+    "replacement_player": "Rasmus Hojgaard",
+    "start_hour": 20,
+    "end_hour": 24
+  }
 }
