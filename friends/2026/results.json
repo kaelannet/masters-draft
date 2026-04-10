@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T12:45:25.996471Z",
+  "updated_at": "2026-04-10T12:50:17.245307Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -2185,7 +2185,7 @@
               "topar": 4
             },
             "round2": {
-              "score": 17,
+              "score": 21,
               "penalty": false,
               "topar": 1
             },
@@ -2200,11 +2200,11 @@
               "topar": null
             }
           },
-          "total": 93,
+          "total": 97,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T62",
-          "thru": "4",
+          "thru": "5",
           "today": "+1",
           "topar": "+5"
         },
@@ -2288,7 +2288,7 @@
       },
       "round_totals": {
         "round1": 294,
-        "round2": 17,
+        "round2": 21,
         "round3": null,
         "round4": null
       },
@@ -2298,11 +2298,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 311,
+      "raw_total": 315,
       "raw_topar": 7,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 311,
+      "final_total": 315,
       "forecast": {
         "projected_cuts": [
           "Si Woo Kim",
