@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T13:15:15.026252Z",
+  "updated_at": "2026-04-10T13:20:26.364484Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -137,7 +137,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T40",
+          "position": "T39",
           "thru": "",
           "today": "",
           "topar": "+2"
@@ -169,7 +169,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -233,7 +233,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T40",
+          "position": "T39",
           "thru": "",
           "today": "",
           "topar": "+2"
@@ -404,7 +404,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T40",
+          "position": "T39",
           "thru": "",
           "today": "",
           "topar": "+2"
@@ -436,7 +436,7 @@
           "total": 74,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T40",
+          "position": "T39",
           "thru": "",
           "today": "",
           "topar": "+2"
@@ -468,7 +468,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -500,7 +500,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T58",
+          "position": "T59",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -532,7 +532,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -737,7 +737,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -751,7 +751,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 5,
+              "score": 10,
               "penalty": false,
               "topar": 1
             },
@@ -766,11 +766,11 @@
               "topar": null
             }
           },
-          "total": 77,
+          "total": 82,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T30",
-          "thru": "1",
+          "thru": "2",
           "today": "+1",
           "topar": "+1"
         },
@@ -888,7 +888,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 5,
+        "round2": 10,
         "round3": null,
         "round4": null
       },
@@ -898,11 +898,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 434,
+      "raw_total": 439,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 434,
+      "final_total": 439,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
