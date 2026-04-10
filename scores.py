@@ -39,6 +39,7 @@ NAME_ALIASES = {
     "Ryan Gerard": "Robert Gerard",
     "Ethan Fang": "Evan Fang",
     "Rasmus Hojgaard": "Rasmus Højgaard",
+    "Nicolai Hojgaard": "Nicolai Højgaard",
 }
 
 
