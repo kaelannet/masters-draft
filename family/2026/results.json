@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T14:16:23.328993Z",
+  "updated_at": "2026-04-10T14:20:10.473833Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -151,9 +151,9 @@
               "topar": 0
             },
             "round2": {
-              "score": 21,
+              "score": 23,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round3": {
               "score": null,
@@ -166,13 +166,13 @@
               "topar": null
             }
           },
-          "total": 93,
+          "total": 95,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
-          "thru": "5",
-          "today": "+1",
-          "topar": "+1"
+          "position": "T18",
+          "thru": "6",
+          "today": "E",
+          "topar": "E"
         },
         {
           "name": "Robert MacIntyre",
@@ -289,21 +289,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 25,
+        "round2": 27,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": 1,
+        "round2": 0,
         "round3": null,
         "round4": null
       },
-      "raw_total": 454,
-      "raw_topar": -2,
+      "raw_total": 456,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 454,
+      "final_total": 456,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
@@ -470,7 +470,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T27",
           "thru": "1",
           "today": "+1",
           "topar": "+1"
@@ -548,7 +548,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 17,
+              "score": 21,
               "penalty": false,
               "topar": 1
             },
@@ -563,11 +563,11 @@
               "topar": null
             }
           },
-          "total": 95,
+          "total": 99,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T72",
-          "thru": "4",
+          "thru": "5",
           "today": "+1",
           "topar": "+7"
         }
@@ -592,7 +592,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 29,
+        "round2": 33,
         "round3": null,
         "round4": null
       },
@@ -602,11 +602,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 458,
+      "raw_total": 462,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 458,
+      "final_total": 462,
       "forecast": {
         "projected_cuts": [
           "Ludvig Aberg",
@@ -710,7 +710,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T27",
           "thru": "",
           "today": "",
           "topar": "+1"
@@ -774,7 +774,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T27",
           "thru": "1",
           "today": "+1",
           "topar": "+1"
