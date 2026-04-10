@@ -479,12 +479,12 @@ function renderTeams() {
 function buildPlayerTable(data) {
   const cpr = data.counting_per_round || {};
   const statusRound = (resultsData.tournament_status || {}).status_round || '';
-  const anyRoundInProgress = statusRound.includes('P');
+  const tournamentComplete = statusRound === 'FFFF';
   const rows = data.players.map(p => {
     const isMC = p.status === 'missed_cut' || p.status === 'withdrawn' || p.status === 'disqualified';
 
     const hasAnyScore = p.total !== null;
-    const neverCounted = !isPreTournament() && !anyRoundInProgress && hasAnyScore &&
+    const neverCounted = !isPreTournament() && tournamentComplete && hasAnyScore &&
       ['round1','round2','round3','round4'].every(
         rnd => !(cpr[rnd] || []).includes(p.name)
       );

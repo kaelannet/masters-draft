@@ -186,12 +186,13 @@ def calculate_standings(scores_data, draft_state, config):
         if worst_cut_scores[rnd] is not None:
             worst_cut_scores[rnd] = min(worst_cut_scores[rnd], cut_max)
 
-    # Find tournament winner
+    # Find tournament winner (only after all 4 rounds are complete)
     winner = None
-    for p in tournament.get("player", []):
-        if p.get("pos") == "1" or p.get("pos") == "1T":
-            winner = p["full_name"]
-            break
+    if status_round == "FFFF":
+        for p in tournament.get("player", []):
+            if p.get("pos") == "1" or p.get("pos") == "1T":
+                winner = p["full_name"]
+                break
 
     # Estimate cut line from all players in the field
     cut_line_estimate = None
