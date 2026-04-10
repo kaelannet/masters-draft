@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T16:20:10.284072Z",
+  "updated_at": "2026-04-10T16:25:10.991466Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -105,7 +105,7 @@
           "total": 71,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "",
           "today": "",
           "topar": "-1"
@@ -389,9 +389,9 @@
               "topar": 2
             },
             "round2": {
-              "score": 32,
+              "score": 35,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -404,7 +404,7 @@
               "topar": null
             }
           },
-          "total": 106,
+          "total": 109,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T30",
@@ -535,7 +535,7 @@
           "total": 103,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "8",
           "today": "-1",
           "topar": "-1"
@@ -584,8 +584,8 @@
         ],
         "round2": [
           "Brooks Koepka",
-          "Jordan Spieth",
           "Ludvig Aberg",
+          "Jordan Spieth",
           "Scottie Scheffler",
           "Min Woo Lee"
         ],
@@ -594,21 +594,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 171,
+        "round2": 174,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": 1,
+        "round2": 0,
         "round3": null,
         "round4": null
       },
-      "raw_total": 600,
-      "raw_topar": -2,
+      "raw_total": 603,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 600,
+      "final_total": 603,
       "forecast": {
         "projected_cuts": [
           "Patrick Cantlay",
@@ -820,7 +820,7 @@
               "topar": 2
             },
             "round2": {
-              "score": 39,
+              "score": 43,
               "penalty": false,
               "topar": 3
             },
@@ -835,11 +835,11 @@
               "topar": null
             }
           },
-          "total": 113,
+          "total": 117,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T54",
-          "thru": "9",
+          "thru": "10",
           "today": "+3",
           "topar": "+5"
         },
@@ -895,7 +895,7 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 105,
+        "round2": 109,
         "round3": null,
         "round4": null
       },
@@ -905,11 +905,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 538,
+      "raw_total": 542,
       "raw_topar": 2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 538,
+      "final_total": 542,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
@@ -948,7 +948,7 @@
       "total": 82,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T64",
+      "position": "T65",
       "thru": "1",
       "today": "E",
       "topar": "+6"
