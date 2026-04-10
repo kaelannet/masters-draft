@@ -87,21 +87,11 @@
     color: #D4AF37;
     margin-top: 4px;
   }
-  .standing-card .forecast {
-    font-size: 0.85rem;
-    color: #D4AF37;
-    font-style: italic;
-    margin-top: 4px;
-  }
   .standing-card .forecast-cuts {
     font-size: 0.7rem;
     color: rgba(212,175,55,0.7);
-    margin-top: 2px;
+    margin-top: 4px;
   }
-  .trend { font-size: 0.75rem; margin-left: 4px; }
-  .trend.improving { color: #4caf50; }
-  .trend.worsening { color: #e57373; }
-  .trend.steady { color: rgba(255,255,255,0.4); }
 
   /* Team Detail Cards */
   .teams-container {
@@ -408,15 +398,8 @@ function renderStandings() {
       ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
     let forecastHtml = '';
     const fc = data.forecast;
-    if (fc && fc.rounds_remaining > 0 && fc.projected_total !== null && !isPreTournament()) {
-      let trendHtml = '';
-      if (fc.trend === 'improving') trendHtml = '<span class="trend improving">\u25BC</span>';
-      else if (fc.trend === 'worsening') trendHtml = '<span class="trend worsening">\u25B2</span>';
-      else if (fc.trend === 'steady') trendHtml = '<span class="trend steady">\u2022</span>';
-      forecastHtml = '<div class="forecast">Proj: ' + fc.projected_total + trendHtml + '</div>';
-      if (fc.projected_cuts && fc.projected_cuts.length > 0) {
-        forecastHtml += '<div class="forecast-cuts">(' + fc.projected_cuts.length + ' projected to miss cut)</div>';
-      }
+    if (fc && !isPreTournament() && fc.projected_cuts && fc.projected_cuts.length > 0) {
+      forecastHtml = '<div class="forecast-cuts">(' + fc.projected_cuts.length + ' projected to miss cut)</div>';
     }
     return '<div class="standing-card' + (isLeader ? ' leader' : '') + '">' +
       '<div class="rank">' + ordinals[i] + ' Place</div>' +

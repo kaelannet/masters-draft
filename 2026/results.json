@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T00:50:09.408366Z",
+  "updated_at": "2026-04-10T00:50:55.428377Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "FNNN",
@@ -302,15 +302,11 @@
       "drafted_winner": null,
       "final_total": 429,
       "forecast": {
-        "projected_total": 1716,
-        "rounds_remaining": 3,
         "projected_cuts": [
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 150,
-        "trend": "steady",
-        "trend_delta": 0
+        "cut_line_estimate": 150
       }
     },
     "Jackson": {
@@ -603,15 +599,11 @@
       "drafted_winner": null,
       "final_total": 429,
       "forecast": {
-        "projected_total": 1716,
-        "rounds_remaining": 3,
         "projected_cuts": [
           "Jon Rahm",
           "Robert MacIntyre"
         ],
-        "cut_line_estimate": 150,
-        "trend": "steady",
-        "trend_delta": 0
+        "cut_line_estimate": 150
       }
     },
     "Kaelan": {
@@ -904,14 +896,10 @@
       "drafted_winner": null,
       "final_total": 433,
       "forecast": {
-        "projected_total": 1732,
-        "rounds_remaining": 3,
         "projected_cuts": [
           "Bryson DeChambeau"
         ],
-        "cut_line_estimate": 150,
-        "trend": "steady",
-        "trend_delta": 0
+        "cut_line_estimate": 150
       }
     }
   }

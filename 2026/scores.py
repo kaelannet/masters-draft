@@ -328,8 +328,7 @@ def calculate_standings(scores_data, draft_state, config):
     # --- Calculate forecast for each team ---
     for drafter, data in team_results.items():
         forecast = calculate_forecast(
-            data, tournament, pars, find_api_player, config,
-            cut_line_estimate, cut_official, worst_cut_scores, round_totals=data["round_totals"]
+            data, find_api_player, cut_line_estimate, cut_official
         )
         data["forecast"] = forecast
 
@@ -352,117 +351,12 @@ def calculate_standings(scores_data, draft_state, config):
     return results, standings
 
 
-def extrapolate_round(player_data, round_key, round_pars):
-    """Extrapolate a partial round to a full 18-hole score.
+def calculate_forecast(team_data, find_api_player, cut_line_estimate, cut_official):
+    """Project which players on a team are likely to miss the cut.
 
-    Uses the player's actual strokes on completed holes, then adds par
-    for each remaining hole.  Returns (projected_18, holes_played) or
-    (None, 0) if the round hasn't started.
+    Only projects a cut miss when the player has at least one full
+    completed round — partial-round data is too unreliable.
     """
-    round_info = player_data.get(round_key, {})
-
-    # Finished round — return as-is
-    if round_info.get("total") is not None:
-        return round_info["total"], 18
-
-    scores = round_info.get("scores", [])
-    if not round_pars:
-        round_pars = [4] * 18  # fallback to par-72
-
-    played = 0
-    strokes = 0
-    for i, s in enumerate(scores):
-        if s is not None:
-            strokes += s
-            played += 1
-
-    if played == 0:
-        return None, 0
-
-    # Add par for each unplayed hole
-    for i in range(18):
-        par_i = round_pars[i] if i < len(round_pars) else 4
-        if i >= len(scores) or scores[i] is None:
-            strokes += par_i
-
-    return strokes, played
-
-
-def calculate_forecast(team_data, tournament, pars, find_api_player, config,
-                       cut_line_estimate, cut_official, worst_cut_scores, round_totals):
-    """Project a team's final total accounting for the cut.
-
-    For each unplayed round, project all 8 players' scores, take best 6, sum.
-    For in-progress rounds, extrapolate partial scores to 18 holes using par
-    for unplayed holes.
-    projected_total = actual round totals + projected round totals + winner_bonus.
-    """
-    round_keys = ["round1", "round2", "round3", "round4"]
-    players_counted = config["players_counted"]
-    cut_max = config["missed_cut_rule"]["max_score_per_round"]
-
-    # Count completed rounds (those with a round total)
-    completed_rounds = [rnd for rnd in round_keys if round_totals.get(rnd) is not None]
-    remaining_rounds = [rnd for rnd in round_keys if round_totals.get(rnd) is None]
-    rounds_remaining = len(remaining_rounds)
-
-    if rounds_remaining == 0:
-        return {
-            "projected_total": team_data["final_total"],
-            "rounds_remaining": 0,
-            "projected_cuts": [],
-            "cut_line_estimate": cut_line_estimate,
-        }
-
-    # Build extrapolated 18-hole projections for each player per round.
-    # Always extrapolate from API hole-by-hole data when available — this
-    # correctly projects partial rounds to 18 holes using par for unplayed
-    # holes.  Falls back to the results.json score only if no API data.
-    player_projected_rounds = {}
-    any_player_has_score = False
-
-    for p in team_data["players"]:
-        api_player = find_api_player(p["name"])
-        projected = {}
-        for rnd in round_keys:
-            if api_player:
-                round_pars = pars.get(rnd, [])
-                ext, holes = extrapolate_round(api_player, rnd, round_pars)
-                if ext is not None:
-                    projected[rnd] = ext
-                    any_player_has_score = True
-                else:
-                    projected[rnd] = None
-            else:
-                # No API data — use score from results if available
-                rnd_info = p["rounds"].get(rnd, {})
-                score = rnd_info.get("score")
-                if score is not None:
-                    projected[rnd] = score
-                    any_player_has_score = True
-                else:
-                    projected[rnd] = None
-
-        player_projected_rounds[p["name"]] = projected
-
-    if not any_player_has_score:
-        return {
-            "projected_total": None,
-            "rounds_remaining": rounds_remaining,
-            "projected_cuts": [],
-            "cut_line_estimate": cut_line_estimate,
-        }
-
-    # Average projected full-round score per player (from all rounds with data)
-    player_avgs = {}
-    for p in team_data["players"]:
-        proj = player_projected_rounds[p["name"]]
-        scores = [v for v in proj.values() if v is not None]
-        player_avgs[p["name"]] = sum(scores) / len(scores) if scores else 72
-
-    # Determine which players are projected to miss the cut.
-    # Only project a cut miss when the player has at least one full
-    # completed round — partial-round extrapolations are too unreliable.
     projected_cuts = []
     for p in team_data["players"]:
         if p["status"] in ("missed_cut", "withdrawn", "disqualified"):
@@ -474,7 +368,6 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
             if not api_player:
                 continue
 
-            # Check if player has at least one finished round
             r1_total = api_player.get("round1", {}).get("total")
             r2_total = api_player.get("round2", {}).get("total")
 
@@ -488,33 +381,7 @@ def calculate_forecast(team_data, tournament, pars, find_api_player, config,
             if proj_36 > cut_line_estimate:
                 projected_cuts.append(p["name"])
 
-    # Project ALL rounds uniformly — for each round, fill in missing players
-    # with their average (or par), then take best 6.  This handles partially-
-    # started rounds where only some players have teed off.
-    projected_total_all_rounds = 0
-    for rnd in round_keys:
-        round_projections = []
-        for p in team_data["players"]:
-            proj = player_projected_rounds[p["name"]]
-            extrapolated = proj.get(rnd)
-
-            if extrapolated is not None:
-                round_projections.append(extrapolated)
-            elif p["name"] in projected_cuts and rnd in ("round3", "round4"):
-                penalty = worst_cut_scores.get(rnd)
-                round_projections.append(penalty if penalty is not None else cut_max)
-            else:
-                round_projections.append(player_avgs[p["name"]])
-
-        round_projections.sort()
-        best = round_projections[:players_counted]
-        projected_total_all_rounds += sum(best)
-
-    projected_total = round(projected_total_all_rounds + team_data["winner_bonus"])
-
     return {
-        "projected_total": projected_total,
-        "rounds_remaining": rounds_remaining,
         "projected_cuts": projected_cuts,
         "cut_line_estimate": cut_line_estimate,
     }
@@ -543,11 +410,8 @@ def display_standings(results, standings):
         if data["drafted_winner"]:
             print(f"     ** Drafted the champion: {data['drafted_winner']}! **")
         forecast = data.get("forecast", {})
-        if forecast.get("rounds_remaining", 0) > 0 and forecast.get("projected_total") is not None:
-            cut_note = ""
-            if forecast.get("projected_cuts"):
-                cut_note = f" ({len(forecast['projected_cuts'])} projected to miss cut)"
-            print(f"     Projected: {forecast['projected_total']}{cut_note}")
+        if forecast.get("projected_cuts"):
+            print(f"     ({len(forecast['projected_cuts'])} projected to miss cut)")
         print()
 
         cpr = data.get("counting_per_round", {})
@@ -603,36 +467,6 @@ def main():
     scores_data = fetch_scores()
 
     results, standings = calculate_standings(scores_data, draft_state, config)
-
-    # Compare forecasts to previous run for trend indicators
-    try:
-        prev_results = load_json(RESULTS_FILE)
-        prev_standings = prev_results.get("standings", {})
-    except (FileNotFoundError, json.JSONDecodeError):
-        prev_standings = {}
-
-    TREND_THRESHOLD = 3  # strokes — ignore changes smaller than this
-    for drafter, data in results["standings"].items():
-        forecast = data.get("forecast", {})
-        prev_data = prev_standings.get(drafter, {})
-        prev_forecast = prev_data.get("forecast", {})
-        prev_proj = prev_forecast.get("projected_total")
-        curr_proj = forecast.get("projected_total")
-
-        if prev_proj is not None and curr_proj is not None:
-            delta = curr_proj - prev_proj
-            if delta <= -TREND_THRESHOLD:
-                forecast["trend"] = "improving"
-                forecast["trend_delta"] = delta
-            elif delta >= TREND_THRESHOLD:
-                forecast["trend"] = "worsening"
-                forecast["trend_delta"] = delta
-            else:
-                forecast["trend"] = "steady"
-                forecast["trend_delta"] = delta
-        else:
-            forecast["trend"] = None
-            forecast["trend_delta"] = None
 
     # Save results
     save_json(RESULTS_FILE, results)
