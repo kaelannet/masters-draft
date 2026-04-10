@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T13:25:15.157169Z",
+  "updated_at": "2026-04-10T13:30:17.992101Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -546,7 +546,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 5,
+              "score": 10,
               "penalty": false,
               "topar": 1
             },
@@ -561,11 +561,11 @@
               "topar": null
             }
           },
-          "total": 83,
+          "total": 88,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T75",
-          "thru": "1",
+          "thru": "2",
           "today": "+1",
           "topar": "+7"
         }
@@ -587,7 +587,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 5,
+        "round2": 10,
         "round3": null,
         "round4": null
       },
@@ -597,11 +597,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 434,
+      "raw_total": 439,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 434,
+      "final_total": 439,
       "forecast": {
         "projected_cuts": [
           "Ludvig Aberg",
@@ -641,7 +641,7 @@
           "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T70",
+          "position": "T71",
           "thru": "",
           "today": "",
           "topar": "+6"
@@ -751,7 +751,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 10,
+              "score": 14,
               "penalty": false,
               "topar": 1
             },
@@ -766,11 +766,11 @@
               "topar": null
             }
           },
-          "total": 82,
+          "total": 86,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T30",
-          "thru": "2",
+          "thru": "3",
           "today": "+1",
           "topar": "+1"
         },
@@ -888,7 +888,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 10,
+        "round2": 14,
         "round3": null,
         "round4": null
       },
@@ -898,11 +898,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 439,
+      "raw_total": 443,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 439,
+      "final_total": 443,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
@@ -942,7 +942,7 @@
       "total": 78,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T70",
+      "position": "T71",
       "thru": "",
       "today": "",
       "topar": "+6"
