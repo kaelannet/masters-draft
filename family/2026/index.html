@@ -455,10 +455,9 @@ function renderTeams() {
 
 function buildPlayerTable(data, drafterName) {
   const cpr = data.counting_per_round || {};
-  // Only show dropped styling when no round is in progress — partial rounds
-  // have uneven hole counts that make counting comparisons meaningless.
+  // Only show dropped styling when the tournament is fully complete.
   const statusRound = (resultsData.tournament_status || {}).status_round || '';
-  const anyRoundInProgress = statusRound.includes('P');
+  const tournamentComplete = statusRound === 'FFFF';
   const egg = resultsData.easter_egg;
   const eggActive = egg && egg.replacement_player && drafterName === egg.drafter && isEasterEggActive();
   const rows = data.players.map(p => {
@@ -475,7 +474,7 @@ function buildPlayerTable(data, drafterName) {
     // A player is "never counted" only when no round is in progress and they
     // have scores but didn't make any counting list.
     const hasAnyScore = p.total !== null;
-    const neverCounted = !isPreTournament() && !anyRoundInProgress && hasAnyScore &&
+    const neverCounted = !isPreTournament() && tournamentComplete && hasAnyScore &&
       ['round1','round2','round3','round4'].every(
         rnd => !(cpr[rnd] || []).includes(p.name)
       );
