@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T20:20:12.041035Z",
+  "updated_at": "2026-04-10T20:21:43.754795Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -1460,7 +1460,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": -2
             },
@@ -1475,11 +1475,11 @@
               "topar": null
             }
           },
-          "total": 106,
+          "total": 110,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "9",
+          "thru": "10",
           "today": "-2",
           "topar": "-2"
         },
@@ -1630,7 +1630,7 @@
       },
       "round_totals": {
         "round1": 290,
-        "round2": 212,
+        "round2": 216,
         "round3": null,
         "round4": null
       },
@@ -1640,11 +1640,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 502,
+      "raw_total": 506,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 502,
+      "final_total": 506,
       "forecast": {
         "projected_cuts": [
           "Bubba Watson"

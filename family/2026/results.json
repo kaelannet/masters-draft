@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T20:20:11.909098Z",
+  "updated_at": "2026-04-10T20:21:43.623638Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -119,7 +119,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": -2
             },
@@ -134,11 +134,11 @@
               "topar": null
             }
           },
-          "total": 106,
+          "total": 110,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "9",
+          "thru": "10",
           "today": "-2",
           "topar": "-2"
         },
@@ -293,7 +293,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 296,
+        "round2": 300,
         "round3": null,
         "round4": null
       },
@@ -303,11 +303,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 725,
+      "raw_total": 729,
       "raw_topar": -15,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 725,
+      "final_total": 729,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre"
