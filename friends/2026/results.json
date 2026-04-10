@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:05:10.654717Z",
+  "updated_at": "2026-04-10T23:10:10.195363Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -1731,7 +1731,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 63,
+              "score": 67,
               "penalty": false,
               "topar": -5
             },
@@ -1746,11 +1746,11 @@
               "topar": null
             }
           },
-          "total": 140,
+          "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "17",
+          "thru": "F",
           "today": "-5",
           "topar": "E"
         },
@@ -1869,7 +1869,7 @@
       },
       "round_totals": {
         "round1": 294,
-        "round2": 276,
+        "round2": 280,
         "round3": null,
         "round4": null
       },
@@ -1879,11 +1879,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 570,
+      "raw_total": 574,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 570,
+      "final_total": 574,
       "forecast": {
         "projected_cuts": [
           "Ryan Fox"
@@ -2139,7 +2139,7 @@
               "topar": 3
             },
             "round2": {
-              "score": 67,
+              "score": 71,
               "penalty": false,
               "topar": -1
             },
@@ -2154,11 +2154,11 @@
               "topar": null
             }
           },
-          "total": 142,
+          "total": 146,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T39",
-          "thru": "17",
+          "thru": "F",
           "today": "-1",
           "topar": "+2"
         },
@@ -2341,7 +2341,7 @@
       },
       "round_totals": {
         "round1": 293,
-        "round2": 279,
+        "round2": 283,
         "round3": null,
         "round4": null
       },
@@ -2351,11 +2351,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 572,
+      "raw_total": 576,
       "raw_topar": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 572,
+      "final_total": 576,
       "forecast": {
         "projected_cuts": [
           "Cam Smith"
