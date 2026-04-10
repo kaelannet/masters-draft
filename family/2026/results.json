@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T21:10:09.405558Z",
+  "updated_at": "2026-04-10T21:15:10.184000Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -344,7 +344,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "F",
           "today": "-2",
           "topar": "+4"
@@ -358,9 +358,9 @@
               "topar": -2
             },
             "round2": {
-              "score": 47,
+              "score": 53,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             },
             "round3": {
               "score": null,
@@ -373,13 +373,13 @@
               "topar": null
             }
           },
-          "total": 117,
+          "total": 123,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
-          "thru": "12",
-          "today": "E",
-          "topar": "-2"
+          "position": "T17",
+          "thru": "13",
+          "today": "+1",
+          "topar": "-1"
         },
         {
           "name": "Tommy Fleetwood",
@@ -408,7 +408,7 @@
           "total": 124,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T6",
+          "position": "T5",
           "thru": "14",
           "today": "-3",
           "topar": "-4"
@@ -440,7 +440,7 @@
           "total": 118,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T17",
           "thru": "12",
           "today": "-1",
           "topar": "-1"
@@ -568,7 +568,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "F",
           "today": "+1",
           "topar": "+4"
@@ -596,21 +596,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 340,
+        "round2": 346,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": -10,
+        "round2": -9,
         "round3": null,
         "round4": null
       },
-      "raw_total": 769,
-      "raw_topar": -13,
+      "raw_total": 775,
+      "raw_topar": -12,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 769,
+      "final_total": 775,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre"
@@ -647,7 +647,7 @@
           "total": 128,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "13",
           "today": "E",
           "topar": "+4"
@@ -711,7 +711,7 @@
           "total": 118,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T17",
           "thru": "12",
           "today": "-2",
           "topar": "-1"
@@ -725,7 +725,7 @@
               "topar": 2
             },
             "round2": {
-              "score": 45,
+              "score": 50,
               "penalty": false,
               "topar": -2
             },
@@ -740,11 +740,11 @@
               "topar": null
             }
           },
-          "total": 119,
+          "total": 124,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T22",
-          "thru": "12",
+          "thru": "13",
           "today": "-2",
           "topar": "E"
         },
@@ -807,7 +807,7 @@
           "total": 119,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T43",
+          "position": "T44",
           "thru": "11",
           "today": "E",
           "topar": "+3"
@@ -899,7 +899,7 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 340,
+        "round2": 345,
         "round3": null,
         "round4": null
       },
@@ -909,11 +909,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 773,
+      "raw_total": 778,
       "raw_topar": -10,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 773,
+      "final_total": 778,
       "forecast": {
         "projected_cuts": [
           "J.J. Spaun"
@@ -951,7 +951,7 @@
       "total": 148,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T48",
+      "position": "T47",
       "thru": "F",
       "today": "-2",
       "topar": "+4"
