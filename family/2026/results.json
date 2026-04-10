@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T15:55:11.212007Z",
+  "updated_at": "2026-04-10T16:00:10.087265Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -137,7 +137,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T19",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -169,7 +169,7 @@
           "total": 119,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T19",
           "thru": "12",
           "today": "E",
           "topar": "E"
@@ -183,7 +183,7 @@
               "topar": 8
             },
             "round2": {
-              "score": 20,
+              "score": 23,
               "penalty": false,
               "topar": 0
             },
@@ -198,11 +198,11 @@
               "topar": null
             }
           },
-          "total": 100,
+          "total": 103,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T80",
-          "thru": "5",
+          "position": "T79",
+          "thru": "6",
           "today": "E",
           "topar": "+8"
         },
@@ -247,7 +247,7 @@
               "topar": 3
             },
             "round2": {
-              "score": 16,
+              "score": 20,
               "penalty": false,
               "topar": 0
             },
@@ -262,11 +262,11 @@
               "topar": null
             }
           },
-          "total": 91,
+          "total": 95,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "4",
+          "position": "T46",
+          "thru": "5",
           "today": "E",
           "topar": "+3"
         }
@@ -291,7 +291,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 108,
+        "round2": 115,
         "round3": null,
         "round4": null
       },
@@ -301,11 +301,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 537,
+      "raw_total": 544,
       "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 537,
+      "final_total": 544,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
@@ -325,7 +325,7 @@
               "topar": -2
             },
             "round2": {
-              "score": 22,
+              "score": 25,
               "penalty": false,
               "topar": 2
             },
@@ -340,11 +340,11 @@
               "topar": null
             }
           },
-          "total": 92,
+          "total": 95,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
-          "thru": "5",
+          "position": "T19",
+          "thru": "6",
           "today": "+2",
           "topar": "E"
         },
@@ -407,7 +407,7 @@
           "total": 102,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
+          "position": "T46",
           "thru": "7",
           "today": "+1",
           "topar": "+3"
@@ -594,7 +594,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 142,
+        "round2": 145,
         "round3": null,
         "round4": null
       },
@@ -604,11 +604,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 571,
+      "raw_total": 574,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 571,
+      "final_total": 574,
       "forecast": {
         "projected_cuts": [
           "Patrick Cantlay",
@@ -710,7 +710,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T32",
+          "position": "T31",
           "thru": "",
           "today": "",
           "topar": "+1"
@@ -806,7 +806,7 @@
           "total": 75,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
+          "position": "T46",
           "thru": "",
           "today": "",
           "topar": "+3"
