@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:40:13.505842Z",
+  "updated_at": "2026-04-10T22:45:21.320952Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -338,7 +338,7 @@
           "total": 142,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "F",
           "today": "-3",
           "topar": "-2"
@@ -637,7 +637,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "F",
           "today": "E",
           "topar": "E"
@@ -744,7 +744,7 @@
           "total": 142,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "F",
           "today": "E",
           "topar": "-2"
@@ -840,7 +840,7 @@
           "total": 142,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "F",
           "today": "-2",
           "topar": "-2"
@@ -993,7 +993,7 @@
               "topar": 2
             },
             "round2": {
-              "score": 65,
+              "score": 69,
               "penalty": false,
               "topar": -3
             },
@@ -1008,11 +1008,11 @@
               "topar": null
             }
           },
-          "total": 139,
+          "total": 143,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T20",
-          "thru": "17",
+          "thru": "F",
           "today": "-3",
           "topar": "-1"
         },
@@ -1163,7 +1163,7 @@
       },
       "round_totals": {
         "round1": 287,
-        "round2": 276,
+        "round2": 280,
         "round3": null,
         "round4": null
       },
@@ -1173,11 +1173,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 563,
+      "raw_total": 567,
       "raw_topar": -9,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 563,
+      "final_total": 567,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau"
@@ -1228,9 +1228,9 @@
               "topar": 0
             },
             "round2": {
-              "score": 65,
+              "score": 70,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             },
             "round3": {
               "score": null,
@@ -1243,13 +1243,13 @@
               "topar": null
             }
           },
-          "total": 137,
+          "total": 142,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
-          "thru": "17",
-          "today": "-3",
-          "topar": "-3"
+          "position": "T16",
+          "thru": "F",
+          "today": "-2",
+          "topar": "-2"
         },
         {
           "name": "Corey Conners",
@@ -1310,7 +1310,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "F",
           "today": "-1",
           "topar": "E"
@@ -1398,21 +1398,21 @@
       },
       "round_totals": {
         "round1": 290,
-        "round2": 272,
+        "round2": 277,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 2,
-        "round2": -8,
+        "round2": -7,
         "round3": null,
         "round4": null
       },
-      "raw_total": 562,
-      "raw_topar": -6,
+      "raw_total": 567,
+      "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 562,
+      "final_total": 567,
       "forecast": {
         "projected_cuts": [
           "Bubba Watson"
@@ -1449,7 +1449,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "F",
           "today": "-2",
           "topar": "E"
@@ -1495,9 +1495,9 @@
               "topar": 1
             },
             "round2": {
-              "score": 66,
+              "score": 71,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -1510,13 +1510,13 @@
               "topar": null
             }
           },
-          "total": 139,
+          "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "17",
-          "today": "-2",
-          "topar": "-1"
+          "position": "T24",
+          "thru": "F",
+          "today": "-1",
+          "topar": "E"
         },
         {
           "name": "Tyrrell Hatton",
@@ -1626,28 +1626,28 @@
           "Tyrrell Hatton",
           "Marco Penge",
           "Ludvig Aberg",
-          "Russell Henley"
+          "Robert MacIntyre"
         ],
         "round3": [],
         "round4": []
       },
       "round_totals": {
         "round1": 297,
-        "round2": 271,
+        "round2": 276,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 9,
-        "round2": -13,
+        "round2": -12,
         "round3": null,
         "round4": null
       },
-      "raw_total": 568,
-      "raw_topar": -4,
+      "raw_total": 573,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 568,
+      "final_total": 573,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre",
@@ -1685,7 +1685,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "F",
           "today": "+2",
           "topar": "E"
@@ -1749,7 +1749,7 @@
           "total": 136,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "16",
           "today": "-5",
           "topar": "E"
@@ -2283,7 +2283,7 @@
           "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
+          "position": "T24",
           "thru": "F",
           "today": "-1",
           "topar": "E"
