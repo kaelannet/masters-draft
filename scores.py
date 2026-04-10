@@ -349,8 +349,8 @@ def calculate_standings(scores_data, draft_state, config):
         )
         data["forecast"] = forecast
 
-    # Sort teams by final total
-    standings = sorted(team_results.items(), key=lambda x: x[1]["final_total"])
+    # Sort teams by to-par (what the frontend displays), with raw total as tiebreaker
+    standings = sorted(team_results.items(), key=lambda x: (x[1]["raw_topar"] + x[1]["winner_bonus"], x[1]["final_total"]))
 
     # Build easter egg player data if configured
     egg_cfg = config.get("easter_egg")
