@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T18:06:23.147533Z",
+  "updated_at": "2026-04-10T18:07:48.660600Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 124,
+    "cut_line": 123,
     "cut_official": false
   },
   "standings": {
@@ -313,7 +313,7 @@
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 123
       }
     },
     "Jackson": {
@@ -618,7 +618,7 @@
           "Robert MacIntyre",
           "S.W. Kim"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 123
       }
     },
     "Kaelan": {
@@ -760,7 +760,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 54,
+              "score": 59,
               "penalty": false,
               "topar": -2
             },
@@ -775,11 +775,11 @@
               "topar": null
             }
           },
-          "total": 126,
+          "total": 131,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T11",
-          "thru": "14",
+          "thru": "15",
           "today": "-2",
           "topar": "-2"
         },
@@ -902,7 +902,7 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 146,
+        "round2": 151,
         "round3": null,
         "round4": null
       },
@@ -912,17 +912,17 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 579,
+      "raw_total": 584,
       "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 579,
+      "final_total": 584,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
           "J.J. Spaun"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 123
       }
     }
   },
