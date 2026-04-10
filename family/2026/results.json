@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T14:05:11.565123Z",
+  "updated_at": "2026-04-10T14:10:11.913824Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -41,7 +41,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T52",
+          "position": "T51",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -472,7 +472,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T18",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -518,9 +518,9 @@
               "topar": 0
             },
             "round2": {
-              "score": null,
+              "score": 3,
               "penalty": false,
-              "topar": null
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -533,13 +533,13 @@
               "topar": null
             }
           },
-          "total": 72,
+          "total": 75,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
-          "thru": "",
-          "today": "",
-          "topar": "E"
+          "position": "T12",
+          "thru": "1",
+          "today": "-1",
+          "topar": "-1"
         },
         {
           "name": "Min Woo Lee",
@@ -584,6 +584,7 @@
           "Collin Morikawa"
         ],
         "round2": [
+          "Jordan Spieth",
           "Ludvig Aberg",
           "Min Woo Lee"
         ],
@@ -592,21 +593,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 21,
+        "round2": 24,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": 1,
+        "round2": 0,
         "round3": null,
         "round4": null
       },
-      "raw_total": 450,
-      "raw_topar": -2,
+      "raw_total": 453,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 450,
+      "final_total": 453,
       "forecast": {
         "projected_cuts": [
           "Ludvig Aberg",
@@ -742,7 +743,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T18",
           "thru": "",
           "today": "",
           "topar": "E"
