@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T17:00:09.890770Z",
+  "updated_at": "2026-04-10T17:05:10.360941Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 124,
+    "cut_line": 125,
     "cut_official": false
   },
   "standings": {
@@ -41,7 +41,7 @@
           "total": 121,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
+          "position": "T56",
           "thru": "11",
           "today": "-1",
           "topar": "+5"
@@ -73,7 +73,7 @@
           "total": 70,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T8",
           "thru": "",
           "today": "",
           "topar": "-2"
@@ -311,7 +311,7 @@
           "Jon Rahm",
           "Robert MacIntyre"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 125
       }
     },
     "Reidar": {
@@ -407,7 +407,7 @@
           "total": 117,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T29",
           "thru": "11",
           "today": "-1",
           "topar": "+1"
@@ -503,7 +503,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
+          "position": "T56",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -549,9 +549,9 @@
               "topar": 6
             },
             "round2": {
-              "score": 60,
+              "score": 66,
               "penalty": false,
-              "topar": 4
+              "topar": 5
             },
             "round3": {
               "score": null,
@@ -564,13 +564,13 @@
               "topar": null
             }
           },
-          "total": 138,
+          "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T85",
-          "thru": "14",
-          "today": "+4",
-          "topar": "+10"
+          "position": "T86",
+          "thru": "15",
+          "today": "+5",
+          "topar": "+11"
         }
       ],
       "counting_per_round": {
@@ -594,27 +594,27 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 218,
+        "round2": 224,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": 2,
+        "round2": 3,
         "round3": null,
         "round4": null
       },
-      "raw_total": 647,
-      "raw_topar": -1,
+      "raw_total": 653,
+      "raw_topar": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 647,
+      "final_total": 653,
       "forecast": {
         "projected_cuts": [
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 125
       }
     },
     "Kaelan": {
@@ -710,7 +710,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T29",
           "thru": "",
           "today": "",
           "topar": "+1"
@@ -838,7 +838,7 @@
           "total": 125,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T65",
+          "position": "T63",
           "thru": "12",
           "today": "+4",
           "topar": "+6"
@@ -870,7 +870,7 @@
           "total": 70,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T8",
           "thru": "",
           "today": "",
           "topar": "-2"
@@ -914,7 +914,7 @@
         "projected_cuts": [
           "J.J. Spaun"
         ],
-        "cut_line_estimate": 124
+        "cut_line_estimate": 125
       }
     }
   },
@@ -947,7 +947,7 @@
       "total": 93,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T54",
+      "position": "T56",
       "thru": "4",
       "today": "-1",
       "topar": "+5"
