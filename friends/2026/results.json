@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T15:35:14.841436Z",
+  "updated_at": "2026-04-10T15:37:54.613055Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -105,7 +105,7 @@
           "total": 104,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "8",
           "today": "+1",
           "topar": "E"
@@ -137,7 +137,7 @@
           "total": 88,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "4",
           "today": "+1",
           "topar": "E"
@@ -404,7 +404,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -587,9 +587,9 @@
               "topar": 0
             },
             "round2": {
-              "score": 4,
+              "score": 8,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -602,13 +602,13 @@
               "topar": null
             }
           },
-          "total": 76,
+          "total": 80,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
-          "thru": "1",
-          "today": "E",
-          "topar": "E"
+          "position": "T12",
+          "thru": "2",
+          "today": "-1",
+          "topar": "-1"
         },
         {
           "name": "Ben Griffin",
@@ -684,8 +684,8 @@
         ],
         "round2": [
           "Brooks Koepka",
-          "Ben Griffin",
           "Max Homa",
+          "Ben Griffin",
           "Justin Thomas"
         ],
         "round3": [],
@@ -693,21 +693,21 @@
       },
       "round_totals": {
         "round1": 286,
-        "round2": 65,
+        "round2": 69,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -2,
-        "round2": -2,
+        "round2": -3,
         "round3": null,
         "round4": null
       },
-      "raw_total": 351,
-      "raw_topar": -4,
+      "raw_total": 355,
+      "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 351,
+      "final_total": 355,
       "forecast": {
         "projected_cuts": [
           "Ethan Fang"
@@ -1104,7 +1104,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1242,7 +1242,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1256,7 +1256,7 @@
               "topar": 3
             },
             "round2": {
-              "score": 27,
+              "score": 32,
               "penalty": false,
               "topar": 0
             },
@@ -1271,11 +1271,11 @@
               "topar": null
             }
           },
-          "total": 102,
+          "total": 107,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T47",
-          "thru": "7",
+          "thru": "8",
           "today": "E",
           "topar": "+3"
         },
@@ -1370,7 +1370,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1392,7 +1392,7 @@
       },
       "round_totals": {
         "round1": 290,
-        "round2": 38,
+        "round2": 43,
         "round3": null,
         "round4": null
       },
@@ -1402,11 +1402,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 328,
+      "raw_total": 333,
       "raw_topar": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 328,
+      "final_total": 333,
       "forecast": {
         "projected_cuts": [
           "Bubba Watson"
@@ -1539,7 +1539,7 @@
           "total": 136,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "16",
           "today": "-4",
           "topar": "E"
@@ -1711,7 +1711,7 @@
           "total": 112,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T22",
           "thru": "10",
           "today": "E",
           "topar": "E"
