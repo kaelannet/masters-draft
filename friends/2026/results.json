@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T12:25:17.643104Z",
+  "updated_at": "2026-04-10T12:30:33.360513Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -73,7 +73,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -303,7 +303,7 @@
           "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T73",
+          "position": "T72",
           "thru": "",
           "today": "",
           "topar": "+6"
@@ -399,7 +399,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -629,7 +629,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -761,7 +761,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -793,7 +793,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -825,7 +825,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -857,7 +857,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -989,7 +989,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1117,7 +1117,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1188,7 +1188,7 @@
           "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T73",
+          "position": "T72",
           "thru": "",
           "today": "",
           "topar": "+6"
@@ -1462,7 +1462,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T65",
+          "position": "T63",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -1526,7 +1526,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1558,7 +1558,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "1",
           "today": "E",
           "topar": "E"
@@ -1663,7 +1663,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1695,7 +1695,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -1759,7 +1759,7 @@
           "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T73",
+          "position": "T72",
           "thru": "",
           "today": "",
           "topar": "+6"
@@ -2159,7 +2159,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T65",
+          "position": "T63",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -2255,7 +2255,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T65",
+          "position": "T63",
           "thru": "",
           "today": "",
           "topar": "+5"
