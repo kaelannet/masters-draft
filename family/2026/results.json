@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T12:00:09.867187Z",
+  "updated_at": "2026-04-10T12:05:11.972298Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -635,7 +635,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T56",
+          "position": "T55",
           "thru": "",
           "today": "",
           "topar": "+4"
