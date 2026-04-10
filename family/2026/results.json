@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:45:21.170051Z",
+  "updated_at": "2026-04-10T22:50:12.714734Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -486,9 +486,9 @@
               "topar": 3
             },
             "round2": {
-              "score": 62,
+              "score": 67,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -501,13 +501,13 @@
               "topar": null
             }
           },
-          "total": 137,
+          "total": 142,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T32",
-          "thru": "16",
-          "today": "-2",
-          "topar": "+1"
+          "position": "T39",
+          "thru": "17",
+          "today": "-1",
+          "topar": "+2"
         },
         {
           "name": "J.J. Spaun",
@@ -596,21 +596,21 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 401,
+        "round2": 406,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
-        "round2": -19,
+        "round2": -18,
         "round3": null,
         "round4": null
       },
-      "raw_total": 834,
-      "raw_topar": -18,
+      "raw_total": 839,
+      "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 834,
+      "final_total": 839,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
@@ -648,7 +648,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "F",
           "today": "-2",
           "topar": "+4"
@@ -776,7 +776,7 @@
           "total": 146,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T40",
+          "position": "T39",
           "thru": "F",
           "today": "+2",
           "topar": "+2"
@@ -872,7 +872,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "F",
           "today": "+1",
           "topar": "+4"
@@ -990,7 +990,7 @@
         "total": 148,
         "made_cut": true,
         "status": "pre-tournament",
-        "position": "T48",
+        "position": "T47",
         "thru": "F",
         "today": "-2",
         "topar": "+4"
