@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:10:10.060433Z",
+  "updated_at": "2026-04-10T23:15:20.568883Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -264,10 +264,10 @@
           },
           "total": 155,
           "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T79",
-          "thru": "F",
-          "today": "+5",
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
           "topar": "+11"
         }
       ],
@@ -309,9 +309,7 @@
       "drafted_winner": null,
       "final_total": 842,
       "forecast": {
-        "projected_cuts": [
-          "Min Woo Lee"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },
@@ -343,10 +341,10 @@
           },
           "total": 150,
           "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T60",
-          "thru": "F",
-          "today": "+2",
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
           "topar": "+6"
         },
         {
@@ -535,10 +533,10 @@
           },
           "total": 149,
           "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T55",
-          "thru": "F",
-          "today": "+3",
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
           "topar": "+5"
         },
         {
@@ -612,10 +610,7 @@
       "drafted_winner": null,
       "final_total": 847,
       "forecast": {
-        "projected_cuts": [
-          "Bryson DeChambeau",
-          "J.J. Spaun"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },
@@ -807,10 +802,10 @@
           },
           "total": 151,
           "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T64",
-          "thru": "F",
-          "today": "-1",
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
           "topar": "+7"
         },
         {
@@ -916,9 +911,7 @@
       "drafted_winner": null,
       "final_total": 849,
       "forecast": {
-        "projected_cuts": [
-          "Robert MacIntyre"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     }
@@ -952,10 +945,10 @@
         },
         "total": 153,
         "made_cut": true,
-        "status": "pre-tournament",
-        "position": "T74",
-        "thru": "F",
-        "today": "+3",
+        "status": "active",
+        "position": "",
+        "thru": "",
+        "today": "",
         "topar": "+9"
       },
       "start_hour": 17,
