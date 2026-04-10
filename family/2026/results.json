@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T19:50:19.174202Z",
+  "updated_at": "2026-04-10T19:52:44.268765Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -41,7 +41,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T49",
+          "position": "T48",
           "thru": "F",
           "today": "-2",
           "topar": "+4"
@@ -55,7 +55,7 @@
               "topar": -2
             },
             "round2": {
-              "score": 31,
+              "score": 35,
               "penalty": false,
               "topar": -1
             },
@@ -70,11 +70,11 @@
               "topar": null
             }
           },
-          "total": 101,
+          "total": 105,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T9",
-          "thru": "8",
+          "thru": "9",
           "today": "-1",
           "topar": "-3"
         },
@@ -265,7 +265,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T49",
+          "position": "T48",
           "thru": "F",
           "today": "+1",
           "topar": "+4"
@@ -293,7 +293,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 271,
+        "round2": 275,
         "round3": null,
         "round4": null
       },
@@ -303,11 +303,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 700,
+      "raw_total": 704,
       "raw_topar": -12,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 700,
+      "final_total": 704,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre"
@@ -504,7 +504,7 @@
           "total": 103,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T49",
+          "position": "T48",
           "thru": "7",
           "today": "-1",
           "topar": "+4"
@@ -629,7 +629,7 @@
               "topar": 4
             },
             "round2": {
-              "score": 31,
+              "score": 35,
               "penalty": false,
               "topar": -1
             },
@@ -644,11 +644,11 @@
               "topar": null
             }
           },
-          "total": 107,
+          "total": 111,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
-          "thru": "8",
+          "position": "T44",
+          "thru": "9",
           "today": "-1",
           "topar": "+3"
         },
@@ -789,9 +789,9 @@
               "topar": 3
             },
             "round2": {
-              "score": 22,
+              "score": 28,
               "penalty": false,
-              "topar": -1
+              "topar": 1
             },
             "round3": {
               "score": null,
@@ -804,13 +804,13 @@
               "topar": null
             }
           },
-          "total": 97,
+          "total": 103,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T38",
-          "thru": "6",
-          "today": "-1",
-          "topar": "+2"
+          "position": "T48",
+          "thru": "7",
+          "today": "+1",
+          "topar": "+4"
         },
         {
           "name": "J.J. Spaun",
@@ -892,14 +892,14 @@
           "Cameron Young",
           "Bryson DeChambeau",
           "Matt Fitzpatrick",
-          "Viktor Hovland"
+          "Shane Lowry"
         ],
         "round3": [],
         "round4": []
       },
       "round_totals": {
         "round1": 433,
-        "round2": 251,
+        "round2": 272,
         "round3": null,
         "round4": null
       },
@@ -909,11 +909,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 684,
+      "raw_total": 705,
       "raw_topar": -10,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 684,
+      "final_total": 705,
       "forecast": {
         "projected_cuts": [
           "J.J. Spaun"
@@ -933,7 +933,7 @@
           "topar": 6
         },
         "round2": {
-          "score": 50,
+          "score": 54,
           "penalty": false,
           "topar": -2
         },
@@ -948,11 +948,11 @@
           "topar": null
         }
       },
-      "total": 128,
+      "total": 132,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T49",
-      "thru": "13",
+      "position": "T48",
+      "thru": "14",
       "today": "-2",
       "topar": "+4"
     },
