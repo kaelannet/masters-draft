@@ -409,8 +409,8 @@ def calculate_standings(scores_data, draft_state, config):
 def calculate_forecast(team_data, find_api_player, cut_line_estimate, cut_official):
     """Project which players on a team are likely to miss the cut.
 
-    Only projects a cut miss when the player has at least one full
-    completed round — partial-round data is too unreliable.
+    Uses the player's current tournament position — anyone outside
+    the top 50 is projected to miss (Masters cut is top 50 + ties).
     """
     projected_cuts = []
     for p in team_data["players"]:
@@ -418,22 +418,16 @@ def calculate_forecast(team_data, find_api_player, cut_line_estimate, cut_offici
             projected_cuts.append(p["name"])
             continue
 
-        if not cut_official and cut_line_estimate is not None:
-            api_player = find_api_player(p["name"])
-            if not api_player:
-                continue
+        if not cut_official:
+            pos_str = p.get("position", "")
+            # Parse position like "T56", "42", etc.
+            pos_num = None
+            if pos_str:
+                digits = "".join(c for c in pos_str if c.isdigit())
+                if digits:
+                    pos_num = int(digits)
 
-            r1_total = api_player.get("round1", {}).get("total")
-            r2_total = api_player.get("round2", {}).get("total")
-
-            if r1_total is not None and r2_total is not None:
-                proj_36 = r1_total + r2_total
-            elif r1_total is not None:
-                proj_36 = r1_total * 2
-            else:
-                continue  # no completed round — assume make cut
-
-            if proj_36 > cut_line_estimate:
+            if pos_num is not None and pos_num > 50:
                 projected_cuts.append(p["name"])
 
     return {

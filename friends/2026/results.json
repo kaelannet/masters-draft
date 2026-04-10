@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T14:52:13.874508Z",
+  "updated_at": "2026-04-10T14:52:32.545902Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -242,9 +242,6 @@
       "final_total": 342,
       "forecast": {
         "projected_cuts": [
-          "Jordan Spieth",
-          "Jacob Bridgeman",
-          "Gary Woodland",
           "Brian Harman"
         ],
         "cut_line_estimate": 140
@@ -478,10 +475,7 @@
       "final_total": 332,
       "forecast": {
         "projected_cuts": [
-          "Matt Fitzpatrick",
-          "Min Woo Lee",
-          "Ryan Gerard",
-          "Aaron Rai"
+          "Min Woo Lee"
         ],
         "cut_line_estimate": 140
       }
@@ -715,10 +709,7 @@
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
-          "Collin Morikawa",
-          "Maverick McNealy",
-          "Matt McCarty",
-          "Wyndham Clark"
+          "Maverick McNealy"
         ],
         "cut_line_estimate": 140
       }
@@ -950,13 +941,7 @@
       "drafted_winner": null,
       "final_total": 323,
       "forecast": {
-        "projected_cuts": [
-          "Tommy Fleetwood",
-          "Jake Knapp",
-          "Akshay Bhatia",
-          "Sergio Garcia",
-          "Haotong Li"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 140
       }
     },
@@ -1190,10 +1175,6 @@
       "final_total": 350,
       "forecast": {
         "projected_cuts": [
-          "Brooks Koepka",
-          "Justin Thomas",
-          "Max Homa",
-          "Ben Griffin",
           "Ethan Fang"
         ],
         "cut_line_estimate": 140
@@ -1427,12 +1408,7 @@
       "final_total": 313,
       "forecast": {
         "projected_cuts": [
-          "Cameron Young",
-          "Hideki Matsuyama",
-          "Corey Conners",
-          "Harris English",
-          "Bubba Watson",
-          "Keegan Bradley"
+          "Bubba Watson"
         ],
         "cut_line_estimate": 140
       }
@@ -1665,12 +1641,7 @@
       "final_total": 336,
       "forecast": {
         "projected_cuts": [
-          "Viktor Hovland",
-          "Adam Scott",
-          "Chris Gotterup",
-          "Cam Smith",
-          "Rasmus Hojgaard",
-          "Charl Schwartzel"
+          "Rasmus Hojgaard"
         ],
         "cut_line_estimate": 140
       }
@@ -1905,10 +1876,7 @@
       "final_total": 357,
       "forecast": {
         "projected_cuts": [
-          "Si Woo Kim",
           "Patrick Cantlay",
-          "Sungjae Im",
-          "Sepp Straka",
           "Ryan Fox"
         ],
         "cut_line_estimate": 140
@@ -2144,10 +2112,7 @@
       "final_total": 336,
       "forecast": {
         "projected_cuts": [
-          "Ludvig Aberg",
           "Robert MacIntyre",
-          "Russell Henley",
-          "Tyrrell Hatton",
           "Daniel Berger",
           "Marco Penge"
         ],
@@ -2385,9 +2350,7 @@
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
-          "JJ Spaun",
           "Nicolai Hojgaard",
-          "Dustin Johnson",
           "Michael Kim"
         ],
         "cut_line_estimate": 140

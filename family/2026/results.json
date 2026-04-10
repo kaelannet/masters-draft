@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T14:52:13.724644Z",
+  "updated_at": "2026-04-10T14:52:31.998479Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -309,11 +309,7 @@
       "final_total": 499,
       "forecast": {
         "projected_cuts": [
-          "Ludvig Aberg",
-          "Collin Morikawa",
-          "Brooks Koepka",
           "Patrick Cantlay",
-          "Jordan Spieth",
           "Min Woo Lee"
         ],
         "cut_line_estimate": 140
@@ -616,11 +612,7 @@
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
-          "Tommy Fleetwood",
-          "Hideki Matsuyama",
-          "Adam Scott",
-          "Robert MacIntyre",
-          "S.W. Kim"
+          "Robert MacIntyre"
         ],
         "cut_line_estimate": 140
       }
@@ -920,12 +912,7 @@
       "final_total": 479,
       "forecast": {
         "projected_cuts": [
-          "Bryson DeChambeau",
-          "Cameron Young",
-          "Matt Fitzpatrick",
-          "Chris Gotterup",
-          "Viktor Hovland",
-          "J.J. Spaun"
+          "Bryson DeChambeau"
         ],
         "cut_line_estimate": 140
       }
