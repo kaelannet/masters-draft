@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T12:05:11.972298Z",
+  "updated_at": "2026-04-10T12:10:13.199562Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 150,
+    "cut_line": 148,
     "cut_official": false
   },
   "standings": {
@@ -306,7 +306,7 @@
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Jackson": {
@@ -601,9 +601,10 @@
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
-          "Robert MacIntyre"
+          "Robert MacIntyre",
+          "S.W. Kim"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Kaelan": {
@@ -635,7 +636,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T54",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -897,9 +898,10 @@
       "final_total": 433,
       "forecast": {
         "projected_cuts": [
-          "Bryson DeChambeau"
+          "Bryson DeChambeau",
+          "Viktor Hovland"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     }
   },

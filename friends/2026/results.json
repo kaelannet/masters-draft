@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T12:05:12.227087Z",
+  "updated_at": "2026-04-10T12:10:13.352998Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 150,
+    "cut_line": 148,
     "cut_official": false
   },
   "standings": {
@@ -239,7 +239,7 @@
         "projected_cuts": [
           "Brian Harman"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Mikey": {
@@ -469,7 +469,7 @@
         "projected_cuts": [
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Jackson": {
@@ -697,7 +697,7 @@
       "final_total": 284,
       "forecast": {
         "projected_cuts": [],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Gil": {
@@ -925,7 +925,7 @@
       "final_total": 286,
       "forecast": {
         "projected_cuts": [],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Daniel": {
@@ -957,7 +957,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T54",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -1156,7 +1156,7 @@
           "Bryson DeChambeau",
           "Maverick McNealy"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Kyle": {
@@ -1316,7 +1316,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T54",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -1384,9 +1384,10 @@
       "final_total": 290,
       "forecast": {
         "projected_cuts": [
+          "Corey Conners",
           "Bubba Watson"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Kaelan": {
@@ -1593,9 +1594,10 @@
       "final_total": 291,
       "forecast": {
         "projected_cuts": [
-          "Jon Rahm"
+          "Jon Rahm",
+          "Michael Kim"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Jaden": {
@@ -1823,9 +1825,11 @@
       "final_total": 293,
       "forecast": {
         "projected_cuts": [
-          "Rasmus Hojgaard"
+          "Viktor Hovland",
+          "Rasmus Hojgaard",
+          "Charl Schwartzel"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Charlie": {
@@ -1985,7 +1989,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T54",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -2017,7 +2021,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
+          "position": "T54",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -2057,7 +2061,7 @@
           "Daniel Berger",
           "Marco Penge"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     },
     "Peyton": {
@@ -2167,7 +2171,7 @@
               "topar": 4
             },
             "round2": {
-              "score": 4,
+              "score": 9,
               "penalty": false,
               "topar": 0
             },
@@ -2182,11 +2186,11 @@
               "topar": null
             }
           },
-          "total": 80,
+          "total": 85,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T55",
-          "thru": "1",
+          "position": "T54",
+          "thru": "2",
           "today": "E",
           "topar": "+4"
         },
@@ -2270,7 +2274,7 @@
       },
       "round_totals": {
         "round1": 294,
-        "round2": 4,
+        "round2": 9,
         "round3": null,
         "round4": null
       },
@@ -2280,18 +2284,19 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 298,
+      "raw_total": 303,
       "raw_topar": 6,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 298,
+      "final_total": 303,
       "forecast": {
         "projected_cuts": [
+          "Si Woo Kim",
           "Patrick Cantlay",
           "Sungjae Im",
           "Ryan Fox"
         ],
-        "cut_line_estimate": 150
+        "cut_line_estimate": 148
       }
     }
   },
