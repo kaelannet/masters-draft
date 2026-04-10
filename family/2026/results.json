@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T21:30:09.813161Z",
+  "updated_at": "2026-04-10T21:35:10.784870Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -137,7 +137,7 @@
           "total": 123,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "13",
           "today": "-3",
           "topar": "-1"
@@ -376,7 +376,7 @@
           "total": 127,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "14",
           "today": "+1",
           "topar": "-1"
@@ -440,7 +440,7 @@
           "total": 123,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "13",
           "today": "-1",
           "topar": "-1"
@@ -537,7 +537,7 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T2",
-          "thru": "15",
+          "thru": "16",
           "today": "-3",
           "topar": "-6"
         },
