@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T14:50:10.921639Z",
+  "updated_at": "2026-04-10T14:52:13.874508Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -1512,7 +1512,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 12,
+              "score": 15,
               "penalty": false,
               "topar": -1
             },
@@ -1527,11 +1527,11 @@
               "topar": null
             }
           },
-          "total": 84,
+          "total": 87,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "3",
+          "thru": "4",
           "today": "-1",
           "topar": "-1"
         },
@@ -1648,7 +1648,7 @@
       },
       "round_totals": {
         "round1": 293,
-        "round2": 40,
+        "round2": 43,
         "round3": null,
         "round4": null
       },
@@ -1658,11 +1658,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 333,
+      "raw_total": 336,
       "raw_topar": 5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 333,
+      "final_total": 336,
       "forecast": {
         "projected_cuts": [
           "Viktor Hovland",
@@ -2165,7 +2165,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 12,
+              "score": 15,
               "penalty": false,
               "topar": -1
             },
@@ -2180,11 +2180,11 @@
               "topar": null
             }
           },
-          "total": 90,
+          "total": 93,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T57",
-          "thru": "3",
+          "thru": "4",
           "today": "-1",
           "topar": "+5"
         },
@@ -2367,7 +2367,7 @@
       },
       "round_totals": {
         "round1": 291,
-        "round2": 106,
+        "round2": 109,
         "round3": null,
         "round4": null
       },
@@ -2377,11 +2377,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 397,
+      "raw_total": 400,
       "raw_topar": 8,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 397,
+      "final_total": 400,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
