@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:00:11.402120Z",
+  "updated_at": "2026-04-10T22:05:16.582474Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -789,7 +789,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 49,
+              "score": 53,
               "penalty": false,
               "topar": -3
             },
@@ -804,11 +804,11 @@
               "topar": null
             }
           },
-          "total": 126,
+          "total": 130,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T39",
-          "thru": "13",
+          "thru": "14",
           "today": "-3",
           "topar": "+2"
         },
@@ -899,7 +899,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 372,
+        "round2": 376,
         "round3": null,
         "round4": null
       },
@@ -909,11 +909,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 801,
+      "raw_total": 805,
       "raw_topar": -16,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 801,
+      "final_total": 805,
       "forecast": {
         "projected_cuts": [
           "Min Woo Lee"
