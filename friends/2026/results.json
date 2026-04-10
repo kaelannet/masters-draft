@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T21:45:11.460339Z",
+  "updated_at": "2026-04-10T21:47:34.636248Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -491,7 +491,7 @@
               "topar": 2
             },
             "round2": {
-              "score": 54,
+              "score": 59,
               "penalty": false,
               "topar": -2
             },
@@ -506,11 +506,11 @@
               "topar": null
             }
           },
-          "total": 128,
+          "total": 133,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T23",
-          "thru": "14",
+          "thru": "15",
           "today": "-2",
           "topar": "E"
         },
@@ -619,7 +619,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 68,
+              "score": 72,
               "penalty": false,
               "topar": 0
             },
@@ -634,11 +634,11 @@
               "topar": null
             }
           },
-          "total": 140,
+          "total": 144,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T23",
-          "thru": "17",
+          "thru": "F",
           "today": "E",
           "topar": "E"
         },
@@ -693,7 +693,7 @@
       },
       "round_totals": {
         "round1": 282,
-        "round2": 254,
+        "round2": 263,
         "round3": null,
         "round4": null
       },
@@ -703,11 +703,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 536,
+      "raw_total": 545,
       "raw_topar": -12,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 536,
+      "final_total": 545,
       "forecast": {
         "projected_cuts": [
           "Min Woo Lee"
@@ -959,9 +959,9 @@
               "topar": -2
             },
             "round2": {
-              "score": 57,
+              "score": 61,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round3": {
               "score": null,
@@ -974,13 +974,13 @@
               "topar": null
             }
           },
-          "total": 127,
+          "total": 131,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "14",
-          "today": "+1",
-          "topar": "-1"
+          "position": "T16",
+          "thru": "15",
+          "today": "E",
+          "topar": "-2"
         },
         {
           "name": "Brooks Koepka",
@@ -1161,21 +1161,21 @@
       },
       "round_totals": {
         "round1": 286,
-        "round2": 265,
+        "round2": 269,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -2,
-        "round2": -7,
+        "round2": -8,
         "round3": null,
         "round4": null
       },
-      "raw_total": 551,
-      "raw_topar": -9,
+      "raw_total": 555,
+      "raw_topar": -10,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 551,
+      "final_total": 555,
       "forecast": {
         "projected_cuts": [
           "Ethan Fang"
@@ -1354,7 +1354,7 @@
               "topar": 0
             },
             "round2": {
-              "score": 70,
+              "score": 74,
               "penalty": false,
               "topar": 2
             },
@@ -1369,11 +1369,11 @@
               "topar": null
             }
           },
-          "total": 142,
+          "total": 146,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T38",
-          "thru": "17",
+          "thru": "F",
           "today": "+2",
           "topar": "+2"
         }
@@ -1966,7 +1966,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 44,
+              "score": 49,
               "penalty": false,
               "topar": -3
             },
@@ -1981,11 +1981,11 @@
               "topar": null
             }
           },
-          "total": 121,
+          "total": 126,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T38",
-          "thru": "12",
+          "thru": "13",
           "today": "-3",
           "topar": "+2"
         },
@@ -2104,7 +2104,7 @@
       },
       "round_totals": {
         "round1": 294,
-        "round2": 257,
+        "round2": 262,
         "round3": null,
         "round4": null
       },
@@ -2114,11 +2114,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 551,
+      "raw_total": 556,
       "raw_topar": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 551,
+      "final_total": 556,
       "forecast": {
         "projected_cuts": [
           "Ryan Fox"
