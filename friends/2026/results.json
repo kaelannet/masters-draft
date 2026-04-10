@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-10T04:19:59.853170Z",
+  "updated_at": "2026-04-10T11:42:22.845640Z",
   "tournament_status": {
-    "current_round": "1000",
-    "status_round": "FNNN",
+    "current_round": "0100",
+    "status_round": "FPNN",
     "winner": null,
     "worst_cut_scores": {
       "round3": null,
@@ -42,8 +42,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T1",
-          "thru": "F",
-          "today": "-5",
+          "thru": "",
+          "today": "",
           "topar": "-5"
         },
         {
@@ -74,8 +74,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -106,8 +106,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "F",
-          "today": "-1",
+          "thru": "",
+          "today": "",
           "topar": "-1"
         },
         {
@@ -138,8 +138,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "F",
-          "today": "-1",
+          "thru": "",
+          "today": "",
           "topar": "-1"
         },
         {
@@ -170,8 +170,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T1",
-          "thru": "F",
-          "today": "-5",
+          "thru": "",
+          "today": "",
           "topar": "-5"
         },
         {
@@ -202,8 +202,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T77",
-          "thru": "F",
-          "today": "+7",
+          "thru": "",
+          "today": "",
           "topar": "+7"
         }
       ],
@@ -272,8 +272,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -304,8 +304,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T73",
-          "thru": "F",
-          "today": "+6",
+          "thru": "",
+          "today": "",
           "topar": "+6"
         },
         {
@@ -336,8 +336,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "F",
-          "today": "-3",
+          "thru": "",
+          "today": "",
           "topar": "-3"
         },
         {
@@ -368,8 +368,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "F",
-          "today": "-2",
+          "thru": "",
+          "today": "",
           "topar": "-2"
         },
         {
@@ -400,8 +400,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -432,8 +432,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "F",
-          "today": "-1",
+          "thru": "",
+          "today": "",
           "topar": "-1"
         }
       ],
@@ -502,8 +502,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "F",
-          "today": "-2",
+          "thru": "",
+          "today": "",
           "topar": "-2"
         },
         {
@@ -534,8 +534,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "F",
-          "today": "-1",
+          "thru": "",
+          "today": "",
           "topar": "-1"
         },
         {
@@ -566,8 +566,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -598,8 +598,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -630,8 +630,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -662,8 +662,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "F",
-          "today": "-1",
+          "thru": "",
+          "today": "",
           "topar": "-1"
         }
       ],
@@ -730,8 +730,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "F",
-          "today": "-2",
+          "thru": "",
+          "today": "",
           "topar": "-2"
         },
         {
@@ -762,8 +762,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -794,8 +794,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -826,8 +826,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -858,8 +858,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -890,8 +890,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         }
       ],
@@ -958,8 +958,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "F",
-          "today": "+4",
+          "thru": "",
+          "today": "",
           "topar": "+4"
         },
         {
@@ -990,8 +990,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -1022,8 +1022,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T65",
-          "thru": "F",
-          "today": "+5",
+          "thru": "",
+          "today": "",
           "topar": "+5"
         },
         {
@@ -1054,8 +1054,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "F",
-          "today": "-3",
+          "thru": "",
+          "today": "",
           "topar": "-3"
         },
         {
@@ -1086,8 +1086,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -1118,8 +1118,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         }
       ],
@@ -1189,8 +1189,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -1221,8 +1221,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -1253,8 +1253,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "F",
-          "today": "+3",
+          "thru": "",
+          "today": "",
           "topar": "+3"
         },
         {
@@ -1285,8 +1285,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -1317,8 +1317,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "F",
-          "today": "+4",
+          "thru": "",
+          "today": "",
           "topar": "+4"
         },
         {
@@ -1349,8 +1349,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         }
       ],
@@ -1419,8 +1419,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T73",
-          "thru": "F",
-          "today": "+6",
+          "thru": "",
+          "today": "",
           "topar": "+6"
         },
         {
@@ -1451,8 +1451,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "F",
-          "today": "-3",
+          "thru": "",
+          "today": "",
           "topar": "-3"
         },
         {
@@ -1483,8 +1483,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -1526,8 +1526,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -1558,8 +1558,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "F",
-          "today": "+3",
+          "thru": "",
+          "today": "",
           "topar": "+3"
         }
       ],
@@ -1628,8 +1628,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "F",
-          "today": "+3",
+          "thru": "",
+          "today": "",
           "topar": "+3"
         },
         {
@@ -1660,8 +1660,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -1692,8 +1692,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T17",
-          "thru": "F",
-          "today": "E",
+          "thru": "",
+          "today": "",
           "topar": "E"
         },
         {
@@ -1724,8 +1724,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -1756,8 +1756,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T73",
-          "thru": "F",
-          "today": "+6",
+          "thru": "",
+          "today": "",
           "topar": "+6"
         },
         {
@@ -1788,8 +1788,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "F",
-          "today": "+3",
+          "thru": "",
+          "today": "",
           "topar": "+3"
         }
       ],
@@ -1858,8 +1858,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "F",
-          "today": "-2",
+          "thru": "",
+          "today": "",
           "topar": "-2"
         },
         {
@@ -1890,8 +1890,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "F",
-          "today": "+3",
+          "thru": "",
+          "today": "",
           "topar": "+3"
         },
         {
@@ -1922,8 +1922,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T65",
-          "thru": "F",
-          "today": "+5",
+          "thru": "",
+          "today": "",
           "topar": "+5"
         },
         {
@@ -1954,8 +1954,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "F",
-          "today": "+4",
+          "thru": "",
+          "today": "",
           "topar": "+4"
         },
         {
@@ -1986,8 +1986,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -2018,8 +2018,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T65",
-          "thru": "F",
-          "today": "+5",
+          "thru": "",
+          "today": "",
           "topar": "+5"
         }
       ],
@@ -2090,8 +2090,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -2122,8 +2122,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T82",
-          "thru": "F",
-          "today": "+8",
+          "thru": "",
+          "today": "",
           "topar": "+8"
         },
         {
@@ -2154,8 +2154,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "F",
-          "today": "+1",
+          "thru": "",
+          "today": "",
           "topar": "+1"
         },
         {
@@ -2186,8 +2186,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T40",
-          "thru": "F",
-          "today": "+2",
+          "thru": "",
+          "today": "",
           "topar": "+2"
         },
         {
@@ -2218,8 +2218,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "F",
-          "today": "+4",
+          "thru": "",
+          "today": "",
           "topar": "+4"
         },
         {
@@ -2250,8 +2250,8 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "F",
-          "today": "+4",
+          "thru": "",
+          "today": "",
           "topar": "+4"
         }
       ],
