@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:50:12.846142Z",
+  "updated_at": "2026-04-10T22:55:11.671986Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -23,9 +23,9 @@
               "topar": -5
             },
             "round2": {
-              "score": 62,
+              "score": 65,
               "penalty": false,
-              "topar": -6
+              "topar": -7
             },
             "round3": {
               "score": null,
@@ -38,13 +38,13 @@
               "topar": null
             }
           },
-          "total": 129,
+          "total": 132,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "17",
-          "today": "-6",
-          "topar": "-11"
+          "thru": "F",
+          "today": "-7",
+          "topar": "-12"
         },
         {
           "name": "Jordan Spieth",
@@ -225,21 +225,21 @@
       },
       "round_totals": {
         "round1": 276,
-        "round2": 275,
+        "round2": 278,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -12,
-        "round2": -9,
+        "round2": -10,
         "round3": null,
         "round4": null
       },
-      "raw_total": 551,
-      "raw_topar": -21,
+      "raw_total": 554,
+      "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 551,
+      "final_total": 554,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1196,7 +1196,7 @@
               "topar": 1
             },
             "round2": {
-              "score": 63,
+              "score": 67,
               "penalty": false,
               "topar": -5
             },
@@ -1211,11 +1211,11 @@
               "topar": null
             }
           },
-          "total": 136,
+          "total": 140,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T7",
-          "thru": "17",
+          "thru": "F",
           "today": "-5",
           "topar": "-4"
         },
@@ -1398,7 +1398,7 @@
       },
       "round_totals": {
         "round1": 290,
-        "round2": 277,
+        "round2": 281,
         "round3": null,
         "round4": null
       },
@@ -1408,11 +1408,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 567,
+      "raw_total": 571,
       "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 567,
+      "final_total": 571,
       "forecast": {
         "projected_cuts": [
           "Bubba Watson"
@@ -1731,7 +1731,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 59,
+              "score": 63,
               "penalty": false,
               "topar": -5
             },
@@ -1746,11 +1746,11 @@
               "topar": null
             }
           },
-          "total": 136,
+          "total": 140,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "16",
+          "thru": "17",
           "today": "-5",
           "topar": "E"
         },
@@ -1869,7 +1869,7 @@
       },
       "round_totals": {
         "round1": 294,
-        "round2": 272,
+        "round2": 276,
         "round3": null,
         "round4": null
       },
@@ -1879,11 +1879,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 566,
+      "raw_total": 570,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 566,
+      "final_total": 570,
       "forecast": {
         "projected_cuts": [
           "Ryan Fox"

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:50:12.714734Z",
+  "updated_at": "2026-04-10T22:55:11.506637Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -55,9 +55,9 @@
               "topar": -5
             },
             "round2": {
-              "score": 62,
+              "score": 65,
               "penalty": false,
-              "topar": -6
+              "topar": -7
             },
             "round3": {
               "score": null,
@@ -70,13 +70,13 @@
               "topar": null
             }
           },
-          "total": 129,
+          "total": 132,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "17",
-          "today": "-6",
-          "topar": "-11"
+          "thru": "F",
+          "today": "-7",
+          "topar": "-12"
         },
         {
           "name": "Ludvig Aberg",
@@ -183,7 +183,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 59,
+              "score": 63,
               "penalty": false,
               "topar": -5
             },
@@ -198,11 +198,11 @@
               "topar": null
             }
           },
-          "total": 136,
+          "total": 140,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "16",
+          "thru": "17",
           "today": "-5",
           "topar": "E"
         },
@@ -293,21 +293,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 402,
+        "round2": 409,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": -18,
+        "round2": -19,
         "round3": null,
         "round4": null
       },
-      "raw_total": 831,
-      "raw_topar": -21,
+      "raw_total": 838,
+      "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 831,
+      "final_total": 838,
       "forecast": {
         "projected_cuts": [
           "Min Woo Lee"
@@ -390,7 +390,7 @@
               "topar": 1
             },
             "round2": {
-              "score": 63,
+              "score": 67,
               "penalty": false,
               "topar": -5
             },
@@ -405,11 +405,11 @@
               "topar": null
             }
           },
-          "total": 136,
+          "total": 140,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T7",
-          "thru": "17",
+          "thru": "F",
           "today": "-5",
           "topar": "-4"
         },
@@ -596,7 +596,7 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 406,
+        "round2": 410,
         "round3": null,
         "round4": null
       },
@@ -606,11 +606,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 839,
+      "raw_total": 843,
       "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 839,
+      "final_total": 843,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
