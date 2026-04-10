@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T20:10:14.412795Z",
+  "updated_at": "2026-04-10T20:15:09.602323Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -137,7 +137,7 @@
           "total": 106,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "17",
+          "position": "T16",
           "thru": "9",
           "today": "-2",
           "topar": "-2"
@@ -215,7 +215,7 @@
               "topar": -3
             },
             "round2": {
-              "score": 38,
+              "score": 42,
               "penalty": false,
               "topar": -2
             },
@@ -230,11 +230,11 @@
               "topar": null
             }
           },
-          "total": 107,
+          "total": 111,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T2",
-          "thru": "10",
+          "thru": "11",
           "today": "-2",
           "topar": "-5"
         },
@@ -293,7 +293,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 288,
+        "round2": 292,
         "round3": null,
         "round4": null
       },
@@ -303,11 +303,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 717,
+      "raw_total": 721,
       "raw_topar": -15,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 717,
+      "final_total": 721,
       "forecast": {
         "projected_cuts": [
           "Robert MacIntyre"
@@ -486,7 +486,7 @@
               "topar": 5
             },
             "round2": {
-              "score": 26,
+              "score": 31,
               "penalty": false,
               "topar": -1
             },
@@ -501,11 +501,11 @@
               "topar": null
             }
           },
-          "total": 103,
+          "total": 108,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "7",
+          "thru": "8",
           "today": "-1",
           "topar": "+4"
         },
@@ -568,7 +568,7 @@
           "total": 155,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T81",
+          "position": "T80",
           "thru": "F",
           "today": "+5",
           "topar": "+11"
@@ -596,7 +596,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 302,
+        "round2": 307,
         "round3": null,
         "round4": null
       },
@@ -606,11 +606,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 731,
+      "raw_total": 736,
       "raw_topar": -12,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 731,
+      "final_total": 736,
       "forecast": {
         "projected_cuts": [
           "Min Woo Lee"
@@ -789,7 +789,7 @@
               "topar": 3
             },
             "round2": {
-              "score": 28,
+              "score": 33,
               "penalty": false,
               "topar": 1
             },
@@ -804,11 +804,11 @@
               "topar": null
             }
           },
-          "total": 103,
+          "total": 108,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "7",
+          "thru": "8",
           "today": "+1",
           "topar": "+4"
         },
@@ -933,7 +933,7 @@
           "topar": 6
         },
         "round2": {
-          "score": 54,
+          "score": 59,
           "penalty": false,
           "topar": -2
         },
@@ -948,11 +948,11 @@
           "topar": null
         }
       },
-      "total": 132,
+      "total": 137,
       "made_cut": true,
       "status": "pre-tournament",
       "position": "T48",
-      "thru": "14",
+      "thru": "15",
       "today": "-2",
       "topar": "+4"
     },
