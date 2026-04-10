@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T19:09:31.680907Z",
+  "updated_at": "2026-04-10T19:10:10.506933Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -73,7 +73,7 @@
           "total": 145,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "F",
           "today": "+1",
           "topar": "+1"
@@ -105,7 +105,7 @@
           "total": 145,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "F",
           "today": "+2",
           "topar": "+1"
@@ -902,7 +902,7 @@
           "total": 145,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "F",
           "today": "+2",
           "topar": "+1"
@@ -1105,7 +1105,7 @@
           "total": 117,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "11",
           "today": "+1",
           "topar": "+1"
@@ -1793,7 +1793,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 42,
+              "score": 45,
               "penalty": false,
               "topar": -2
             },
@@ -1808,11 +1808,11 @@
               "topar": null
             }
           },
-          "total": 120,
+          "total": 123,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T49",
-          "thru": "11",
+          "thru": "12",
           "today": "-2",
           "topar": "+4"
         },
@@ -1867,7 +1867,7 @@
       },
       "round_totals": {
         "round1": 293,
-        "round2": 174,
+        "round2": 177,
         "round3": null,
         "round4": null
       },
@@ -1877,11 +1877,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 467,
+      "raw_total": 470,
       "raw_topar": 0,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 467,
+      "final_total": 470,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 138
@@ -2026,9 +2026,9 @@
               "topar": 1
             },
             "round2": {
-              "score": 27,
+              "score": 31,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round3": {
               "score": null,
@@ -2041,13 +2041,13 @@
               "topar": null
             }
           },
-          "total": 100,
+          "total": 104,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
-          "thru": "7",
-          "today": "E",
-          "topar": "+1"
+          "position": "T21",
+          "thru": "8",
+          "today": "-1",
+          "topar": "E"
         },
         {
           "name": "Michael Kim",
@@ -2100,21 +2100,21 @@
       },
       "round_totals": {
         "round1": 291,
-        "round2": 197,
+        "round2": 201,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
-        "round2": -1,
+        "round2": -2,
         "round3": null,
         "round4": null
       },
-      "raw_total": 488,
-      "raw_topar": 2,
+      "raw_total": 492,
+      "raw_topar": 1,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 488,
+      "final_total": 492,
       "forecast": {
         "projected_cuts": [
           "JJ Spaun",
@@ -2249,7 +2249,7 @@
           "total": 145,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "F",
           "today": "-3",
           "topar": "+1"
@@ -2281,7 +2281,7 @@
           "total": 141,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "17",
           "today": "E",
           "topar": "+1"
