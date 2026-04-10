@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T16:40:12.366841Z",
+  "updated_at": "2026-04-10T16:45:12.261713Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 133,
+    "cut_line": 131,
     "cut_official": false
   },
   "standings": {
@@ -41,7 +41,7 @@
           "total": 117,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
+          "position": "T53",
           "thru": "10",
           "today": "-1",
           "topar": "+5"
@@ -137,7 +137,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T18",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -169,7 +169,7 @@
           "total": 128,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T18",
           "thru": "14",
           "today": "E",
           "topar": "E"
@@ -311,7 +311,7 @@
           "Jon Rahm",
           "Robert MacIntyre"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 131
       }
     },
     "Reidar": {
@@ -503,7 +503,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
+          "position": "T53",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -614,7 +614,7 @@
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 131
       }
     },
     "Kaelan": {
@@ -820,9 +820,9 @@
               "topar": 2
             },
             "round2": {
-              "score": 43,
+              "score": 48,
               "penalty": false,
-              "topar": 3
+              "topar": 4
             },
             "round3": {
               "score": null,
@@ -835,13 +835,13 @@
               "topar": null
             }
           },
-          "total": 117,
+          "total": 122,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T54",
-          "thru": "10",
-          "today": "+3",
-          "topar": "+5"
+          "position": "T65",
+          "thru": "11",
+          "today": "+4",
+          "topar": "+6"
         },
         {
           "name": "Shane Lowry",
@@ -895,26 +895,26 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 116,
+        "round2": 121,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
-        "round2": 0,
+        "round2": 1,
         "round3": null,
         "round4": null
       },
-      "raw_total": 549,
-      "raw_topar": 1,
+      "raw_total": 554,
+      "raw_topar": 2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 549,
+      "final_total": 554,
       "forecast": {
         "projected_cuts": [
           "J.J. Spaun"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 131
       }
     }
   },
@@ -929,9 +929,9 @@
           "topar": 6
         },
         "round2": {
-          "score": 9,
+          "score": 12,
           "penalty": false,
-          "topar": 0
+          "topar": -1
         },
         "round3": {
           "score": null,
@@ -944,13 +944,13 @@
           "topar": null
         }
       },
-      "total": 87,
+      "total": 90,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T64",
-      "thru": "2",
-      "today": "E",
-      "topar": "+6"
+      "position": "T53",
+      "thru": "3",
+      "today": "-1",
+      "topar": "+5"
     },
     "start_hour": 20,
     "end_hour": 24
