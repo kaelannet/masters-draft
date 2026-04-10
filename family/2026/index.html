@@ -311,7 +311,7 @@ let configData = null;
 
 function isEasterEggActive() {
   const egg = resultsData && resultsData.easter_egg;
-  if (!egg || !egg.player) return false;
+  if (!egg || !egg.replacement_player) return false;
   const h = new Date().getHours();
   const end = egg.end_hour || 24;
   return h >= (egg.start_hour || 20) && h < end;
@@ -391,13 +391,30 @@ function renderPreBanner() {
   }
 }
 
+function getDisplayTopar(name, data) {
+  const egg = resultsData.easter_egg;
+  if (egg && egg.replacement_player && name === egg.drafter && isEasterEggActive()) {
+    const epTopar = egg.replacement_player.topar;
+    if (epTopar && epTopar !== '') return parseInt(epTopar) * data.players.length;
+  }
+  return (data.raw_topar || 0) + (data.winner_bonus || 0);
+}
+
+function getSortedEntries() {
+  const entries = Object.entries(resultsData.standings);
+  if (isEasterEggActive()) {
+    entries.sort((a, b) => getDisplayTopar(a[0], a[1]) - getDisplayTopar(b[0], b[1]));
+  }
+  return entries;
+}
+
 function renderStandings() {
   const bar = document.getElementById('standings-bar');
-  const entries = Object.entries(resultsData.standings);
+  const entries = getSortedEntries();
   const ordinals = ['1st', '2nd', '3rd'];
   bar.innerHTML = entries.map(([name, data], i) => {
     const isLeader = i === 0 && !isPreTournament();
-    const topar = (data.raw_topar || 0) + (data.winner_bonus || 0);
+    const topar = getDisplayTopar(name, data);
     const totalDisplay = isPreTournament() ? '—' : formatTopar(topar);
     const bonusHtml = data.winner_bonus
       ? '<div class="bonus">Winner Bonus: ' + data.winner_bonus + '</div>' : '';
@@ -418,9 +435,9 @@ function renderStandings() {
 
 function renderTeams() {
   const container = document.getElementById('teams-container');
-  const entries = Object.entries(resultsData.standings);
+  const entries = getSortedEntries();
   container.innerHTML = entries.map(([name, data], idx) => {
-    const teamTopar = (data.raw_topar || 0) + (data.winner_bonus || 0);
+    const teamTopar = getDisplayTopar(name, data);
     const totalDisplay = isPreTournament() ? '—' : formatTopar(teamTopar);
     const bonusBadge = data.winner_bonus
       ? ' <span style="color:#D4AF37;font-size:0.8rem;">(incl. ' + data.winner_bonus + ' winner bonus)</span>' : '';

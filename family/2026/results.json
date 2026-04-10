@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T03:07:36.570284Z",
+  "updated_at": "2026-04-10T03:13:57.210696Z",
   "tournament_status": {
     "current_round": "1000",
     "status_round": "FNNN",
@@ -905,7 +905,6 @@
   },
   "easter_egg": {
     "drafter": "Reidar",
-    "target_players": "all",
     "replacement_player": {
       "name": "Rasmus H\u00f8jgaard",
       "rounds": {
