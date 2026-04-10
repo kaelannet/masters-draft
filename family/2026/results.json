@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T13:40:18.482506Z",
+  "updated_at": "2026-04-10T13:45:22.654331Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -41,7 +41,7 @@
           "total": 76,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T53",
+          "position": "T52",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -169,7 +169,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T17",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -469,7 +469,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T17",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -533,7 +533,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T17",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -547,7 +547,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 10,
+              "score": 14,
               "penalty": false,
               "topar": 1
             },
@@ -562,11 +562,11 @@
               "topar": null
             }
           },
-          "total": 88,
+          "total": 92,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T74",
-          "thru": "2",
+          "thru": "3",
           "today": "+1",
           "topar": "+7"
         }
@@ -588,7 +588,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 10,
+        "round2": 14,
         "round3": null,
         "round4": null
       },
@@ -598,11 +598,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 439,
+      "raw_total": 443,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 439,
+      "final_total": 443,
       "forecast": {
         "projected_cuts": [
           "Ludvig Aberg",
@@ -642,7 +642,7 @@
           "total": 78,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T69",
+          "position": "T68",
           "thru": "",
           "today": "",
           "topar": "+6"
@@ -706,7 +706,7 @@
           "total": 71,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T11",
+          "position": "T12",
           "thru": "",
           "today": "",
           "topar": "-1"
@@ -738,7 +738,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T17",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -943,7 +943,7 @@
       "total": 78,
       "made_cut": true,
       "status": "pre-tournament",
-      "position": "T69",
+      "position": "T68",
       "thru": "",
       "today": "",
       "topar": "+6"
