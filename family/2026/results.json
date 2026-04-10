@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:10:17.919931Z",
+  "updated_at": "2026-04-10T22:10:37.581520Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -922,41 +922,80 @@
       }
     }
   },
-  "easter_egg": {
-    "drafter": "Reidar",
-    "replacement_player": {
-      "name": "Rasmus H\u00f8jgaard",
-      "rounds": {
-        "round1": {
-          "score": 78,
-          "penalty": false,
-          "topar": 6
+  "easter_eggs": [
+    {
+      "drafter": "Reidar",
+      "replacement_player": {
+        "name": "Fred Couples",
+        "rounds": {
+          "round1": {
+            "score": 78,
+            "penalty": false,
+            "topar": 6
+          },
+          "round2": {
+            "score": 75,
+            "penalty": false,
+            "topar": 3
+          },
+          "round3": {
+            "score": null,
+            "penalty": false,
+            "topar": null
+          },
+          "round4": {
+            "score": null,
+            "penalty": false,
+            "topar": null
+          }
         },
-        "round2": {
-          "score": 70,
-          "penalty": false,
-          "topar": -2
-        },
-        "round3": {
-          "score": null,
-          "penalty": false,
-          "topar": null
-        },
-        "round4": {
-          "score": null,
-          "penalty": false,
-          "topar": null
-        }
+        "total": 153,
+        "made_cut": true,
+        "status": "pre-tournament",
+        "position": "T75",
+        "thru": "F",
+        "today": "+3",
+        "topar": "+9"
       },
-      "total": 148,
-      "made_cut": true,
-      "status": "pre-tournament",
-      "position": "T48",
-      "thru": "F",
-      "today": "-2",
-      "topar": "+4"
+      "start_hour": 17,
+      "end_hour": 17.5
     },
-    "start_hour": 20,
-    "end_hour": 24
-  }
+    {
+      "drafter": "Reidar",
+      "replacement_player": {
+        "name": "Rasmus H\u00f8jgaard",
+        "rounds": {
+          "round1": {
+            "score": 78,
+            "penalty": false,
+            "topar": 6
+          },
+          "round2": {
+            "score": 70,
+            "penalty": false,
+            "topar": -2
+          },
+          "round3": {
+            "score": null,
+            "penalty": false,
+            "topar": null
+          },
+          "round4": {
+            "score": null,
+            "penalty": false,
+            "topar": null
+          }
+        },
+        "total": 148,
+        "made_cut": true,
+        "status": "pre-tournament",
+        "position": "T48",
+        "thru": "F",
+        "today": "-2",
+        "topar": "+4"
+      },
+      "start_hour": 20,
+      "end_hour": 24
+    }
+  ]
 }

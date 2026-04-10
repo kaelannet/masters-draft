@@ -309,12 +309,16 @@ let resultsData = null;
 let draftData = null;
 let configData = null;
 
-function isEasterEggActive() {
-  const egg = resultsData && resultsData.easter_egg;
-  if (!egg || !egg.replacement_player) return false;
-  const h = new Date().getHours();
-  const end = egg.end_hour || 24;
-  return h >= (egg.start_hour || 20) && h < end;
+function getActiveEasterEgg(drafterName) {
+  const eggs = resultsData && resultsData.easter_eggs;
+  if (!eggs) return null;
+  const now = new Date();
+  const h = now.getHours() + now.getMinutes() / 60;
+  for (const egg of eggs) {
+    if (egg.drafter !== drafterName || !egg.replacement_player) continue;
+    if (h >= (egg.start_hour || 20) && h < (egg.end_hour || 24)) return egg;
+  }
+  return null;
 }
 
 async function fetchJSON(url) {
@@ -392,17 +396,25 @@ function renderPreBanner() {
 }
 
 function getDisplayTopar(name, data) {
-  const egg = resultsData.easter_egg;
-  if (egg && egg.replacement_player && name === egg.drafter && isEasterEggActive()) {
+  const egg = getActiveEasterEgg(name);
+  if (egg) {
     const epTopar = egg.replacement_player.topar;
     if (epTopar && epTopar !== '') return parseInt(epTopar) * data.players.length;
   }
   return (data.raw_topar || 0) + (data.winner_bonus || 0);
 }
 
+function anyEasterEggActive() {
+  const eggs = resultsData && resultsData.easter_eggs;
+  if (!eggs) return false;
+  const now = new Date();
+  const h = now.getHours() + now.getMinutes() / 60;
+  return eggs.some(e => e.replacement_player && h >= (e.start_hour || 20) && h < (e.end_hour || 24));
+}
+
 function getSortedEntries() {
   const entries = Object.entries(resultsData.standings);
-  if (isEasterEggActive()) {
+  if (anyEasterEggActive()) {
     entries.sort((a, b) => getDisplayTopar(a[0], a[1]) - getDisplayTopar(b[0], b[1]));
   }
   return entries;
@@ -458,11 +470,10 @@ function buildPlayerTable(data, drafterName) {
   // Only show dropped styling when the tournament is fully complete.
   const statusRound = (resultsData.tournament_status || {}).status_round || '';
   const tournamentComplete = statusRound === 'FFFF';
-  const egg = resultsData.easter_egg;
-  const eggActive = egg && egg.replacement_player && drafterName === egg.drafter && isEasterEggActive();
+  const activeEgg = getActiveEasterEgg(drafterName);
   const rows = data.players.map(p => {
-    if (eggActive) {
-      const ep = egg.replacement_player;
+    if (activeEgg) {
+      const ep = activeEgg.replacement_player;
       p = Object.assign({}, p, {
         name: ep.name, rounds: ep.rounds, total: ep.total,
         made_cut: ep.made_cut, status: ep.status, position: ep.position,
@@ -538,11 +549,9 @@ function buildPlayerTable(data, drafterName) {
 function renderDraftRecap() {
   if (!draftData || !draftData.picks) return;
   const el = document.getElementById('draft-recap');
-  const egg = resultsData && resultsData.easter_egg;
-  const eggOn = egg && egg.replacement_player && isEasterEggActive();
   const rows = draftData.picks.map(p => {
-    const playerName = (eggOn && p.drafter === egg.drafter)
-      ? egg.replacement_player.name : p.player;
+    const drafterEgg = getActiveEasterEgg(p.drafter);
+    const playerName = drafterEgg ? drafterEgg.replacement_player.name : p.player;
     return '<tr>' +
       '<td>' + p.round + '</td>' +
       '<td>' + p.pick_number + '</td>' +
