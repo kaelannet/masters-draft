@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T15:45:11.966577Z",
+  "updated_at": "2026-04-10T15:50:10.072785Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -8,7 +8,7 @@
       "round3": null,
       "round4": null
     },
-    "cut_line": 133,
+    "cut_line": 134,
     "cut_official": false
   },
   "standings": {
@@ -137,7 +137,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T21",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -169,7 +169,7 @@
           "total": 116,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T21",
           "thru": "11",
           "today": "E",
           "topar": "E"
@@ -183,7 +183,7 @@
               "topar": 8
             },
             "round2": {
-              "score": 16,
+              "score": 20,
               "penalty": false,
               "topar": 0
             },
@@ -198,11 +198,11 @@
               "topar": null
             }
           },
-          "total": 96,
+          "total": 100,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T79",
-          "thru": "4",
+          "position": "T80",
+          "thru": "5",
           "today": "E",
           "topar": "+8"
         },
@@ -291,7 +291,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 101,
+        "round2": 105,
         "round3": null,
         "round4": null
       },
@@ -301,17 +301,17 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 530,
+      "raw_total": 534,
       "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 530,
+      "final_total": 534,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
           "Robert MacIntyre"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 134
       }
     },
     "Reidar": {
@@ -325,9 +325,9 @@
               "topar": -2
             },
             "round2": {
-              "score": 17,
+              "score": 22,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             },
             "round3": {
               "score": null,
@@ -340,13 +340,13 @@
               "topar": null
             }
           },
-          "total": 87,
+          "total": 92,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T11",
-          "thru": "4",
-          "today": "+1",
-          "topar": "-1"
+          "position": "T21",
+          "thru": "5",
+          "today": "+2",
+          "topar": "E"
         },
         {
           "name": "Rory McIlroy",
@@ -586,35 +586,35 @@
           "Brooks Koepka",
           "Jordan Spieth",
           "Min Woo Lee",
-          "Scottie Scheffler",
-          "Ludvig Aberg"
+          "Ludvig Aberg",
+          "Scottie Scheffler"
         ],
         "round3": [],
         "round4": []
       },
       "round_totals": {
         "round1": 429,
-        "round2": 128,
+        "round2": 133,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": -1,
+        "round2": 0,
         "round3": null,
         "round4": null
       },
-      "raw_total": 557,
-      "raw_topar": -4,
+      "raw_total": 562,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 557,
+      "final_total": 562,
       "forecast": {
         "projected_cuts": [
           "Patrick Cantlay",
           "Min Woo Lee"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 134
       }
     },
     "Kaelan": {
@@ -660,9 +660,9 @@
               "topar": -2
             },
             "round2": {
-              "score": 24,
+              "score": 27,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round3": {
               "score": null,
@@ -675,13 +675,13 @@
               "topar": null
             }
           },
-          "total": 94,
+          "total": 97,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T11",
-          "thru": "6",
-          "today": "+1",
-          "topar": "-1"
+          "position": "T6",
+          "thru": "7",
+          "today": "E",
+          "topar": "-2"
         },
         {
           "name": "Cameron Young",
@@ -710,7 +710,7 @@
           "total": 73,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
+          "position": "T32",
           "thru": "",
           "today": "",
           "topar": "+1"
@@ -820,7 +820,7 @@
               "topar": 2
             },
             "round2": {
-              "score": 30,
+              "score": 35,
               "penalty": false,
               "topar": 3
             },
@@ -835,11 +835,11 @@
               "topar": null
             }
           },
-          "total": 104,
+          "total": 109,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T56",
-          "thru": "7",
+          "thru": "8",
           "today": "+3",
           "topar": "+5"
         },
@@ -895,27 +895,27 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 80,
+        "round2": 88,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
-        "round2": 3,
+        "round2": 2,
         "round3": null,
         "round4": null
       },
-      "raw_total": 513,
-      "raw_topar": 4,
+      "raw_total": 521,
+      "raw_topar": 3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 513,
+      "final_total": 521,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau",
           "J.J. Spaun"
         ],
-        "cut_line_estimate": 133
+        "cut_line_estimate": 134
       }
     }
   },
