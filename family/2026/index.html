@@ -539,15 +539,19 @@ function buildPlayerTable(data, drafterName) {
 function renderDraftRecap() {
   if (!draftData || !draftData.picks) return;
   const el = document.getElementById('draft-recap');
-  const rows = draftData.picks.map(p =>
-    '<tr>' +
+  const egg = resultsData && resultsData.easter_egg;
+  const eggOn = egg && egg.replacement_player && isEasterEggActive();
+  const rows = draftData.picks.map(p => {
+    const playerName = (eggOn && p.drafter === egg.drafter)
+      ? egg.replacement_player.name : p.player;
+    return '<tr>' +
       '<td>' + p.round + '</td>' +
       '<td>' + p.pick_number + '</td>' +
       '<td>' + esc(p.drafter) + '</td>' +
-      '<td>' + esc(p.player) + '</td>' +
+      '<td>' + esc(playerName) + '</td>' +
       '<td>' + p.world_ranking + '</td>' +
-    '</tr>'
-  ).join('');
+    '</tr>';
+  }).join('');
   el.innerHTML = '<table class="draft-table">' +
     '<thead><tr><th>Round</th><th>Pick</th><th>Drafter</th><th>Player</th><th>OWGR</th></tr></thead>' +
     '<tbody>' + rows + '</tbody></table>';
