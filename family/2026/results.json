@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T15:05:11.306028Z",
+  "updated_at": "2026-04-10T15:10:13.009709Z",
   "tournament_status": {
     "current_round": "0100",
     "status_round": "FPNN",
@@ -201,7 +201,7 @@
           "total": 77,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T56",
+          "position": "T57",
           "thru": "",
           "today": "",
           "topar": "+5"
@@ -247,7 +247,7 @@
               "topar": 6
             },
             "round2": {
-              "score": 27,
+              "score": 32,
               "penalty": false,
               "topar": 0
             },
@@ -262,11 +262,11 @@
               "topar": null
             }
           },
-          "total": 105,
+          "total": 110,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T66",
-          "thru": "7",
+          "thru": "8",
           "today": "E",
           "topar": "+6"
         }
@@ -292,7 +292,7 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 81,
+        "round2": 86,
         "round3": null,
         "round4": null
       },
@@ -302,11 +302,11 @@
         "round3": null,
         "round4": null
       },
-      "raw_total": 510,
+      "raw_total": 515,
       "raw_topar": -6,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 510,
+      "final_total": 515,
       "forecast": {
         "projected_cuts": [
           "Patrick Cantlay",
@@ -326,9 +326,9 @@
               "topar": 6
             },
             "round2": {
-              "score": 15,
+              "score": 18,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round3": {
               "score": null,
@@ -341,13 +341,13 @@
               "topar": null
             }
           },
-          "total": 93,
+          "total": 96,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T56",
-          "thru": "4",
-          "today": "-1",
-          "topar": "+5"
+          "position": "T51",
+          "thru": "5",
+          "today": "-2",
+          "topar": "+4"
         },
         {
           "name": "Xander Schauffele",
@@ -440,7 +440,7 @@
           "total": 72,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T18",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -472,7 +472,7 @@
           "total": 104,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T18",
           "thru": "8",
           "today": "E",
           "topar": "E"
@@ -504,7 +504,7 @@
           "total": 91,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T86",
+          "position": "86",
           "thru": "2",
           "today": "+2",
           "topar": "+10"
@@ -594,21 +594,21 @@
       },
       "round_totals": {
         "round1": 429,
-        "round2": 62,
+        "round2": 65,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
-        "round2": 1,
+        "round2": 0,
         "round3": null,
         "round4": null
       },
-      "raw_total": 491,
-      "raw_topar": -2,
+      "raw_total": 494,
+      "raw_topar": -3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 491,
+      "final_total": 494,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm",
@@ -756,9 +756,9 @@
               "topar": 0
             },
             "round2": {
-              "score": 15,
+              "score": 20,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round3": {
               "score": null,
@@ -771,13 +771,13 @@
               "topar": null
             }
           },
-          "total": 87,
+          "total": 92,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
-          "thru": "4",
-          "today": "-1",
-          "topar": "-1"
+          "position": "T18",
+          "thru": "5",
+          "today": "E",
+          "topar": "E"
         },
         {
           "name": "Viktor Hovland",
@@ -895,21 +895,21 @@
       },
       "round_totals": {
         "round1": 433,
-        "round2": 53,
+        "round2": 58,
         "round3": null,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
-        "round2": 1,
+        "round2": 2,
         "round3": null,
         "round4": null
       },
-      "raw_total": 486,
-      "raw_topar": 2,
+      "raw_total": 491,
+      "raw_topar": 3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 486,
+      "final_total": 491,
       "forecast": {
         "projected_cuts": [
           "Bryson DeChambeau"
