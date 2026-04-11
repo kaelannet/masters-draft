@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T19:30:10.323585Z",
+  "updated_at": "2026-04-11T19:35:10.018790Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 77,
+      "round3": 78,
       "round4": null
     },
     "cut_line": 148,
@@ -28,7 +28,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 46,
+              "score": 50,
               "penalty": false,
               "topar": -6
             },
@@ -38,11 +38,11 @@
               "topar": null
             }
           },
-          "total": 190,
+          "total": 194,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "13",
+          "thru": "14",
           "today": "-6",
           "topar": "-6"
         },
@@ -92,9 +92,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 51,
+              "score": 54,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -102,13 +102,13 @@
               "topar": null
             }
           },
-          "total": 195,
+          "total": 198,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
-          "thru": "13",
-          "today": "-1",
-          "topar": "-1"
+          "position": "T24",
+          "thru": "14",
+          "today": "-2",
+          "topar": "-2"
         },
         {
           "name": "Collin Morikawa",
@@ -137,7 +137,7 @@
           "total": 195,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "13",
           "today": "E",
           "topar": "-1"
@@ -188,7 +188,7 @@
               "topar": -5
             },
             "round3": {
-              "score": 59,
+              "score": 63,
               "penalty": false,
               "topar": -5
             },
@@ -198,11 +198,11 @@
               "topar": null
             }
           },
-          "total": 203,
+          "total": 207,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "16",
+          "thru": "17",
           "today": "-5",
           "topar": "-5"
         },
@@ -233,7 +233,7 @@
           "total": 215,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T31",
           "thru": "F",
           "today": "-2",
           "topar": "-1"
@@ -291,8 +291,8 @@
         "round3": [
           "Scottie Scheffler",
           "Patrick Cantlay",
-          "Jordan Spieth",
           "Ludvig Aberg",
+          "Jordan Spieth",
           "Rory McIlroy",
           "Collin Morikawa"
         ],
@@ -301,20 +301,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 291,
+        "round3": 302,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
-        "round3": -14,
+        "round3": -15,
         "round4": null
       },
-      "raw_total": 1133,
-      "raw_topar": -36,
+      "raw_total": 1144,
+      "raw_topar": -37,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1133,
+      "final_total": 1144,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -368,7 +368,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 12,
+              "score": 15,
               "penalty": false,
               "topar": -1
             },
@@ -378,11 +378,11 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 154,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "3",
+          "thru": "4",
           "today": "-1",
           "topar": "-6"
         },
@@ -560,7 +560,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 15,
+              "score": 19,
               "penalty": false,
               "topar": -1
             },
@@ -570,11 +570,11 @@
               "topar": null
             }
           },
-          "total": 154,
+          "total": 158,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "4",
+          "thru": "5",
           "today": "-1",
           "topar": "-6"
         }
@@ -609,7 +609,7 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 197,
+        "round3": 204,
         "round4": null
       },
       "round_topars": {
@@ -618,11 +618,11 @@
         "round3": -7,
         "round4": null
       },
-      "raw_total": 1044,
+      "raw_total": 1051,
       "raw_topar": -24,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1044,
+      "final_total": 1051,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -676,9 +676,9 @@
               "topar": 0
             },
             "round3": {
-              "score": 35,
+              "score": 40,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -686,13 +686,13 @@
               "topar": null
             }
           },
-          "total": 177,
+          "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "9",
-          "today": "-1",
-          "topar": "-3"
+          "position": "T24",
+          "thru": "10",
+          "today": "E",
+          "topar": "-2"
         },
         {
           "name": "Tommy Fleetwood",
@@ -708,7 +708,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 16,
+              "score": 20,
               "penalty": false,
               "topar": 0
             },
@@ -718,11 +718,11 @@
               "topar": null
             }
           },
-          "total": 155,
+          "total": 159,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T10",
-          "thru": "4",
+          "thru": "5",
           "today": "E",
           "topar": "-5"
         },
@@ -753,7 +753,7 @@
           "total": 180,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
+          "position": "T17",
           "thru": "10",
           "today": "-2",
           "topar": "-4"
@@ -836,9 +836,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 10,
+              "score": 14,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -846,13 +846,13 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "2",
-          "thru": "3",
-          "today": "-3",
-          "topar": "-9"
+          "position": "T2",
+          "thru": "4",
+          "today": "-2",
+          "topar": "-8"
         },
         {
           "name": "S.W. Kim",
@@ -905,9 +905,9 @@
           "Xander Schauffele"
         ],
         "round3": [
-          "Patrick Reed",
           "Hideki Matsuyama",
           "Adam Scott",
+          "Patrick Reed",
           "Xander Schauffele",
           "Tommy Fleetwood",
           "S.W. Kim"
@@ -917,20 +917,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 241,
+        "round3": 254,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -8,
+        "round3": -6,
         "round4": null
       },
-      "raw_total": 1090,
-      "raw_topar": -23,
+      "raw_total": 1103,
+      "raw_topar": -21,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1090,
+      "final_total": 1103,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
