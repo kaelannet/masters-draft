@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T14:05:12.011893Z",
+  "updated_at": "2026-04-11T14:09:04.367903Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 10,
+      "round3": 15,
       "round4": null
     },
     "cut_line": 148,
@@ -1056,9 +1056,9 @@
               "topar": 7
             },
             "round3": {
-              "score": 10,
+              "score": 15,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             },
             "round4": {
               "score": null,
@@ -1066,13 +1066,13 @@
               "topar": null
             }
           },
-          "total": 158,
+          "total": 163,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T52",
-          "thru": "2",
-          "today": "+1",
-          "topar": "+5"
+          "position": "54",
+          "thru": "3",
+          "today": "+2",
+          "topar": "+6"
         },
         {
           "name": "Matt McCarty",
@@ -1160,20 +1160,20 @@
       "round_totals": {
         "round1": 287,
         "round2": 280,
-        "round3": 10,
+        "round3": 15,
         "round4": null
       },
       "round_topars": {
         "round1": -1,
         "round2": -8,
-        "round3": 1,
+        "round3": 2,
         "round4": null
       },
-      "raw_total": 577,
-      "raw_topar": -8,
+      "raw_total": 582,
+      "raw_topar": -7,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 577,
+      "final_total": 582,
       "forecast": {
         "projected_cuts": [
           "Kurt Kitayama"
