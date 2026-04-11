@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T18:00:38.764484Z",
+  "updated_at": "2026-04-11T18:05:11.254008Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -41,7 +41,7 @@
           "total": 168,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
+          "position": "T16",
           "thru": "7",
           "today": "-3",
           "topar": "-3"
@@ -92,9 +92,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 29,
+              "score": 33,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -102,13 +102,13 @@
               "topar": null
             }
           },
-          "total": 173,
+          "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T43",
-          "thru": "7",
-          "today": "+2",
-          "topar": "+2"
+          "position": "T36",
+          "thru": "8",
+          "today": "+1",
+          "topar": "+1"
         },
         {
           "name": "Collin Morikawa",
@@ -156,7 +156,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 5,
+              "score": 10,
               "penalty": false,
               "topar": 1
             },
@@ -166,11 +166,11 @@
               "topar": null
             }
           },
-          "total": 146,
+          "total": 151,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T20",
-          "thru": "1",
+          "thru": "2",
           "today": "+1",
           "topar": "-2"
         },
@@ -188,7 +188,7 @@
               "topar": -5
             },
             "round3": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": -2
             },
@@ -198,11 +198,11 @@
               "topar": null
             }
           },
-          "total": 178,
+          "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T20",
-          "thru": "9",
+          "thru": "10",
           "today": "-2",
           "topar": "-2"
         },
@@ -233,7 +233,7 @@
           "total": 190,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T30",
+          "position": "T29",
           "thru": "12",
           "today": "-2",
           "topar": "-1"
@@ -293,28 +293,28 @@
           "Patrick Cantlay",
           "Jordan Spieth",
           "Collin Morikawa",
-          "Brooks Koepka",
-          "Ludvig Aberg"
+          "Ludvig Aberg",
+          "Brooks Koepka"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 163,
+        "round3": 176,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
-        "round3": -5,
+        "round3": -6,
         "round4": null
       },
-      "raw_total": 1005,
-      "raw_topar": -27,
+      "raw_total": 1018,
+      "raw_topar": -28,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1005,
+      "final_total": 1018,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -413,7 +413,7 @@
           "total": 140,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
+          "position": "T8",
           "thru": "",
           "today": "",
           "topar": "-4"
@@ -445,7 +445,7 @@
           "total": 161,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
+          "position": "T16",
           "thru": "5",
           "today": "-2",
           "topar": "-3"
@@ -464,9 +464,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 4,
+              "score": 7,
               "penalty": false,
-              "topar": 0
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -474,13 +474,13 @@
               "topar": null
             }
           },
-          "total": 145,
+          "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T15",
-          "thru": "1",
-          "today": "E",
-          "topar": "-3"
+          "position": "T4",
+          "thru": "2",
+          "today": "-2",
+          "topar": "-5"
         },
         {
           "name": "Viktor Hovland",
@@ -496,7 +496,7 @@
               "topar": -1
             },
             "round3": {
-              "score": 60,
+              "score": 63,
               "penalty": false,
               "topar": -1
             },
@@ -506,11 +506,11 @@
               "topar": null
             }
           },
-          "total": 206,
+          "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T36",
-          "thru": "15",
+          "thru": "16",
           "today": "-1",
           "topar": "+1"
         },
@@ -598,28 +598,28 @@
         ],
         "round3": [
           "Matt Fitzpatrick",
-          "Viktor Hovland",
-          "Chris Gotterup"
+          "Chris Gotterup",
+          "Viktor Hovland"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 82,
+        "round3": 88,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -3,
+        "round3": -5,
         "round4": null
       },
-      "raw_total": 929,
-      "raw_topar": -20,
+      "raw_total": 935,
+      "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 929,
+      "final_total": 935,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -654,7 +654,7 @@
           "total": 221,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T50",
+          "position": "T49",
           "thru": "F",
           "today": "+1",
           "topar": "+5"
@@ -750,7 +750,7 @@
           "total": 156,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
+          "position": "T8",
           "thru": "4",
           "today": "-2",
           "topar": "-4"
@@ -1000,7 +1000,7 @@
         "total": 221,
         "made_cut": true,
         "status": "pre-tournament",
-        "position": "T50",
+        "position": "T49",
         "thru": "F",
         "today": "+1",
         "topar": "+5"
