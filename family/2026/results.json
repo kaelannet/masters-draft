@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:20:10.828637Z",
+  "updated_at": "2026-04-11T21:25:10.855073Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -400,9 +400,9 @@
               "topar": -5
             },
             "round3": {
-              "score": 49,
+              "score": 55,
               "penalty": false,
-              "topar": -7
+              "topar": -6
             },
             "round4": {
               "score": null,
@@ -410,13 +410,13 @@
               "topar": null
             }
           },
-          "total": 189,
+          "total": 195,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "2",
-          "thru": "14",
-          "today": "-7",
-          "topar": "-11"
+          "thru": "15",
+          "today": "-6",
+          "topar": "-10"
         },
         {
           "name": "Matt Fitzpatrick",
@@ -573,7 +573,7 @@
           "total": 183,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T4",
+          "position": "T5",
           "thru": "12",
           "today": "-3",
           "topar": "-8"
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 340,
+        "round3": 346,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -15,
+        "round3": -14,
         "round4": null
       },
-      "raw_total": 1187,
-      "raw_topar": -32,
+      "raw_total": 1193,
+      "raw_topar": -31,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1187,
+      "final_total": 1193,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
