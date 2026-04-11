@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:53:29.345047Z",
+  "updated_at": "2026-04-11T14:55:21.072435Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -392,7 +392,7 @@
               "topar": 3
             },
             "round3": {
-              "score": 9,
+              "score": 13,
               "penalty": false,
               "topar": 0
             },
@@ -402,11 +402,11 @@
               "topar": null
             }
           },
-          "total": 156,
+          "total": 160,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
-          "thru": "2",
+          "position": "T45",
+          "thru": "3",
           "today": "E",
           "topar": "+3"
         },
@@ -464,7 +464,7 @@
       "round_totals": {
         "round1": 284,
         "round2": 275,
-        "round3": 9,
+        "round3": 13,
         "round4": null
       },
       "round_topars": {
@@ -473,11 +473,11 @@
         "round3": 0,
         "round4": null
       },
-      "raw_total": 568,
+      "raw_total": 572,
       "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 568,
+      "final_total": 572,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1044,7 +1044,7 @@
           "total": 156,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
+          "position": "T45",
           "thru": "2",
           "today": "E",
           "topar": "+3"
@@ -1378,7 +1378,7 @@
           "total": 151,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
+          "position": "T45",
           "thru": "1",
           "today": "+1",
           "topar": "+3"
@@ -1721,7 +1721,7 @@
           "total": 163,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
+          "position": "T45",
           "thru": "4",
           "today": "-1",
           "topar": "+3"
@@ -1911,9 +1911,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 14,
+              "score": 19,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -1921,13 +1921,13 @@
               "topar": null
             }
           },
-          "total": 162,
+          "total": 167,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T39",
-          "thru": "4",
-          "today": "-2",
-          "topar": "+2"
+          "position": "T45",
+          "thru": "5",
+          "today": "-1",
+          "topar": "+3"
         },
         {
           "name": "Patrick Reed",
@@ -2111,20 +2111,20 @@
       "round_totals": {
         "round1": 291,
         "round2": 284,
-        "round3": 14,
+        "round3": 19,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
-        "round3": -2,
+        "round3": -1,
         "round4": null
       },
-      "raw_total": 589,
-      "raw_topar": -3,
+      "raw_total": 594,
+      "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 589,
+      "final_total": 594,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -2306,7 +2306,7 @@
               "topar": 1
             },
             "round3": {
-              "score": 22,
+              "score": 25,
               "penalty": false,
               "topar": 2
             },
@@ -2316,11 +2316,11 @@
               "topar": null
             }
           },
-          "total": 170,
+          "total": 173,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T53",
-          "thru": "5",
+          "thru": "6",
           "today": "+2",
           "topar": "+6"
         }
@@ -2348,7 +2348,7 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 46,
+        "round3": 49,
         "round4": null
       },
       "round_topars": {
@@ -2357,11 +2357,11 @@
         "round3": 2,
         "round4": null
       },
-      "raw_total": 622,
+      "raw_total": 625,
       "raw_topar": 2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 622,
+      "final_total": 625,
       "forecast": {
         "projected_cuts": [
           "Rasmus Hojgaard",
