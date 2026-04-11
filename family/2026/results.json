@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:05:09.904195Z",
+  "updated_at": "2026-04-11T22:10:09.354701Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,9 +60,9 @@
               "topar": -7
             },
             "round3": {
-              "score": 54,
+              "score": 57,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -70,13 +70,13 @@
               "topar": null
             }
           },
-          "total": 186,
+          "total": 189,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
-          "thru": "13",
-          "today": "+2",
-          "topar": "-10"
+          "position": "T1",
+          "thru": "14",
+          "today": "+1",
+          "topar": "-11"
         },
         {
           "name": "Ludvig Aberg",
@@ -400,7 +400,7 @@
               "topar": -5
             },
             "round3": {
-              "score": 61,
+              "score": 65,
               "penalty": false,
               "topar": -7
             },
@@ -410,11 +410,11 @@
               "topar": null
             }
           },
-          "total": 201,
+          "total": 205,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "1",
-          "thru": "17",
+          "position": "T1",
+          "thru": "F",
           "today": "-7",
           "topar": "-11"
         },
@@ -609,7 +609,7 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 384,
+        "round3": 388,
         "round4": null
       },
       "round_topars": {
@@ -618,11 +618,11 @@
         "round3": -17,
         "round4": null
       },
-      "raw_total": 1231,
+      "raw_total": 1235,
       "raw_topar": -34,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1231,
+      "final_total": 1235,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148

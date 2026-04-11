@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:05:10.164831Z",
+  "updated_at": "2026-04-11T22:10:09.730686Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -28,9 +28,9 @@
               "topar": -7
             },
             "round3": {
-              "score": 54,
+              "score": 57,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -38,13 +38,13 @@
               "topar": null
             }
           },
-          "total": 186,
+          "total": 189,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
-          "thru": "13",
-          "today": "+2",
-          "topar": "-10"
+          "position": "T1",
+          "thru": "14",
+          "today": "+1",
+          "topar": "-11"
         },
         {
           "name": "Jordan Spieth",
@@ -169,7 +169,7 @@
           "total": 186,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
+          "position": "3",
           "thru": "13",
           "today": "-4",
           "topar": "-10"
@@ -332,7 +332,7 @@
               "topar": -1
             },
             "round3": {
-              "score": 64,
+              "score": 68,
               "penalty": false,
               "topar": -4
             },
@@ -342,11 +342,11 @@
               "topar": null
             }
           },
-          "total": 204,
+          "total": 208,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T5",
-          "thru": "17",
+          "thru": "F",
           "today": "-4",
           "topar": "-8"
         },
@@ -471,7 +471,7 @@
       "round_totals": {
         "round1": 282,
         "round2": 281,
-        "round3": 259,
+        "round3": 263,
         "round4": null
       },
       "round_topars": {
@@ -480,11 +480,11 @@
         "round3": -14,
         "round4": null
       },
-      "raw_total": 822,
+      "raw_total": 826,
       "raw_topar": -27,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 822,
+      "final_total": 826,
       "forecast": {
         "projected_cuts": [
           "Aaron Rai"
@@ -1462,7 +1462,7 @@
               "topar": -5
             },
             "round3": {
-              "score": 61,
+              "score": 65,
               "penalty": false,
               "topar": -7
             },
@@ -1472,11 +1472,11 @@
               "topar": null
             }
           },
-          "total": 201,
+          "total": 205,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "1",
-          "thru": "17",
+          "position": "T1",
+          "thru": "F",
           "today": "-7",
           "topar": "-11"
         },
@@ -1665,7 +1665,7 @@
       "round_totals": {
         "round1": 290,
         "round2": 281,
-        "round3": 275,
+        "round3": 279,
         "round4": null
       },
       "round_topars": {
@@ -1674,11 +1674,11 @@
         "round3": -9,
         "round4": null
       },
-      "raw_total": 846,
+      "raw_total": 850,
       "raw_topar": -14,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 846,
+      "final_total": 850,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
