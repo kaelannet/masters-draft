@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:30:10.590598Z",
+  "updated_at": "2026-04-11T21:35:09.700713Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -73,7 +73,7 @@
           "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "1",
+          "position": "T1",
           "thru": "11",
           "today": "+1",
           "topar": "-11"
@@ -105,7 +105,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-3",
           "topar": "-3"
@@ -156,7 +156,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 64,
+              "score": 68,
               "penalty": false,
               "topar": 0
             },
@@ -166,11 +166,11 @@
               "topar": null
             }
           },
-          "total": 205,
+          "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "16",
+          "position": "T21",
+          "thru": "17",
           "today": "E",
           "topar": "-3"
         },
@@ -301,7 +301,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 402,
+        "round3": 406,
         "round4": null
       },
       "round_topars": {
@@ -310,11 +310,11 @@
         "round3": -22,
         "round4": null
       },
-      "raw_total": 1244,
+      "raw_total": 1248,
       "raw_topar": -44,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1244,
+      "final_total": 1248,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -400,9 +400,9 @@
               "topar": -5
             },
             "round3": {
-              "score": 55,
+              "score": 57,
               "penalty": false,
-              "topar": -6
+              "topar": -7
             },
             "round4": {
               "score": null,
@@ -410,13 +410,13 @@
               "topar": null
             }
           },
-          "total": 195,
+          "total": 197,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "2",
-          "thru": "15",
-          "today": "-6",
-          "topar": "-10"
+          "position": "T1",
+          "thru": "16",
+          "today": "-7",
+          "topar": "-11"
         },
         {
           "name": "Matt Fitzpatrick",
@@ -445,7 +445,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-2",
           "topar": "-3"
@@ -560,7 +560,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 44,
+              "score": 49,
               "penalty": false,
               "topar": -3
             },
@@ -570,11 +570,11 @@
               "topar": null
             }
           },
-          "total": 183,
+          "total": 188,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "6",
-          "thru": "12",
+          "position": "T5",
+          "thru": "13",
           "today": "-3",
           "topar": "-8"
         }
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 354,
+        "round3": 361,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -13,
+        "round3": -14,
         "round4": null
       },
-      "raw_total": 1201,
-      "raw_topar": -30,
+      "raw_total": 1208,
+      "raw_topar": -31,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1201,
+      "final_total": 1208,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -708,9 +708,9 @@
               "topar": -4
             },
             "round3": {
-              "score": 49,
+              "score": 53,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -718,13 +718,13 @@
               "topar": null
             }
           },
-          "total": 188,
+          "total": 192,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "12",
-          "today": "+2",
-          "topar": "-3"
+          "position": "T16",
+          "thru": "13",
+          "today": "+1",
+          "topar": "-4"
         },
         {
           "name": "Hideki Matsuyama",
