@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T19:35:10.018790Z",
+  "updated_at": "2026-04-11T19:38:15.059714Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -105,7 +105,7 @@
           "total": 198,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
+          "position": "T23",
           "thru": "14",
           "today": "-2",
           "topar": "-2"
@@ -169,7 +169,7 @@
           "total": 174,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
+          "position": "T23",
           "thru": "8",
           "today": "+1",
           "topar": "-2"
@@ -432,9 +432,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 43,
+              "score": 47,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -442,13 +442,13 @@
               "topar": null
             }
           },
-          "total": 186,
+          "total": 190,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
-          "thru": "11",
-          "today": "-1",
-          "topar": "-2"
+          "position": "T31",
+          "thru": "12",
+          "today": "E",
+          "topar": "-1"
         },
         {
           "name": "Chris Gotterup",
@@ -464,7 +464,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 32,
+              "score": 36,
               "penalty": false,
               "topar": 0
             },
@@ -474,11 +474,11 @@
               "topar": null
             }
           },
-          "total": 173,
+          "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "8",
+          "position": "T18",
+          "thru": "9",
           "today": "E",
           "topar": "-3"
         },
@@ -599,9 +599,9 @@
         "round3": [
           "Cameron Young",
           "Justin Rose",
-          "Matt Fitzpatrick",
           "Viktor Hovland",
           "Shane Lowry",
+          "Matt Fitzpatrick",
           "Chris Gotterup"
         ],
         "round4": []
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 204,
+        "round3": 212,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -7,
+        "round3": -6,
         "round4": null
       },
-      "raw_total": 1051,
-      "raw_topar": -24,
+      "raw_total": 1059,
+      "raw_topar": -23,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1051,
+      "final_total": 1059,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -689,7 +689,7 @@
           "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
+          "position": "T23",
           "thru": "10",
           "today": "E",
           "topar": "-2"
@@ -740,9 +740,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 38,
+              "score": 43,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -750,13 +750,13 @@
               "topar": null
             }
           },
-          "total": 180,
+          "total": 185,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
-          "thru": "10",
-          "today": "-2",
-          "topar": "-4"
+          "position": "T18",
+          "thru": "11",
+          "today": "-1",
+          "topar": "-3"
         },
         {
           "name": "Adam Scott",
@@ -905,9 +905,9 @@
           "Xander Schauffele"
         ],
         "round3": [
-          "Hideki Matsuyama",
           "Adam Scott",
           "Patrick Reed",
+          "Hideki Matsuyama",
           "Xander Schauffele",
           "Tommy Fleetwood",
           "S.W. Kim"
@@ -917,20 +917,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 254,
+        "round3": 259,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -6,
+        "round3": -5,
         "round4": null
       },
-      "raw_total": 1103,
-      "raw_topar": -21,
+      "raw_total": 1108,
+      "raw_topar": -20,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1103,
+      "final_total": 1108,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
