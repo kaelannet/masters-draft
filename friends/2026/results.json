@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:45:22.237172Z",
+  "updated_at": "2026-04-11T14:50:24.876156Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -124,9 +124,9 @@
               "topar": 3
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -134,12 +134,12 @@
               "topar": null
             }
           },
-          "total": 146,
+          "total": 150,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T39",
-          "thru": "",
-          "today": "",
+          "thru": "1",
+          "today": "E",
           "topar": "+2"
         },
         {
@@ -221,14 +221,15 @@
           "Jordan Spieth"
         ],
         "round3": [
-          "Brian Harman"
+          "Brian Harman",
+          "Gary Woodland"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 12,
+        "round3": 16,
         "round4": null
       },
       "round_topars": {
@@ -237,11 +238,11 @@
         "round3": -1,
         "round4": null
       },
-      "raw_total": 566,
+      "raw_total": 570,
       "raw_topar": -23,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 566,
+      "final_total": 570,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -795,9 +796,9 @@
               "topar": 2
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -805,12 +806,12 @@
               "topar": null
             }
           },
-          "total": 146,
+          "total": 150,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T39",
-          "thru": "",
-          "today": "",
+          "thru": "1",
+          "today": "E",
           "topar": "+2"
         },
         {
@@ -923,26 +924,28 @@
           "Max Homa",
           "Xander Schauffele"
         ],
-        "round3": [],
+        "round3": [
+          "Justin Thomas"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 286,
         "round2": 280,
-        "round3": null,
+        "round3": 4,
         "round4": null
       },
       "round_topars": {
         "round1": -2,
         "round2": -8,
-        "round3": null,
+        "round3": 0,
         "round4": null
       },
-      "raw_total": 566,
+      "raw_total": 570,
       "raw_topar": -10,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 566,
+      "final_total": 570,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
