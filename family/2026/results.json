@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T14:50:24.717810Z",
+  "updated_at": "2026-04-11T14:53:29.029250Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 25,
+      "round3": 29,
       "round4": null
     },
     "cut_line": 148,
@@ -566,7 +566,7 @@
           "total": 163,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T46",
           "thru": "4",
           "today": "-1",
           "topar": "+3"
