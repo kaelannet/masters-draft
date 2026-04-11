@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:55:10.309947Z",
+  "updated_at": "2026-04-11T23:00:08.963189Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -201,7 +201,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -836,9 +836,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 67,
+              "score": 72,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -846,13 +846,13 @@
               "topar": null
             }
           },
-          "total": 205,
+          "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
-          "thru": "17",
-          "today": "-1",
-          "topar": "-7"
+          "position": "T9",
+          "thru": "F",
+          "today": "E",
+          "topar": "-6"
         },
         {
           "name": "S.W. Kim",
@@ -907,8 +907,8 @@
         "round3": [
           "Xander Schauffele",
           "Adam Scott",
-          "Patrick Reed",
           "Hideki Matsuyama",
+          "Patrick Reed",
           "S.W. Kim",
           "Jon Rahm"
         ],
@@ -917,20 +917,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 424,
+        "round3": 429,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -4,
+        "round3": -3,
         "round4": null
       },
-      "raw_total": 1273,
-      "raw_topar": -19,
+      "raw_total": 1278,
+      "raw_topar": -18,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1273,
+      "final_total": 1278,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148

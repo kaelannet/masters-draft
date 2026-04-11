@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:55:10.586498Z",
+  "updated_at": "2026-04-11T23:00:09.105548Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -823,7 +823,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -1777,7 +1777,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -2210,9 +2210,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 67,
+              "score": 72,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -2220,13 +2220,13 @@
               "topar": null
             }
           },
-          "total": 205,
+          "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
-          "thru": "17",
-          "today": "-1",
-          "topar": "-7"
+          "position": "T9",
+          "thru": "F",
+          "today": "E",
+          "topar": "-6"
         },
         {
           "name": "JJ Spaun",
@@ -2380,20 +2380,20 @@
       "round_totals": {
         "round1": 291,
         "round2": 284,
-        "round3": 215,
+        "round3": 220,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
-        "round3": 3,
+        "round3": 4,
         "round4": null
       },
-      "raw_total": 790,
-      "raw_topar": 2,
+      "raw_total": 795,
+      "raw_topar": 3,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 790,
+      "final_total": 795,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
