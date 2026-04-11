@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:45:11.449550Z",
+  "updated_at": "2026-04-11T22:46:50.631868Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,9 +60,9 @@
               "topar": -7
             },
             "round3": {
-              "score": 64,
+              "score": 69,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -70,13 +70,13 @@
               "topar": null
             }
           },
-          "total": 196,
+          "total": 201,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "1",
-          "thru": "16",
-          "today": "E",
-          "topar": "-12"
+          "position": "T1",
+          "thru": "17",
+          "today": "+1",
+          "topar": "-11"
         },
         {
           "name": "Ludvig Aberg",
@@ -413,7 +413,7 @@
           "total": 205,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "2",
+          "position": "T1",
           "thru": "F",
           "today": "-7",
           "topar": "-11"
