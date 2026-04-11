@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:30:11.641222Z",
+  "updated_at": "2026-04-11T22:35:10.407194Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,7 +60,7 @@
               "topar": -7
             },
             "round3": {
-              "score": 61,
+              "score": 64,
               "penalty": false,
               "topar": 0
             },
@@ -70,11 +70,11 @@
               "topar": null
             }
           },
-          "total": 193,
+          "total": 196,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "15",
+          "thru": "16",
           "today": "E",
           "topar": "-12"
         },
@@ -105,7 +105,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-3",
           "topar": "-3"
@@ -169,7 +169,7 @@
           "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T15",
           "thru": "F",
           "today": "-1",
           "topar": "-4"
@@ -445,7 +445,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-2",
           "topar": "-3"
@@ -477,7 +477,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "E",
           "topar": "-3"
@@ -689,7 +689,7 @@
           "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T15",
           "thru": "F",
           "today": "-2",
           "topar": "-4"
@@ -721,7 +721,7 @@
           "total": 208,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
+          "position": "T15",
           "thru": "17",
           "today": "+1",
           "topar": "-4"
