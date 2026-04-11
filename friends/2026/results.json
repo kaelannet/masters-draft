@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T13:50:12.211665Z",
+  "updated_at": "2026-04-11T13:55:09.969535Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -2287,9 +2287,9 @@
               "topar": 1
             },
             "round3": {
-              "score": null,
+              "score": 5,
               "penalty": false,
-              "topar": null
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -2297,13 +2297,13 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 153,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
-          "topar": "+4"
+          "position": "T53",
+          "thru": "1",
+          "today": "+1",
+          "topar": "+5"
         }
       ],
       "counting_per_round": {
@@ -2319,28 +2319,32 @@
           "Viktor Hovland",
           "Charl Schwartzel"
         ],
-        "round3": [],
+        "round3": [
+          "Charl Schwartzel"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": null,
+        "round3": 5,
         "round4": null
       },
       "round_topars": {
         "round1": 5,
         "round2": -5,
-        "round3": null,
+        "round3": 1,
         "round4": null
       },
-      "raw_total": 576,
-      "raw_topar": 0,
+      "raw_total": 581,
+      "raw_topar": 1,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 576,
+      "final_total": 581,
       "forecast": {
-        "projected_cuts": [],
+        "projected_cuts": [
+          "Charl Schwartzel"
+        ],
         "cut_line_estimate": 148
       }
     }
