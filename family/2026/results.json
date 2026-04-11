@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:00:09.612448Z",
+  "updated_at": "2026-04-11T21:05:02.577144Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -41,7 +41,7 @@
           "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T6",
+          "position": "T7",
           "thru": "F",
           "today": "-7",
           "topar": "-7"
@@ -201,7 +201,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -368,7 +368,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": -2
             },
@@ -378,11 +378,11 @@
               "topar": null
             }
           },
-          "total": 173,
+          "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T6",
-          "thru": "9",
+          "position": "T7",
+          "thru": "10",
           "today": "-2",
           "topar": "-7"
         },
@@ -400,9 +400,9 @@
               "topar": -5
             },
             "round3": {
-              "score": 46,
+              "score": 49,
               "penalty": false,
-              "topar": -6
+              "topar": -7
             },
             "round4": {
               "score": null,
@@ -410,13 +410,13 @@
               "topar": null
             }
           },
-          "total": 186,
+          "total": 189,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "2",
-          "thru": "13",
-          "today": "-6",
-          "topar": "-10"
+          "thru": "14",
+          "today": "-7",
+          "topar": "-11"
         },
         {
           "name": "Matt Fitzpatrick",
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 314,
+        "round3": 321,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -14,
+        "round3": -15,
         "round4": null
       },
-      "raw_total": 1161,
-      "raw_topar": -31,
+      "raw_total": 1168,
+      "raw_topar": -32,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1161,
+      "final_total": 1168,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -836,9 +836,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 35,
+              "score": 40,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -846,13 +846,13 @@
               "topar": null
             }
           },
-          "total": 173,
+          "total": 178,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T6",
-          "thru": "9",
-          "today": "-1",
-          "topar": "-7"
+          "position": "T9",
+          "thru": "10",
+          "today": "E",
+          "topar": "-6"
         },
         {
           "name": "S.W. Kim",
@@ -917,20 +917,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 379,
+        "round3": 384,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -5,
+        "round3": -4,
         "round4": null
       },
-      "raw_total": 1228,
-      "raw_topar": -20,
+      "raw_total": 1233,
+      "raw_topar": -19,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1228,
+      "final_total": 1233,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
