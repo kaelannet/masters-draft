@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T18:35:09.440507Z",
+  "updated_at": "2026-04-11T18:40:10.477479Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -432,9 +432,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 26,
+              "score": 30,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -442,13 +442,13 @@
               "topar": null
             }
           },
-          "total": 169,
+          "total": 173,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
-          "thru": "7",
-          "today": "-1",
-          "topar": "-2"
+          "position": "T16",
+          "thru": "8",
+          "today": "-2",
+          "topar": "-3"
         },
         {
           "name": "Chris Gotterup",
@@ -477,7 +477,7 @@
           "total": 156,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "4",
           "today": "-1",
           "topar": "-4"
@@ -560,9 +560,9 @@
               "topar": -3
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -570,12 +570,12 @@
               "topar": null
             }
           },
-          "total": 139,
+          "total": 143,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T4",
-          "thru": "",
-          "today": "",
+          "thru": "1",
+          "today": "E",
           "topar": "-5"
         }
       ],
@@ -597,30 +597,31 @@
           "Viktor Hovland"
         ],
         "round3": [
-          "Cameron Young",
           "Matt Fitzpatrick",
+          "Cameron Young",
           "Chris Gotterup",
-          "Viktor Hovland"
+          "Viktor Hovland",
+          "Shane Lowry"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 124,
+        "round3": 132,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -4,
+        "round3": -5,
         "round4": null
       },
-      "raw_total": 971,
-      "raw_topar": -21,
+      "raw_total": 979,
+      "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 971,
+      "final_total": 979,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -751,7 +752,7 @@
           "total": 167,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "7",
           "today": "-2",
           "topar": "-4"
