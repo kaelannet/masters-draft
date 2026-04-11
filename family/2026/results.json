@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T17:50:10.443294Z",
+  "updated_at": "2026-04-11T17:55:10.191819Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -41,7 +41,7 @@
           "total": 168,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T15",
           "thru": "7",
           "today": "-3",
           "topar": "-3"
@@ -105,7 +105,7 @@
           "total": 173,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T43",
           "thru": "7",
           "today": "+2",
           "topar": "+2"
@@ -137,7 +137,7 @@
           "total": 165,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "6",
           "today": "-1",
           "topar": "-2"
@@ -169,7 +169,7 @@
           "total": 146,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "1",
           "today": "+1",
           "topar": "-2"
@@ -201,7 +201,7 @@
           "total": 178,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T19",
           "thru": "9",
           "today": "-2",
           "topar": "-2"
@@ -220,7 +220,7 @@
               "topar": 1
             },
             "round3": {
-              "score": 42,
+              "score": 45,
               "penalty": false,
               "topar": -2
             },
@@ -230,11 +230,11 @@
               "topar": null
             }
           },
-          "total": 187,
+          "total": 190,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T30",
-          "thru": "11",
+          "thru": "12",
           "today": "-2",
           "topar": "-1"
         },
@@ -301,7 +301,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 156,
+        "round3": 159,
         "round4": null
       },
       "round_topars": {
@@ -310,11 +310,11 @@
         "round3": -5,
         "round4": null
       },
-      "raw_total": 998,
+      "raw_total": 1001,
       "raw_topar": -27,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 998,
+      "final_total": 1001,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -445,7 +445,7 @@
           "total": 157,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T15",
           "thru": "4",
           "today": "-2",
           "topar": "-3"
@@ -477,7 +477,7 @@
           "total": 145,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T15",
           "thru": "1",
           "today": "E",
           "topar": "-3"
@@ -641,9 +641,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 68,
+              "score": 73,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -651,13 +651,13 @@
               "topar": null
             }
           },
-          "total": 216,
+          "total": 221,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "50",
-          "thru": "17",
-          "today": "E",
-          "topar": "+4"
+          "position": "T50",
+          "thru": "F",
+          "today": "+1",
+          "topar": "+5"
         },
         {
           "name": "Xander Schauffele",
@@ -673,7 +673,7 @@
               "topar": 0
             },
             "round3": {
-              "score": 9,
+              "score": 13,
               "penalty": false,
               "topar": 0
             },
@@ -683,11 +683,11 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 155,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
-          "thru": "2",
+          "position": "T19",
+          "thru": "3",
           "today": "E",
           "topar": "-2"
         },
@@ -769,7 +769,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 46,
+              "score": 51,
               "penalty": false,
               "topar": -1
             },
@@ -779,11 +779,11 @@
               "topar": null
             }
           },
-          "total": 192,
+          "total": 197,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T36",
-          "thru": "12",
+          "thru": "13",
           "today": "-1",
           "topar": "+1"
         },
@@ -878,7 +878,7 @@
           "total": 215,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
+          "position": "T46",
           "thru": "17",
           "today": "-1",
           "topar": "+3"
@@ -905,28 +905,28 @@
           "Hideki Matsuyama",
           "Adam Scott",
           "S.W. Kim",
-          "Jon Rahm",
-          "Xander Schauffele"
+          "Xander Schauffele",
+          "Jon Rahm"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 204,
+        "round3": 218,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -4,
+        "round3": -3,
         "round4": null
       },
-      "raw_total": 1053,
-      "raw_topar": -19,
+      "raw_total": 1067,
+      "raw_topar": -18,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1053,
+      "final_total": 1067,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1000,7 +1000,7 @@
         "total": 221,
         "made_cut": true,
         "status": "pre-tournament",
-        "position": "51",
+        "position": "T50",
         "thru": "F",
         "today": "+1",
         "topar": "+5"
