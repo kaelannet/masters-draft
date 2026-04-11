@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:10:09.354701Z",
+  "updated_at": "2026-04-11T22:15:10.128594Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -560,7 +560,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 57,
+              "score": 60,
               "penalty": false,
               "topar": -4
             },
@@ -570,11 +570,11 @@
               "topar": null
             }
           },
-          "total": 196,
+          "total": 199,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "4",
-          "thru": "15",
+          "thru": "16",
           "today": "-4",
           "topar": "-9"
         }
@@ -609,7 +609,7 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 388,
+        "round3": 391,
         "round4": null
       },
       "round_topars": {
@@ -618,11 +618,11 @@
         "round3": -17,
         "round4": null
       },
-      "raw_total": 1235,
+      "raw_total": 1238,
       "raw_topar": -34,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1235,
+      "final_total": 1238,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -708,7 +708,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 62,
+              "score": 65,
               "penalty": false,
               "topar": 1
             },
@@ -718,11 +718,11 @@
               "topar": null
             }
           },
-          "total": 201,
+          "total": 204,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "15",
+          "thru": "16",
           "today": "+1",
           "topar": "-4"
         },
@@ -850,7 +850,7 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T8",
-          "thru": "14",
+          "thru": "15",
           "today": "-1",
           "topar": "-7"
         },

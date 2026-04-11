@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:10:09.730686Z",
+  "updated_at": "2026-04-11T22:15:10.273021Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -156,7 +156,7 @@
               "topar": -1
             },
             "round3": {
-              "score": 48,
+              "score": 52,
               "penalty": false,
               "topar": -4
             },
@@ -166,11 +166,11 @@
               "topar": null
             }
           },
-          "total": 186,
+          "total": 190,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "3",
-          "thru": "13",
+          "thru": "14",
           "today": "-4",
           "topar": "-10"
         },
@@ -231,7 +231,7 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 254,
+        "round3": 258,
         "round4": null
       },
       "round_topars": {
@@ -240,11 +240,11 @@
         "round3": -14,
         "round4": null
       },
-      "raw_total": 808,
+      "raw_total": 812,
       "raw_topar": -36,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 808,
+      "final_total": 812,
       "forecast": {
         "projected_cuts": [
           "Gary Woodland"
@@ -364,7 +364,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 57,
+              "score": 60,
               "penalty": false,
               "topar": -4
             },
@@ -374,11 +374,11 @@
               "topar": null
             }
           },
-          "total": 196,
+          "total": 199,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "4",
-          "thru": "15",
+          "thru": "16",
           "today": "-4",
           "topar": "-9"
         },
@@ -471,7 +471,7 @@
       "round_totals": {
         "round1": 282,
         "round2": 281,
-        "round3": 263,
+        "round3": 266,
         "round4": null
       },
       "round_topars": {
@@ -480,11 +480,11 @@
         "round3": -14,
         "round4": null
       },
-      "raw_total": 826,
+      "raw_total": 829,
       "raw_topar": -27,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 826,
+      "final_total": 829,
       "forecast": {
         "projected_cuts": [
           "Aaron Rai"
@@ -540,7 +540,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 62,
+              "score": 65,
               "penalty": false,
               "topar": 1
             },
@@ -550,11 +550,11 @@
               "topar": null
             }
           },
-          "total": 201,
+          "total": 204,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "15",
+          "thru": "16",
           "today": "+1",
           "topar": "-4"
         },
@@ -711,7 +711,7 @@
       "round_totals": {
         "round1": 284,
         "round2": 275,
-        "round3": 248,
+        "round3": 251,
         "round4": null
       },
       "round_topars": {
@@ -720,11 +720,11 @@
         "round3": -9,
         "round4": null
       },
-      "raw_total": 807,
+      "raw_total": 810,
       "raw_topar": -26,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 807,
+      "final_total": 810,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -2224,7 +2224,7 @@
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T8",
-          "thru": "14",
+          "thru": "15",
           "today": "-1",
           "topar": "-7"
         },
