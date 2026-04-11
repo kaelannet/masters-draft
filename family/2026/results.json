@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T19:20:09.533979Z",
+  "updated_at": "2026-04-11T19:25:10.216430Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -41,7 +41,7 @@
           "total": 190,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
+          "position": "T6",
           "thru": "13",
           "today": "-6",
           "topar": "-6"
@@ -156,7 +156,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 28,
+              "score": 33,
               "penalty": false,
               "topar": 1
             },
@@ -166,11 +166,11 @@
               "topar": null
             }
           },
-          "total": 169,
+          "total": 174,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
-          "thru": "7",
+          "position": "T25",
+          "thru": "8",
           "today": "+1",
           "topar": "-2"
         },
@@ -220,9 +220,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 65,
+              "score": 70,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -230,13 +230,13 @@
               "topar": null
             }
           },
-          "total": 210,
+          "total": 215,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
-          "thru": "17",
-          "today": "-3",
-          "topar": "-2"
+          "position": "T30",
+          "thru": "F",
+          "today": "-2",
+          "topar": "-1"
         },
         {
           "name": "Min Woo Lee",
@@ -301,20 +301,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 278,
+        "round3": 283,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
-        "round3": -14,
+        "round3": -13,
         "round4": null
       },
-      "raw_total": 1120,
-      "raw_topar": -36,
+      "raw_total": 1125,
+      "raw_topar": -35,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1120,
+      "final_total": 1125,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -381,7 +381,7 @@
           "total": 151,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
+          "position": "T6",
           "thru": "3",
           "today": "-1",
           "topar": "-6"
@@ -400,9 +400,9 @@
               "topar": -5
             },
             "round3": {
-              "score": 21,
+              "score": 24,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             },
             "round4": {
               "score": null,
@@ -410,13 +410,13 @@
               "topar": null
             }
           },
-          "total": 161,
+          "total": 164,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
-          "thru": "6",
-          "today": "-2",
-          "topar": "-6"
+          "position": "T4",
+          "thru": "7",
+          "today": "-3",
+          "topar": "-7"
         },
         {
           "name": "Matt Fitzpatrick",
@@ -464,7 +464,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 27,
+              "score": 32,
               "penalty": false,
               "topar": 0
             },
@@ -474,11 +474,11 @@
               "topar": null
             }
           },
-          "total": 168,
+          "total": 173,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "7",
+          "position": "T21",
+          "thru": "8",
           "today": "E",
           "topar": "-3"
         },
@@ -560,7 +560,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 12,
+              "score": 15,
               "penalty": false,
               "topar": -1
             },
@@ -570,11 +570,11 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 154,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
-          "thru": "3",
+          "position": "T6",
+          "thru": "4",
           "today": "-1",
           "topar": "-6"
         }
@@ -597,8 +597,8 @@
           "Viktor Hovland"
         ],
         "round3": [
-          "Matt Fitzpatrick",
           "Cameron Young",
+          "Matt Fitzpatrick",
           "Justin Rose",
           "Viktor Hovland",
           "Shane Lowry",
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 180,
+        "round3": 191,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -8,
+        "round3": -9,
         "round4": null
       },
-      "raw_total": 1027,
-      "raw_topar": -25,
+      "raw_total": 1038,
+      "raw_topar": -26,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1027,
+      "final_total": 1038,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -689,7 +689,7 @@
           "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "9",
           "today": "-1",
           "topar": "-3"
@@ -740,7 +740,7 @@
               "topar": -2
             },
             "round3": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": -2
             },
@@ -750,11 +750,11 @@
               "topar": null
             }
           },
-          "total": 176,
+          "total": 180,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T13",
-          "thru": "9",
+          "thru": "10",
           "today": "-2",
           "topar": "-4"
         },
@@ -917,7 +917,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 237,
+        "round3": 241,
         "round4": null
       },
       "round_topars": {
@@ -926,11 +926,11 @@
         "round3": -8,
         "round4": null
       },
-      "raw_total": 1086,
+      "raw_total": 1090,
       "raw_topar": -23,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1086,
+      "final_total": 1090,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
