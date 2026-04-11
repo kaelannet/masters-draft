@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:45:55.366335Z",
+  "updated_at": "2026-04-11T21:50:10.277059Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -508,9 +508,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 45,
+              "score": 49,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             },
             "round4": {
               "score": null,
@@ -518,13 +518,13 @@
               "topar": null
             }
           },
-          "total": 184,
+          "total": 188,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
-          "thru": "12",
-          "today": "-2",
-          "topar": "-7"
+          "position": "T5",
+          "thru": "13",
+          "today": "-3",
+          "topar": "-8"
         },
         {
           "name": "Tommy Fleetwood",
@@ -702,8 +702,8 @@
         ],
         "round3": [
           "Haotong Li",
-          "Jake Knapp",
           "Justin Rose",
+          "Jake Knapp",
           "Tommy Fleetwood"
         ],
         "round4": []
@@ -711,20 +711,20 @@
       "round_totals": {
         "round1": 284,
         "round2": 275,
-        "round3": 231,
+        "round3": 235,
         "round4": null
       },
       "round_topars": {
         "round1": -4,
         "round2": -13,
-        "round3": -8,
+        "round3": -9,
         "round4": null
       },
-      "raw_total": 790,
-      "raw_topar": -25,
+      "raw_total": 794,
+      "raw_topar": -26,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 790,
+      "final_total": 794,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -759,7 +759,7 @@
           "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
+          "position": "T8",
           "thru": "F",
           "today": "-7",
           "topar": "-7"
@@ -823,7 +823,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -1144,7 +1144,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 54,
+              "score": 59,
               "penalty": false,
               "topar": -2
             },
@@ -1154,11 +1154,11 @@
               "topar": null
             }
           },
-          "total": 194,
+          "total": 199,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
-          "thru": "14",
+          "position": "T10",
+          "thru": "15",
           "today": "-2",
           "topar": "-6"
         }
@@ -1187,7 +1187,7 @@
       "round_totals": {
         "round1": 287,
         "round2": 280,
-        "round3": 264,
+        "round3": 269,
         "round4": null
       },
       "round_topars": {
@@ -1196,11 +1196,11 @@
         "round3": -8,
         "round4": null
       },
-      "raw_total": 831,
+      "raw_total": 836,
       "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 831,
+      "final_total": 836,
       "forecast": {
         "projected_cuts": [
           "Kurt Kitayama"
@@ -1777,7 +1777,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -2210,9 +2210,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 47,
+              "score": 51,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -2220,13 +2220,13 @@
               "topar": null
             }
           },
-          "total": 185,
+          "total": 189,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
-          "thru": "12",
-          "today": "E",
-          "topar": "-6"
+          "position": "T8",
+          "thru": "13",
+          "today": "-1",
+          "topar": "-7"
         },
         {
           "name": "JJ Spaun",
@@ -2380,20 +2380,20 @@
       "round_totals": {
         "round1": 291,
         "round2": 284,
-        "round3": 195,
+        "round3": 199,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
-        "round3": 4,
+        "round3": 3,
         "round4": null
       },
-      "raw_total": 770,
-      "raw_topar": 3,
+      "raw_total": 774,
+      "raw_topar": 2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 770,
+      "final_total": 774,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
