@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T13:55:09.969535Z",
+  "updated_at": "2026-04-11T14:00:11.755375Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 5,
+      "round3": 10,
       "round4": null
     },
     "cut_line": 148,
@@ -1056,9 +1056,9 @@
               "topar": 7
             },
             "round3": {
-              "score": 4,
+              "score": 10,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -1066,13 +1066,13 @@
               "topar": null
             }
           },
-          "total": 152,
+          "total": 158,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "1",
-          "today": "E",
-          "topar": "+4"
+          "position": "T52",
+          "thru": "2",
+          "today": "+1",
+          "topar": "+5"
         },
         {
           "name": "Matt McCarty",
@@ -1160,22 +1160,24 @@
       "round_totals": {
         "round1": 287,
         "round2": 280,
-        "round3": 4,
+        "round3": 10,
         "round4": null
       },
       "round_topars": {
         "round1": -1,
         "round2": -8,
-        "round3": 0,
+        "round3": 1,
         "round4": null
       },
-      "raw_total": 571,
-      "raw_topar": -9,
+      "raw_total": 577,
+      "raw_topar": -8,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 571,
+      "final_total": 577,
       "forecast": {
-        "projected_cuts": [],
+        "projected_cuts": [
+          "Kurt Kitayama"
+        ],
         "cut_line_estimate": 148
       }
     },
@@ -2255,9 +2257,9 @@
               "topar": -2
             },
             "round3": {
-              "score": null,
+              "score": 5,
               "penalty": false,
-              "topar": null
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -2265,13 +2267,13 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 153,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
-          "topar": "+4"
+          "position": "T52",
+          "thru": "1",
+          "today": "+1",
+          "topar": "+5"
         },
         {
           "name": "Charl Schwartzel",
@@ -2300,7 +2302,7 @@
           "total": 153,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T53",
+          "position": "T52",
           "thru": "1",
           "today": "+1",
           "topar": "+5"
@@ -2320,6 +2322,7 @@
           "Charl Schwartzel"
         ],
         "round3": [
+          "Rasmus Hojgaard",
           "Charl Schwartzel"
         ],
         "round4": []
@@ -2327,22 +2330,23 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 5,
+        "round3": 10,
         "round4": null
       },
       "round_topars": {
         "round1": 5,
         "round2": -5,
-        "round3": 1,
+        "round3": 2,
         "round4": null
       },
-      "raw_total": 581,
-      "raw_topar": 1,
+      "raw_total": 586,
+      "raw_topar": 2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 581,
+      "final_total": 586,
       "forecast": {
         "projected_cuts": [
+          "Rasmus Hojgaard",
           "Charl Schwartzel"
         ],
         "cut_line_estimate": 148
