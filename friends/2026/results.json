@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T13:40:10.949534Z",
+  "updated_at": "2026-04-11T13:46:00.816192Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": null,
+      "round3": 5,
       "round4": null
     },
     "cut_line": 148,
@@ -1056,9 +1056,9 @@
               "topar": 7
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -1066,12 +1066,12 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T47",
-          "thru": "",
-          "today": "",
+          "thru": "1",
+          "today": "E",
           "topar": "+4"
         },
         {
@@ -1152,26 +1152,28 @@
           "Maverick McNealy",
           "Matt McCarty"
         ],
-        "round3": [],
+        "round3": [
+          "Kurt Kitayama"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 287,
         "round2": 280,
-        "round3": null,
+        "round3": 4,
         "round4": null
       },
       "round_topars": {
         "round1": -1,
         "round2": -8,
-        "round3": null,
+        "round3": 0,
         "round4": null
       },
-      "raw_total": 567,
+      "raw_total": 571,
       "raw_topar": -9,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 567,
+      "final_total": 571,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
