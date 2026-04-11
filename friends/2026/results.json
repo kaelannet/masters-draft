@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T18:59:11.007978Z",
+  "updated_at": "2026-04-11T19:00:10.510715Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -92,9 +92,9 @@
               "topar": 2
             },
             "round3": {
-              "score": 55,
+              "score": 59,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -102,13 +102,13 @@
               "topar": null
             }
           },
-          "total": 200,
+          "total": 204,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
-          "thru": "14",
-          "today": "-1",
-          "topar": "E"
+          "position": "T30",
+          "thru": "15",
+          "today": "-2",
+          "topar": "-1"
         },
         {
           "name": "Gary Woodland",
@@ -231,20 +231,20 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 260,
+        "round3": 264,
         "round4": null
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
-        "round3": -4,
+        "round3": -5,
         "round4": null
       },
-      "raw_total": 814,
-      "raw_topar": -26,
+      "raw_total": 818,
+      "raw_topar": -27,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 814,
+      "final_total": 818,
       "forecast": {
         "projected_cuts": [
           "Gary Woodland"
@@ -666,7 +666,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 63,
+              "score": 68,
               "penalty": false,
               "topar": 7
             },
@@ -676,11 +676,11 @@
               "topar": null
             }
           },
-          "total": 208,
+          "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "53",
-          "thru": "14",
+          "thru": "15",
           "today": "+7",
           "topar": "+8"
         }
@@ -1873,7 +1873,7 @@
           "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T36",
           "thru": "17",
           "today": "-1",
           "topar": "E"
@@ -1983,7 +1983,7 @@
           "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T36",
           "thru": "17",
           "today": "-2",
           "topar": "E"
