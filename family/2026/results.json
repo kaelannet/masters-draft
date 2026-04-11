@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T16:58:28.678728Z",
+  "updated_at": "2026-04-11T17:00:10.858228Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -220,9 +220,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 26,
+              "score": 30,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             },
             "round4": {
               "score": null,
@@ -230,13 +230,13 @@
               "topar": null
             }
           },
-          "total": 171,
+          "total": 175,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T32",
-          "thru": "7",
-          "today": "-1",
-          "topar": "E"
+          "position": "T22",
+          "thru": "8",
+          "today": "-2",
+          "topar": "-1"
         },
         {
           "name": "Min Woo Lee",
@@ -290,9 +290,9 @@
         ],
         "round3": [
           "Scottie Scheffler",
+          "Jordan Spieth",
           "Ludvig Aberg",
           "Patrick Cantlay",
-          "Jordan Spieth",
           "Collin Morikawa"
         ],
         "round4": []
@@ -300,20 +300,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 75,
+        "round3": 79,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
-        "round3": -5,
+        "round3": -6,
         "round4": null
       },
-      "raw_total": 917,
-      "raw_topar": -27,
+      "raw_total": 921,
+      "raw_topar": -28,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 917,
+      "final_total": 921,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -476,7 +476,7 @@
           "total": 180,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T32",
+          "position": "T33",
           "thru": "9",
           "today": "-2",
           "topar": "E"
