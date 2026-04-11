@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T18:10:14.114500Z",
+  "updated_at": "2026-04-11T18:15:09.463551Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -137,7 +137,7 @@
           "total": 169,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "7",
           "today": "-1",
           "topar": "-2"
@@ -156,9 +156,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 10,
+              "score": 13,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -166,13 +166,13 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 154,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "2",
-          "today": "+1",
-          "topar": "-2"
+          "position": "T17",
+          "thru": "3",
+          "today": "E",
+          "topar": "-3"
         },
         {
           "name": "Patrick Cantlay",
@@ -201,7 +201,7 @@
           "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "10",
           "today": "-2",
           "topar": "-2"
@@ -220,9 +220,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 45,
+              "score": 51,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -230,13 +230,13 @@
               "topar": null
             }
           },
-          "total": 190,
+          "total": 196,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T27",
-          "thru": "12",
-          "today": "-2",
-          "topar": "-1"
+          "position": "T34",
+          "thru": "13",
+          "today": "-1",
+          "topar": "E"
         },
         {
           "name": "Min Woo Lee",
@@ -291,17 +291,17 @@
         "round3": [
           "Scottie Scheffler",
           "Patrick Cantlay",
-          "Jordan Spieth",
           "Collin Morikawa",
-          "Ludvig Aberg",
-          "Brooks Koepka"
+          "Jordan Spieth",
+          "Brooks Koepka",
+          "Ludvig Aberg"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 180,
+        "round3": 189,
         "round4": null
       },
       "round_topars": {
@@ -310,11 +310,11 @@
         "round3": -7,
         "round4": null
       },
-      "raw_total": 1022,
+      "raw_total": 1031,
       "raw_topar": -29,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1022,
+      "final_total": 1031,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -464,7 +464,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 7,
+              "score": 11,
               "penalty": false,
               "topar": -2
             },
@@ -474,11 +474,11 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T4",
-          "thru": "2",
+          "thru": "3",
           "today": "-2",
           "topar": "-5"
         },
@@ -607,7 +607,7 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 95,
+        "round3": 99,
         "round4": null
       },
       "round_topars": {
@@ -616,11 +616,11 @@
         "round3": -5,
         "round4": null
       },
-      "raw_total": 942,
+      "raw_total": 946,
       "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 942,
+      "final_total": 946,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T18:10:14.235618Z",
+  "updated_at": "2026-04-11T18:15:09.690601Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,9 +60,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 45,
+              "score": 51,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -70,13 +70,13 @@
               "topar": null
             }
           },
-          "total": 190,
+          "total": 196,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T27",
-          "thru": "12",
-          "today": "-2",
-          "topar": "-1"
+          "position": "T34",
+          "thru": "13",
+          "today": "-1",
+          "topar": "E"
         },
         {
           "name": "Jacob Bridgeman",
@@ -92,7 +92,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 44,
+              "score": 47,
               "penalty": false,
               "topar": 0
             },
@@ -102,11 +102,11 @@
               "topar": null
             }
           },
-          "total": 189,
+          "total": 192,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T37",
-          "thru": "11",
+          "thru": "12",
           "today": "E",
           "topar": "+1"
         },
@@ -124,7 +124,7 @@
               "topar": 3
             },
             "round3": {
-              "score": 58,
+              "score": 63,
               "penalty": false,
               "topar": 2
             },
@@ -134,11 +134,11 @@
               "topar": null
             }
           },
-          "total": 204,
+          "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T47",
-          "thru": "14",
+          "thru": "15",
           "today": "+2",
           "topar": "+4"
         },
@@ -231,20 +231,20 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 214,
+        "round3": 228,
         "round4": null
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
-        "round3": -5,
+        "round3": -4,
         "round4": null
       },
-      "raw_total": 768,
-      "raw_topar": -27,
+      "raw_total": 782,
+      "raw_topar": -26,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 768,
+      "final_total": 782,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -534,9 +534,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 10,
+              "score": 13,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -544,13 +544,13 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 154,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "2",
-          "today": "+1",
-          "topar": "-2"
+          "position": "T17",
+          "thru": "3",
+          "today": "E",
+          "topar": "-3"
         },
         {
           "name": "Justin Thomas",
@@ -566,9 +566,9 @@
               "topar": 2
             },
             "round3": {
-              "score": 54,
+              "score": 58,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             },
             "round4": {
               "score": null,
@@ -576,13 +576,13 @@
               "topar": null
             }
           },
-          "total": 200,
+          "total": 204,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T34",
-          "thru": "14",
-          "today": "-2",
-          "topar": "E"
+          "position": "T27",
+          "thru": "15",
+          "today": "-3",
+          "topar": "-1"
         },
         {
           "name": "Max Homa",
@@ -697,8 +697,8 @@
         "round3": [
           "Justin Thomas",
           "Max Homa",
-          "Ben Griffin",
-          "Xander Schauffele"
+          "Brooks Koepka",
+          "Ben Griffin"
         ],
         "round4": []
       },
@@ -711,11 +711,11 @@
       "round_topars": {
         "round1": -2,
         "round2": -8,
-        "round3": -3,
+        "round3": -5,
         "round4": null
       },
       "raw_total": 661,
-      "raw_topar": -13,
+      "raw_topar": -15,
       "winner_bonus": 0,
       "drafted_winner": null,
       "final_total": 661,
@@ -849,7 +849,7 @@
           "total": 178,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "9",
           "today": "-2",
           "topar": "-2"
@@ -1055,7 +1055,7 @@
           "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "10",
           "today": "-2",
           "topar": "-2"
@@ -1261,7 +1261,7 @@
           "total": 169,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "7",
           "today": "-1",
           "topar": "-2"
@@ -1597,7 +1597,7 @@
           "total": 178,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "9",
           "today": "-2",
           "topar": "-2"
@@ -1616,7 +1616,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 51,
+              "score": 54,
               "penalty": false,
               "topar": 7
             },
@@ -1626,11 +1626,11 @@
               "topar": null
             }
           },
-          "total": 196,
+          "total": 199,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "53",
-          "thru": "11",
+          "thru": "12",
           "today": "+7",
           "topar": "+8"
         }
@@ -1659,7 +1659,7 @@
       "round_totals": {
         "round1": 282,
         "round2": 281,
-        "round3": 111,
+        "round3": 114,
         "round4": null
       },
       "round_topars": {
@@ -1668,11 +1668,11 @@
         "round3": 4,
         "round4": null
       },
-      "raw_total": 674,
+      "raw_total": 677,
       "raw_topar": -9,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 674,
+      "final_total": 677,
       "forecast": {
         "projected_cuts": [
           "Aaron Rai"
@@ -1760,7 +1760,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 7,
+              "score": 11,
               "penalty": false,
               "topar": -2
             },
@@ -1770,11 +1770,11 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T4",
-          "thru": "2",
+          "thru": "3",
           "today": "-2",
           "topar": "-5"
         },
@@ -1899,7 +1899,7 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 197,
+        "round3": 201,
         "round4": null
       },
       "round_topars": {
@@ -1908,11 +1908,11 @@
         "round3": -4,
         "round4": null
       },
-      "raw_total": 773,
+      "raw_total": 777,
       "raw_topar": -4,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 773,
+      "final_total": 777,
       "forecast": {
         "projected_cuts": [
           "Charl Schwartzel"
@@ -2013,7 +2013,7 @@
           "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "10",
           "today": "-2",
           "topar": "-2"
