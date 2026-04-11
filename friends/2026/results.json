@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:20:10.231885Z",
+  "updated_at": "2026-04-11T22:25:09.488718Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -28,9 +28,9 @@
               "topar": -7
             },
             "round3": {
-              "score": 57,
+              "score": 61,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -38,13 +38,13 @@
               "topar": null
             }
           },
-          "total": 189,
+          "total": 193,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T1",
-          "thru": "14",
-          "today": "+1",
-          "topar": "-11"
+          "position": "1",
+          "thru": "15",
+          "today": "E",
+          "topar": "-12"
         },
         {
           "name": "Jordan Spieth",
@@ -156,7 +156,7 @@
               "topar": -1
             },
             "round3": {
-              "score": 52,
+              "score": 57,
               "penalty": false,
               "topar": -4
             },
@@ -166,11 +166,11 @@
               "topar": null
             }
           },
-          "total": 190,
+          "total": 195,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "3",
-          "thru": "14",
+          "thru": "15",
           "today": "-4",
           "topar": "-10"
         },
@@ -231,7 +231,7 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 258,
+        "round3": 263,
         "round4": null
       },
       "round_topars": {
@@ -240,11 +240,11 @@
         "round3": -14,
         "round4": null
       },
-      "raw_total": 812,
+      "raw_total": 817,
       "raw_topar": -36,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 812,
+      "final_total": 817,
       "forecast": {
         "projected_cuts": [
           "Gary Woodland"
@@ -508,7 +508,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 58,
+              "score": 61,
               "penalty": false,
               "topar": -3
             },
@@ -518,11 +518,11 @@
               "topar": null
             }
           },
-          "total": 197,
+          "total": 200,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T5",
-          "thru": "15",
+          "thru": "16",
           "today": "-3",
           "topar": "-8"
         },
@@ -711,7 +711,7 @@
       "round_totals": {
         "round1": 284,
         "round2": 275,
-        "round3": 261,
+        "round3": 264,
         "round4": null
       },
       "round_topars": {
@@ -720,11 +720,11 @@
         "round3": -8,
         "round4": null
       },
-      "raw_total": 820,
+      "raw_total": 823,
       "raw_topar": -25,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 820,
+      "final_total": 823,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1475,7 +1475,7 @@
           "total": 205,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T1",
+          "position": "2",
           "thru": "F",
           "today": "-7",
           "topar": "-11"
