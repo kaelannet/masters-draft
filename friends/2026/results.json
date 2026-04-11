@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:00:11.755375Z",
+  "updated_at": "2026-04-11T14:05:12.011893Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -201,7 +201,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
+          "position": "T48",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -1274,7 +1274,7 @@
           "total": 148,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
+          "position": "T48",
           "thru": "",
           "today": "",
           "topar": "+4"
@@ -1695,9 +1695,9 @@
               "topar": 1
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -1705,12 +1705,12 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
+          "position": "T48",
+          "thru": "1",
+          "today": "E",
           "topar": "+4"
         },
         {
@@ -1855,26 +1855,28 @@
           "Sepp Straka",
           "Ryan Fox"
         ],
-        "round3": [],
+        "round3": [
+          "Si Woo Kim"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 294,
         "round2": 280,
-        "round3": null,
+        "round3": 4,
         "round4": null
       },
       "round_topars": {
         "round1": 6,
         "round2": -8,
-        "round3": null,
+        "round3": 0,
         "round4": null
       },
-      "raw_total": 574,
+      "raw_total": 578,
       "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 574,
+      "final_total": 578,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1896,9 +1898,9 @@
               "topar": -2
             },
             "round3": {
-              "score": null,
+              "score": 3,
               "penalty": false,
-              "topar": null
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -1906,13 +1908,13 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 151,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
-          "topar": "+4"
+          "position": "T45",
+          "thru": "1",
+          "today": "-1",
+          "topar": "+3"
         },
         {
           "name": "Patrick Reed",
@@ -2088,26 +2090,28 @@
           "Dustin Johnson",
           "Nicolai Hojgaard"
         ],
-        "round3": [],
+        "round3": [
+          "Jon Rahm"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 291,
         "round2": 284,
-        "round3": null,
+        "round3": 3,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
-        "round3": null,
+        "round3": -1,
         "round4": null
       },
-      "raw_total": 575,
-      "raw_topar": -1,
+      "raw_total": 578,
+      "raw_topar": -2,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 575,
+      "final_total": 578,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:00:11.603861Z",
+  "updated_at": "2026-04-11T14:05:11.868445Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -630,9 +630,9 @@
               "topar": -2
             },
             "round3": {
-              "score": null,
+              "score": 3,
               "penalty": false,
-              "topar": null
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -640,13 +640,13 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 151,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
-          "topar": "+4"
+          "position": "T45",
+          "thru": "1",
+          "today": "-1",
+          "topar": "+3"
         },
         {
           "name": "Xander Schauffele",
@@ -854,9 +854,9 @@
               "topar": 1
             },
             "round3": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -864,12 +864,12 @@
               "topar": null
             }
           },
-          "total": 148,
+          "total": 152,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "",
-          "today": "",
+          "position": "T48",
+          "thru": "1",
+          "today": "E",
           "topar": "+4"
         }
       ],
@@ -890,26 +890,29 @@
           "Robert MacIntyre",
           "Xander Schauffele"
         ],
-        "round3": [],
+        "round3": [
+          "Jon Rahm",
+          "S.W. Kim"
+        ],
         "round4": []
       },
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": null,
+        "round3": 7,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": null,
+        "round3": -1,
         "round4": null
       },
-      "raw_total": 849,
-      "raw_topar": -15,
+      "raw_total": 856,
+      "raw_topar": -16,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 849,
+      "final_total": 856,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
