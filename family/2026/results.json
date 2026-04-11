@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T20:10:10.353322Z",
+  "updated_at": "2026-04-11T20:15:10.132252Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -28,7 +28,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 57,
+              "score": 61,
               "penalty": false,
               "topar": -7
             },
@@ -38,11 +38,11 @@
               "topar": null
             }
           },
-          "total": 201,
+          "total": 205,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "16",
+          "thru": "17",
           "today": "-7",
           "topar": "-7"
         },
@@ -92,7 +92,7 @@
               "topar": -2
             },
             "round3": {
-              "score": 61,
+              "score": 65,
               "penalty": false,
               "topar": -3
             },
@@ -102,11 +102,11 @@
               "topar": null
             }
           },
-          "total": 205,
+          "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T21",
-          "thru": "16",
+          "thru": "17",
           "today": "-3",
           "topar": "-3"
         },
@@ -301,7 +301,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 338,
+        "round3": 346,
         "round4": null
       },
       "round_topars": {
@@ -310,11 +310,11 @@
         "round3": -21,
         "round4": null
       },
-      "raw_total": 1180,
+      "raw_total": 1188,
       "raw_topar": -43,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1180,
+      "final_total": 1188,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -368,7 +368,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 22,
+              "score": 26,
               "penalty": false,
               "topar": -1
             },
@@ -378,11 +378,11 @@
               "topar": null
             }
           },
-          "total": 161,
+          "total": 165,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T8",
-          "thru": "6",
+          "thru": "7",
           "today": "-1",
           "topar": "-6"
         },
@@ -609,7 +609,7 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 250,
+        "round3": 254,
         "round4": null
       },
       "round_topars": {
@@ -618,11 +618,11 @@
         "round3": -12,
         "round4": null
       },
-      "raw_total": 1097,
+      "raw_total": 1101,
       "raw_topar": -29,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1097,
+      "final_total": 1101,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -836,7 +836,7 @@
               "topar": -3
             },
             "round3": {
-              "score": 22,
+              "score": 26,
               "penalty": false,
               "topar": -1
             },
@@ -846,11 +846,11 @@
               "topar": null
             }
           },
-          "total": 160,
+          "total": 164,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "6",
+          "thru": "7",
           "today": "-1",
           "topar": "-7"
         },
@@ -917,7 +917,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 288,
+        "round3": 292,
         "round4": null
       },
       "round_topars": {
@@ -926,11 +926,11 @@
         "round3": -5,
         "round4": null
       },
-      "raw_total": 1137,
+      "raw_total": 1141,
       "raw_topar": -20,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1137,
+      "final_total": 1141,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
