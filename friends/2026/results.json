@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T15:10:10.724413Z",
+  "updated_at": "2026-04-11T15:15:10.001566Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -124,9 +124,9 @@
               "topar": 3
             },
             "round3": {
-              "score": 4,
+              "score": 11,
               "penalty": false,
-              "topar": 0
+              "topar": 2
             },
             "round4": {
               "score": null,
@@ -134,13 +134,13 @@
               "topar": null
             }
           },
-          "total": 150,
+          "total": 157,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T39",
-          "thru": "1",
-          "today": "E",
-          "topar": "+2"
+          "position": "T47",
+          "thru": "2",
+          "today": "+2",
+          "topar": "+4"
         },
         {
           "name": "Sam Burns",
@@ -188,9 +188,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 18,
+              "score": 20,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             },
             "round4": {
               "score": null,
@@ -198,13 +198,13 @@
               "topar": null
             }
           },
-          "total": 166,
+          "total": 168,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T39",
-          "thru": "5",
-          "today": "-2",
-          "topar": "+2"
+          "position": "T32",
+          "thru": "6",
+          "today": "-3",
+          "topar": "+1"
         }
       ],
       "counting_per_round": {
@@ -229,20 +229,20 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 22,
+        "round3": 31,
         "round4": null
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
-        "round3": -2,
+        "round3": -1,
         "round4": null
       },
-      "raw_total": 576,
-      "raw_topar": -24,
+      "raw_total": 585,
+      "raw_topar": -23,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 576,
+      "final_total": 585,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -405,7 +405,7 @@
           "total": 164,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "4",
           "today": "+1",
           "topar": "+4"
@@ -809,7 +809,7 @@
           "total": 155,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T39",
+          "position": "T40",
           "thru": "2",
           "today": "E",
           "topar": "+2"
@@ -1044,7 +1044,7 @@
           "total": 163,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "4",
           "today": "E",
           "topar": "+3"
@@ -1076,7 +1076,7 @@
           "total": 182,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T53",
+          "position": "T52",
           "thru": "8",
           "today": "+2",
           "topar": "+6"
@@ -1282,7 +1282,7 @@
           "total": 168,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "5",
           "today": "E",
           "topar": "+4"
@@ -1378,7 +1378,7 @@
           "total": 160,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "3",
           "today": "+1",
           "topar": "+3"
@@ -1719,7 +1719,7 @@
           "total": 171,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "6",
           "today": "E",
           "topar": "+4"
@@ -1922,7 +1922,7 @@
           "total": 170,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T45",
+          "position": "T44",
           "thru": "6",
           "today": "-1",
           "topar": "+3"
@@ -2157,7 +2157,7 @@
           "total": 161,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
+          "position": "T47",
           "thru": "3",
           "today": "+2",
           "topar": "+4"
@@ -2189,7 +2189,7 @@
           "total": 150,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T39",
+          "position": "T40",
           "thru": "1",
           "today": "E",
           "topar": "+2"
@@ -2272,9 +2272,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 23,
+              "score": 29,
               "penalty": false,
-              "topar": 0
+              "topar": 2
             },
             "round4": {
               "score": null,
@@ -2282,13 +2282,13 @@
               "topar": null
             }
           },
-          "total": 171,
+          "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
-          "thru": "6",
-          "today": "E",
-          "topar": "+4"
+          "position": "T52",
+          "thru": "7",
+          "today": "+2",
+          "topar": "+6"
         },
         {
           "name": "Charl Schwartzel",
@@ -2317,7 +2317,7 @@
           "total": 177,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T53",
+          "position": "T52",
           "thru": "7",
           "today": "+2",
           "topar": "+6"
@@ -2338,8 +2338,8 @@
         ],
         "round3": [
           "Adam Scott",
-          "Rasmus Hojgaard",
           "Viktor Hovland",
+          "Rasmus Hojgaard",
           "Charl Schwartzel"
         ],
         "round4": []
@@ -2347,22 +2347,23 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 71,
+        "round3": 77,
         "round4": null
       },
       "round_topars": {
         "round1": 5,
         "round2": -5,
-        "round3": 4,
+        "round3": 6,
         "round4": null
       },
-      "raw_total": 647,
-      "raw_topar": 4,
+      "raw_total": 653,
+      "raw_topar": 6,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 647,
+      "final_total": 653,
       "forecast": {
         "projected_cuts": [
+          "Rasmus Hojgaard",
           "Charl Schwartzel"
         ],
         "cut_line_estimate": 148
