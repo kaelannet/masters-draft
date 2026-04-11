@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T20:50:11.689715Z",
+  "updated_at": "2026-04-11T20:55:09.502782Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,7 +60,7 @@
               "topar": -7
             },
             "round3": {
-              "score": 32,
+              "score": 36,
               "penalty": false,
               "topar": 0
             },
@@ -70,11 +70,11 @@
               "topar": null
             }
           },
-          "total": 164,
+          "total": 168,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "8",
+          "thru": "9",
           "today": "E",
           "topar": "-12"
         },
@@ -169,7 +169,7 @@
           "total": 198,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T27",
+          "position": "T26",
           "thru": "14",
           "today": "+1",
           "topar": "-2"
@@ -201,7 +201,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T11",
+          "position": "T10",
           "thru": "F",
           "today": "-6",
           "topar": "-6"
@@ -301,7 +301,7 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 370,
+        "round3": 374,
         "round4": null
       },
       "round_topars": {
@@ -310,11 +310,11 @@
         "round3": -22,
         "round4": null
       },
-      "raw_total": 1212,
+      "raw_total": 1216,
       "raw_topar": -44,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1212,
+      "final_total": 1216,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -464,9 +464,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 52,
+              "score": 57,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             },
             "round4": {
               "score": null,
@@ -474,13 +474,13 @@
               "topar": null
             }
           },
-          "total": 193,
+          "total": 198,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
-          "thru": "13",
-          "today": "E",
-          "topar": "-3"
+          "position": "T26",
+          "thru": "14",
+          "today": "+1",
+          "topar": "-2"
         },
         {
           "name": "Viktor Hovland",
@@ -609,20 +609,20 @@
       "round_totals": {
         "round1": 433,
         "round2": 414,
-        "round3": 305,
+        "round3": 310,
         "round4": null
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
-        "round3": -15,
+        "round3": -14,
         "round4": null
       },
-      "raw_total": 1152,
-      "raw_topar": -32,
+      "raw_total": 1157,
+      "raw_topar": -31,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1152,
+      "final_total": 1157,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
