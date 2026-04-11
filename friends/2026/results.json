@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:10:12.620905Z",
+  "updated_at": "2026-04-11T14:15:09.808567Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -2261,7 +2261,7 @@
               "topar": -2
             },
             "round3": {
-              "score": 5,
+              "score": 10,
               "penalty": false,
               "topar": 1
             },
@@ -2271,11 +2271,11 @@
               "topar": null
             }
           },
-          "total": 153,
+          "total": 158,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "53",
-          "thru": "1",
+          "thru": "2",
           "today": "+1",
           "topar": "+5"
         },
@@ -2334,7 +2334,7 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 14,
+        "round3": 19,
         "round4": null
       },
       "round_topars": {
@@ -2343,11 +2343,11 @@
         "round3": 1,
         "round4": null
       },
-      "raw_total": 590,
+      "raw_total": 595,
       "raw_topar": 1,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 590,
+      "final_total": 595,
       "forecast": {
         "projected_cuts": [
           "Rasmus Hojgaard"
