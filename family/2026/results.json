@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:40:09.333333Z",
+  "updated_at": "2026-04-11T21:45:08.669057Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -105,7 +105,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-3",
           "topar": "-3"
@@ -156,9 +156,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 68,
+              "score": 71,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -166,13 +166,13 @@
               "topar": null
             }
           },
-          "total": 209,
+          "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "17",
-          "today": "E",
-          "topar": "-3"
+          "position": "T16",
+          "thru": "F",
+          "today": "-1",
+          "topar": "-4"
         },
         {
           "name": "Patrick Cantlay",
@@ -301,20 +301,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 413,
-        "round3": 406,
+        "round3": 409,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
-        "round3": -22,
+        "round3": -23,
         "round4": null
       },
-      "raw_total": 1248,
-      "raw_topar": -44,
+      "raw_total": 1251,
+      "raw_topar": -45,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1248,
+      "final_total": 1251,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -445,7 +445,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-2",
           "topar": "-3"
@@ -708,7 +708,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 53,
+              "score": 57,
               "penalty": false,
               "topar": 1
             },
@@ -718,11 +718,11 @@
               "topar": null
             }
           },
-          "total": 192,
+          "total": 196,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "13",
+          "thru": "14",
           "today": "+1",
           "topar": "-4"
         },

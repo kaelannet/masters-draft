@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:40:09.481325Z",
+  "updated_at": "2026-04-11T21:45:08.863264Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -281,7 +281,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-2",
           "topar": "-3"
@@ -540,7 +540,7 @@
               "topar": -4
             },
             "round3": {
-              "score": 53,
+              "score": 57,
               "penalty": false,
               "topar": 1
             },
@@ -550,11 +550,11 @@
               "topar": null
             }
           },
-          "total": 192,
+          "total": 196,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "13",
+          "thru": "14",
           "today": "+1",
           "topar": "-4"
         },
@@ -711,7 +711,7 @@
       "round_totals": {
         "round1": 284,
         "round2": 275,
-        "round3": 224,
+        "round3": 228,
         "round4": null
       },
       "round_topars": {
@@ -720,11 +720,11 @@
         "round3": -8,
         "round4": null
       },
-      "raw_total": 783,
+      "raw_total": 787,
       "raw_topar": -25,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 783,
+      "final_total": 787,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1256,9 +1256,9 @@
               "topar": -3
             },
             "round3": {
-              "score": 68,
+              "score": 71,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -1266,13 +1266,13 @@
               "topar": null
             }
           },
-          "total": 209,
+          "total": 212,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "17",
-          "today": "E",
-          "topar": "-3"
+          "position": "T16",
+          "thru": "F",
+          "today": "-1",
+          "topar": "-4"
         },
         {
           "name": "Justin Thomas",
@@ -1333,7 +1333,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-1",
           "topar": "-3"
@@ -1419,8 +1419,8 @@
         "round3": [
           "Xander Schauffele",
           "Ben Griffin",
-          "Justin Thomas",
-          "Max Homa"
+          "Brooks Koepka",
+          "Justin Thomas"
         ],
         "round4": []
       },
@@ -1713,7 +1713,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
+          "position": "T21",
           "thru": "F",
           "today": "-3",
           "topar": "-3"
