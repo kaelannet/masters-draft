@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T15:22:43.451289Z",
+  "updated_at": "2026-04-11T15:25:09.280403Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 34,
+      "round3": 38,
       "round4": null
     },
     "cut_line": 148,
@@ -1063,7 +1063,7 @@
               "topar": 7
             },
             "round3": {
-              "score": 34,
+              "score": 38,
               "penalty": false,
               "topar": 2
             },
@@ -1073,11 +1073,11 @@
               "topar": null
             }
           },
-          "total": 182,
+          "total": 186,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T52",
-          "thru": "8",
+          "thru": "9",
           "today": "+2",
           "topar": "+6"
         },
@@ -1169,7 +1169,7 @@
       "round_totals": {
         "round1": 287,
         "round2": 280,
-        "round3": 59,
+        "round3": 63,
         "round4": null
       },
       "round_topars": {
@@ -1178,11 +1178,11 @@
         "round3": 3,
         "round4": null
       },
-      "raw_total": 626,
+      "raw_total": 630,
       "raw_topar": -6,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 626,
+      "final_total": 630,
       "forecast": {
         "projected_cuts": [
           "Kurt Kitayama"
@@ -1689,7 +1689,7 @@
           "total": 174,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "44",
+          "position": "T43",
           "thru": "7",
           "today": "-1",
           "topar": "+3"
@@ -2181,7 +2181,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 4,
+              "score": 9,
               "penalty": false,
               "topar": 0
             },
@@ -2191,11 +2191,11 @@
               "topar": null
             }
           },
-          "total": 150,
+          "total": 155,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T39",
-          "thru": "1",
+          "thru": "2",
           "today": "E",
           "topar": "+2"
         },
@@ -2352,7 +2352,7 @@
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 80,
+        "round3": 85,
         "round4": null
       },
       "round_topars": {
@@ -2361,11 +2361,11 @@
         "round3": 6,
         "round4": null
       },
-      "raw_total": 656,
+      "raw_total": 661,
       "raw_topar": 6,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 656,
+      "final_total": 661,
       "forecast": {
         "projected_cuts": [
           "Rasmus Hojgaard",
