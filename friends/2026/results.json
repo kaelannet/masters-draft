@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:09:04.367903Z",
+  "updated_at": "2026-04-11T14:10:12.620905Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -2274,7 +2274,7 @@
           "total": 153,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T52",
+          "position": "53",
           "thru": "1",
           "today": "+1",
           "topar": "+5"
@@ -2293,9 +2293,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 5,
+              "score": 9,
               "penalty": false,
-              "topar": 1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -2303,13 +2303,13 @@
               "topar": null
             }
           },
-          "total": 153,
+          "total": 157,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T52",
-          "thru": "1",
-          "today": "+1",
-          "topar": "+5"
+          "position": "T48",
+          "thru": "2",
+          "today": "E",
+          "topar": "+4"
         }
       ],
       "counting_per_round": {
@@ -2326,32 +2326,31 @@
           "Charl Schwartzel"
         ],
         "round3": [
-          "Rasmus Hojgaard",
-          "Charl Schwartzel"
+          "Charl Schwartzel",
+          "Rasmus Hojgaard"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 293,
         "round2": 283,
-        "round3": 10,
+        "round3": 14,
         "round4": null
       },
       "round_topars": {
         "round1": 5,
         "round2": -5,
-        "round3": 2,
+        "round3": 1,
         "round4": null
       },
-      "raw_total": 586,
-      "raw_topar": 2,
+      "raw_total": 590,
+      "raw_topar": 1,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 586,
+      "final_total": 590,
       "forecast": {
         "projected_cuts": [
-          "Rasmus Hojgaard",
-          "Charl Schwartzel"
+          "Rasmus Hojgaard"
         ],
         "cut_line_estimate": 148
       }
