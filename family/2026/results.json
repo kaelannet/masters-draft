@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:10:22.412506Z",
+  "updated_at": "2026-04-11T21:15:14.575833Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -676,7 +676,7 @@
               "topar": 0
             },
             "round3": {
-              "score": 62,
+              "score": 66,
               "penalty": false,
               "topar": -2
             },
@@ -686,11 +686,11 @@
               "topar": null
             }
           },
-          "total": 204,
+          "total": 208,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "16",
+          "thru": "17",
           "today": "-2",
           "topar": "-4"
         },
@@ -740,9 +740,9 @@
               "topar": -2
             },
             "round3": {
-              "score": 67,
+              "score": 72,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -750,13 +750,13 @@
               "topar": null
             }
           },
-          "total": 209,
+          "total": 214,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T20",
-          "thru": "17",
-          "today": "-1",
-          "topar": "-3"
+          "position": "T28",
+          "thru": "F",
+          "today": "E",
+          "topar": "-2"
         },
         {
           "name": "Adam Scott",
@@ -917,20 +917,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 384,
+        "round3": 393,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -4,
+        "round3": -3,
         "round4": null
       },
-      "raw_total": 1233,
-      "raw_topar": -19,
+      "raw_total": 1242,
+      "raw_topar": -18,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1233,
+      "final_total": 1242,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
