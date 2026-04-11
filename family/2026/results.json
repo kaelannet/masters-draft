@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:35:09.700713Z",
+  "updated_at": "2026-04-11T21:40:09.333333Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -60,9 +60,9 @@
               "topar": -7
             },
             "round3": {
-              "score": 45,
+              "score": 49,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             },
             "round4": {
               "score": null,
@@ -70,13 +70,13 @@
               "topar": null
             }
           },
-          "total": 177,
+          "total": 181,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T1",
-          "thru": "11",
-          "today": "+1",
-          "topar": "-11"
+          "position": "2",
+          "thru": "12",
+          "today": "+2",
+          "topar": "-10"
         },
         {
           "name": "Ludvig Aberg",
@@ -105,7 +105,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T20",
           "thru": "F",
           "today": "-3",
           "topar": "-3"
@@ -169,7 +169,7 @@
           "total": 209,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T20",
           "thru": "17",
           "today": "E",
           "topar": "-3"
@@ -413,7 +413,7 @@
           "total": 197,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T1",
+          "position": "1",
           "thru": "16",
           "today": "-7",
           "topar": "-11"
@@ -445,7 +445,7 @@
           "total": 213,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T21",
+          "position": "T20",
           "thru": "F",
           "today": "-2",
           "topar": "-3"
@@ -573,7 +573,7 @@
           "total": 188,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
+          "position": "T4",
           "thru": "13",
           "today": "-3",
           "topar": "-8"
