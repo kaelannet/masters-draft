@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-11T17:05:10.424512Z",
+  "updated_at": "2026-04-11T17:10:10.295341Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
     "winner": null,
     "worst_cut_scores": {
-      "round3": 68,
+      "round3": 72,
       "round4": null
     },
     "cut_line": 148,
@@ -767,9 +767,9 @@
               "topar": 2
             },
             "round3": {
-              "score": 34,
+              "score": 39,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             },
             "round4": {
               "score": null,
@@ -777,13 +777,13 @@
               "topar": null
             }
           },
-          "total": 180,
+          "total": 185,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
-          "thru": "9",
-          "today": "-2",
-          "topar": "E"
+          "position": "T38",
+          "thru": "10",
+          "today": "-1",
+          "topar": "+1"
         },
         {
           "name": "Robert MacIntyre",
@@ -876,7 +876,7 @@
           "total": 202,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T45",
           "thru": "14",
           "today": "-2",
           "topar": "+2"
@@ -900,8 +900,8 @@
           "Xander Schauffele"
         ],
         "round3": [
-          "Adam Scott",
           "S.W. Kim",
+          "Adam Scott",
           "Jon Rahm"
         ],
         "round4": []
@@ -909,20 +909,20 @@
       "round_totals": {
         "round1": 429,
         "round2": 420,
-        "round3": 145,
+        "round3": 150,
         "round4": null
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
-        "round3": -3,
+        "round3": -2,
         "round4": null
       },
-      "raw_total": 994,
-      "raw_topar": -18,
+      "raw_total": 999,
+      "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 994,
+      "final_total": 999,
       "forecast": {
         "projected_cuts": [
           "Jon Rahm"
@@ -998,7 +998,7 @@
         "total": 209,
         "made_cut": true,
         "status": "pre-tournament",
-        "position": "T48",
+        "position": "50",
         "thru": "15",
         "today": "E",
         "topar": "+4"
