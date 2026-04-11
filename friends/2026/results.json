@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T16:55:10.065961Z",
+  "updated_at": "2026-04-11T16:58:28.946723Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFPN",
@@ -124,7 +124,7 @@
               "topar": 3
             },
             "round3": {
-              "score": 37,
+              "score": 41,
               "penalty": false,
               "topar": 1
             },
@@ -134,11 +134,11 @@
               "topar": null
             }
           },
-          "total": 183,
+          "total": 187,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "9",
+          "position": "47",
+          "thru": "10",
           "today": "+1",
           "topar": "+3"
         },
@@ -231,7 +231,7 @@
       "round_totals": {
         "round1": 276,
         "round2": 278,
-        "round3": 135,
+        "round3": 139,
         "round4": null
       },
       "round_topars": {
@@ -240,11 +240,11 @@
         "round3": -3,
         "round4": null
       },
-      "raw_total": 689,
+      "raw_total": 693,
       "raw_topar": -25,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 689,
+      "final_total": 693,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -407,7 +407,7 @@
           "total": 195,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T49",
+          "position": "T48",
           "thru": "12",
           "today": "+1",
           "topar": "+4"
@@ -974,7 +974,7 @@
               "topar": 2
             },
             "round3": {
-              "score": 7,
+              "score": 11,
               "penalty": false,
               "topar": -2
             },
@@ -984,11 +984,11 @@
               "topar": null
             }
           },
-          "total": 151,
+          "total": 155,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "2",
+          "thru": "3",
           "today": "-2",
           "topar": "-2"
         },
@@ -1038,7 +1038,7 @@
               "topar": -5
             },
             "round3": {
-              "score": 19,
+              "score": 22,
               "penalty": false,
               "topar": -1
             },
@@ -1048,11 +1048,11 @@
               "topar": null
             }
           },
-          "total": 163,
+          "total": 166,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T22",
-          "thru": "5",
+          "thru": "6",
           "today": "-1",
           "topar": "-1"
         },
@@ -1177,7 +1177,7 @@
       "round_totals": {
         "round1": 294,
         "round2": 280,
-        "round3": 100,
+        "round3": 104,
         "round4": null
       },
       "round_topars": {
@@ -1186,11 +1186,11 @@
         "round3": -8,
         "round4": null
       },
-      "raw_total": 674,
+      "raw_total": 678,
       "raw_topar": -10,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 674,
+      "final_total": 678,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1276,9 +1276,9 @@
               "topar": 1
             },
             "round3": {
-              "score": 46,
+              "score": 52,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             },
             "round4": {
               "score": null,
@@ -1286,13 +1286,13 @@
               "topar": null
             }
           },
-          "total": 194,
+          "total": 200,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T47",
-          "thru": "12",
-          "today": "-1",
-          "topar": "+3"
+          "position": "T48",
+          "thru": "13",
+          "today": "E",
+          "topar": "+4"
         },
         {
           "name": "Harris English",
@@ -1406,28 +1406,28 @@
         ],
         "round3": [
           "Keegan Bradley",
-          "Corey Conners",
-          "Harris English"
+          "Harris English",
+          "Corey Conners"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 290,
         "round2": 281,
-        "round3": 103,
+        "round3": 109,
         "round4": null
       },
       "round_topars": {
         "round1": 2,
         "round2": -7,
-        "round3": -4,
+        "round3": -3,
         "round4": null
       },
-      "raw_total": 674,
-      "raw_topar": -9,
+      "raw_total": 680,
+      "raw_topar": -8,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 674,
+      "final_total": 680,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1753,7 +1753,7 @@
               "topar": -1
             },
             "round3": {
-              "score": 15,
+              "score": 19,
               "penalty": false,
               "topar": -1
             },
@@ -1763,11 +1763,11 @@
               "topar": null
             }
           },
-          "total": 159,
+          "total": 163,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T22",
-          "thru": "4",
+          "thru": "5",
           "today": "-1",
           "topar": "-1"
         },
@@ -1891,7 +1891,7 @@
       "round_totals": {
         "round1": 297,
         "round2": 276,
-        "round3": 59,
+        "round3": 63,
         "round4": null
       },
       "round_topars": {
@@ -1900,11 +1900,11 @@
         "round3": -2,
         "round4": null
       },
-      "raw_total": 632,
+      "raw_total": 636,
       "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 632,
+      "final_total": 636,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1939,7 +1939,7 @@
           "total": 200,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T49",
+          "position": "T48",
           "thru": "13",
           "today": "E",
           "topar": "+4"
