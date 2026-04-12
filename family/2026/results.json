@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T19:57:17.916828Z",
+  "updated_at": "2026-04-12T20:00:11.954189Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -233,7 +233,7 @@
           "total": 283,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T12",
+          "position": "T13",
           "thru": "F",
           "today": "-4",
           "topar": "-5"
@@ -476,18 +476,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 68,
+              "score": 73,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             }
           },
-          "total": 281,
+          "total": 286,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
-          "thru": "17",
-          "today": "E",
-          "topar": "-3"
+          "position": "T27",
+          "thru": "F",
+          "today": "+1",
+          "topar": "-2"
         },
         {
           "name": "Viktor Hovland",
@@ -624,19 +624,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 273
+        "round4": 278
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -5
+        "round4": -4
       },
-      "raw_total": 1535,
-      "raw_topar": -39,
+      "raw_total": 1540,
+      "raw_topar": -38,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1535,
+      "final_total": 1540,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -695,18 +695,18 @@
               "topar": -2
             },
             "round4": {
-              "score": 46,
+              "score": 50,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 258,
+          "total": 262,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T12",
-          "thru": "12",
-          "today": "-1",
-          "topar": "-5"
+          "position": "T9",
+          "thru": "13",
+          "today": "-2",
+          "topar": "-6"
         },
         {
           "name": "Tommy Fleetwood",
@@ -767,7 +767,7 @@
           "total": 283,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T12",
+          "position": "T13",
           "thru": "F",
           "today": "-3",
           "topar": "-5"
@@ -799,7 +799,7 @@
           "total": 286,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T28",
+          "position": "T27",
           "thru": "F",
           "today": "-2",
           "topar": "-2"
@@ -863,7 +863,7 @@
           "total": 251,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T12",
+          "position": "T13",
           "thru": "10",
           "today": "+1",
           "topar": "-5"
@@ -929,8 +929,8 @@
         "round4": [
           "Jon Rahm",
           "Hideki Matsuyama",
-          "Adam Scott",
           "Xander Schauffele",
+          "Adam Scott",
           "S.W. Kim",
           "Patrick Reed"
         ]
@@ -939,19 +939,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 366
+        "round4": 370
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -9
+        "round4": -10
       },
-      "raw_total": 1644,
-      "raw_topar": -27,
+      "raw_total": 1648,
+      "raw_topar": -28,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1644,
+      "final_total": 1648,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
