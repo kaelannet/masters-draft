@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T21:25:10.317485Z",
+  "updated_at": "2026-04-12T21:30:11.602518Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -33,16 +33,16 @@
               "topar": -7
             },
             "round4": {
-              "score": 50,
+              "score": 54,
               "penalty": false,
               "topar": -2
             }
           },
-          "total": 259,
+          "total": 263,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "13",
+          "thru": "14",
           "today": "-2",
           "topar": "-9"
         },
@@ -129,16 +129,16 @@
               "topar": -4
             },
             "round4": {
-              "score": 60,
+              "score": 64,
               "penalty": false,
               "topar": -4
             }
           },
-          "total": 271,
+          "total": 275,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T6",
-          "thru": "16",
+          "thru": "17",
           "today": "-4",
           "topar": "-9"
         },
@@ -193,16 +193,16 @@
               "topar": -6
             },
             "round4": {
-              "score": 61,
+              "score": 64,
               "penalty": false,
               "topar": 0
             }
           },
-          "total": 271,
+          "total": 274,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "12",
-          "thru": "15",
+          "thru": "16",
           "today": "E",
           "topar": "-6"
         },
@@ -309,7 +309,7 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 367
+        "round4": 375
       },
       "round_topars": {
         "round1": -3,
@@ -317,11 +317,11 @@
         "round3": -23,
         "round4": -12
       },
-      "raw_total": 1618,
+      "raw_total": 1626,
       "raw_topar": -57,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1618,
+      "final_total": 1626,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -452,7 +452,7 @@
           "total": 284,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T17",
           "thru": "F",
           "today": "-1",
           "topar": "-4"
@@ -516,7 +516,7 @@
           "total": 284,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T18",
+          "position": "T17",
           "thru": "F",
           "today": "-5",
           "topar": "-4"
@@ -671,7 +671,7 @@
           "total": 289,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T38",
+          "position": "T39",
           "thru": "F",
           "today": "-4",
           "topar": "+1"
@@ -855,18 +855,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 65,
+              "score": 70,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             }
           },
-          "total": 275,
+          "total": 280,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
-          "thru": "16",
-          "today": "+1",
-          "topar": "-5"
+          "position": "T17",
+          "thru": "17",
+          "today": "+2",
+          "topar": "-4"
         },
         {
           "name": "S.W. Kim",
@@ -939,19 +939,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 412
+        "round4": 417
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -12
+        "round4": -11
       },
-      "raw_total": 1690,
-      "raw_topar": -30,
+      "raw_total": 1695,
+      "raw_topar": -29,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1690,
+      "final_total": 1695,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
