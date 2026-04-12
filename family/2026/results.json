@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T15:40:10.742112Z",
+  "updated_at": "2026-04-12T15:45:21.451432Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -508,18 +508,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 21,
+              "score": 24,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             }
           },
-          "total": 238,
+          "total": 241,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
-          "thru": "6",
-          "today": "-2",
-          "topar": "-1"
+          "position": "T30",
+          "thru": "7",
+          "today": "-3",
+          "topar": "-2"
         },
         {
           "name": "J.J. Spaun",
@@ -624,19 +624,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 271
+        "round4": 274
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -112
+        "round4": -113
       },
-      "raw_total": 1533,
-      "raw_topar": -146,
+      "raw_total": 1536,
+      "raw_topar": -147,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1533,
+      "final_total": 1536,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
