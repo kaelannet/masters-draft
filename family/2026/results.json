@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T14:05:08.925137Z",
+  "updated_at": "2026-04-12T14:10:11.295941Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 20
+      "round4": 24
     },
     "cut_line": 148,
     "cut_official": true
@@ -33,18 +33,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 8,
+              "score": 11,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 229,
+          "total": 232,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "48",
-          "thru": "2",
-          "today": "-1",
-          "topar": "+4"
+          "position": "T44",
+          "thru": "3",
+          "today": "-2",
+          "topar": "+3"
         },
         {
           "name": "Xander Schauffele",
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 91
+        "round4": 110
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -210
+        "round4": -195
       },
-      "raw_total": 1369,
-      "raw_topar": -228,
+      "raw_total": 1388,
+      "raw_topar": -213,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1369,
+      "final_total": 1388,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
