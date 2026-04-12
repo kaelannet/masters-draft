@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T20:20:10.120865Z",
+  "updated_at": "2026-04-12T20:25:10.167792Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -41,7 +41,7 @@
           "total": 247,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T5",
+          "position": "6",
           "thru": "10",
           "today": "-2",
           "topar": "-9"
@@ -105,7 +105,7 @@
           "total": 276,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T20",
           "thru": "16",
           "today": "-1",
           "topar": "-4"
@@ -137,7 +137,7 @@
           "total": 258,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "12",
           "today": "E",
           "topar": "-5"
@@ -161,18 +161,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 56,
+              "score": 60,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             }
           },
-          "total": 268,
+          "total": 272,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
-          "thru": "14",
-          "today": "E",
-          "topar": "-4"
+          "position": "T13",
+          "thru": "15",
+          "today": "-1",
+          "topar": "-5"
         },
         {
           "name": "Patrick Cantlay",
@@ -193,18 +193,18 @@
               "topar": -6
             },
             "round4": {
-              "score": 40,
+              "score": 45,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             }
           },
-          "total": 250,
+          "total": 255,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T11",
-          "thru": "10",
-          "today": "E",
-          "topar": "-6"
+          "position": "T13",
+          "thru": "11",
+          "today": "+1",
+          "topar": "-5"
         },
         {
           "name": "Jordan Spieth",
@@ -233,7 +233,7 @@
           "total": 283,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "F",
           "today": "-4",
           "topar": "-5"
@@ -300,16 +300,16 @@
           "Jordan Spieth",
           "Scottie Scheffler",
           "Ludvig Aberg",
-          "Collin Morikawa",
           "Brooks Koepka",
-          "Patrick Cantlay"
+          "Collin Morikawa",
+          "Rory McIlroy"
         ]
       },
       "round_totals": {
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 312
+        "round4": 304
       },
       "round_topars": {
         "round1": -3,
@@ -317,11 +317,11 @@
         "round3": -23,
         "round4": -7
       },
-      "raw_total": 1563,
+      "raw_total": 1555,
       "raw_topar": -52,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1563,
+      "final_total": 1555,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -452,7 +452,7 @@
           "total": 280,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T20",
           "thru": "17",
           "today": "-1",
           "topar": "-4"
@@ -516,7 +516,7 @@
           "total": 284,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T20",
           "thru": "F",
           "today": "-5",
           "topar": "-4"
@@ -727,18 +727,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 64,
+              "score": 66,
               "penalty": false,
-              "topar": 3
+              "topar": 2
             }
           },
-          "total": 276,
+          "total": 278,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T33",
-          "thru": "15",
-          "today": "+3",
-          "topar": "-1"
+          "position": "T26",
+          "thru": "16",
+          "today": "+2",
+          "topar": "-2"
         },
         {
           "name": "Hideki Matsuyama",
@@ -767,7 +767,7 @@
           "total": 283,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "F",
           "today": "-3",
           "topar": "-5"
@@ -863,7 +863,7 @@
           "total": 258,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T14",
+          "position": "T13",
           "thru": "12",
           "today": "+1",
           "topar": "-5"
