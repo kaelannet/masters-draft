@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T14:45:10.081568Z",
+  "updated_at": "2026-04-12T14:50:09.857920Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 30
+      "round4": 34
     },
     "cut_line": 148,
     "cut_official": true
@@ -201,7 +201,7 @@
           "total": 225,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
+          "position": "T38",
           "thru": "2",
           "today": "-1",
           "topar": "E"
@@ -309,19 +309,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 158
+        "round4": 178
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -211
+        "round4": -191
       },
-      "raw_total": 1420,
-      "raw_topar": -245,
+      "raw_total": 1440,
+      "raw_topar": -225,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1420,
+      "final_total": 1440,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -484,7 +484,7 @@
           "total": 216,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
+          "position": "T38",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 162
+        "round4": 178
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -169
+        "round4": -153
       },
-      "raw_total": 1440,
-      "raw_topar": -187,
+      "raw_total": 1456,
+      "raw_topar": -171,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1440,
+      "final_total": 1456,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
