@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T19:55:10.747987Z",
+  "updated_at": "2026-04-12T19:57:18.073446Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -169,7 +169,7 @@
           "total": 235,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "6",
+          "position": "T6",
           "thru": "7",
           "today": "+2",
           "topar": "-8"
@@ -551,16 +551,16 @@
               "topar": 1
             },
             "round4": {
-              "score": 55,
+              "score": 59,
               "penalty": false,
               "topar": 3
             }
           },
-          "total": 267,
+          "total": 271,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "13",
+          "thru": "14",
           "today": "+3",
           "topar": "-1"
         },
@@ -723,7 +723,7 @@
         "round1": 284,
         "round2": 275,
         "round3": 280,
-        "round4": 160
+        "round4": 164
       },
       "round_topars": {
         "round1": -4,
@@ -731,11 +731,11 @@
         "round3": -8,
         "round4": 2
       },
-      "raw_total": 999,
+      "raw_total": 1003,
       "raw_topar": -23,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 999,
+      "final_total": 1003,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1352,7 +1352,7 @@
           "total": 273,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
+          "position": "8",
           "thru": "16",
           "today": "-4",
           "topar": "-7"
@@ -1376,16 +1376,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 46,
+              "score": 49,
               "penalty": false,
               "topar": 2
             }
           },
-          "total": 257,
+          "total": 260,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T25",
-          "thru": "11",
+          "thru": "12",
           "today": "+2",
           "topar": "-3"
         },
@@ -1830,18 +1830,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 49,
+              "score": 52,
               "penalty": false,
-              "topar": -3
+              "topar": -4
             }
           },
-          "total": 261,
+          "total": 264,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T7",
-          "thru": "13",
-          "today": "-3",
-          "topar": "-7"
+          "position": "T6",
+          "thru": "14",
+          "today": "-4",
+          "topar": "-8"
         },
         {
           "name": "Daniel Berger",
@@ -1938,19 +1938,19 @@
         "round1": 297,
         "round2": 276,
         "round3": 278,
-        "round4": 214
+        "round4": 217
       },
       "round_topars": {
         "round1": 9,
         "round2": -12,
         "round3": -10,
-        "round4": -2
+        "round4": -3
       },
-      "raw_total": 1065,
-      "raw_topar": -15,
+      "raw_total": 1068,
+      "raw_topar": -16,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1065,
+      "final_total": 1068,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
