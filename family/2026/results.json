@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T14:30:25.724856Z",
+  "updated_at": "2026-04-12T14:35:10.196885Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -201,7 +201,7 @@
           "total": 221,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T41",
+          "position": "T42",
           "thru": "1",
           "today": "E",
           "topar": "+1"
@@ -348,18 +348,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 14,
+              "score": 19,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             }
           },
-          "total": 235,
+          "total": 240,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
-          "thru": "4",
-          "today": "-2",
-          "topar": "+3"
+          "position": "T48",
+          "thru": "5",
+          "today": "-1",
+          "topar": "+4"
         },
         {
           "name": "Xander Schauffele",
@@ -484,7 +484,7 @@
           "total": 216,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T36",
+          "position": "T37",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -612,8 +612,8 @@
           "Jon Rahm"
         ],
         "round4": [
-          "Jon Rahm",
           "S.W. Kim",
+          "Jon Rahm",
           "(penalty fill)",
           "(penalty fill)",
           "(penalty fill)",
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 148
+        "round4": 153
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -172
+        "round4": -171
       },
-      "raw_total": 1426,
-      "raw_topar": -190,
+      "raw_total": 1431,
+      "raw_topar": -189,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1426,
+      "final_total": 1431,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
