@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T02:48:40.730203Z",
+  "updated_at": "2026-04-12T02:50:53.500437Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFFN",
@@ -9,7 +9,7 @@
       "round4": null
     },
     "cut_line": 148,
-    "cut_official": false
+    "cut_official": true
   },
   "standings": {
     "Trey": {
@@ -246,9 +246,7 @@
       "drafted_winner": null,
       "final_total": 828,
       "forecast": {
-        "projected_cuts": [
-          "Gary Woodland"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },
@@ -486,9 +484,7 @@
       "drafted_winner": null,
       "final_total": 837,
       "forecast": {
-        "projected_cuts": [
-          "Aaron Rai"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },
@@ -1440,9 +1436,7 @@
       "drafted_winner": null,
       "final_total": 849,
       "forecast": {
-        "projected_cuts": [
-          "Kurt Kitayama"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },
@@ -2156,9 +2150,7 @@
       "drafted_winner": null,
       "final_total": 862,
       "forecast": {
-        "projected_cuts": [
-          "Charl Schwartzel"
-        ],
+        "projected_cuts": [],
         "cut_line_estimate": 148
       }
     },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T02:48:39.460957Z",
+  "updated_at": "2026-04-12T02:50:54.131568Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFFN",
@@ -9,7 +9,7 @@
       "round4": null
     },
     "cut_line": 148,
-    "cut_official": false
+    "cut_official": true
   },
   "standings": {
     "Reidar": {

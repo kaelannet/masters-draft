@@ -198,8 +198,8 @@ def calculate_standings(scores_data, draft_state, config):
     cut_line_estimate = None
     cut_official = False
 
-    # Check if cut has happened (status_round chars 2+ are 'C' means cut applied)
-    if len(status_round) >= 3 and status_round[2] == "C":
+    # Cut happens after round 2 — if round 3 has started or finished, cut is done
+    if len(status_round) >= 3 and status_round[2] != "N":
         cut_official = True
 
     # Estimate cut line from R1+R2 totals of all players
