@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T21:50:09.446106Z",
+  "updated_at": "2026-04-12T21:55:09.288242Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -33,18 +33,18 @@
               "topar": -7
             },
             "round4": {
-              "score": 58,
+              "score": 60,
               "penalty": false,
-              "topar": -3
+              "topar": -4
             }
           },
-          "total": 267,
+          "total": 269,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
-          "thru": "15",
-          "today": "-3",
-          "topar": "-10"
+          "position": "2",
+          "thru": "16",
+          "today": "-4",
+          "topar": "-11"
         },
         {
           "name": "Rory McIlroy",
@@ -297,9 +297,9 @@
           "Brooks Koepka"
         ],
         "round4": [
+          "Scottie Scheffler",
           "Collin Morikawa",
           "Jordan Spieth",
-          "Scottie Scheffler",
           "Rory McIlroy",
           "Brooks Koepka",
           "Ludvig Aberg"
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 387
+        "round4": 389
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
         "round3": -23,
-        "round4": -14
+        "round4": -15
       },
-      "raw_total": 1638,
-      "raw_topar": -59,
+      "raw_total": 1640,
+      "raw_topar": -60,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1638,
+      "final_total": 1640,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -388,7 +388,7 @@
           "total": 262,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
+          "position": "T3",
           "thru": "14",
           "today": "-2",
           "topar": "-10"
@@ -420,7 +420,7 @@
           "total": 258,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
+          "position": "T3",
           "thru": "13",
           "today": "+1",
           "topar": "-10"
