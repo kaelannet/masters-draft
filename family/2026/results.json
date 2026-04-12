@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T15:10:16.646507Z",
+  "updated_at": "2026-04-12T15:15:12.218784Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 38
+      "round4": 39
     },
     "cut_line": 148,
     "cut_official": true
@@ -309,19 +309,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 204
+        "round4": 209
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -172
+        "round4": -167
       },
-      "raw_total": 1466,
-      "raw_topar": -206,
+      "raw_total": 1471,
+      "raw_topar": -201,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1466,
+      "final_total": 1471,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -348,18 +348,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 26,
+              "score": 30,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 247,
+          "total": 251,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "48",
-          "thru": "7",
-          "today": "-1",
-          "topar": "+4"
+          "position": "T47",
+          "thru": "8",
+          "today": "-2",
+          "topar": "+3"
         },
         {
           "name": "Xander Schauffele",
@@ -612,8 +612,8 @@
           "Jon Rahm"
         ],
         "round4": [
-          "S.W. Kim",
           "Jon Rahm",
+          "S.W. Kim",
           "Adam Scott",
           "(penalty fill)",
           "(penalty fill)",
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 169
+        "round4": 176
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -105
+        "round4": -103
       },
-      "raw_total": 1447,
-      "raw_topar": -123,
+      "raw_total": 1454,
+      "raw_topar": -121,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1447,
+      "final_total": 1454,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
