@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T20:35:57.057062Z",
+  "updated_at": "2026-04-12T20:40:10.588808Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -727,18 +727,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 66,
+              "score": 72,
               "penalty": false,
-              "topar": 2
+              "topar": 4
             }
           },
-          "total": 278,
+          "total": 284,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T27",
-          "thru": "16",
-          "today": "+2",
-          "topar": "-2"
+          "position": "T35",
+          "thru": "17",
+          "today": "+4",
+          "topar": "E"
         },
         {
           "name": "Hideki Matsuyama",
@@ -932,26 +932,26 @@
           "Hideki Matsuyama",
           "Adam Scott",
           "S.W. Kim",
-          "Tommy Fleetwood"
+          "Patrick Reed"
         ]
       },
       "round_totals": {
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 402
+        "round4": 391
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -11
+        "round4": -10
       },
-      "raw_total": 1680,
-      "raw_topar": -29,
+      "raw_total": 1669,
+      "raw_topar": -28,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1680,
+      "final_total": 1669,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
