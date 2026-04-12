@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T21:20:10.641902Z",
+  "updated_at": "2026-04-12T21:25:10.658990Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -33,18 +33,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 44,
+              "score": 46,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             }
           },
-          "total": 249,
+          "total": 251,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "11",
-          "today": "E",
-          "topar": "-11"
+          "thru": "12",
+          "today": "-1",
+          "topar": "-12"
         },
         {
           "name": "Jordan Spieth",
@@ -237,19 +237,19 @@
         "round1": 276,
         "round2": 278,
         "round3": 274,
-        "round4": 251
+        "round4": 253
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
         "round3": -14,
-        "round4": -9
+        "round4": -10
       },
-      "raw_total": 1079,
-      "raw_topar": -45,
+      "raw_total": 1081,
+      "raw_topar": -46,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1079,
+      "final_total": 1081,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -647,16 +647,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 73,
+              "score": 77,
               "penalty": false,
               "topar": 5
             }
           },
-          "total": 284,
+          "total": 288,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T33",
-          "thru": "17",
+          "thru": "F",
           "today": "+5",
           "topar": "E"
         },
@@ -741,249 +741,6 @@
         "cut_line_estimate": 148
       }
     },
-    "Jackson": {
-      "players": [
-        {
-          "name": "Justin Rose",
-          "rounds": {
-            "round1": {
-              "score": 70,
-              "penalty": false,
-              "topar": -2
-            },
-            "round2": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round3": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round4": {
-              "score": 45,
-              "penalty": false,
-              "topar": -2
-            }
-          },
-          "total": 253,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T2",
-          "thru": "12",
-          "today": "-2",
-          "topar": "-10"
-        },
-        {
-          "name": "Tommy Fleetwood",
-          "rounds": {
-            "round1": {
-              "score": 71,
-              "penalty": false,
-              "topar": -1
-            },
-            "round2": {
-              "score": 68,
-              "penalty": false,
-              "topar": -4
-            },
-            "round3": {
-              "score": 73,
-              "penalty": false,
-              "topar": 1
-            },
-            "round4": {
-              "score": 76,
-              "penalty": false,
-              "topar": 4
-            }
-          },
-          "total": 288,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T33",
-          "thru": "F",
-          "today": "+4",
-          "topar": "E"
-        },
-        {
-          "name": "Jake Knapp",
-          "rounds": {
-            "round1": {
-              "score": 73,
-              "penalty": false,
-              "topar": 1
-            },
-            "round2": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round3": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round4": {
-              "score": 66,
-              "penalty": false,
-              "topar": -2
-            }
-          },
-          "total": 277,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T10",
-          "thru": "17",
-          "today": "-2",
-          "topar": "-7"
-        },
-        {
-          "name": "Akshay Bhatia",
-          "rounds": {
-            "round1": {
-              "score": 73,
-              "penalty": false,
-              "topar": 1
-            },
-            "round2": {
-              "score": 77,
-              "penalty": false,
-              "topar": 5
-            },
-            "round3": {
-              "score": null,
-              "penalty": false,
-              "topar": null
-            },
-            "round4": {
-              "score": null,
-              "penalty": false,
-              "topar": null
-            }
-          },
-          "total": 150,
-          "made_cut": true,
-          "status": "active",
-          "position": "",
-          "thru": "",
-          "today": "",
-          "topar": "+6"
-        },
-        {
-          "name": "Sergio Garcia",
-          "rounds": {
-            "round1": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round2": {
-              "score": 75,
-              "penalty": false,
-              "topar": 3
-            },
-            "round3": {
-              "score": 74,
-              "penalty": false,
-              "topar": 2
-            },
-            "round4": {
-              "score": 75,
-              "penalty": false,
-              "topar": 3
-            }
-          },
-          "total": 296,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "52",
-          "thru": "F",
-          "today": "+3",
-          "topar": "+8"
-        },
-        {
-          "name": "Haotong Li",
-          "rounds": {
-            "round1": {
-              "score": 71,
-              "penalty": false,
-              "topar": -1
-            },
-            "round2": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round3": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round4": {
-              "score": 60,
-              "penalty": false,
-              "topar": 8
-            }
-          },
-          "total": 269,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T38",
-          "thru": "13",
-          "today": "+8",
-          "topar": "+1"
-        }
-      ],
-      "counting_per_round": {
-        "round1": [
-          "Justin Rose",
-          "Tommy Fleetwood",
-          "Haotong Li",
-          "Sergio Garcia"
-        ],
-        "round2": [
-          "Tommy Fleetwood",
-          "Justin Rose",
-          "Jake Knapp",
-          "Haotong Li"
-        ],
-        "round3": [
-          "Justin Rose",
-          "Jake Knapp",
-          "Haotong Li",
-          "Tommy Fleetwood"
-        ],
-        "round4": [
-          "Justin Rose",
-          "Jake Knapp",
-          "Sergio Garcia",
-          "Tommy Fleetwood"
-        ]
-      },
-      "round_totals": {
-        "round1": 284,
-        "round2": 275,
-        "round3": 280,
-        "round4": 262
-      },
-      "round_topars": {
-        "round1": -4,
-        "round2": -13,
-        "round3": -8,
-        "round4": 3
-      },
-      "raw_total": 1101,
-      "raw_topar": -22,
-      "winner_bonus": 0,
-      "drafted_winner": null,
-      "final_total": 1101,
-      "forecast": {
-        "projected_cuts": [],
-        "cut_line_estimate": 148
-      }
-    },
     "Kyle": {
       "players": [
         {
@@ -1005,16 +762,16 @@
               "topar": -7
             },
             "round4": {
-              "score": 45,
+              "score": 48,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 250,
+          "total": 253,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T2",
-          "thru": "11",
+          "thru": "12",
           "today": "+1",
           "topar": "-10"
         },
@@ -1209,7 +966,7 @@
         "round1": 290,
         "round2": 281,
         "round3": 279,
-        "round4": 252
+        "round4": 255
       },
       "round_topars": {
         "round1": 2,
@@ -1217,11 +974,254 @@
         "round3": -9,
         "round4": -8
       },
-      "raw_total": 1102,
+      "raw_total": 1105,
       "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1102,
+      "final_total": 1105,
+      "forecast": {
+        "projected_cuts": [],
+        "cut_line_estimate": 148
+      }
+    },
+    "Jackson": {
+      "players": [
+        {
+          "name": "Justin Rose",
+          "rounds": {
+            "round1": {
+              "score": 70,
+              "penalty": false,
+              "topar": -2
+            },
+            "round2": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round3": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round4": {
+              "score": 50,
+              "penalty": false,
+              "topar": -2
+            }
+          },
+          "total": 258,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T2",
+          "thru": "13",
+          "today": "-2",
+          "topar": "-10"
+        },
+        {
+          "name": "Tommy Fleetwood",
+          "rounds": {
+            "round1": {
+              "score": 71,
+              "penalty": false,
+              "topar": -1
+            },
+            "round2": {
+              "score": 68,
+              "penalty": false,
+              "topar": -4
+            },
+            "round3": {
+              "score": 73,
+              "penalty": false,
+              "topar": 1
+            },
+            "round4": {
+              "score": 76,
+              "penalty": false,
+              "topar": 4
+            }
+          },
+          "total": 288,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T33",
+          "thru": "F",
+          "today": "+4",
+          "topar": "E"
+        },
+        {
+          "name": "Jake Knapp",
+          "rounds": {
+            "round1": {
+              "score": 73,
+              "penalty": false,
+              "topar": 1
+            },
+            "round2": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round3": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round4": {
+              "score": 66,
+              "penalty": false,
+              "topar": -2
+            }
+          },
+          "total": 277,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T10",
+          "thru": "17",
+          "today": "-2",
+          "topar": "-7"
+        },
+        {
+          "name": "Akshay Bhatia",
+          "rounds": {
+            "round1": {
+              "score": 73,
+              "penalty": false,
+              "topar": 1
+            },
+            "round2": {
+              "score": 77,
+              "penalty": false,
+              "topar": 5
+            },
+            "round3": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            },
+            "round4": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            }
+          },
+          "total": 150,
+          "made_cut": true,
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": "+6"
+        },
+        {
+          "name": "Sergio Garcia",
+          "rounds": {
+            "round1": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round2": {
+              "score": 75,
+              "penalty": false,
+              "topar": 3
+            },
+            "round3": {
+              "score": 74,
+              "penalty": false,
+              "topar": 2
+            },
+            "round4": {
+              "score": 75,
+              "penalty": false,
+              "topar": 3
+            }
+          },
+          "total": 296,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "52",
+          "thru": "F",
+          "today": "+3",
+          "topar": "+8"
+        },
+        {
+          "name": "Haotong Li",
+          "rounds": {
+            "round1": {
+              "score": 71,
+              "penalty": false,
+              "topar": -1
+            },
+            "round2": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round3": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round4": {
+              "score": 60,
+              "penalty": false,
+              "topar": 8
+            }
+          },
+          "total": 269,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T38",
+          "thru": "13",
+          "today": "+8",
+          "topar": "+1"
+        }
+      ],
+      "counting_per_round": {
+        "round1": [
+          "Justin Rose",
+          "Tommy Fleetwood",
+          "Haotong Li",
+          "Sergio Garcia"
+        ],
+        "round2": [
+          "Tommy Fleetwood",
+          "Justin Rose",
+          "Jake Knapp",
+          "Haotong Li"
+        ],
+        "round3": [
+          "Justin Rose",
+          "Jake Knapp",
+          "Haotong Li",
+          "Tommy Fleetwood"
+        ],
+        "round4": [
+          "Justin Rose",
+          "Jake Knapp",
+          "Sergio Garcia",
+          "Tommy Fleetwood"
+        ]
+      },
+      "round_totals": {
+        "round1": 284,
+        "round2": 275,
+        "round3": 280,
+        "round4": 267
+      },
+      "round_topars": {
+        "round1": -4,
+        "round2": -13,
+        "round3": -8,
+        "round4": 3
+      },
+      "raw_total": 1106,
+      "raw_topar": -22,
+      "winner_bonus": 0,
+      "drafted_winner": null,
+      "final_total": 1106,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1312,16 +1312,16 @@
               "topar": -4
             },
             "round4": {
-              "score": 50,
+              "score": 55,
               "penalty": false,
               "topar": 3
             }
           },
-          "total": 258,
+          "total": 263,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T13",
-          "thru": "12",
+          "thru": "13",
           "today": "+3",
           "topar": "-5"
         },
@@ -1452,7 +1452,7 @@
         "round1": 282,
         "round2": 281,
         "round3": 274,
-        "round4": 268
+        "round4": 273
       },
       "round_topars": {
         "round1": -6,
@@ -1460,11 +1460,11 @@
         "round3": -14,
         "round4": 5
       },
-      "raw_total": 1105,
+      "raw_total": 1110,
       "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1105,
+      "final_total": 1110,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
