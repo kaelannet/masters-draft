@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T17:40:09.859490Z",
+  "updated_at": "2026-04-12T17:45:09.336377Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -97,16 +97,16 @@
               "topar": -3
             },
             "round4": {
-              "score": 17,
+              "score": 20,
               "penalty": false,
               "topar": -3
             }
           },
-          "total": 230,
+          "total": 233,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T9",
-          "thru": "5",
+          "thru": "6",
           "today": "-3",
           "topar": "-6"
         },
@@ -129,18 +129,18 @@
               "topar": -4
             },
             "round4": {
-              "score": null,
+              "score": 3,
               "penalty": false,
-              "topar": null
+              "topar": -1
             }
           },
-          "total": 211,
+          "total": 214,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T16",
-          "thru": "",
-          "today": "",
-          "topar": "-5"
+          "position": "T9",
+          "thru": "1",
+          "today": "-1",
+          "topar": "-6"
         },
         {
           "name": "Brooks Koepka",
@@ -233,7 +233,7 @@
           "total": 254,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T25",
           "thru": "10",
           "today": "-1",
           "topar": "-2"
@@ -298,9 +298,9 @@
         ],
         "round4": [
           "Ludvig Aberg",
+          "Collin Morikawa",
           "Jordan Spieth",
           "Brooks Koepka",
-          "(penalty fill)",
           "(penalty fill)",
           "(penalty fill)"
         ]
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 303
+        "round4": 232
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
         "round3": -23,
-        "round4": 11
+        "round4": 5
       },
-      "raw_total": 1554,
-      "raw_topar": -34,
+      "raw_total": 1483,
+      "raw_topar": -40,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1554,
+      "final_total": 1483,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -356,7 +356,7 @@
           "total": 289,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T43",
+          "position": "T42",
           "thru": "F",
           "today": "-4",
           "topar": "+1"
@@ -412,18 +412,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 17,
+              "score": 22,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             }
           },
-          "total": 229,
+          "total": 234,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
-          "thru": "4",
-          "today": "+1",
-          "topar": "-3"
+          "position": "T25",
+          "thru": "5",
+          "today": "+2",
+          "topar": "-2"
         },
         {
           "name": "Hideki Matsuyama",
@@ -444,18 +444,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 35,
+              "score": 38,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 249,
+          "total": 252,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
-          "thru": "9",
-          "today": "-1",
-          "topar": "-3"
+          "position": "T19",
+          "thru": "10",
+          "today": "-2",
+          "topar": "-4"
         },
         {
           "name": "Adam Scott",
@@ -484,7 +484,7 @@
           "total": 261,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T25",
           "thru": "12",
           "today": "-2",
           "topar": "-2"
@@ -540,17 +540,17 @@
               "topar": 0
             },
             "round4": {
-              "score": null,
+              "score": 4,
               "penalty": false,
-              "topar": null
+              "topar": 0
             }
           },
-          "total": 210,
+          "total": 214,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T9",
-          "thru": "",
-          "today": "",
+          "thru": "1",
+          "today": "E",
           "topar": "-6"
         },
         {
@@ -614,29 +614,29 @@
         "round4": [
           "Jon Rahm",
           "Xander Schauffele",
-          "Adam Scott",
           "Hideki Matsuyama",
-          "S.W. Kim",
-          "Tommy Fleetwood"
+          "Adam Scott",
+          "Patrick Reed",
+          "S.W. Kim"
         ]
       },
       "round_totals": {
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 248
+        "round4": 238
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -8
+        "round4": -10
       },
-      "raw_total": 1526,
-      "raw_topar": -26,
+      "raw_total": 1516,
+      "raw_topar": -28,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1526,
+      "final_total": 1516,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -767,7 +767,7 @@
           "total": 237,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
+          "position": "T25",
           "thru": "6",
           "today": "+1",
           "topar": "-2"
@@ -799,7 +799,7 @@
           "total": 245,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T22",
+          "position": "T23",
           "thru": "8",
           "today": "E",
           "topar": "-3"
