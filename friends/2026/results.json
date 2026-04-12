@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T22:25:10.008111Z",
+  "updated_at": "2026-04-12T22:30:08.965031Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -161,18 +161,18 @@
               "topar": -4
             },
             "round4": {
-              "score": 64,
+              "score": 69,
               "penalty": false,
-              "topar": 0
+              "topar": 1
             }
           },
-          "total": 270,
+          "total": 275,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T3",
-          "thru": "16",
-          "today": "E",
-          "topar": "-10"
+          "position": "T7",
+          "thru": "17",
+          "today": "+1",
+          "topar": "-9"
         },
         {
           "name": "Brian Harman",
@@ -237,19 +237,19 @@
         "round1": 276,
         "round2": 278,
         "round3": 274,
-        "round4": 260
+        "round4": 265
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
         "round3": -14,
-        "round4": -12
+        "round4": -11
       },
-      "raw_total": 1088,
-      "raw_topar": -48,
+      "raw_total": 1093,
+      "raw_topar": -47,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1088,
+      "final_total": 1093,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -316,7 +316,7 @@
           "total": 279,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "8",
+          "position": "T7",
           "thru": "F",
           "today": "-4",
           "topar": "-9"
@@ -1101,16 +1101,16 @@
               "topar": -4
             },
             "round4": {
-              "score": 71,
+              "score": 75,
               "penalty": false,
               "topar": 7
             }
           },
-          "total": 278,
+          "total": 282,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "16",
+          "thru": "17",
           "today": "+7",
           "topar": "-2"
         },
