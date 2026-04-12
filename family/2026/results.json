@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-12T23:00:09.694285Z",
+  "updated_at": "2026-04-12T23:05:09.125748Z",
   "tournament_status": {
     "current_round": "0001",
-    "status_round": "FFFP",
-    "winner": null,
+    "status_round": "FFFF",
+    "winner": "Rory McIlroy",
     "worst_cut_scores": {
       "round3": 78,
       "round4": 80
@@ -319,9 +319,9 @@
       },
       "raw_total": 1669,
       "raw_topar": -59,
-      "winner_bonus": 0,
-      "drafted_winner": null,
-      "final_total": 1669,
+      "winner_bonus": -5,
+      "drafted_winner": "Rory McIlroy",
+      "final_total": 1664,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
