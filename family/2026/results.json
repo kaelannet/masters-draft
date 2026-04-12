@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T15:15:12.218784Z",
+  "updated_at": "2026-04-12T15:20:10.383168Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 39
+      "round4": 43
     },
     "cut_line": 148,
     "cut_official": true
@@ -309,19 +309,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 209
+        "round4": 229
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -167
+        "round4": -147
       },
-      "raw_total": 1471,
-      "raw_topar": -201,
+      "raw_total": 1491,
+      "raw_topar": -181,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1471,
+      "final_total": 1491,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -476,18 +476,18 @@
               "topar": -2
             },
             "round4": {
-              "score": 4,
+              "score": 8,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             }
           },
-          "total": 220,
+          "total": 224,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
-          "thru": "1",
-          "today": "E",
-          "topar": "E"
+          "position": "T33",
+          "thru": "2",
+          "today": "-1",
+          "topar": "-1"
         },
         {
           "name": "Robert MacIntyre",
@@ -580,7 +580,7 @@
           "total": 245,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T44",
+          "position": "T45",
           "thru": "7",
           "today": "-2",
           "topar": "+2"
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 176
+        "round4": 192
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -103
+        "round4": -92
       },
-      "raw_total": 1454,
-      "raw_topar": -121,
+      "raw_total": 1470,
+      "raw_topar": -110,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1454,
+      "final_total": 1470,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
