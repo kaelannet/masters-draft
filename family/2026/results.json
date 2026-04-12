@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T18:15:09.326544Z",
+  "updated_at": "2026-04-12T18:20:11.537398Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -97,16 +97,16 @@
               "topar": -3
             },
             "round4": {
-              "score": 24,
+              "score": 29,
               "penalty": false,
               "topar": -3
             }
           },
-          "total": 237,
+          "total": 242,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
-          "thru": "7",
+          "position": "T9",
+          "thru": "8",
           "today": "-3",
           "topar": "-6"
         },
@@ -161,18 +161,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 24,
+              "score": 29,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             }
           },
-          "total": 236,
+          "total": 241,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
-          "thru": "6",
-          "today": "+1",
-          "topar": "-3"
+          "position": "T27",
+          "thru": "7",
+          "today": "+2",
+          "topar": "-2"
         },
         {
           "name": "Patrick Cantlay",
@@ -201,7 +201,7 @@
           "total": 219,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "2",
           "today": "E",
           "topar": "-6"
@@ -233,7 +233,7 @@
           "total": 264,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T18",
           "thru": "13",
           "today": "-3",
           "topar": "-4"
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 122
+        "round4": 132
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
         "round3": -23,
-        "round4": -6
+        "round4": -5
       },
-      "raw_total": 1373,
-      "raw_topar": -51,
+      "raw_total": 1383,
+      "raw_topar": -50,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1373,
+      "final_total": 1383,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -444,16 +444,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 32,
+              "score": 36,
               "penalty": false,
               "topar": 0
             }
           },
-          "total": 245,
+          "total": 249,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "8",
+          "thru": "9",
           "today": "E",
           "topar": "-3"
         },
@@ -484,7 +484,7 @@
           "total": 254,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T28",
+          "position": "T27",
           "thru": "10",
           "today": "+1",
           "topar": "-2"
@@ -622,7 +622,7 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 138
+        "round4": 142
       },
       "round_topars": {
         "round1": 1,
@@ -630,11 +630,11 @@
         "round3": -17,
         "round4": -6
       },
-      "raw_total": 1400,
+      "raw_total": 1404,
       "raw_topar": -40,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1400,
+      "final_total": 1404,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -765,7 +765,7 @@
           "total": 259,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T19",
+          "position": "T18",
           "thru": "12",
           "today": "-2",
           "topar": "-4"
@@ -861,7 +861,7 @@
           "total": 223,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T10",
+          "position": "T9",
           "thru": "3",
           "today": "E",
           "topar": "-6"
