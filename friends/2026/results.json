@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T17:50:11.871038Z",
+  "updated_at": "2026-04-12T17:54:12.264298Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -65,16 +65,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 43,
+              "score": 46,
               "penalty": false,
               "topar": -1
             }
           },
-          "total": 258,
+          "total": 261,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T26",
-          "thru": "11",
+          "thru": "12",
           "today": "-1",
           "topar": "-2"
         },
@@ -105,7 +105,7 @@
           "total": 251,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T35",
+          "position": "T34",
           "thru": "9",
           "today": "+1",
           "topar": "-1"
@@ -193,18 +193,18 @@
               "topar": -5
             },
             "round4": {
-              "score": 46,
+              "score": 48,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             }
           },
-          "total": 261,
+          "total": 263,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
-          "thru": "11",
-          "today": "+2",
-          "topar": "+1"
+          "position": "T37",
+          "thru": "12",
+          "today": "+1",
+          "topar": "E"
         }
       ],
       "counting_per_round": {
@@ -237,19 +237,19 @@
         "round1": 276,
         "round2": 278,
         "round3": 274,
-        "round4": 192
+        "round4": 197
       },
       "round_topars": {
         "round1": -12,
         "round2": -10,
         "round3": -14,
-        "round4": -4
+        "round4": -5
       },
-      "raw_total": 1020,
-      "raw_topar": -40,
+      "raw_total": 1025,
+      "raw_topar": -41,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1020,
+      "final_total": 1025,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -412,7 +412,7 @@
           "total": 228,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "4",
           "today": "E",
           "topar": "-4"
@@ -559,7 +559,7 @@
           "total": 214,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "1",
           "today": "-1",
           "topar": "-6"
@@ -647,16 +647,16 @@
               "topar": 0
             },
             "round4": {
-              "score": 61,
+              "score": 65,
               "penalty": false,
               "topar": -3
             }
           },
-          "total": 278,
+          "total": 282,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T26",
-          "thru": "16",
+          "thru": "17",
           "today": "-3",
           "topar": "-2"
         },
@@ -679,16 +679,16 @@
               "topar": 0
             },
             "round4": {
-              "score": 18,
+              "score": 22,
               "penalty": false,
               "topar": 2
             }
           },
-          "total": 230,
+          "total": 234,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T26",
-          "thru": "4",
+          "thru": "5",
           "today": "+2",
           "topar": "-2"
         }
@@ -723,7 +723,7 @@
         "round1": 287,
         "round2": 280,
         "round3": 282,
-        "round4": 189
+        "round4": 193
       },
       "round_topars": {
         "round1": -1,
@@ -731,254 +731,11 @@
         "round3": -6,
         "round4": -7
       },
-      "raw_total": 1038,
+      "raw_total": 1042,
       "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1038,
-      "forecast": {
-        "projected_cuts": [],
-        "cut_line_estimate": 148
-      }
-    },
-    "Gil": {
-      "players": [
-        {
-          "name": "Xander Schauffele",
-          "rounds": {
-            "round1": {
-              "score": 70,
-              "penalty": false,
-              "topar": -2
-            },
-            "round2": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round3": {
-              "score": 70,
-              "penalty": false,
-              "topar": -2
-            },
-            "round4": {
-              "score": 14,
-              "penalty": false,
-              "topar": -2
-            }
-          },
-          "total": 226,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T9",
-          "thru": "4",
-          "today": "-2",
-          "topar": "-6"
-        },
-        {
-          "name": "Brooks Koepka",
-          "rounds": {
-            "round1": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round2": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round3": {
-              "score": 71,
-              "penalty": false,
-              "topar": -1
-            },
-            "round4": {
-              "score": 16,
-              "penalty": false,
-              "topar": 0
-            }
-          },
-          "total": 228,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T17",
-          "thru": "4",
-          "today": "E",
-          "topar": "-4"
-        },
-        {
-          "name": "Justin Thomas",
-          "rounds": {
-            "round1": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round2": {
-              "score": 74,
-              "penalty": false,
-              "topar": 2
-            },
-            "round3": {
-              "score": 71,
-              "penalty": false,
-              "topar": -1
-            },
-            "round4": {
-              "score": 63,
-              "penalty": false,
-              "topar": 2
-            }
-          },
-          "total": 280,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "46",
-          "thru": "15",
-          "today": "+2",
-          "topar": "+3"
-        },
-        {
-          "name": "Max Homa",
-          "rounds": {
-            "round1": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round2": {
-              "score": 70,
-              "penalty": false,
-              "topar": -2
-            },
-            "round3": {
-              "score": 71,
-              "penalty": false,
-              "topar": -1
-            },
-            "round4": {
-              "score": 26,
-              "penalty": false,
-              "topar": -1
-            }
-          },
-          "total": 239,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "T17",
-          "thru": "7",
-          "today": "-1",
-          "topar": "-4"
-        },
-        {
-          "name": "Ben Griffin",
-          "rounds": {
-            "round1": {
-              "score": 72,
-              "penalty": false,
-              "topar": 0
-            },
-            "round2": {
-              "score": 69,
-              "penalty": false,
-              "topar": -3
-            },
-            "round3": {
-              "score": 70,
-              "penalty": false,
-              "topar": -2
-            },
-            "round4": {
-              "score": 9,
-              "penalty": false,
-              "topar": 0
-            }
-          },
-          "total": 220,
-          "made_cut": true,
-          "status": "pre-tournament",
-          "position": "16",
-          "thru": "2",
-          "today": "E",
-          "topar": "-5"
-        },
-        {
-          "name": "Ethan Fang",
-          "rounds": {
-            "round1": {
-              "score": 74,
-              "penalty": false,
-              "topar": 2
-            },
-            "round2": {
-              "score": 78,
-              "penalty": false,
-              "topar": 6
-            },
-            "round3": {
-              "score": null,
-              "penalty": false,
-              "topar": null
-            },
-            "round4": {
-              "score": null,
-              "penalty": false,
-              "topar": null
-            }
-          },
-          "total": 152,
-          "made_cut": true,
-          "status": "active",
-          "position": "",
-          "thru": "",
-          "today": "",
-          "topar": "+8"
-        }
-      ],
-      "counting_per_round": {
-        "round1": [
-          "Xander Schauffele",
-          "Brooks Koepka",
-          "Justin Thomas",
-          "Max Homa"
-        ],
-        "round2": [
-          "Brooks Koepka",
-          "Ben Griffin",
-          "Max Homa",
-          "Xander Schauffele"
-        ],
-        "round3": [
-          "Xander Schauffele",
-          "Ben Griffin",
-          "Brooks Koepka",
-          "Justin Thomas"
-        ],
-        "round4": [
-          "Xander Schauffele",
-          "Max Homa",
-          "Brooks Koepka",
-          "Ben Griffin"
-        ]
-      },
-      "round_totals": {
-        "round1": 286,
-        "round2": 280,
-        "round3": 282,
-        "round4": 65
-      },
-      "round_topars": {
-        "round1": -2,
-        "round2": -8,
-        "round3": -6,
-        "round4": -3
-      },
-      "raw_total": 913,
-      "raw_topar": -19,
-      "winner_bonus": 0,
-      "drafted_winner": null,
-      "final_total": 913,
+      "final_total": 1042,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1045,7 +802,7 @@
           "total": 252,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "10",
           "today": "-2",
           "topar": "-4"
@@ -1069,16 +826,16 @@
               "topar": -1
             },
             "round4": {
-              "score": 66,
+              "score": 70,
               "penalty": false,
               "topar": 2
             }
           },
-          "total": 285,
+          "total": 289,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T48",
-          "thru": "16",
+          "thru": "17",
           "today": "+2",
           "topar": "+5"
         },
@@ -1109,7 +866,7 @@
           "total": 264,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
+          "position": "T43",
           "thru": "12",
           "today": "+2",
           "topar": "+1"
@@ -1209,7 +966,7 @@
         "round1": 290,
         "round2": 281,
         "round3": 279,
-        "round4": 219
+        "round4": 223
       },
       "round_topars": {
         "round1": 2,
@@ -1217,11 +974,254 @@
         "round3": -9,
         "round4": -4
       },
-      "raw_total": 1069,
+      "raw_total": 1073,
       "raw_topar": -18,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1069,
+      "final_total": 1073,
+      "forecast": {
+        "projected_cuts": [],
+        "cut_line_estimate": 148
+      }
+    },
+    "Gil": {
+      "players": [
+        {
+          "name": "Xander Schauffele",
+          "rounds": {
+            "round1": {
+              "score": 70,
+              "penalty": false,
+              "topar": -2
+            },
+            "round2": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round3": {
+              "score": 70,
+              "penalty": false,
+              "topar": -2
+            },
+            "round4": {
+              "score": 14,
+              "penalty": false,
+              "topar": -2
+            }
+          },
+          "total": 226,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T10",
+          "thru": "4",
+          "today": "-2",
+          "topar": "-6"
+        },
+        {
+          "name": "Brooks Koepka",
+          "rounds": {
+            "round1": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round2": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round3": {
+              "score": 71,
+              "penalty": false,
+              "topar": -1
+            },
+            "round4": {
+              "score": 21,
+              "penalty": false,
+              "topar": 1
+            }
+          },
+          "total": 233,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T23",
+          "thru": "5",
+          "today": "+1",
+          "topar": "-3"
+        },
+        {
+          "name": "Justin Thomas",
+          "rounds": {
+            "round1": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round2": {
+              "score": 74,
+              "penalty": false,
+              "topar": 2
+            },
+            "round3": {
+              "score": 71,
+              "penalty": false,
+              "topar": -1
+            },
+            "round4": {
+              "score": 63,
+              "penalty": false,
+              "topar": 2
+            }
+          },
+          "total": 280,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "46",
+          "thru": "15",
+          "today": "+2",
+          "topar": "+3"
+        },
+        {
+          "name": "Max Homa",
+          "rounds": {
+            "round1": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round2": {
+              "score": 70,
+              "penalty": false,
+              "topar": -2
+            },
+            "round3": {
+              "score": 71,
+              "penalty": false,
+              "topar": -1
+            },
+            "round4": {
+              "score": 31,
+              "penalty": false,
+              "topar": -1
+            }
+          },
+          "total": 244,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T16",
+          "thru": "8",
+          "today": "-1",
+          "topar": "-4"
+        },
+        {
+          "name": "Ben Griffin",
+          "rounds": {
+            "round1": {
+              "score": 72,
+              "penalty": false,
+              "topar": 0
+            },
+            "round2": {
+              "score": 69,
+              "penalty": false,
+              "topar": -3
+            },
+            "round3": {
+              "score": 70,
+              "penalty": false,
+              "topar": -2
+            },
+            "round4": {
+              "score": 14,
+              "penalty": false,
+              "topar": 1
+            }
+          },
+          "total": 225,
+          "made_cut": true,
+          "status": "pre-tournament",
+          "position": "T16",
+          "thru": "3",
+          "today": "+1",
+          "topar": "-4"
+        },
+        {
+          "name": "Ethan Fang",
+          "rounds": {
+            "round1": {
+              "score": 74,
+              "penalty": false,
+              "topar": 2
+            },
+            "round2": {
+              "score": 78,
+              "penalty": false,
+              "topar": 6
+            },
+            "round3": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            },
+            "round4": {
+              "score": null,
+              "penalty": false,
+              "topar": null
+            }
+          },
+          "total": 152,
+          "made_cut": true,
+          "status": "active",
+          "position": "",
+          "thru": "",
+          "today": "",
+          "topar": "+8"
+        }
+      ],
+      "counting_per_round": {
+        "round1": [
+          "Xander Schauffele",
+          "Brooks Koepka",
+          "Justin Thomas",
+          "Max Homa"
+        ],
+        "round2": [
+          "Brooks Koepka",
+          "Ben Griffin",
+          "Max Homa",
+          "Xander Schauffele"
+        ],
+        "round3": [
+          "Xander Schauffele",
+          "Ben Griffin",
+          "Brooks Koepka",
+          "Justin Thomas"
+        ],
+        "round4": [
+          "Xander Schauffele",
+          "Max Homa",
+          "Brooks Koepka",
+          "Ben Griffin"
+        ]
+      },
+      "round_totals": {
+        "round1": 286,
+        "round2": 280,
+        "round3": 282,
+        "round4": 80
+      },
+      "round_topars": {
+        "round1": -2,
+        "round2": -8,
+        "round3": -6,
+        "round4": -1
+      },
+      "raw_total": 928,
+      "raw_topar": -17,
+      "winner_bonus": 0,
+      "drafted_winner": null,
+      "final_total": 928,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1280,18 +1280,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 22,
+              "score": 26,
               "penalty": false,
-              "topar": 2
+              "topar": 3
             }
           },
-          "total": 234,
+          "total": 238,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T26",
-          "thru": "5",
-          "today": "+2",
-          "topar": "-2"
+          "position": "T34",
+          "thru": "6",
+          "today": "+3",
+          "topar": "-1"
         },
         {
           "name": "Jake Knapp",
@@ -1312,18 +1312,18 @@
               "topar": -3
             },
             "round4": {
-              "score": 8,
+              "score": 11,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 219,
+          "total": 222,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
-          "thru": "2",
-          "today": "-1",
-          "topar": "-6"
+          "position": "T7",
+          "thru": "3",
+          "today": "-2",
+          "topar": "-7"
         },
         {
           "name": "Akshay Bhatia",
@@ -1452,7 +1452,7 @@
         "round1": 284,
         "round2": 275,
         "round3": 280,
-        "round4": 182
+        "round4": 189
       },
       "round_topars": {
         "round1": -4,
@@ -1460,11 +1460,11 @@
         "round3": -8,
         "round4": 9
       },
-      "raw_total": 1021,
+      "raw_total": 1028,
       "raw_topar": -16,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1021,
+      "final_total": 1028,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1563,7 +1563,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "",
           "today": "",
           "topar": "-6"
@@ -1595,7 +1595,7 @@
           "total": 257,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
+          "position": "T43",
           "thru": "10",
           "today": "+3",
           "topar": "+1"
@@ -1742,7 +1742,7 @@
           "total": 273,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "15",
           "today": "-5",
           "topar": "-4"
@@ -1985,7 +1985,7 @@
           "total": 233,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "6",
           "today": "-3",
           "topar": "-6"
@@ -2049,7 +2049,7 @@
           "total": 210,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "",
           "today": "",
           "topar": "-6"
@@ -2081,7 +2081,7 @@
           "total": 232,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T17",
+          "position": "T16",
           "thru": "5",
           "today": "E",
           "topar": "-4"
@@ -2228,7 +2228,7 @@
           "total": 289,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
+          "position": "T43",
           "thru": "F",
           "today": "-4",
           "topar": "+1"
@@ -2260,7 +2260,7 @@
           "total": 214,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "1",
           "today": "E",
           "topar": "-6"
@@ -2348,16 +2348,16 @@
               "topar": 3
             },
             "round4": {
-              "score": 65,
+              "score": 69,
               "penalty": false,
               "topar": -3
             }
           },
-          "total": 284,
+          "total": 288,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T37",
-          "thru": "17",
+          "thru": "F",
           "today": "-3",
           "topar": "E"
         },
@@ -2424,7 +2424,7 @@
         "round1": 291,
         "round2": 284,
         "round3": 298,
-        "round4": 214
+        "round4": 218
       },
       "round_topars": {
         "round1": 3,
@@ -2432,11 +2432,11 @@
         "round3": 10,
         "round4": -2
       },
-      "raw_total": 1087,
+      "raw_total": 1091,
       "raw_topar": 7,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1087,
+      "final_total": 1091,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
