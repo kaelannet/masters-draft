@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T22:40:10.504524Z",
+  "updated_at": "2026-04-12T22:45:09.364712Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -161,16 +161,16 @@
               "topar": -4
             },
             "round4": {
-              "score": 69,
+              "score": 73,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 275,
+          "total": 279,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T7",
-          "thru": "17",
+          "thru": "F",
           "today": "+1",
           "topar": "-9"
         },
@@ -237,7 +237,7 @@
         "round1": 276,
         "round2": 278,
         "round3": 274,
-        "round4": 269
+        "round4": 273
       },
       "round_topars": {
         "round1": -12,
@@ -245,11 +245,11 @@
         "round3": -14,
         "round4": -11
       },
-      "raw_total": 1097,
+      "raw_total": 1101,
       "raw_topar": -47,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1097,
+      "final_total": 1101,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -866,7 +866,7 @@
           "total": 287,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T31",
+          "position": "T30",
           "thru": "F",
           "today": "E",
           "topar": "-1"
@@ -1101,18 +1101,18 @@
               "topar": -4
             },
             "round4": {
-              "score": 75,
+              "score": 80,
               "penalty": false,
-              "topar": 7
+              "topar": 8
             }
           },
-          "total": 282,
+          "total": 287,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T24",
-          "thru": "17",
-          "today": "+7",
-          "topar": "-2"
+          "position": "T30",
+          "thru": "F",
+          "today": "+8",
+          "topar": "-1"
         },
         {
           "name": "Ryan Gerard",
