@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T13:55:10.836609Z",
+  "updated_at": "2026-04-12T14:00:35.822836Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 16
+      "round4": 20
     },
     "cut_line": 148,
     "cut_official": true
@@ -33,18 +33,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 4,
+              "score": 8,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             }
           },
-          "total": 225,
+          "total": 229,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T48",
-          "thru": "1",
-          "today": "E",
-          "topar": "+5"
+          "position": "48",
+          "thru": "2",
+          "today": "-1",
+          "topar": "+4"
         },
         {
           "name": "Xander Schauffele",
@@ -297,8 +297,8 @@
           "Jon Rahm"
         ],
         "round4": [
-          "S.W. Kim",
           "Jon Rahm",
+          "S.W. Kim",
           "(penalty fill)",
           "(penalty fill)",
           "(penalty fill)",
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 71
+        "round4": 91
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -225
+        "round4": -210
       },
-      "raw_total": 1349,
-      "raw_topar": -243,
+      "raw_total": 1369,
+      "raw_topar": -228,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1349,
+      "final_total": 1369,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
