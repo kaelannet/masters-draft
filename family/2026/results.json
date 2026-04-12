@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T22:50:10.634157Z",
+  "updated_at": "2026-04-12T22:55:11.585629Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -65,18 +65,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 66,
+              "score": 71,
               "penalty": false,
-              "topar": -2
+              "topar": -1
             }
           },
-          "total": 271,
+          "total": 276,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "17",
-          "today": "-2",
-          "topar": "-13"
+          "thru": "F",
+          "today": "-1",
+          "topar": "-12"
         },
         {
           "name": "Ludvig Aberg",
@@ -309,19 +309,19 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 413
+        "round4": 418
       },
       "round_topars": {
         "round1": -3,
         "round2": -19,
         "round3": -23,
-        "round4": -15
+        "round4": -14
       },
-      "raw_total": 1664,
-      "raw_topar": -60,
+      "raw_total": 1669,
+      "raw_topar": -59,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1664,
+      "final_total": 1669,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -412,16 +412,16 @@
               "topar": -7
             },
             "round4": {
-              "score": 69,
+              "score": 73,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 274,
+          "total": 278,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T3",
-          "thru": "17",
+          "thru": "F",
           "today": "+1",
           "topar": "-10"
         },
@@ -624,7 +624,7 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 430
+        "round4": 434
       },
       "round_topars": {
         "round1": 1,
@@ -632,11 +632,11 @@
         "round3": -17,
         "round4": 2
       },
-      "raw_total": 1692,
+      "raw_total": 1696,
       "raw_topar": -32,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1692,
+      "final_total": 1696,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
