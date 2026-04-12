@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T22:20:11.070921Z",
+  "updated_at": "2026-04-12T22:25:09.855716Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -41,7 +41,7 @@
           "total": 277,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
+          "position": "2",
           "thru": "F",
           "today": "-4",
           "topar": "-11"
@@ -65,16 +65,16 @@
               "topar": 1
             },
             "round4": {
-              "score": 59,
+              "score": 62,
               "penalty": false,
               "topar": -2
             }
           },
-          "total": 264,
+          "total": 267,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "1",
-          "thru": "15",
+          "thru": "16",
           "today": "-2",
           "topar": "-13"
         },
@@ -309,7 +309,7 @@
         "round1": 429,
         "round2": 413,
         "round3": 409,
-        "round4": 406
+        "round4": 409
       },
       "round_topars": {
         "round1": -3,
@@ -317,11 +317,11 @@
         "round3": -23,
         "round4": -15
       },
-      "raw_total": 1657,
+      "raw_total": 1660,
       "raw_topar": -60,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1657,
+      "final_total": 1660,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -380,18 +380,18 @@
               "topar": -3
             },
             "round4": {
-              "score": 61,
+              "score": 66,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             }
           },
-          "total": 269,
+          "total": 274,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T2",
-          "thru": "16",
-          "today": "-3",
-          "topar": "-11"
+          "position": "T3",
+          "thru": "17",
+          "today": "-2",
+          "topar": "-10"
         },
         {
           "name": "Cameron Young",
@@ -412,16 +412,16 @@
               "topar": -7
             },
             "round4": {
-              "score": 62,
+              "score": 65,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 267,
+          "total": 270,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T4",
-          "thru": "15",
+          "position": "T3",
+          "thru": "16",
           "today": "+1",
           "topar": "-10"
         },
@@ -624,19 +624,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 405
+        "round4": 413
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": 0
+        "round4": 1
       },
-      "raw_total": 1667,
-      "raw_topar": -34,
+      "raw_total": 1675,
+      "raw_topar": -33,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1667,
+      "final_total": 1675,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
