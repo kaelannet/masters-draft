@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T17:54:12.264298Z",
+  "updated_at": "2026-04-12T17:55:09.954854Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -1069,18 +1069,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 63,
+              "score": 65,
               "penalty": false,
-              "topar": 2
+              "topar": 1
             }
           },
-          "total": 280,
+          "total": 282,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "46",
-          "thru": "15",
-          "today": "+2",
-          "topar": "+3"
+          "thru": "16",
+          "today": "+1",
+          "topar": "+2"
         },
         {
           "name": "Max Homa",
@@ -1202,14 +1202,14 @@
           "Xander Schauffele",
           "Max Homa",
           "Brooks Koepka",
-          "Ben Griffin"
+          "Justin Thomas"
         ]
       },
       "round_totals": {
         "round1": 286,
         "round2": 280,
         "round3": 282,
-        "round4": 80
+        "round4": 131
       },
       "round_topars": {
         "round1": -2,
@@ -1217,11 +1217,11 @@
         "round3": -6,
         "round4": -1
       },
-      "raw_total": 928,
+      "raw_total": 979,
       "raw_topar": -17,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 928,
+      "final_total": 979,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -2073,16 +2073,16 @@
               "topar": 0
             },
             "round4": {
-              "score": 20,
+              "score": 23,
               "penalty": false,
               "topar": 0
             }
           },
-          "total": 232,
+          "total": 235,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T16",
-          "thru": "5",
+          "thru": "6",
           "today": "E",
           "topar": "-4"
         },
@@ -2181,7 +2181,7 @@
         "round1": 297,
         "round2": 276,
         "round3": 278,
-        "round4": 176
+        "round4": 179
       },
       "round_topars": {
         "round1": 9,
@@ -2189,11 +2189,11 @@
         "round3": -10,
         "round4": 9
       },
-      "raw_total": 1027,
+      "raw_total": 1030,
       "raw_topar": -4,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1027,
+      "final_total": 1030,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
