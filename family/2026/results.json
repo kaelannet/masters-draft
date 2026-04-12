@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T18:50:10.745452Z",
+  "updated_at": "2026-04-12T18:55:11.311890Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 77
+      "round4": 78
     },
     "cut_line": 148,
     "cut_official": true
@@ -476,16 +476,16 @@
               "topar": 0
             },
             "round4": {
-              "score": 48,
+              "score": 53,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 261,
+          "total": 266,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T29",
-          "thru": "12",
+          "position": "T28",
+          "thru": "13",
           "today": "+1",
           "topar": "-2"
         },
@@ -624,7 +624,7 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 184
+        "round4": 189
       },
       "round_topars": {
         "round1": 1,
@@ -632,11 +632,11 @@
         "round3": -17,
         "round4": -5
       },
-      "raw_total": 1446,
+      "raw_total": 1451,
       "raw_topar": -39,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1446,
+      "final_total": 1451,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -671,7 +671,7 @@
           "total": 289,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T41",
+          "position": "T40",
           "thru": "F",
           "today": "-4",
           "topar": "+1"
@@ -735,7 +735,7 @@
           "total": 250,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T29",
+          "position": "T28",
           "thru": "9",
           "today": "+2",
           "topar": "-2"
@@ -791,18 +791,18 @@
               "topar": -2
             },
             "round4": {
-              "score": 65,
+              "score": 70,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             }
           },
-          "total": 281,
+          "total": 286,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T25",
-          "thru": "17",
-          "today": "-3",
-          "topar": "-3"
+          "position": "T28",
+          "thru": "F",
+          "today": "-2",
+          "topar": "-2"
         },
         {
           "name": "Robert MacIntyre",
@@ -939,19 +939,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 326
+        "round4": 331
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -10
+        "round4": -9
       },
-      "raw_total": 1604,
-      "raw_topar": -28,
+      "raw_total": 1609,
+      "raw_topar": -27,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1604,
+      "final_total": 1609,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
