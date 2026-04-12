@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T01:24:30.502512Z",
+  "updated_at": "2026-04-12T02:48:39.460957Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFFN",
@@ -937,80 +937,5 @@
       }
     }
   },
-  "easter_eggs": [
-    {
-      "drafter": "Reidar",
-      "replacement_player": {
-        "name": "Fred Couples",
-        "rounds": {
-          "round1": {
-            "score": 78,
-            "penalty": false,
-            "topar": 6
-          },
-          "round2": {
-            "score": 75,
-            "penalty": false,
-            "topar": 3
-          },
-          "round3": {
-            "score": null,
-            "penalty": false,
-            "topar": null
-          },
-          "round4": {
-            "score": null,
-            "penalty": false,
-            "topar": null
-          }
-        },
-        "total": 153,
-        "made_cut": true,
-        "status": "active",
-        "position": "",
-        "thru": "",
-        "today": "",
-        "topar": "+9"
-      },
-      "start_hour": 17,
-      "end_hour": 17.5
-    },
-    {
-      "drafter": "Reidar",
-      "replacement_player": {
-        "name": "Rasmus H\u00f8jgaard",
-        "rounds": {
-          "round1": {
-            "score": 78,
-            "penalty": false,
-            "topar": 6
-          },
-          "round2": {
-            "score": 70,
-            "penalty": false,
-            "topar": -2
-          },
-          "round3": {
-            "score": 73,
-            "penalty": false,
-            "topar": 1
-          },
-          "round4": {
-            "score": null,
-            "penalty": false,
-            "topar": null
-          }
-        },
-        "total": 221,
-        "made_cut": true,
-        "status": "pre-tournament",
-        "position": "T48",
-        "thru": "F",
-        "today": "+1",
-        "topar": "+5"
-      },
-      "start_hour": 20,
-      "end_hour": 24
-    }
-  ]
+  "easter_eggs": null
 }

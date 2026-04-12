@@ -307,6 +307,19 @@ def calculate_standings(scores_data, draft_state, config):
                 # comparable — a player at -1 thru 8 ranks above +3 thru 18
                 round_scores.sort(key=lambda x: x[2])
                 best = round_scores[:players_counted]
+
+                # For rounds 3-4, if fewer than players_counted made the cut,
+                # pad with penalty scores (worst cut-maker score, capped at 82)
+                if rnd in ["round3", "round4"] and len(best) < players_counted:
+                    penalty = worst_cut_scores.get(rnd)
+                    if penalty is None:
+                        penalty = cut_max
+                    round_pars_pad = pars.get(rnd, [])
+                    penalty_topar = penalty - sum(round_pars_pad) if round_pars_pad else penalty - 72
+                    fill_count = players_counted - len(best)
+                    for i in range(fill_count):
+                        best.append(("(penalty fill)", penalty, penalty_topar))
+
                 counting_per_round[rnd] = [n for n, _, _ in best]
                 round_total = sum(s for _, s, _ in best)
                 round_topar = sum(tp for _, _, tp in best)
@@ -412,24 +425,31 @@ def calculate_forecast(team_data, find_api_player, cut_line_estimate, cut_offici
 
     Uses the player's current tournament position — anyone outside
     the top 50 is projected to miss (Masters cut is top 50 + ties).
+    Only projects before the cut is official (rounds 1-2).
     """
     projected_cuts = []
+
+    # After the cut is official, don't project — actual statuses are used
+    if cut_official:
+        return {
+            "projected_cuts": projected_cuts,
+            "cut_line_estimate": cut_line_estimate,
+        }
+
     for p in team_data["players"]:
         if p["status"] in ("missed_cut", "withdrawn", "disqualified"):
             projected_cuts.append(p["name"])
             continue
 
-        if not cut_official:
-            pos_str = p.get("position", "")
-            # Parse position like "T56", "42", etc.
-            pos_num = None
-            if pos_str:
-                digits = "".join(c for c in pos_str if c.isdigit())
-                if digits:
-                    pos_num = int(digits)
+        pos_str = p.get("position", "")
+        pos_num = None
+        if pos_str:
+            digits = "".join(c for c in pos_str if c.isdigit())
+            if digits:
+                pos_num = int(digits)
 
-            if pos_num is not None and pos_num > 50:
-                projected_cuts.append(p["name"])
+        if pos_num is not None and pos_num > 50:
+            projected_cuts.append(p["name"])
 
     return {
         "projected_cuts": projected_cuts,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T01:24:30.665142Z",
+  "updated_at": "2026-04-12T02:48:40.730203Z",
   "tournament_status": {
     "current_round": "0010",
     "status_round": "FFFN",
@@ -2373,27 +2373,28 @@
         "round3": [
           "Patrick Reed",
           "Jon Rahm",
-          "Dustin Johnson"
+          "Dustin Johnson",
+          "(penalty fill)"
         ],
         "round4": []
       },
       "round_totals": {
         "round1": 291,
         "round2": 284,
-        "round3": 220,
+        "round3": 298,
         "round4": null
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
-        "round3": 4,
+        "round3": 10,
         "round4": null
       },
-      "raw_total": 795,
-      "raw_topar": 3,
+      "raw_total": 873,
+      "raw_topar": 9,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 795,
+      "final_total": 873,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
