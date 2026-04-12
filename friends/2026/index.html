@@ -199,6 +199,7 @@
   .player-table tr.missed-cut td.player-name { font-weight: 500; }
   .player-table td.counted { background: rgba(212,175,55,0.15); }
   .penalty-marker { color: #CE1141; font-weight: 700; font-size: 0.7rem; vertical-align: super; }
+  .player-table tr.penalty-fill td { color: #CE1141; font-style: italic; font-size: 0.85rem; }
   .status-badge {
     display: inline-block;
     font-size: 0.7rem;
@@ -530,6 +531,32 @@ function buildPlayerTable(data) {
     '</tr>';
   }).join('');
 
+  // Add penalty fill rows for rounds 3-4 where team needs fill scores
+  let penaltyRows = '';
+  const fillCounts = {};
+  ['round3','round4'].forEach(rnd => {
+    const fills = (cpr[rnd] || []).filter(n => n === '(penalty fill)').length;
+    if (fills > 0) fillCounts[rnd] = fills;
+  });
+  const totalFills = Object.values(fillCounts).reduce((a, b) => a + b, 0);
+  if (totalFills > 0) {
+    const worstScores = resultsData.tournament_status.worst_cut_scores || {};
+    for (let i = 0; i < Math.max(...Object.values(fillCounts)); i++) {
+      const r3 = fillCounts['round3'] && i < fillCounts['round3']
+        ? formatTopar(worstScores['round3'] ? worstScores['round3'] - 72 : null) + '*' : '';
+      const r4 = fillCounts['round4'] && i < fillCounts['round4']
+        ? formatTopar(worstScores['round4'] ? worstScores['round4'] - 72 : null) + '*' : '';
+      penaltyRows += '<tr class="penalty-fill">' +
+        '<td class="player-name">Cut penalty</td>' +
+        '<td class="score-col"></td>' +
+        '<td class="score-col"></td><td class="score-col"></td>' +
+        '<td class="score-col counted">' + r3 + '</td>' +
+        '<td class="score-col counted">' + r4 + '</td>' +
+        '<td class="score-col"></td><td class="score-col"></td>' +
+      '</tr>';
+    }
+  }
+
   return '<table class="player-table">' +
     '<thead><tr>' +
       '<th>Player</th>' +
@@ -541,7 +568,7 @@ function buildPlayerTable(data) {
       '<th class="score-col">Tot</th>' +
       '<th class="score-col">Par</th>' +
     '</tr></thead>' +
-    '<tbody>' + rows + '</tbody>' +
+    '<tbody>' + rows + penaltyRows + '</tbody>' +
   '</table>';
 }
 
