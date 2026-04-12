@@ -531,7 +531,6 @@ function buildPlayerTable(data) {
     '</tr>';
   }).join('');
 
-  // Add penalty fill rows for rounds 3-4 where team needs fill scores
   let penaltyRows = '';
   const fillCounts = {};
   ['round3','round4'].forEach(rnd => {

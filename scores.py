@@ -167,7 +167,6 @@ def calculate_standings(scores_data, draft_state, config):
                 return api_data
         return None
 
-    # Find the worst round scores among cut-makers for missed-cut penalty
     cut_max = config["missed_cut_rule"]["max_score_per_round"]
     worst_cut_scores = {"round3": None, "round4": None}
 
@@ -175,18 +174,17 @@ def calculate_standings(scores_data, draft_state, config):
         if not player_made_cut(p):
             continue
         for rnd in ["round3", "round4"]:
-            total = get_round_total(p, rnd, pars.get(rnd, []))
+            round_info = p.get(rnd, {})
+            total = round_info.get("total")  # only completed rounds
             if total is not None:
                 current_worst = worst_cut_scores[rnd]
                 if current_worst is None or total > current_worst:
                     worst_cut_scores[rnd] = total
 
-    # Cap at max
     for rnd in ["round3", "round4"]:
         if worst_cut_scores[rnd] is not None:
             worst_cut_scores[rnd] = min(worst_cut_scores[rnd], cut_max)
 
-    # Find tournament winner (only after all 4 rounds are complete)
     winner = None
     if status_round == "FFFF":
         for p in tournament.get("player", []):
@@ -194,15 +192,9 @@ def calculate_standings(scores_data, draft_state, config):
                 winner = p["full_name"]
                 break
 
-    # Estimate cut line from all players in the field
     cut_line_estimate = None
-    cut_official = False
+    cut_official = len(status_round) >= 3 and status_round[2] != "N"
 
-    # Cut happens after round 2 — if round 3 has started or finished, cut is done
-    if len(status_round) >= 3 and status_round[2] != "N":
-        cut_official = True
-
-    # Estimate cut line from R1+R2 totals of all players
     field_r1r2 = []
     for p in tournament.get("player", []):
         r1 = get_round_total(p, "round1", pars.get("round1", []))
@@ -214,11 +206,9 @@ def calculate_standings(scores_data, draft_state, config):
 
     if field_r1r2:
         field_r1r2.sort()
-        # The player at approximately position 50 gives projected cut line
         cut_pos = min(49, len(field_r1r2) - 1)
         cut_line_estimate = field_r1r2[cut_pos]
 
-    # Calculate per-player and per-team scores
     team_results = {}
     players_counted = config["players_counted"]
     round_keys = ["round1", "round2", "round3", "round4"]
@@ -286,14 +276,12 @@ def calculate_standings(scores_data, draft_state, config):
                 "topar": api_player.get("topar", "") if api_player else "",
             })
 
-        # --- Per-round counting: best 6 of 8 per round ---
         counting_per_round = {}
         round_totals = {}
         round_topars = {}
         raw_total = 0
 
         for rnd in round_keys:
-            # Collect (player_name, score, topar) for this round
             round_scores = []
             for p in player_scores:
                 rnd_info = p["rounds"].get(rnd, {})
@@ -303,22 +291,20 @@ def calculate_standings(scores_data, draft_state, config):
                     round_scores.append((p["name"], score, topar if topar is not None else 0))
 
             if round_scores:
-                # Sort by to-par (not raw score) so partial rounds are
-                # comparable — a player at -1 thru 8 ranks above +3 thru 18
                 round_scores.sort(key=lambda x: x[2])
                 best = round_scores[:players_counted]
 
-                # For rounds 3-4, if fewer than players_counted made the cut,
-                # pad with penalty scores (worst cut-maker score, capped at 82)
-                if rnd in ["round3", "round4"] and len(best) < players_counted:
-                    penalty = worst_cut_scores.get(rnd)
-                    if penalty is None:
-                        penalty = cut_max
-                    round_pars_pad = pars.get(rnd, [])
-                    penalty_topar = penalty - sum(round_pars_pad) if round_pars_pad else penalty - 72
-                    fill_count = players_counted - len(best)
-                    for i in range(fill_count):
-                        best.append(("(penalty fill)", penalty, penalty_topar))
+                if rnd in ["round3", "round4"]:
+                    cut_makers = sum(1 for p in player_scores if p["made_cut"] and
+                                    p["status"] not in ("withdrawn", "disqualified"))
+                    if cut_makers < players_counted:
+                        penalty = worst_cut_scores.get(rnd)
+                        if penalty is not None:
+                            round_pars_pad = pars.get(rnd, [])
+                            penalty_topar = penalty - sum(round_pars_pad) if round_pars_pad else penalty - 72
+                            fill_count = players_counted - cut_makers
+                            for i in range(fill_count):
+                                best.append(("(penalty fill)", penalty, penalty_topar))
 
                 counting_per_round[rnd] = [n for n, _, _ in best]
                 round_total = sum(s for _, s, _ in best)
@@ -331,7 +317,6 @@ def calculate_standings(scores_data, draft_state, config):
                 round_totals[rnd] = None
                 round_topars[rnd] = None
 
-        # Winner bonus
         winner_bonus = 0
         drafted_winner = None
         bonus_cfg = config.get("bonuses", {}).get("tournament_winner")
@@ -357,17 +342,14 @@ def calculate_standings(scores_data, draft_state, config):
             "final_total": raw_total + winner_bonus,
         }
 
-    # --- Calculate forecast for each team ---
     for drafter, data in team_results.items():
         forecast = calculate_forecast(
             data, find_api_player, cut_line_estimate, cut_official
         )
         data["forecast"] = forecast
 
-    # Sort teams by to-par (what the frontend displays), with raw total as tiebreaker
     standings = sorted(team_results.items(), key=lambda x: (x[1]["raw_topar"] + x[1]["winner_bonus"], x[1]["final_total"]))
 
-    # Build easter egg player data if configured
     easter_eggs = []
     for egg_cfg in config.get("easter_eggs", []):
         egg_api = find_api_player(egg_cfg["replacement_player"])
@@ -421,15 +403,9 @@ def calculate_standings(scores_data, draft_state, config):
 
 
 def calculate_forecast(team_data, find_api_player, cut_line_estimate, cut_official):
-    """Project which players on a team are likely to miss the cut.
-
-    Uses the player's current tournament position — anyone outside
-    the top 50 is projected to miss (Masters cut is top 50 + ties).
-    Only projects before the cut is official (rounds 1-2).
-    """
+    """Project cut misses from current position (top 50 + ties). Pre-cut only."""
     projected_cuts = []
 
-    # After the cut is official, don't project — actual statuses are used
     if cut_official:
         return {
             "projected_cuts": projected_cuts,
