@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T16:15:09.645344Z",
+  "updated_at": "2026-04-12T16:20:09.585833Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -679,18 +679,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 24,
+              "score": 30,
               "penalty": false,
-              "topar": 1
+              "topar": 3
             }
           },
-          "total": 240,
+          "total": 246,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
-          "thru": "6",
-          "today": "+1",
-          "topar": "+1"
+          "position": "47",
+          "thru": "7",
+          "today": "+3",
+          "topar": "+3"
         }
       ],
       "counting_per_round": {
@@ -723,19 +723,19 @@
         "round1": 297,
         "round2": 276,
         "round3": 278,
-        "round4": 204
+        "round4": 210
       },
       "round_topars": {
         "round1": 9,
         "round2": -12,
         "round3": -10,
-        "round4": -35
+        "round4": -33
       },
-      "raw_total": 1055,
-      "raw_topar": -48,
+      "raw_total": 1061,
+      "raw_topar": -46,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1055,
+      "final_total": 1061,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -794,16 +794,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 14,
+              "score": 18,
               "penalty": false,
               "topar": -2
             }
           },
-          "total": 229,
+          "total": 233,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T24",
-          "thru": "4",
+          "thru": "5",
           "today": "-2",
           "topar": "-3"
         },
@@ -866,7 +866,7 @@
           "total": 269,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
+          "position": "T41",
           "thru": "13",
           "today": "-5",
           "topar": "+1"
@@ -922,16 +922,16 @@
               "topar": -5
             },
             "round4": {
-              "score": 17,
+              "score": 21,
               "penalty": false,
               "topar": 1
             }
           },
-          "total": 232,
+          "total": 236,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T37",
-          "thru": "4",
+          "thru": "5",
           "today": "+1",
           "topar": "E"
         }
@@ -966,7 +966,7 @@
         "round1": 276,
         "round2": 278,
         "round3": 274,
-        "round4": 92
+        "round4": 100
       },
       "round_topars": {
         "round1": -12,
@@ -974,11 +974,11 @@
         "round3": -14,
         "round4": -5
       },
-      "raw_total": 920,
+      "raw_total": 928,
       "raw_topar": -41,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 920,
+      "final_total": 928,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1077,7 +1077,7 @@
           "total": 254,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T46",
+          "position": "T45",
           "thru": "9",
           "today": "+1",
           "topar": "+2"
@@ -1523,18 +1523,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 43,
+              "score": 47,
               "penalty": false,
-              "topar": -1
+              "topar": 0
             }
           },
-          "total": 263,
+          "total": 267,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "48",
-          "thru": "11",
-          "today": "-1",
-          "topar": "+3"
+          "position": "T48",
+          "thru": "12",
+          "today": "E",
+          "topar": "+4"
         },
         {
           "name": "Patrick Cantlay",
@@ -1695,19 +1695,19 @@
         "round1": 294,
         "round2": 280,
         "round3": 269,
-        "round4": 134
+        "round4": 138
       },
       "round_topars": {
         "round1": 6,
         "round2": -8,
         "round3": -19,
-        "round4": -11
+        "round4": -10
       },
-      "raw_total": 977,
-      "raw_topar": -32,
+      "raw_total": 981,
+      "raw_topar": -31,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 977,
+      "final_total": 981,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -1742,7 +1742,7 @@
           "total": 264,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
+          "position": "T41",
           "thru": "12",
           "today": "-4",
           "topar": "+1"
@@ -1862,18 +1862,18 @@
               "topar": 3
             },
             "round4": {
-              "score": 38,
+              "score": 41,
               "penalty": false,
-              "topar": -2
+              "topar": -3
             }
           },
-          "total": 257,
+          "total": 260,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T42",
-          "thru": "10",
-          "today": "-2",
-          "topar": "+1"
+          "position": "T37",
+          "thru": "11",
+          "today": "-3",
+          "topar": "E"
         },
         {
           "name": "Michael Kim",
@@ -1938,19 +1938,19 @@
         "round1": 291,
         "round2": 284,
         "round3": 298,
-        "round4": 201
+        "round4": 204
       },
       "round_topars": {
         "round1": 3,
         "round2": -4,
         "round3": 10,
-        "round4": -30
+        "round4": -31
       },
-      "raw_total": 1074,
-      "raw_topar": -21,
+      "raw_total": 1077,
+      "raw_topar": -22,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1074,
+      "final_total": 1077,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -2049,7 +2049,7 @@
           "total": 260,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "49",
+          "position": "T48",
           "thru": "10",
           "today": "+1",
           "topar": "+4"
@@ -2073,18 +2073,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 21,
+              "score": 25,
               "penalty": false,
-              "topar": 1
+              "topar": 2
             }
           },
-          "total": 236,
+          "total": 240,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
-          "thru": "5",
-          "today": "+1",
-          "topar": "E"
+          "position": "T41",
+          "thru": "6",
+          "today": "+2",
+          "topar": "+1"
         },
         {
           "name": "Bubba Watson",
@@ -2137,18 +2137,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 37,
+              "score": 42,
               "penalty": false,
-              "topar": -3
+              "topar": -2
             }
           },
-          "total": 256,
+          "total": 261,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
-          "thru": "10",
-          "today": "-3",
-          "topar": "E"
+          "position": "T41",
+          "thru": "11",
+          "today": "-2",
+          "topar": "+1"
         }
       ],
       "counting_per_round": {
@@ -2171,8 +2171,8 @@
           "Hideki Matsuyama"
         ],
         "round4": [
-          "Keegan Bradley",
           "Hideki Matsuyama",
+          "Keegan Bradley",
           "Corey Conners",
           "Harris English"
         ]
@@ -2181,19 +2181,19 @@
         "round1": 290,
         "round2": 281,
         "round3": 279,
-        "round4": 113
+        "round4": 122
       },
       "round_topars": {
         "round1": 2,
         "round2": -7,
         "round3": -9,
-        "round4": -3
+        "round4": -1
       },
-      "raw_total": 963,
-      "raw_topar": -17,
+      "raw_total": 972,
+      "raw_topar": -15,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 963,
+      "final_total": 972,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -2252,16 +2252,16 @@
               "topar": -2
             },
             "round4": {
-              "score": 22,
+              "score": 26,
               "penalty": false,
               "topar": -1
             }
           },
-          "total": 238,
+          "total": 242,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T34",
-          "thru": "6",
+          "thru": "7",
           "today": "-1",
           "topar": "-1"
         },
@@ -2348,16 +2348,16 @@
               "topar": 1
             },
             "round4": {
-              "score": 47,
+              "score": 50,
               "penalty": false,
               "topar": 3
             }
           },
-          "total": 268,
+          "total": 271,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "53",
-          "thru": "11",
+          "thru": "12",
           "today": "+3",
           "topar": "+8"
         },
@@ -2424,7 +2424,7 @@
         "round1": 293,
         "round2": 283,
         "round3": 286,
-        "round4": 109
+        "round4": 116
       },
       "round_topars": {
         "round1": 5,
@@ -2432,11 +2432,11 @@
         "round3": -2,
         "round4": -3
       },
-      "raw_total": 971,
+      "raw_total": 978,
       "raw_topar": -5,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 971,
+      "final_total": 978,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
