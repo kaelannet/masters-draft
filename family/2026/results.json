@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T14:52:51.711260Z",
+  "updated_at": "2026-04-12T14:55:09.004128Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -193,18 +193,18 @@
               "topar": -1
             },
             "round4": {
-              "score": 8,
+              "score": 11,
               "penalty": false,
-              "topar": -1
+              "topar": -2
             }
           },
-          "total": 225,
+          "total": 228,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
-          "thru": "2",
-          "today": "-1",
-          "topar": "E"
+          "position": "T33",
+          "thru": "3",
+          "today": "-2",
+          "topar": "-1"
         },
         {
           "name": "J.J. Spaun",
@@ -309,19 +309,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 178
+        "round4": 181
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -191
+        "round4": -192
       },
-      "raw_total": 1440,
-      "raw_topar": -225,
+      "raw_total": 1443,
+      "raw_topar": -226,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1440,
+      "final_total": 1443,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -348,18 +348,18 @@
               "topar": 1
             },
             "round4": {
-              "score": 23,
+              "score": 26,
               "penalty": false,
-              "topar": 0
+              "topar": -1
             }
           },
-          "total": 244,
+          "total": 247,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "49",
-          "thru": "6",
-          "today": "E",
-          "topar": "+5"
+          "position": "48",
+          "thru": "7",
+          "today": "-1",
+          "topar": "+4"
         },
         {
           "name": "Xander Schauffele",
@@ -484,7 +484,7 @@
           "total": 216,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T37",
+          "position": "T38",
           "thru": "",
           "today": "",
           "topar": "E"
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 180
+        "round4": 183
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -154
+        "round4": -155
       },
-      "raw_total": 1458,
-      "raw_topar": -172,
+      "raw_total": 1461,
+      "raw_topar": -173,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1458,
+      "final_total": 1461,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
