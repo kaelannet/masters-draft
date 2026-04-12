@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-12T14:25:09.250374Z",
+  "updated_at": "2026-04-12T14:30:25.724856Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
-      "round4": 26
+      "round4": 30
     },
     "cut_line": 148,
     "cut_official": true
@@ -309,19 +309,19 @@
         "round1": 433,
         "round2": 414,
         "round3": 415,
-        "round4": 134
+        "round4": 154
       },
       "round_topars": {
         "round1": 1,
         "round2": -18,
         "round3": -17,
-        "round4": -230
+        "round4": -210
       },
-      "raw_total": 1396,
-      "raw_topar": -264,
+      "raw_total": 1416,
+      "raw_topar": -244,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1396,
+      "final_total": 1416,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
@@ -572,16 +572,16 @@
               "topar": 0
             },
             "round4": {
-              "score": 11,
+              "score": 14,
               "penalty": false,
               "topar": -2
             }
           },
-          "total": 231,
+          "total": 234,
           "made_cut": true,
           "status": "pre-tournament",
           "position": "T44",
-          "thru": "3",
+          "thru": "4",
           "today": "-2",
           "topar": "+2"
         }
@@ -624,19 +624,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 129
+        "round4": 148
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -188
+        "round4": -172
       },
-      "raw_total": 1407,
-      "raw_topar": -206,
+      "raw_total": 1426,
+      "raw_topar": -190,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1407,
+      "final_total": 1426,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
