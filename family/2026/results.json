@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-12T13:05:19.078231Z",
+  "updated_at": "2026-04-12T13:08:44.782245Z",
   "tournament_status": {
     "current_round": "0001",
-    "status_round": "FFFN",
+    "status_round": "FFFP",
     "winner": null,
     "worst_cut_scores": {
       "round3": 78,
