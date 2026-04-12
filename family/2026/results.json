@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T18:34:24.081127Z",
+  "updated_at": "2026-04-12T18:35:09.439929Z",
   "tournament_status": {
     "current_round": "0001",
     "status_round": "FFFP",
@@ -105,7 +105,7 @@
           "total": 246,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "12",
+          "position": "T12",
           "thru": "9",
           "today": "-3",
           "topar": "-6"
@@ -137,7 +137,7 @@
           "total": 227,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "4",
           "today": "E",
           "topar": "-5"
@@ -201,7 +201,7 @@
           "total": 225,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T9",
+          "position": "T10",
           "thru": "4",
           "today": "-1",
           "topar": "-7"
@@ -702,7 +702,7 @@
           "total": 238,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "7",
           "today": "-1",
           "topar": "-5"
@@ -758,18 +758,18 @@
               "topar": 0
             },
             "round4": {
-              "score": 49,
+              "score": 52,
               "penalty": false,
-              "topar": -3
+              "topar": -4
             }
           },
-          "total": 263,
+          "total": 266,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
-          "thru": "13",
-          "today": "-3",
-          "topar": "-5"
+          "position": "T12",
+          "thru": "14",
+          "today": "-4",
+          "topar": "-6"
         },
         {
           "name": "Adam Scott",
@@ -862,7 +862,7 @@
           "total": 227,
           "made_cut": true,
           "status": "pre-tournament",
-          "position": "T13",
+          "position": "T14",
           "thru": "4",
           "today": "+1",
           "topar": "-5"
@@ -938,19 +938,19 @@
         "round1": 429,
         "round2": 420,
         "round3": 429,
-        "round4": 297
+        "round4": 300
       },
       "round_topars": {
         "round1": -3,
         "round2": -12,
         "round3": -3,
-        "round4": -10
+        "round4": -11
       },
-      "raw_total": 1575,
-      "raw_topar": -28,
+      "raw_total": 1578,
+      "raw_topar": -29,
       "winner_bonus": 0,
       "drafted_winner": null,
-      "final_total": 1575,
+      "final_total": 1578,
       "forecast": {
         "projected_cuts": [],
         "cut_line_estimate": 148
